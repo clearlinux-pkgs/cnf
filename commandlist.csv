@@ -1772,9 +1772,9 @@ gdaltransform	python-extras
 gdalwarp	python-extras
 gdb	gdb
 gdb-add-index	gdb
-gdbm_dump	perl-basic-dev
-gdbm_load	perl-basic-dev
-gdbmtool	perl-basic-dev
+gdbm_dump	go-basic-dev
+gdbm_load	go-basic-dev
+gdbmtool	go-basic-dev
 gdbserver	gdb
 gdbus	firmware-update
 gdbus-codegen	firmware-update
@@ -1795,6 +1795,7 @@ gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
 geary	geary
+gedi	perl-basic
 gedit	gedit
 geeqie	geeqie
 gegl	devpkg-gegl
@@ -2650,7 +2651,7 @@ ironic-rootwrap	openstack-common
 ironic-status	openstack-common
 irqbalance	hardware-uefi
 irqbalance-ui	hardware-uefi
-irssi	irssi
+irssi	perl-basic
 isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
@@ -4874,6 +4875,8 @@ ptex2pdf	texlive
 ptftopl	texlive
 pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
+ptked	perl-basic
+ptksh	perl-basic
 ptp4l	time-server-basic
 ptsematest	dev-utils
 ptx	os-core
@@ -6178,6 +6181,7 @@ tini-static	containers-basic
 tipc	iproute2
 tiptop	performance-tools
 tjbench	devpkg-libjpeg-turbo
+tkjpeg	perl-basic
 tkmib	performance-tools
 tknewsbiff	tcl-basic
 tkpasswd	tcl-basic
@@ -6643,6 +6647,7 @@ whiptail	devpkg-newt
 who	os-core
 whoami	os-core
 whois	network-basic
+widget	perl-basic
 widl	wine
 wifi	TLP
 winbindd	samba
@@ -6868,7 +6873,7 @@ xml_pp	perl-extras
 xml_spellcheck	perl-extras
 xml_split	perl-extras
 xmlcatalog	libxml2
-xmlif	perl-basic-dev
+xmlif	go-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
@@ -6876,7 +6881,7 @@ xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
 xmltex	texlive
-xmlto	perl-basic-dev
+xmlto	go-basic-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
 xmpdump	devpkg-exiv2
