@@ -900,9 +900,10 @@ cslatex	texlive
 csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
+csv2cve	cve-bin-tool
 csysdig	performance-tools
 ct_run	rabbitmq-server
-ctags	vim
+ctags	editors
 ctan-o-mat	texlive
 ctanbib	texlive
 ctangle	texlive
@@ -1436,7 +1437,7 @@ escputil	desktop
 escript	rabbitmq-server
 esdcompat	pulseaudio
 espdiff	dev-utils
-etags	vim
+etags	editors
 etex	texlive
 ethtool	ethtool
 ethumb	desktop-enlightenment
@@ -1788,10 +1789,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop
+gdm	desktop-enlightenment
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop
-gdmflexiserver	desktop
+gdm-screenshot	desktop-enlightenment
+gdmflexiserver	desktop-enlightenment
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -2385,6 +2386,7 @@ i3bar	desktop-i3
 i3blocks	desktop-i3
 i3lock	desktop-i3
 i3status	desktop-i3
+ias-screenshooter	software-defined-cockpit
 ias-setup	software-defined-cockpit
 ias-weston	software-defined-cockpit
 ias-weston-launch	software-defined-cockpit
@@ -2847,7 +2849,7 @@ json_verify	desktop-dev
 json_xs	perl-extras
 jsondiff	diffoscope
 jsonpatch	openstack-common
-jsonpointer	openstack-common
+jsonpointer	jupyter
 jsonschema	jupyter
 jspy	automotive-tools
 jsr	automotive-tools
@@ -3031,7 +3033,7 @@ kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
 kgendesignerplugin	containers-basic-dev
-kgeography	desktop-kde-apps
+kgeography	education-secondary
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
 kgoldrunner	desktop-kde-games
@@ -3074,7 +3076,7 @@ kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	sysadmin-basic
 kmousetool	desktop-kde-apps
-kmouth	desktop-kde-apps
+kmouth	desktop-kde-games
 kmplot	education-tertiary
 kms.sh	big-data-basic
 knavalbattle	desktop-kde-games
@@ -4545,9 +4547,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	koji
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4691,7 +4693,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4782,7 +4784,7 @@ png2mng.pl	desktop-kde-apps
 pngfix	devpkg-libpng
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
-po2xml	desktop-kde-apps
+po2xml	desktop-kde-games
 po4a	po4a
 po4a-gettextize	po4a
 po4a-normalize	po4a
@@ -4904,7 +4906,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptked	perl-basic
 ptksh	perl-basic
@@ -5776,7 +5778,7 @@ spirv-stats	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
-split2po	desktop-kde-apps
+split2po	desktop-kde-games
 splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
@@ -5925,7 +5927,7 @@ svsematest	dev-utils
 swaplabel	os-core
 swapoff	os-core
 swapon	os-core
-swappo	desktop-kde-apps
+swappo	desktop-kde-games
 sweeper	desktop-kde-games
 swift	openstack-common
 swift-account-audit	openstack-common
@@ -6652,7 +6654,6 @@ weston-multi-resource	weston-extras
 weston-presentation-shm	weston-extras
 weston-resizor	weston-extras
 weston-scaler	weston-extras
-weston-screenshooter	weston-extras
 weston-simple-damage	weston-extras
 weston-simple-dmabuf-drm	weston-extras
 weston-simple-dmabuf-egl	weston-extras
@@ -6896,7 +6897,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
-xml2pot	desktop-kde-apps
+xml2pot	desktop-kde-games
 xml2stems	gtkwave
 xml_grep	perl-extras
 xml_merge	perl-extras
