@@ -295,7 +295,7 @@ ausearch	audit
 ausyscall	audit
 authconfig	enterprise-login
 authorindex	texlive
-authvar	os-clr-on-clr
+authvar	service-os-dev
 autoconf	c-basic
 autoconf213	c-basic-legacy
 autoexpect	tcl-basic
@@ -1351,8 +1351,8 @@ efi-readvar	os-clr-on-clr
 efi-updatevar	os-clr-on-clr
 efibootdump	sysadmin-basic
 efibootmgr	sysadmin-basic
-efikeygen	os-clr-on-clr
-efisiglist	os-clr-on-clr
+efikeygen	service-os-dev
+efisiglist	service-os-dev
 efitool-mkusb	os-clr-on-clr
 efivar	os-core-update-dev
 efl_debug	desktop-enlightenment
@@ -4654,9 +4654,9 @@ perlthanks	perl-basic
 perltidy	perl-extras
 permview	mono
 perror	mariadb
-pesigcheck	os-clr-on-clr
-pesign	os-clr-on-clr
-pesign-client	os-clr-on-clr
+pesigcheck	service-os-dev
+pesign	service-os-dev
+pesign-client	service-os-dev
 peverify	mono
 pf2afm	desktop
 pfarrei	texlive
@@ -4693,6 +4693,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
+phononsettings	desktop-kde
 phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
@@ -5652,7 +5653,7 @@ sleepgraph	performance-tools
 slencheck	R-extras-dev
 sln	python-extras
 sload.f2fs	storage-utils
-slsh	os-core-update-dev
+slsh	editors-dev
 slugify	domotica
 sm-notify	nfs-utils
 smartctl	smartmontools
@@ -6391,6 +6392,7 @@ uniq	os-core
 unison	unison
 unison-fsmonitor	unison
 unit2	python-testing
+unitd	nginx-unit
 unix-lpr.sh	desktop
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
@@ -6895,7 +6897,7 @@ xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
 xminicom	minicom
-xml	os-clr-on-clr
+xml	dev-utils-dev
 xml2-config	libxml2
 xml2pot	desktop-kde-games
 xml2stems	gtkwave
@@ -6911,7 +6913,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	os-clr-on-clr
+xmlstarlet	dev-utils-dev
 xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
