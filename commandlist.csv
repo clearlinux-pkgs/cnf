@@ -4121,7 +4121,7 @@ nfsdcld	nfs-utils
 nfsdcltrack	nfs-utils
 nfsidmap	nfs-utils
 nfsstat	nfs-utils
-nft	network-basic
+nft	devpkg-nftables
 nftl_format	mtd-utils
 nftldump	mtd-utils
 ngettext	kvm-host
