@@ -131,6 +131,8 @@ akonadi_ical_resource	desktop-kde-apps
 akonadi_icaldir_resource	desktop-kde-apps
 akonadi_imap_resource	desktop-kde-apps
 akonadi_indexing_agent	akonadi
+akonadi_kalarm_dir_resource	desktop-kde-apps
+akonadi_kalarm_resource	desktop-kde-apps
 akonadi_knut_resource	akonadi
 akonadi_maildir_resource	desktop-kde-apps
 akonadi_maildispatcher_agent	desktop-kde-apps
@@ -4965,6 +4967,7 @@ pygobject-codegen-2.0	maker-cnc
 pygtk-codegen-2.0	maker-cnc
 pygtk-demo	maker-cnc
 pyhs100	domotica
+pyjson5	jupyter
 pyjwt	domotica
 pykig.py	education-secondary
 pylint	desktop-dev
@@ -5777,7 +5780,6 @@ spirv-link	developer-gpu
 spirv-opt	developer-gpu
 spirv-reduce	developer-gpu
 spirv-remap	developer-gpu
-spirv-stats	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
@@ -6207,6 +6209,7 @@ tiffset	devpkg-tiff
 tiffsplit	devpkg-tiff
 tificc	devpkg-lcms2
 tig	dev-utils
+tilix	tilix
 tiller	cloud-native-basic
 time	sysadmin-basic
 timed-read	tcl-basic
