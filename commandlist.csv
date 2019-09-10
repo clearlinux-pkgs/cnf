@@ -4551,9 +4551,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	koji
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4698,7 +4698,7 @@ phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
 phononsettings	desktop-kde
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4832,6 +4832,7 @@ ppltotf	texlive
 ppm2tiff	devpkg-tiff
 pppd	NetworkManager
 pppdump	NetworkManager
+pppoe-discovery	NetworkManager
 pppstats	NetworkManager
 pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
@@ -4911,7 +4912,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptked	perl-basic
 ptksh	perl-basic
