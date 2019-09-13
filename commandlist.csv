@@ -973,9 +973,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	jupyter
-cython	jupyter
-cythonize	jupyter
+cygdb	python-extras
+cython	python-extras
+cythonize	python-extras
 daemon.sh	apache-tomcat
 dapltest	hpc-utils
 darktable	darktable
@@ -1511,9 +1511,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
