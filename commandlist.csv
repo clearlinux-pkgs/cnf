@@ -269,8 +269,8 @@ aserver	thunderbird
 asn1Coding	devpkg-libtasn1
 asn1Decoding	devpkg-libtasn1
 asn1Parser	devpkg-libtasn1
-aspell	sysadmin-basic
-aspell-import	sysadmin-basic
+aspell	aspell
+aspell-import	aspell
 assimp	qt-basic-dev
 assistant	qt-basic
 asunder	asunder
@@ -1047,7 +1047,6 @@ depdiagram-prepare	desktop-kde-apps
 depmod	sysadmin-basic
 depythontex	texlive
 derb	sddm
-designate	openstack-common
 designer	devpkg-qttools
 desktop-file-edit	desktop
 desktop-file-install	desktop
@@ -4532,8 +4531,8 @@ pam_timestamp_check	sddm
 pamon	pulseaudio
 pandoc	pandoc
 pandoc-citeproc	pandoc
-pango-list	devpkg-pango
-pango-view	devpkg-pango
+pango-list	firefox
+pango-view	firefox
 paplay	pulseaudio
 parallel	parallel
 parcat	parallel
@@ -4852,15 +4851,15 @@ pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
 pr	os-core
 pre-grohtml	man-pages
-precat	sysadmin-basic
+precat	aspell
 preconv	man-pages
 prefcnt	dev-utils
 prepmx	texlive
 prerr.properties	devpkg-nspr
-preunzip	sysadmin-basic
+preunzip	aspell
 prevtest	devpkg-exiv2
-prezip	sysadmin-basic
-prezip-bin	sysadmin-basic
+prezip	aspell
+prezip-bin	aspell
 printafm	desktop
 printenv	os-core
 printf	os-core
@@ -4909,7 +4908,7 @@ pslatex	texlive
 pslog	sysadmin-basic
 psnr	desktop-apps
 psnup	texlive
-pspell-config	sysadmin-basic
+pspell-config	aspell
 psql	postgresql
 psresize	texlive
 psselect	texlive
@@ -5363,7 +5362,7 @@ ruby	ruby-basic
 rumakeindex	texlive
 run-on-ac	TLP
 run-on-bat	TLP
-run-with-aspell	sysadmin-basic
+run-with-aspell	aspell
 run_erl	rabbitmq-server
 run_perftest_loopback	hpc-utils
 run_perftest_multi_devices	hpc-utils
@@ -6753,7 +6752,7 @@ wol	pxe-server
 wol-bootptab	pxe-server
 wol-dhcpdconf	pxe-server
 wopl2ofm	texlive
-word-list-compress	sysadmin-basic
+word-list-compress	aspell
 wordcount	texlive
 wordforms	kde-frameworks5-dev
 wordlist2hunspell	kde-frameworks5-dev
@@ -6959,7 +6958,7 @@ xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
 xminicom	minicom
-xml	dev-utils-dev
+xml	kde-frameworks5-dev
 xml2-config	libxml2
 xml2pot	desktop-kde-games
 xml2stems	gtkwave
@@ -6975,7 +6974,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	dev-utils-dev
+xmlstarlet	kde-frameworks5-dev
 xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
