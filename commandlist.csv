@@ -6958,7 +6958,7 @@ xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
 xminicom	minicom
-xml	kde-frameworks5-dev
+xml	dev-utils-dev
 xml2-config	libxml2
 xml2pot	desktop-kde-games
 xml2stems	gtkwave
@@ -6974,7 +6974,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kde-frameworks5-dev
+xmlstarlet	dev-utils-dev
 xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
