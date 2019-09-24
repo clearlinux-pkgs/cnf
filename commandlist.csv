@@ -3836,6 +3836,8 @@ moc	devpkg-qtbase
 mock	package-utils
 mockchain	package-utils
 mod	mono
+model-converter	computer-vision-models
+model-downloader	computer-vision-models
 modifyrepo_c	package-utils
 modinfo	sysadmin-basic
 modprobe	sysadmin-basic
@@ -5950,6 +5952,10 @@ swaplabel	os-core
 swapoff	os-core
 swapon	os-core
 swappo	desktop-kde-games
+sway	sway
+swaybar	sway
+swaymsg	sway
+swaynag	sway
 sweeper	desktop-kde-games
 swift	openstack-common
 swift-account-audit	openstack-common
