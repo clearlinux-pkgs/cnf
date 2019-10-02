@@ -3663,8 +3663,7 @@ mariadbd	mariadb
 mariadbd-multi	mariadb
 mariadbd-safe	mariadb
 mariadbd-safe-helper	mariadb
-markdown_py	koji
-mash	koji
+markdown_py	machine-learning-tensorflow
 masktest	samba
 match_parens	texlive
 mathspic	texlive
@@ -4574,7 +4573,7 @@ pathchk	os-core
 pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
-pbr	koji
+pbr	cloud-api
 pbunzip2	os-testsuite-phoronix-desktop
 pbzcat	os-testsuite-phoronix-desktop
 pbzip2	os-testsuite-phoronix-desktop
@@ -6493,7 +6492,7 @@ uptftopl	texlive
 uptime	os-core
 urifind	perl-extras
 urlbst	texlive
-urlgrabber	koji
+urlgrabber	os-clr-on-clr
 urxvt	rxvt-unicode
 urxvtc	rxvt-unicode
 urxvtd	rxvt-unicode
@@ -7098,8 +7097,6 @@ ytasm	yasm
 ytnef	desktop-dev
 ytnefprint	desktop-dev
 ytnefprocess	desktop-dev
-yum	koji
-yum-updatesd	koji
 z3	dev-utils-dev
 zathura	zathura
 zcat	gzip
@@ -7132,7 +7129,6 @@ znew	gzip
 zone2json	pdns
 zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
-zope-testrunner	koji
 zramctl	os-core
 zrun	os-testsuite-0day
 zsh	zsh
