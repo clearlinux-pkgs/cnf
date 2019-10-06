@@ -4329,7 +4329,6 @@ nmtui	NetworkManager
 nmtui-connect	NetworkManager
 nmtui-edit	NetworkManager
 nmtui-hostname	NetworkManager
-node	nodejs-basic
 nohup	os-core
 nologin	os-core
 noncvslist	desktop-kde-apps
@@ -4368,11 +4367,9 @@ nova-spicehtml5proxy	openstack-common
 nova-status	openstack-common
 nova-xvpvncproxy	openstack-common
 nping	nmap
-npm	nodejs-basic
 nproc	os-core
 nproxy	pdns
 npth-config	containers-basic-dev
-npx	nodejs-basic
 nroff	man-pages
 nrpe	sysadmin-remote
 nsec3dig	pdns
@@ -7196,7 +7193,6 @@ yarn	big-data-basic
 yarn-daemon.sh	big-data-basic
 yarn-daemons.sh	big-data-basic
 yarn.cmd	big-data-basic
-yarnpkg	nodejs-basic
 yasm	yasm
 yat2m	devpkg-libgpg-error
 yelp	desktop
