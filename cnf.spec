@@ -1,6 +1,6 @@
 Name     : cnf
 Version  : 1
-Release  : 420
+Release  : 421
 Source0  : 10-command-not-found.sh
 Source1  : commandlist.csv
 Source2  : alternatives.csv
@@ -24,7 +24,6 @@ mkdir -p %{buildroot}/usr/share/defaults/etc/profile.d/
 cp %{SOURCE0} %{buildroot}/usr/share/defaults/etc/profile.d/
 cp %{SOURCE1} %{buildroot}/usr/share/clear
 cp %{SOURCE2} %{buildroot}/usr/share/clear
-chmod a+x %{buildroot}/usr/share/defaults/etc/profile.d/10-command-not-found.sh
 
 %check
 grep "m4" %{SOURCE1}
