@@ -3761,6 +3761,7 @@ mag	texlive
 magick	ImageMagick
 magick-script	ImageMagick
 mail	mutt
+mailq	postfix
 mailstat	mail-utils
 make	make
 make-bcache	bcache-tools
@@ -4310,6 +4311,7 @@ neutron-server	openstack-common
 neutron-sriov-nic-agent	openstack-common
 neutron-status	openstack-common
 neutron-usage-audit	openstack-common
+newaliases	postfix
 newgidmap	os-core
 newgrp	os-core
 newuidmap	os-core
@@ -5003,9 +5005,21 @@ pomdump	perl-extras
 pooltype	texlive
 portablectl	sysadmin-basic
 post-grohtml	man-pages
+postalias	postfix
+postcat	postfix
+postconf	postfix
+postdrop	postfix
+postfix	postfix
 postgres	postgresql
+postkick	postfix
+postlock	postfix
+postlog	postfix
+postmap	postfix
 postmaster	postgresql
+postmulti	postfix
 postprocessing_benchmark	devpkg-LibRaw
+postqueue	postfix
+postsuper	postfix
 potrace	maker-cnc
 poweroff	sysadmin-basic
 powerterm	calc
@@ -5197,7 +5211,6 @@ python3.7	python3-basic
 python3.7-config	python3-basic
 python3.7m	python3-basic
 python3.7m-config	python3-basic
-pythonprobe	devpkg-telemetrics-client
 pythontex	texlive
 pyuic5	maker-3dprinting
 pyvenv	python3-basic
@@ -5659,6 +5672,7 @@ secutil	mono
 sed	os-core
 sem	parallel
 sendmail	perl-basic
+sendmail-postfix	postfix
 sendme	dev-utils
 sensors	lm-sensors
 sensors-conf-convert	lm-sensors
