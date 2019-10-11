@@ -53,6 +53,9 @@ def declare_binary(bundle : str, binary : str, size : int):
     # This weeks special: 10% discount on basic bundles 
     if "-basic" in bundle:
         size = size * 0.90
+    # Extras are hit with a 10% special import duty due to trade war
+    if "-extras" in bundle:
+        size = size * 1.10
     
     if not binary in bin_bundle or binary == bundle:
         bin_bundle[binary] = bundle
