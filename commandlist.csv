@@ -75,9 +75,9 @@ abidw	devpkg-libabigail
 abilint	devpkg-libabigail
 abipkgdiff	devpkg-libabigail
 abireport	package-builder
-accept	hardware-printing
 accessdb	man-pages
 accountwizard	desktop-kde-apps
+ace2sam	samtools
 aclients	amateur-radio
 aclocal	c-basic
 aclocal-1.16	c-basic
@@ -113,6 +113,7 @@ afmtodit	man-pages
 ag	the_silver_searcher
 agentxtrap	performance-tools
 agetty	os-core
+aggregate_profile.pl	openmpi
 akonadi2xml	akonadi
 akonadi_agent_launcher	akonadi
 akonadi_agent_server	akonadi
@@ -408,6 +409,7 @@ binpac	network-monitor-node
 binwalk	diffoscope
 biosdecode	sysadmin-basic
 bison	bison
+blast2sam.pl	samtools
 blender	blender
 blinken	education-preschool
 blkdeactivate	storage-utils
@@ -447,6 +449,7 @@ bootgraph	performance-tools
 borg	borgbackup
 borgfs	borgbackup
 bovo	desktop-kde-games
+bowtie2sam.pl	samtools
 bpftrace	bpftrace
 brctl	network-basic
 breeze-settings5	desktop-kde
@@ -885,9 +888,9 @@ coredumpctl	sysadmin-basic
 corelist	perl-basic
 coreutils	os-core
 cover	perl-extras
-coverage	python-extras
-coverage-3.7	python-extras
-coverage3	python-extras
+coverage	scm-server
+coverage-3.7	scm-server
+coverage3	scm-server
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -980,14 +983,12 @@ cups-config	hardware-printing
 cups-genppd.5.3	hardware-printing
 cups-genppdupdate	hardware-printing
 cupsaccept	hardware-printing
-cupsaddsmb	hardware-printing
 cupsctl	hardware-printing
 cupsd	hardware-printing
 cupsdisable	hardware-printing
 cupsenable	hardware-printing
 cupsfilter	hardware-printing
 cupsreject	hardware-printing
-cupstestdsc	hardware-printing
 cupstestppd	hardware-printing
 cura	maker-3dprinting
 curl	curl
@@ -1471,7 +1472,7 @@ epstopdf	texlive
 eptex	texlive
 epydoc	python-extras
 epydocgui	python-extras
-epylint	desktop-dev
+epylint	scm-server
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -1539,6 +1540,7 @@ exo-preferred-applications	xfce4-desktop
 expand	os-core
 expect	tcl-basic
 expiry	os-core
+export2sam.pl	samtools
 exportfs	nfs-utils
 expr	os-core
 exrenvmap	desktop-dev
@@ -1850,7 +1852,7 @@ gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
 geary	geary
-gedi	perl-basic
+gedi	perl-extras
 gedit	gedit
 geeqie	geeqie
 gegl	devpkg-gegl
@@ -2339,6 +2341,7 @@ hmac256	devpkg-libgcrypt
 hmaptool	llvm
 hmaptool-8	llvm8
 hmaptool-9	llvm
+horovodrun	machine-learning-tensorflow
 host	clr-network-troubleshooter
 hostid	os-core
 hostname	os-core
@@ -2634,6 +2637,7 @@ intel_stepping	igt-gpu-tools
 intel_vbt_decode	igt-gpu-tools
 intel_watermark	igt-gpu-tools
 interdiff	dev-utils
+interpolate_sam.pl	samtools
 intltool-extract	intltool
 intltool-merge	intltool
 intltool-prepare	intltool
@@ -2699,6 +2703,7 @@ ipmiping	sysadmin-hostmgmt
 ipmipower	sysadmin-hostmgmt
 ipmiseld	sysadmin-hostmgmt
 ipmitool	ipmitool
+ippeveprinter	hardware-printing
 ipptool	hardware-printing
 iprange	haproxy
 ipset	openssh-server
@@ -2762,7 +2767,7 @@ isnsdd	storage-utils-dev
 iso-info	asunder
 iso-read	asunder
 isohybrid	syslinux
-isort	ceph
+isort	scm-server
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -2814,6 +2819,7 @@ jack_multiple_metro	jack2
 jack_net_master	jack2
 jack_net_slave	jack2
 jack_netsource	jack2
+jack_property	jack2
 jack_rec	jack2
 jack_samplerate	jack2
 jack_server_control	jack2
@@ -2987,6 +2993,7 @@ jupyter-notebook	jupyter
 jupyter-qtconsole	jupyter
 jupyter-run	jupyter
 jupyter-serverextension	jupyter
+jupyter-troubleshoot	jupyter
 jupyter-trust	jupyter
 jw	docbook-utils
 jws	letsencrypt-client
@@ -3085,7 +3092,7 @@ kde-open5	desktop-kde
 kde-print-queue	desktop-kde
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	containers-basic-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	desktop-kde-apps
 kdeconnect-cli	kdeconnect-kde
 kdeconnect-handler	kdeconnect-kde
@@ -3129,7 +3136,7 @@ keytool	java-runtime
 keytool11	java11-basic
 keytool12	java12-basic
 keytool13	java13-basic
-kf5-config	containers-basic-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	desktop-kde-apps
 kfloppy	desktop-kde-apps
@@ -3138,7 +3145,7 @@ kfontinst	desktop-kde
 kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	containers-basic-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	education-secondary
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -3263,7 +3270,6 @@ kteatime	desktop-kde-games
 ktelnetservice5	kde-frameworks5
 ktimer	desktop-kde-apps
 ktnef	desktop-kde-apps
-ktp-debugger	desktop-kde-apps
 ktraderclient5	desktop-kde
 ktrash5	kde-frameworks5
 ktuberling	education-preschool
@@ -3810,6 +3816,8 @@ map	perl-extras
 mapred	big-data-basic
 mapred.cmd	big-data-basic
 mapscrn	kbd
+maq2sam-long	samtools
+maq2sam-short	samtools
 marble	education-tertiary
 marble-qt	education-tertiary
 marcdump	perl-extras
@@ -3870,7 +3878,9 @@ mcookie	os-core
 mcopy	storage-utils
 mcs	mono
 mcview	sysadmin-basic
+md5fa	samtools
 md5sum	os-core
+md5sum-lite	samtools
 mdadm	storage-utils
 mdassembler	mono
 mdb_copy	machine-learning-basic
@@ -4231,6 +4241,7 @@ myisamlog	mariadb
 myisampack	mariadb
 mymeta-cpanfile	perl-extras
 mypy	python-extras
+mypyc	python-extras
 myrocks_hotbackup	mariadb
 mysql	mariadb
 mysql_client_test	mariadb
@@ -4424,8 +4435,8 @@ nologin	os-core
 noncvslist	desktop-kde-apps
 nonsvnlist	desktop-kde-apps
 nop	graphviz
-nosetests	jupyter
-nosetests-3.7	jupyter
+nosetests	scm-server
+nosetests-3.7	scm-server
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
@@ -4454,6 +4465,7 @@ nova-serialproxy	openstack-common
 nova-spicehtml5proxy	openstack-common
 nova-status	openstack-common
 nova-xvpvncproxy	openstack-common
+novo2sam.pl	samtools
 nping	nmap
 npm	nodejs-basic
 nproc	os-core
@@ -4585,11 +4597,7 @@ oldconfig	service-os-dev
 olddefconfig	service-os-dev
 omfonts	texlive
 ompi-clean	openmpi
-ompi-dvm	openmpi
-ompi-ps	openmpi
 ompi-server	openmpi
-ompi-submit	openmpi
-ompi-top	openmpi
 ompi_info	openmpi
 omshell	pxe-server
 onig-config	sysadmin-basic-dev
@@ -4626,21 +4634,13 @@ orc-bugreport	devpkg-orc
 orca	desktop
 orcc	devpkg-orc
 orte-clean	openmpi
-orte-dvm	openmpi
 orte-info	openmpi
-orte-ps	openmpi
 orte-server	openmpi
-orte-submit	openmpi
-orte-top	openmpi
 ortecc	openmpi
 orted	openmpi
 orterun	openmpi
 osage	graphviz
 osdmaptool	ceph
-oshcc	openmpi
-oshfort	openmpi
-oshmem_info	openmpi
-oshrun	openmpi
 osinfo-db-export	virt-manager
 osinfo-db-import	virt-manager
 osinfo-db-path	virt-manager
@@ -4923,7 +4923,6 @@ picmi	desktop-kde-games
 picocom	maker-basic
 piconv	perl-basic
 pidgin	pidgin
-pidl	samba
 pidof	procps-ng
 pidstat	sysstat
 piforever	calc
@@ -4949,7 +4948,7 @@ pip_stress	dev-utils
 pipewire	devpkg-pipewire
 pipewire-cli	devpkg-pipewire
 pipewire-monitor	devpkg-pipewire
-pipreqs	ceph
+pipreqs	scm-server
 pivot_root	os-core
 pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
@@ -4977,9 +4976,10 @@ plasma_waitforname	desktop-kde
 plasmashell	desktop-kde
 plasmawindowed	desktop-kde
 platex	texlive
-play	amateur-radio
+play	sox
 pldd	os-core
 plipconfig	net-tools
+plot-bamstats	samtools
 pltotf	texlive
 pluginviewer	desktop-kde-apps
 plus	calc
@@ -5076,6 +5076,7 @@ privsep-helper	openstack-common
 prlimit	os-core
 procan	sysadmin-basic
 procmail	mail-utils
+profile2mat.pl	openmpi
 profiles	samba
 proj	maker-gis
 projinfo	maker-gis
@@ -5113,6 +5114,7 @@ psicc	devpkg-lcms2
 psjoin	texlive
 psktool	cryptography
 psl	devpkg-libpsl
+psl2sam.pl	samtools
 pslatex	texlive
 pslog	sysadmin-basic
 psnr	desktop-apps
@@ -5136,8 +5138,8 @@ ptex2pdf	texlive
 ptftopl	texlive
 pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
-ptked	perl-basic
-ptksh	perl-basic
+ptked	perl-extras
+ptksh	perl-extras
 ptp4l	time-server-basic
 ptsematest	dev-utils
 ptx	os-core
@@ -5179,7 +5181,7 @@ pydoc	storage-cluster
 pydoc3	python3-basic
 pydoc3.7	python3-basic
 pydocstyle	python-extras
-pyflakes	django
+pyflakes	scm-server
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
@@ -5188,12 +5190,12 @@ pyhs100	domotica
 pyjson5	jupyter
 pyjwt	domotica
 pykig.py	education-secondary
-pylint	desktop-dev
+pylint	scm-server
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
 pyozw_shell	domotica
 pyrcc5	maker-3dprinting
-pyreverse	desktop-dev
+pyreverse	scm-server
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
 pyro4-httpgateway	python-data-science
@@ -5292,14 +5294,14 @@ qra64code	amateur-radio
 qra64sim	amateur-radio
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
-qscxmlc	containers-basic-dev
+qscxmlc	mail-utils-dev
 qtattributionsscanner	devpkg-qttools
 qtcreator	qt-creator
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	containers-basic-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
@@ -5378,7 +5380,7 @@ realpath	os-core
 reboot	sysadmin-basic
 rebootmgrctl	rebootmgr
 rebootmgrd	rebootmgr
-rec	amateur-radio
+rec	sox
 rec_control	pdns-recursor
 recode-sr-latin	c-basic
 recountdiff	dev-utils
@@ -5404,7 +5406,6 @@ regshell	samba
 regsvr32	wine
 regtree	samba
 reindexdb	postgresql
-reject	hardware-printing
 remmina	Remmina
 remmina-gnome	Remmina
 remote-viewer	virt-viewer
@@ -5413,7 +5414,7 @@ rename	os-core
 renderdoccmd	developer-gpu
 renice	os-core
 reordercap	wireshark
-repc	containers-basic-dev
+repc	mail-utils-dev
 replace	mariadb
 repo2solv	devpkg-libsolv
 repomdxml2solv	devpkg-libsolv
@@ -5596,14 +5597,18 @@ rxe_cfg	hpc-utils
 s3fs	s3fs-fuse
 s3put	cloud-api
 sadf	sysstat
+sam2vcf.pl	samtools
 samba	samba
 samba-gpupdate	samba
 samba-regedit	samba
 samba-tool	samba
 samba_dnsupdate	samba
+samba_downgrade_db	samba
 samba_kcc	samba
 samba_spnupdate	samba
 samba_upgradedns	samba
+samtools	samtools
+samtools.pl	samtools
 sancov	llvm
 sancov-8	llvm8
 sancov-9	llvm
@@ -5698,6 +5703,7 @@ sensors	lm-sensors
 sensors-conf-convert	lm-sensors
 sensors-detect	lm-sensors
 seq	os-core
+seq_cache_populate.pl	samtools
 seqdiag	python-extras
 serialver	java-runtime
 serialver11	java11-basic
@@ -5820,9 +5826,6 @@ sharkd	wireshark
 shasum	perl-basic
 shiboken2	python-qt
 shiboken_tool.py	python-qt
-shmemcc	openmpi
-shmemfort	openmpi
-shmemrun	openmpi
 shmidcat	gtkwave
 show-shared-extents	duperemove
 showconsolefont	kbd
@@ -5965,6 +5968,7 @@ snmptrapd	performance-tools
 snmpusm	performance-tools
 snmpvacm	performance-tools
 snmpwalk	performance-tools
+soap2sam.pl	samtools
 soapsuds	mono
 socat	sysadmin-basic
 soelim	man-pages
@@ -5981,8 +5985,8 @@ soundmodemconfig	amateur-radio
 source-highlight	dev-utils
 source-highlight-esc.sh	dev-utils
 source-highlight-settings	dev-utils
-sox	amateur-radio
-soxi	amateur-radio
+sox	sox
+soxi	sox
 spa-inspect	devpkg-pipewire
 spa-monitor	devpkg-pipewire
 spark-class	big-data-basic
@@ -6232,7 +6236,7 @@ swupd-overdue	os-core-update
 swupd-probe	telemetrics
 swupd-search	python3-basic
 sxpm	devpkg-libXpm
-symilar	desktop-dev
+symilar	scm-server
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
@@ -6471,7 +6475,7 @@ tini-static	containers-basic
 tipc	iproute2
 tiptop	performance-tools
 tjbench	devpkg-libjpeg-turbo
-tkjpeg	perl-basic
+tkjpeg	perl-extras
 tkmib	performance-tools
 tknewsbiff	tcl-basic
 tkpasswd	tcl-basic
@@ -6497,8 +6501,8 @@ totem	totem
 totem-video-thumbnailer	totem
 touch	os-core
 touchpad-edge-detector	devpkg-libevdev
-tox	django
-tox-quickstart	django
+tox	scm-server
+tox-quickstart	scm-server
 tpage	perl-extras
 tpic2pdftex	texlive
 tpm2-abrmd	cryptoprocessor-management
@@ -6708,6 +6712,8 @@ urxvt	rxvt-unicode
 urxvtc	rxvt-unicode
 urxvtd	rxvt-unicode
 usb-devices	sysadmin-basic
+usb_modeswitch	NetworkManager-extras
+usb_modeswitch_dispatcher	NetworkManager-extras
 usbhid-dump	sysadmin-basic
 usbredirserver	devpkg-usbredir
 use-devel-assertos	perl-extras
@@ -6754,6 +6760,7 @@ valgrind-di-server	valgrind
 valgrind-listener	valgrind
 vapigen	devpkg-vala
 vapigen-0.46	devpkg-vala
+varfilter.py	samtools
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
@@ -6946,6 +6953,8 @@ wflinfo	developer-gpu
 wg	network-basic
 wg-quick	network-basic
 wget	wget
+wgsim	samtools
+wgsim_eval.pl	samtools
 whatis	man-pages
 wheel	django
 whereis	os-core
@@ -6954,7 +6963,7 @@ whiptail	devpkg-newt
 who	os-core
 whoami	os-core
 whois	network-basic
-widget	perl-basic
+widget	perl-extras
 widl	wine
 wifi	TLP
 winbindd	samba
@@ -7345,6 +7354,7 @@ znew	gzip
 zone2json	pdns
 zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
+zoom2sam.pl	samtools
 zramctl	os-core
 zrun	os-testsuite-0day
 zsh	zsh
