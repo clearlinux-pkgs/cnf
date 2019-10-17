@@ -1103,6 +1103,7 @@ desktop-file-install	desktop
 desktop-file-validate	desktop
 desktoptojson	kde-frameworks5
 detex	texlive
+devhelp	devhelp
 devlink	iproute2
 devnag	texlive
 deweb	texlive
@@ -6866,7 +6867,6 @@ vmhgfs-fuse	os-cloudguest-vmware
 vmstat	procps-ng
 vmtoolsd	os-cloudguest-vmware
 vmware-checkvm	os-cloudguest-vmware
-vmware-guestproxycerttool	os-cloudguest-vmware
 vmware-hgfsclient	os-cloudguest-vmware
 vmware-namespace-cmd	os-cloudguest-vmware
 vmware-rpctool	os-cloudguest-vmware
@@ -6900,6 +6900,7 @@ vppchromasitting	libva-utils
 vppctl	vpp
 vppdenoise	libva-utils
 vppscaling_csc	libva-utils
+vppscaling_n_out_usrptr	libva-utils
 vppsharpness	libva-utils
 vptovf	texlive
 vpxdec	devpkg-libvpx
