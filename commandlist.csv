@@ -1042,6 +1042,7 @@ dask-submit	python-extras
 dask-worker	python-extras
 date	os-core
 datefudge	perl-basic-dev
+dateparse	perl-extras
 daxctl	storage-utils
 daxio	pmdk
 dazzle-list-counters	devpkg-libdazzle
