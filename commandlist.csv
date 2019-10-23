@@ -384,7 +384,7 @@ bdftogd	devpkg-libgd
 bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beeline	big-data-basic
-benchmark_app	computer-vision-basic
+benchmark_app	computer-vision-openvino
 bertprobe	devpkg-telemetrics-client
 bg5+latex	texlive
 bg5+pdflatex	texlive
@@ -788,7 +788,7 @@ clang-tidy	llvm
 clang-tidy-9	llvm
 clangd	llvm
 clangd-9	llvm
-classification_sample_async	computer-vision-basic
+classification_sample_async	computer-vision-openvino
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
 cli4	letsencrypt-client
@@ -2336,10 +2336,10 @@ hdfs	big-data-basic
 hdfs.cmd	big-data-basic
 hdparm	sysadmin-basic
 head	os-core
-hello_classification	computer-vision-basic
-hello_nv12_input_classification	computer-vision-basic
-hello_query_device	computer-vision-basic
-hello_reshape_ssd	computer-vision-basic
+hello_classification	computer-vision-openvino
+hello_nv12_input_classification	computer-vision-openvino
+hello_query_device	computer-vision-openvino
+hello_reshape_ssd	computer-vision-openvino
 helm	cloud-native-basic
 help2man	dev-utils-dev
 hevcencode	libva-utils
@@ -4044,6 +4044,7 @@ mltex	texlive
 mm2gv	graphviz
 mmafm	texlive
 mmap-test	devpkg-exiv2
+mmc	storage-utils
 mmc-tool	asunder
 mmcli	NetworkManager-extras
 mmd	storage-utils
@@ -4540,7 +4541,7 @@ obj2yaml-8	llvm8
 obj2yaml-9	llvm
 objcopy	binutils
 objdump	binutils
-object_detection_sample_ssd	computer-vision-basic
+object_detection_sample_ssd	computer-vision-openvino
 obxprop	desktop-lxqt
 ocaml	ocaml-basic
 ocaml-instr-graph	ocaml-basic
@@ -4590,7 +4591,7 @@ ociocheck	blender
 ocioconvert	blender
 ociodisplay	blender
 ociolutimage	blender
-ocloc	devpkg-opencv
+ocloc	computer-vision-openvino
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
@@ -4632,10 +4633,10 @@ openbox-gnome-session	desktop-lxqt
 openbox-kde-session	desktop-lxqt
 openbox-session	desktop-lxqt
 openconnect	network-basic
-opencv_annotation	devpkg-opencv
-opencv_interactive-calibration	devpkg-opencv
-opencv_version	devpkg-opencv
-opencv_visualisation	devpkg-opencv
+opencv_annotation	computer-vision-openvino
+opencv_interactive-calibration	computer-vision-openvino
+opencv_version	computer-vision-openvino
+opencv_visualisation	computer-vision-openvino
 openjade	php-basic-dev
 openscad	openscad
 opensm	hpc-utils
@@ -5264,6 +5265,7 @@ pythontex	texlive
 pyuic5	maker-3dprinting
 pyvenv	python3-basic
 pyvenv-3.7	python3-basic
+qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
 qbs	qt-creator
 qbs-config	qt-creator
@@ -5757,7 +5759,7 @@ setreg	mono
 setserial	sysadmin-basic
 setsid	os-core
 setterm	os-core
-setup_vars_opencv4.sh	devpkg-opencv
+setup_vars_opencv4.sh	computer-vision-openvino
 setvtrgb	kbd
 setxkbmap	x11-tools
 sfcgal-config	R-extras-dev
@@ -6024,7 +6026,7 @@ spark-submit	big-data-basic
 sparkR	big-data-basic
 speaker-test	alsa-utils
 spectacle	spectacle
-speech_sample	computer-vision-basic
+speech_sample	computer-vision-openvino
 speexdec	devpkg-speex
 speexenc	devpkg-speex
 sphinx-apidoc	Sphinx
@@ -6148,7 +6150,7 @@ stunbdc	desktop-dev
 stund	desktop-dev
 stunnel	cloud-api
 sty2dtx	texlive
-style_transfer_sample	computer-vision-basic
+style_transfer_sample	computer-vision-openvino
 su	os-core
 su-exec	su-exec
 subunit-1to2	software-testing
