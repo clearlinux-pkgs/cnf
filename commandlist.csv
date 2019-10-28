@@ -75,6 +75,7 @@ abidw	devpkg-libabigail
 abilint	devpkg-libabigail
 abipkgdiff	devpkg-libabigail
 abireport	package-builder
+about-eid-mw	eid-mw
 accessdb	man-pages
 accountwizard	desktop-kde-apps
 ace2sam	samtools
@@ -385,6 +386,7 @@ bdftogd	devpkg-libgd
 bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beeline	big-data-basic
+beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
 bertprobe	devpkg-telemetrics-client
 bg5+latex	texlive
@@ -1419,6 +1421,7 @@ efl_debug	desktop-enlightenment
 efl_debugd	desktop-enlightenment
 efreetd	desktop-enlightenment
 egrep	os-core
+eid-viewer	eid-mw
 eina_btlog	desktop-enlightenment
 eina_modinfo	desktop-enlightenment
 eject	os-core
@@ -2724,6 +2727,7 @@ ipmitool	ipmitool
 ippeveprinter	hardware-printing
 ipptool	hardware-printing
 iprange	haproxy
+ipsec	NetworkManager-extras
 ipset	openssh-server
 iptab	perl-extras
 iptables	iptables
@@ -4781,9 +4785,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4899,6 +4903,7 @@ pfarrei	texlive
 pfb2pfa	texlive
 pfbtopfa	ghostscript
 pfbtops	man-pages
+pfc	NetworkManager-extras
 pfunct	dev-utils
 pg_archivecleanup	postgresql
 pg_basebackup	postgresql
@@ -4930,7 +4935,7 @@ phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
 phononsettings	desktop-kde
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -5164,7 +5169,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptked	perl-extras
 ptksh	perl-extras
@@ -7241,6 +7246,8 @@ xkbcomp	x11-tools
 xkeystone	x11-tools
 xkibitz	tcl-basic
 xkill	x11-tools
+xl2tpd	NetworkManager-extras
+xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
 xml	sysadmin-basic-dev
