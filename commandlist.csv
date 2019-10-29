@@ -1821,7 +1821,6 @@ gcov2perl	perl-extras
 gcov7	c-extras-gcc7
 gcr-viewer	devpkg-gcr
 gcron.py	storage-cluster
-gcut	devpkg-gegl
 gd2copypal	devpkg-libgd
 gd2togif	devpkg-libgd
 gd2topng	devpkg-libgd
