@@ -6859,8 +6859,17 @@ virt-viewer	virt-viewer
 virt-xml	virt-manager
 virt-xml-validate	kvm-host
 virtfs-proxy-helper	kvm-host
+virtinterfaced	kvm-host
 virtlockd	kvm-host
 virtlogd	kvm-host
+virtlxcd	kvm-host
+virtnetworkd	kvm-host
+virtnodedevd	kvm-host
+virtnwfilterd	kvm-host
+virtproxyd	kvm-host
+virtqemud	kvm-host
+virtsecretd	kvm-host
+virtstoraged	kvm-host
 virtualenv	python3-basic
 visudo	sudo
 vkcube	dev-utils-dev
