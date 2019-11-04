@@ -668,7 +668,7 @@ chattr	os-core
 chcon	os-core
 chcpu	os-core
 cheatmake	desktop-kde-apps
-check-manifest	django
+check-manifest	python-extras
 check-model	machine-learning-pytorch
 check-node	machine-learning-pytorch
 check-regexp	dev-utils
@@ -1695,6 +1695,7 @@ flatpak	flatpak
 flatpak-bisect	flatpak
 flatpak-builder	flatpak
 flatpak-coredumpctl	flatpak
+flatten_json	domotica
 fldigi	amateur-radio
 flea	mutt
 flex	flex
@@ -4318,6 +4319,7 @@ net-snmp-create-v3-user	performance-tools
 netaddr	ansible
 netcap	devpkg-libcap-ng
 netdata	netdata
+nethogs	nethogs
 netstat	net-tools
 nettle-pbkdf2	devpkg-nettle
 networkctl	sysadmin-basic
@@ -5215,7 +5217,7 @@ pyro4-httpgateway	python-data-science
 pyro4-ns	python-data-science
 pyro4-nsc	python-data-science
 pyro4-test-echoserver	python-data-science
-pyroma	django
+pyroma	python-extras
 pyroute2-cli	openstack-common
 pyrsa-decrypt	cloud-api
 pyrsa-decrypt-bigfile	cloud-api
@@ -6821,6 +6823,7 @@ vi	vim
 vidir	os-testsuite-0day
 vieet	desktop-enlightenment
 view	vim
+viewdoc	python-extras
 vigr	os-core
 vim	vim
 vimdiff	vim
