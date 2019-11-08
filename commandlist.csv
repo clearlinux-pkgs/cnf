@@ -940,6 +940,7 @@ createuser	postgresql
 cri-containerd	containers-basic
 crictl	containers-basic
 crio	containers-basic
+crio-status	containers-basic
 critest	containers-basic
 crlupdate	mono
 crlutil	cryptography
@@ -4124,6 +4125,7 @@ mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
 mozroots	mono
+mp2bug	perl-basic-dev
 mpartition	storage-utils
 mpathpersist	storage-utils
 mpeg2vaenc	libva-utils
@@ -4534,6 +4536,7 @@ obj2yaml-9	llvm
 objcopy	binutils
 objdump	binutils
 object_detection_sample_ssd	computer-vision-openvino
+obs	obs-studio
 obxprop	desktop-lxqt
 ocaml	ocaml-basic
 ocaml-instr-graph	ocaml-basic
@@ -4747,6 +4750,8 @@ pango-list	sysprof
 pango-view	sysprof
 paplay	pulseaudio
 parallel	parallel
+paraview	ParaView
+paraview-config	ParaView
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
@@ -4775,9 +4780,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4925,7 +4930,7 @@ phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
 phononsettings	desktop-kde
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -5159,7 +5164,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptked	perl-extras
 ptksh	perl-extras
@@ -5177,15 +5182,20 @@ purple-url-handler	pidgin
 putsurface	libva-utils
 putsurface_wayland	libva-utils
 pv	sysadmin-basic
+pvbatch	ParaView
 pvchange	storage-utils
 pvck	storage-utils
 pvcreate	storage-utils
+pvdataserver	ParaView
 pvdisplay	storage-utils
 pvmove	storage-utils
+pvpython	ParaView
 pvremove	storage-utils
+pvrenderserver	ParaView
 pvresize	storage-utils
 pvs	storage-utils
 pvscan	storage-utils
+pvserver	ParaView
 pwck	os-core
 pwconv	os-core
 pwd	os-core
@@ -5920,6 +5930,7 @@ sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
 sm-notify	nfs-utils
+smTestDriver-pv5.7	ParaView
 smartctl	smartmontools
 smartd	smartmontools
 smartx_interactive_example	software-defined-cockpit
@@ -6922,6 +6933,14 @@ vpxenc	devpkg-libvpx
 vsyasm	yasm
 vte-2.91	desktop-dev
 vtep-ctl	openvswitch
+vtkParseJava-pv5.7	ParaView
+vtkProbeOpenGLVersion-pv5.7	ParaView
+vtkProcessXML-pv5.7	ParaView
+vtkWrapClientServer-pv5.7	ParaView
+vtkWrapHierarchy-pv5.7	ParaView
+vtkWrapJava-pv5.7	ParaView
+vtkWrapPython-pv5.7	ParaView
+vtkWrapPythonInit-pv5.7	ParaView
 vtysh	quagga
 vulkaninfo	dev-utils-dev
 vzt2vcd	gtkwave
