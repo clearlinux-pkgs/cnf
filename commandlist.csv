@@ -940,7 +940,6 @@ createuser	postgresql
 cri-containerd	containers-basic
 crictl	containers-basic
 crio	containers-basic
-crio-status	containers-basic
 critest	containers-basic
 crlupdate	mono
 crlutil	cryptography
@@ -963,6 +962,7 @@ cslatex	texlive
 csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
+cstool	capstone
 csv2cve	cve-bin-tool
 csysdig	performance-tools
 ct_run	rabbitmq-server
@@ -2842,6 +2842,7 @@ jadetex	texlive
 jags	R-extras-dev
 jailer	containers-virt
 jamo-normalize	texlive
+jaotc	java-runtime
 jaotc11	java11-basic
 jaotc12	java12-basic
 jaotc13	java13-basic
@@ -2884,6 +2885,7 @@ jdb	java-runtime
 jdb11	java11-basic
 jdb12	java12-basic
 jdb13	java13-basic
+jdeprscan	java-runtime
 jdeprscan11	java11-basic
 jdeprscan12	java12-basic
 jdeprscan13	java13-basic
@@ -2898,12 +2900,15 @@ jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
+jfr	java-runtime
 jfr12	java12-basic
 jfr13	java13-basic
 jhat	java-runtime
+jhsdb	java-runtime
 jhsdb11	java11-basic
 jhsdb12	java12-basic
 jhsdb13	java13-basic
+jimage	java-runtime
 jimage11	java11-basic
 jimage12	java12-basic
 jimage13	java13-basic
@@ -2915,6 +2920,7 @@ jjs	java-runtime
 jjs11	java11-basic
 jjs12	java12-basic
 jjs13	java13-basic
+jlink	java-runtime
 jlink11	java11-basic
 jlink12	java12-basic
 jlink13	java13-basic
@@ -2924,6 +2930,7 @@ jmap	java-runtime
 jmap11	java11-basic
 jmap12	java12-basic
 jmap13	java13-basic
+jmod	java-runtime
 jmod11	java11-basic
 jmod12	java12-basic
 jmod13	java13-basic
@@ -2950,6 +2957,7 @@ js52-config	devpkg-mozjs52
 js60	devpkg-mozjs60
 js60-config	devpkg-mozjs60
 jsadebugd	java-runtime
+jshell	java-runtime
 jshell11	java11-basic
 jshell12	java12-basic
 jshell13	java13-basic
@@ -5408,6 +5416,7 @@ rdoc	ruby-basic
 rds-ctl	v4l-utils
 re2c	sysadmin-basic-dev
 readelf	binutils
+readelf.py	dpdk
 readlink	os-core
 readprofile	os-core
 realpath	os-core
@@ -7180,6 +7189,7 @@ xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
 xcursorgen	desktop-dev
+xdg-dbus-proxy	games-dev
 xdg-desktop-icon	desktop-lxqt
 xdg-desktop-menu	desktop-lxqt
 xdg-email	desktop-lxqt
