@@ -940,6 +940,7 @@ createuser	postgresql
 cri-containerd	containers-basic
 crictl	containers-basic
 crio	containers-basic
+crio-status	containers-basic
 critest	containers-basic
 crlupdate	mono
 crlutil	cryptography
@@ -1028,9 +1029,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	jupyter
-cython	jupyter
-cythonize	jupyter
+cygdb	python-extras
+cython	python-extras
+cythonize	python-extras
 daemon.sh	apache-tomcat
 dapltest	hpc-utils
 darktable	darktable
@@ -1579,9 +1580,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -4133,7 +4134,7 @@ mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
 mozroots	mono
-mp2bug	perl-basic-dev
+mp2bug	perl-extras
 mpartition	storage-utils
 mpathpersist	storage-utils
 mpeg2vaenc	libva-utils
@@ -4545,6 +4546,7 @@ objcopy	binutils
 objdump	binutils
 object_detection_sample_ssd	computer-vision-openvino
 obs	obs-studio
+obs-ffmpeg-mux	obs-studio
 obxprop	desktop-lxqt
 ocaml	ocaml-basic
 ocaml-instr-graph	ocaml-basic
@@ -5000,6 +5002,7 @@ pktogf	texlive
 pkttyagent	polkit
 pktype	texlive
 pl2pm	perl-basic
+plackup	perl-extras
 plasma-browser-integration-host	desktop-kde
 plasma-discover	desktop-kde
 plasma_session	desktop-kde
