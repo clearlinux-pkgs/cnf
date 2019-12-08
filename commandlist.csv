@@ -1,5 +1,6 @@
 2to3	python3-basic
-2to3-3.7	python3-basic
+2to3-3.7	os-clr-on-clr-dev
+2to3-3.8	python3-basic
 3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -935,7 +936,7 @@ corelist	perl-basic
 coreutils	os-core
 cover	perl-extras
 coverage	python-extras
-coverage-3.7	python-extras
+coverage-3.8	python-extras
 coverage3	python-extras
 cp	os-core
 cpack	c-basic
@@ -1417,7 +1418,7 @@ e2undo	os-cloudguest-aliyun
 e4crypt	os-core
 e4defrag	os-cloudguest-aliyun
 easy_install	python3-basic
-easy_install-3.7	python3-basic
+easy_install-3.8	python3-basic
 easyaccess-test	devpkg-exiv2
 ebb	texlive
 ebong	texlive
@@ -1622,7 +1623,7 @@ f2fscrypt	storage-utils
 f2fstat	storage-utils
 f2py	jupyter
 f2py3	jupyter
-f2py3.7	jupyter
+f2py3.8	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -1916,8 +1917,8 @@ geary	geary
 gedi	perl-extras
 gedit	gedit
 geeqie	geeqie
-gegl	devpkg-gimp
-gegl-imgcmp	devpkg-gimp
+gegl	devpkg-gegl
+gegl-imgcmp	devpkg-gegl
 gem	ruby-basic
 gen_binary_files	desktop
 gen_client	os-cloudguest-gce
@@ -2586,7 +2587,7 @@ idiff	blender
 idl2wrs	wireshark
 idle	storage-cluster
 idle3	python3-tcl
-idle3.7	python3-tcl
+idle3.8	python3-tcl
 idlj	java-runtime
 idn	devpkg-libidn
 idn2	devpkg-libidn2
@@ -4488,7 +4489,7 @@ nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
 nosetests	jupyter
-nosetests-3.7	jupyter
+nosetests-3.8	jupyter
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
@@ -5002,7 +5003,7 @@ pip	python3-basic
 pip2	python2-basic
 pip2.7	python2-basic
 pip3	python3-basic
-pip3.7	python3-basic
+pip3.8	python3-basic
 pip_stress	dev-utils
 pipewire	devpkg-pipewire
 pipewire-cli	devpkg-pipewire
@@ -5144,7 +5145,7 @@ profile2mat.pl	openmpi
 profiles	samba
 proj	maker-gis
 projinfo	maker-gis
-protoc	machine-learning-pytorch
+protoc	openstack-common
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 protoc-gen-go	cloud-native-basic
@@ -5255,7 +5256,8 @@ pycc	python-data-science
 pycodestyle	python3-basic
 pydoc	storage-cluster
 pydoc3	python3-basic
-pydoc3.7	python3-basic
+pydoc3.7	os-clr-on-clr-dev
+pydoc3.8	python3-basic
 pydocstyle	python-extras
 pyflakes	scm-server
 pyftmerge	fonttools
@@ -5306,13 +5308,14 @@ python2.7-config	storage-cluster
 python3	python3-basic
 python3-config	python3-basic
 python3.7	python3-basic
-python3.7-config	python3-basic
-python3.7m	python3-basic
-python3.7m-config	python3-basic
+python3.7-config	os-clr-on-clr-dev
+python3.7m	os-clr-on-clr-dev
+python3.7m-config	os-clr-on-clr-dev
+python3.8	python3-basic
+python3.8-config	python3-basic
 pythontex	texlive
 pyuic5	maker-3dprinting
-pyvenv	python3-basic
-pyvenv-3.7	python3-basic
+pyvenv-3.7	os-clr-on-clr-dev
 qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
 qbs	qt-creator
@@ -6203,7 +6206,7 @@ su	os-core
 su-exec	su-exec
 subunit-1to2	software-testing
 subunit-2to1	software-testing
-subunit-diff	c-basic-legacy
+subunit-diff	devpkg-subunit
 subunit-filter	software-testing
 subunit-ls	software-testing
 subunit-notify	software-testing
@@ -6211,7 +6214,7 @@ subunit-output	software-testing
 subunit-stats	software-testing
 subunit-tags	software-testing
 subunit2csv	software-testing
-subunit2disk	c-basic-legacy
+subunit2disk	devpkg-subunit
 subunit2gtk	software-testing
 subunit2junitxml	software-testing
 subunit2pyunit	software-testing
