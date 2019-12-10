@@ -1079,10 +1079,8 @@ darktable-cltest	darktable
 darktable-cmstest	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
-dask-remote	python-extras
 dask-scheduler	python-extras
 dask-ssh	python-extras
-dask-submit	python-extras
 dask-worker	python-extras
 date	os-core
 datefudge	perl-basic-dev
