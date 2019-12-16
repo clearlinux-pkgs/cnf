@@ -1,5 +1,4 @@
 2to3	python3-basic
-2to3-3.7	os-clr-on-clr-dev
 2to3-3.8	python3-basic
 3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
@@ -20,7 +19,7 @@ FederationStateStoreTables.sql	big-data-basic
 FederationStateStoreUser.sql	big-data-basic
 FreeCAD	maker-cnc
 FreeCADCmd	maker-cnc
-Fritzing	education-tertiary
+Fritzing	maker-electronics
 Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
 MagickWand-config	ImageMagick
@@ -592,7 +591,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1430,7 +1429,7 @@ ebtables-save	iptables
 echo	os-core
 ecore_evas_convert	desktop-enlightenment
 ecpg	postgresql
-ed	dev-utils-dev
+ed	editors
 edgepaint	graphviz
 editcap	wireshark
 editdiff	dev-utils
@@ -1544,7 +1543,6 @@ escputil	hardware-printing
 escript	rabbitmq-server
 esdcompat	pulseaudio
 espdiff	dev-utils
-estimator_ckpt_converter	machine-learning-tensorflow
 etags	editors
 etex	texlive
 ethtool	ethtool
@@ -1778,7 +1776,6 @@ free	procps-ng
 freedv	amateur-radio
 freerdp-shadow-cli	pidgin
 freetype-config	sysprof
-freeze_graph	machine-learning-tensorflow
 freshclam	clamav
 fribidi	devpkg-fribidi
 fsadm	storage-utils
@@ -3224,7 +3221,7 @@ kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	sysadmin-basic
 kmousetool	kmousetool
-kmouth	desktop-kde-games
+kmouth	desktop-kde-apps
 kmplot	kmplot
 kms.sh	big-data-basic
 knavalbattle	desktop-kde-games
@@ -5061,7 +5058,7 @@ png2mng.pl	desktop-kde-apps
 pngfix	sysprof
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
-po2xml	desktop-kde-games
+po2xml	desktop-kde-apps
 po4a	po4a
 po4a-gettextize	po4a
 po4a-normalize	po4a
@@ -5143,7 +5140,7 @@ profile2mat.pl	openmpi
 profiles	samba
 proj	maker-gis
 projinfo	maker-gis
-protoc	openstack-common
+protoc	machine-learning-pytorch
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 protoc-gen-go	cloud-native-basic
@@ -5254,7 +5251,6 @@ pycc	python-data-science
 pycodestyle	python3-basic
 pydoc	storage-cluster
 pydoc3	python3-basic
-pydoc3.7	os-clr-on-clr-dev
 pydoc3.8	python3-basic
 pydocstyle	python-extras
 pyflakes	scm-server
@@ -5306,14 +5302,10 @@ python2.7-config	storage-cluster
 python3	python3-basic
 python3-config	python3-basic
 python3.7	python3-basic
-python3.7-config	os-clr-on-clr-dev
-python3.7m	os-clr-on-clr-dev
-python3.7m-config	os-clr-on-clr-dev
 python3.8	python3-basic
 python3.8-config	python3-basic
 pythontex	texlive
 pyuic5	maker-3dprinting
-pyvenv-3.7	os-clr-on-clr-dev
 qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
 qbs	qt-creator
@@ -5464,7 +5456,7 @@ rec_control	pdns-recursor
 recode-sr-latin	c-basic
 recountdiff	dev-utils
 recv_image	mtd-utils
-red	dev-utils-dev
+red	editors
 rediff	dev-utils
 redis-benchmark	redis-native
 redis-check-aof	redis-native
@@ -5766,6 +5758,7 @@ sdig	pdns
 sdkserver	openstack-common
 sdl-config	devpkg-SDL
 sdl2-config	devpkg-SDL2
+sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
 seahorse-daemon	desktop-dev
@@ -5966,7 +5959,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
@@ -6097,7 +6090,7 @@ spirv-remap	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
-split2po	desktop-kde-games
+split2po	desktop-kde-apps
 splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
@@ -6257,7 +6250,7 @@ svsematest	dev-utils
 swaplabel	os-core
 swapoff	os-core
 swapon	os-core
-swappo	desktop-kde-games
+swappo	desktop-kde-apps
 sway	sway
 swaybar	sway
 swaybg	sway
@@ -6772,7 +6765,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	qt-core
+update-mime-database	sddm
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
@@ -7320,7 +7313,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	sysadmin-basic-dev
 xml2-config	libxml2
-xml2pot	desktop-kde-games
+xml2pot	desktop-kde-apps
 xml2stems	gtkwave
 xml_grep	perl-extras
 xml_merge	perl-extras
