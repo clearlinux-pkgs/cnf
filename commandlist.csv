@@ -591,7 +591,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -5782,7 +5782,6 @@ serve_image	mtd-utils
 servertool	java-runtime
 servicemenuinstaller	dolphin
 set-crio-default-runtime	containers-virt
-set-docker-default-runtime	containers-virt
 setarch	os-core
 setcap	sysadmin-basic
 setclasspath.sh	apache-tomcat
@@ -5959,7 +5958,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
