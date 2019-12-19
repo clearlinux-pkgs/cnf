@@ -386,7 +386,6 @@ bdftruncate	devpkg-font-util
 beeline	big-data-basic
 beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
-bertprobe	devpkg-telemetrics-client
 bg5+latex	texlive
 bg5+pdflatex	texlive
 bg5conv	texlive
