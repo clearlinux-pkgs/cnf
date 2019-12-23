@@ -20,6 +20,7 @@ FederationStateStoreUser.sql	big-data-basic
 FreeCAD	maker-cnc
 FreeCADCmd	maker-cnc
 Fritzing	maker-electronics
+GenX_IR	hardware-gpu
 Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
 MagickWand-config	ImageMagick
@@ -378,6 +379,7 @@ bc	bc
 bcache-super-show	bcache-tools
 bcc-lua	bcc
 bccmd	hardware-bluetooth
+bcftools	samtools
 bcmserver	automotive-tools
 bcomps	graphviz
 bdftogd	devpkg-libgd
@@ -663,6 +665,7 @@ cert-to-efi-hash-list	os-clr-on-clr
 cert-to-efi-sig-list	os-clr-on-clr
 cert2spc	mono
 certbot	letsencrypt-client
+certbot_test	letsencrypt-client
 certmgr	mono
 certtool	cryptography
 certutil	cryptography
@@ -878,6 +881,7 @@ collectdctl	collectd
 collectdmon	collectd
 collectl	sysadmin-basic
 colmux	sysadmin-basic
+color-chrs.pl	samtools
 colormgr	desktop
 colorsvn	desktop-kde-apps
 colrm	os-core
@@ -1064,9 +1068,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	jupyter
-cython	jupyter
-cythonize	jupyter
+cygdb	python-extras
+cython	python-extras
+cythonize	python-extras
 daemon.sh	apache-tomcat
 dapltest	hpc-utils
 darktable	darktable
@@ -1615,9 +1619,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	jupyter
-f2py3	jupyter
-f2py3.8	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.8	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -2277,6 +2281,7 @@ gtkdoc-scangobj	devpkg-gtk-doc
 gtkdocize	devpkg-gtk-doc
 gtkwave	gtkwave
 guards	dev-utils
+guess-ploidy.py	samtools
 guiconfig	service-os-dev
 guild	c-basic
 guile	c-basic
@@ -4144,7 +4149,7 @@ mount.ceph	ceph
 mount.cifs	storage-utils
 mount.efs	cloud-api
 mount.fuse.ceph	ceph
-mount.fuse.sshfs	storage-utils
+mount.fuse.sshfs	sshfs
 mount.fuse3	fuse
 mount.glusterfs	storage-cluster
 mount.lowntfs-3g	storage-utils
@@ -4152,7 +4157,7 @@ mount.nfs	nfs-utils
 mount.nfs4	nfs-utils
 mount.ntfs	storage-utils
 mount.ntfs-3g	storage-utils
-mount.sshfs	storage-utils
+mount.sshfs	sshfs
 mount.vmhgfs	os-cloudguest-vmware
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
@@ -4485,6 +4490,7 @@ nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
 nosetests	jupyter
+nosetests-3	jupyter
 nosetests-3.8	jupyter
 notepad	wine
 notify-send	devpkg-libnotify
@@ -5039,6 +5045,8 @@ pldd	os-core
 plipconfig	net-tools
 plookup	R-extras-dev
 plot-bamstats	samtools
+plot-roh.py	samtools
+plot-vcfstats	samtools
 pltotf	texlive
 pluginviewer	desktop-kde-apps
 plus	calc
@@ -5640,7 +5648,9 @@ ruby	ruby-basic
 rumakeindex	texlive
 run-on-ac	TLP
 run-on-bat	TLP
+run-roh.pl	samtools
 run-with-aspell	aspell
+run_acme_server	letsencrypt-client
 run_erl	rabbitmq-server
 run_perftest_loopback	hpc-utils
 run_perftest_multi_devices	hpc-utils
@@ -6126,7 +6136,7 @@ ssh-copy-id	sysadmin-basic
 ssh-keygen	sysadmin-basic
 ssh-keyscan	sysadmin-basic
 sshd	openssh-server
-sshfs	storage-utils
+sshfs	sshfs
 sshpass	ansible
 ssltap	cryptography
 ssocr	ssocr
@@ -6843,6 +6853,7 @@ vcd2fst	gtkwave
 vcd2lxt	gtkwave
 vcd2lxt2	gtkwave
 vcd2vzt	gtkwave
+vcfutils.pl	samtools
 vdir	os-core
 vendstat	hpc-utils
 verify-uselistorder	llvm
