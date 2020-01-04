@@ -1068,9 +1068,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	python-extras
-cython	python-extras
-cythonize	python-extras
+cygdb	jupyter
+cython	jupyter
+cythonize	jupyter
 daemon.sh	apache-tomcat
 dapltest	hpc-utils
 darktable	darktable
@@ -1619,9 +1619,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	python-extras
-f2py3	python-extras
-f2py3.8	python-extras
+f2py	jupyter
+f2py3	jupyter
+f2py3.8	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -2139,8 +2139,6 @@ google_clock_skew_daemon	os-cloudguest-gce
 google_instance_setup	os-cloudguest-gce
 google_metadata_script_runner	os-cloudguest-gce
 google_network_daemon	os-cloudguest-gce
-google_optimize_local_ssd	os-cloudguest-gce
-google_set_multiqueue	os-cloudguest-gce
 gozilla	global
 gparted	gparted
 gpartedbin	gparted
@@ -5730,7 +5728,7 @@ sccmap	graphviz
 scdoc	dev-utils
 schemagen	java-runtime
 sclient	enterprise-login
-scmp_sys_resolver	file
+scmp_sys_resolver	devpkg-libseccomp
 scncopy	dev-utils
 scons	scons
 scons-3.1.2	scons
