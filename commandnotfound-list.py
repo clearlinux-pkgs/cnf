@@ -152,14 +152,14 @@ def main():
 
     read_MoM(VERSION)
 
-    for bundle in bundles:
+    for bundle in sorted(bundles):
         if bundle not in blacklist:
             read_manifest(bundle, bundles[bundle])
-    for bundle in bundles:
+    for bundle in sorted(bundles):
         if bundle in blacklist:
             read_manifest(bundle, bundles[bundle])
 
-    for binary in bin_bundle:
+    for binary in sorted(bin_bundle):
         print(binary + "\t" + bin_bundle[binary])
 
 
