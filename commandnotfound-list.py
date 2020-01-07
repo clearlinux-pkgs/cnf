@@ -43,17 +43,17 @@ def declare_binary(bundle: str, binary: str, size: int):
 
     if bundle in blacklist:
         size = size * 100 + 5000000
-    if "-dev" in bundle or "devpkg-" in bundle:
+    if bundle.endswith("-dev") or bundle.startswith("devpkg-"):
         size = size * 80 + 2000000
 
     if bundle in whitelist:
         size = size / 10
-        
-    # This weeks special: 10% discount on basic bundles 
-    if "-basic" in bundle:
+
+    # This weeks special: 10% discount on basic bundles
+    if bundle.endswith("-basic"):
         size = size * 0.90
     # Extras are hit with a 10% special import duty due to trade war
-    if "-extras" in bundle:
+    if bundle.endswith("-extras"):
         size = size * 1.10
 
     if binary not in bin_bundle or binary == bundle:
@@ -85,8 +85,8 @@ def read_manifest(pack, version):
 
             if 'd' in flags:
                 continue
-                
-            if '/usr/bin/' in file and '/usr/share/' not in file:
+
+            if file.startswith('/usr/bin/'):
                 basename = os.path.basename(file)
                 declare_binary(pack, basename, bundlesize)
 
