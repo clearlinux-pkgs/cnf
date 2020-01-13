@@ -5489,6 +5489,7 @@ regsvr32	wine
 regtree	samba
 reindexdb	postgresql
 remmina	Remmina
+remmina-file-wrapper.sh	Remmina
 remmina-gnome	Remmina
 remote-viewer	virt-viewer
 remotectl	cockpit
