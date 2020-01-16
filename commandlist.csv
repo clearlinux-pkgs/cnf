@@ -214,7 +214,6 @@ ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
 apachectl	httpd
-apirst2html.py	python-extras
 aplay	alsa-utils
 aplaymidi	alsa-utils
 append2simg	storage-utils
@@ -1031,7 +1030,6 @@ cups-browsed	hardware-printing
 cups-calibrate	hardware-printing
 cups-config	hardware-printing
 cups-genppd.5.3	hardware-printing
-cups-genppdupdate	hardware-printing
 cupsaccept	hardware-printing
 cupsctl	hardware-printing
 cupsd	hardware-printing
@@ -1525,8 +1523,6 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epydoc	python-extras
-epydocgui	python-extras
 epylint	scm-server
 eqn	man-pages
 eqn2graph	man-pages
@@ -2502,7 +2498,7 @@ i3-sensible-terminal	desktop-i3
 i3-with-shmlog	desktop-i3
 i386	os-core
 i3bar	desktop-i3
-i3blocks	desktop-i3
+i3blocks	i3blocks
 i3lock	desktop-i3
 i3status	desktop-i3
 ias-setup	software-defined-cockpit
@@ -3409,7 +3405,7 @@ libftdi1-config	maker-basic
 libgcrypt-config	devpkg-libgcrypt
 libgtop_daemon2	devpkg-libgtop
 libgtop_server2	devpkg-libgtop
-libinput	desktop
+libinput	devpkg-libinput
 libnetcfg	perl-basic
 libpng-config	devpkg-libpng
 libpng16-config	devpkg-libpng
@@ -4328,7 +4324,7 @@ native2ascii	java-runtime
 nautilus	nautilus
 nautilus-autorun-software	nautilus
 nc	sysadmin-basic
-ncat	sysadmin-basic
+ncat	ncat
 ncdu	ncdu
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
@@ -5328,7 +5324,7 @@ qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
 qemu-ga	qemu-guest-additions
 qemu-i386	kvm-host
-qemu-img	kvm-host
+qemu-img	clr-installer
 qemu-io	kvm-host
 qemu-keymap	kvm-host
 qemu-nbd	kvm-host
@@ -6039,7 +6035,7 @@ snmpvacm	performance-tools
 snmpwalk	performance-tools
 soap2sam.pl	samtools
 soapsuds	mono
-socat	sysadmin-basic
+socat	socat
 soelim	man-pages
 soffice	libreoffice
 solaar	Solaar-gui
