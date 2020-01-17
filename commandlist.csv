@@ -1092,8 +1092,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	games-dev
-dbus-broker-launch	games-dev
+dbus-broker	kde-frameworks5-dev
+dbus-broker-launch	kde-frameworks5-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1673,7 +1673,7 @@ fgrep	os-core
 fibmap.f2fs	storage-utils
 fidentify	testdisk
 fig4latex	texlive
-filan	sysadmin-basic
+filan	socat
 file	file
 file-roller	file-roller
 filecap	devpkg-libcap-ng
@@ -3838,7 +3838,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	openstack-common
+mako-render	salt
 man	man-pages
 mandb	man-pages
 manifest	byobu
@@ -5132,7 +5132,7 @@ printenv	os-core
 printf	os-core
 privsep-helper	openstack-common
 prlimit	os-core
-procan	sysadmin-basic
+procan	socat
 procmail	mail-utils
 profile2mat.pl	openmpi
 profiles	samba
@@ -5324,7 +5324,7 @@ qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
 qemu-ga	qemu-guest-additions
 qemu-i386	kvm-host
-qemu-img	clr-installer
+qemu-img	kvm-host
 qemu-io	kvm-host
 qemu-keymap	kvm-host
 qemu-nbd	kvm-host
@@ -5660,6 +5660,10 @@ rxe_cfg	hpc-utils
 s3fs	s3fs-fuse
 s3put	cloud-api
 sadf	sysstat
+salt-call	salt
+salt-cloud	salt
+salt-run	salt
+salt-ssh	salt
 sam2vcf.pl	samtools
 samba	samba
 samba-gpupdate	samba
@@ -5686,7 +5690,7 @@ sar	sysstat
 saslauthd	desktop-kde-apps
 sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
-sassc	games-dev
+sassc	kde-frameworks5-dev
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
 saxfr	pdns
@@ -6086,6 +6090,7 @@ split	os-core
 split2po	desktop-kde-apps
 splitdiff	dev-utils
 splitindex	texlive
+spm	salt
 sponge	os-testsuite-0day
 sprof	os-core
 sql	parallel
