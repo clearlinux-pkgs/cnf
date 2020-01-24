@@ -820,6 +820,7 @@ clang-tidy-9	llvm
 clangd	llvm
 clangd-9	llvm
 classification_sample_async	computer-vision-openvino
+clddb-tool	nfs-utils
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
 cli4	letsencrypt-client
@@ -5569,11 +5570,11 @@ rpc.idmapd	nfs-utils
 rpc.mountd	nfs-utils
 rpc.nfsd	nfs-utils
 rpc.statd	nfs-utils
-rpcbind	nfs-utils
+rpcbind	storage-cluster
 rpcclient	samba
 rpcdebug	nfs-utils
 rpcgen	os-core
-rpcinfo	nfs-utils
+rpcinfo	storage-cluster
 rpdfcrop	texlive
 rping	hpc-utils
 rpm	package-utils
@@ -5741,6 +5742,7 @@ scp	sysadmin-basic
 screen	sysadmin-basic
 screen-4.7.0	sysadmin-basic
 script	os-core
+scriptlive	os-core
 scriptreplay	os-core
 scsi_logging_level	openstack-common
 scsi_mandat	openstack-common
