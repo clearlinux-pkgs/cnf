@@ -127,6 +127,7 @@ def main():
     blacklist.append("os-cloudguest-aws")
     blacklist.append("os-cloudguest-gce")
     blacklist.append("os-cloudguest-oracle")
+    blacklist.append("os-cloudguest-aliyun")	# don't want it to find mkfs.ext4
 
     whitelist.append("python3-basic")
     whitelist.append("python-extras")
