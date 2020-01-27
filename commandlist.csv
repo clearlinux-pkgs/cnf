@@ -381,7 +381,7 @@ bccmd	hardware-bluetooth
 bcftools	samtools
 bcmserver	automotive-tools
 bcomps	graphviz
-bdf2gdfont.pl	dev-utils
+bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
 bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
@@ -5570,11 +5570,11 @@ rpc.idmapd	nfs-utils
 rpc.mountd	nfs-utils
 rpc.nfsd	nfs-utils
 rpc.statd	nfs-utils
-rpcbind	storage-cluster
+rpcbind	nfs-utils
 rpcclient	samba
 rpcdebug	nfs-utils
 rpcgen	os-core
-rpcinfo	storage-cluster
+rpcinfo	nfs-utils
 rpdfcrop	texlive
 rping	hpc-utils
 rpm	package-utils
@@ -7461,6 +7461,11 @@ yamivpp	desktop-apps
 yaml2obj	llvm
 yaml2obj-8	llvm8
 yaml2obj-9	llvm
+yamlpp5-events	perl-extras
+yamlpp5-highlight	perl-extras
+yamlpp5-load	perl-extras
+yamlpp5-load-dump	perl-extras
+yamlpp5-parse-emit	perl-extras
 yappi	openstack-common
 yarn	big-data-basic
 yarn-daemon.sh	big-data-basic
