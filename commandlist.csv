@@ -1717,7 +1717,7 @@ fixproc	performance-tools
 fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
-flake8	python-extras
+flake8	jupyter
 flare	flare
 flarq	amateur-radio
 flash-var	os-clr-on-clr
@@ -3019,6 +3019,7 @@ jupyter-labhub	jupyter
 jupyter-migrate	jupyter
 jupyter-nbconvert	jupyter
 jupyter-nbextension	jupyter
+jupyter-nbgallery	jupyter
 jupyter-notebook	jupyter
 jupyter-qtconsole	jupyter
 jupyter-run	jupyter
@@ -3272,6 +3273,7 @@ krita	krita
 kritarunner	krita
 kruler	desktop-kde-games
 krunner	desktop-kde
+krusader	krusader
 ksba-config	containers-basic-dev
 kscreen-console	desktop-kde-apps
 kscreen-doctor	desktop-kde-apps
