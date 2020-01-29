@@ -1144,6 +1144,7 @@ desktop-file-edit	desktop
 desktop-file-install	desktop
 desktop-file-validate	desktop
 desktoptojson	kde-frameworks5
+determine_maximum_mpps.sh	dev-utils
 detex	texlive
 devhelp	devhelp
 devlink	iproute2
@@ -1950,6 +1951,7 @@ geotifcp	R-extras-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
 get-versions	sysadmin-basic
+get_cpuinfo_mhz.sh	dev-utils
 get_device	openstack-common
 get_driver	openstack-common
 get_module	openstack-common
@@ -2464,6 +2466,7 @@ hv_kvp_daemon	os-cloudguest-azure
 hv_vss_daemon	os-cloudguest-azure
 hwclock	os-core
 hwinfo	performance-tools
+hwlatdetect	dev-utils
 hwloc-annotate	hwloc
 hwloc-bind	hwloc
 hwloc-calc	hwloc
@@ -5777,7 +5780,6 @@ sed	os-core
 sem	parallel
 sendmail	perl-basic
 sendmail-postfix	postfix
-sendme	dev-utils
 sensors	lm-sensors
 sensors-conf-convert	lm-sensors
 sensors-detect	lm-sensors
@@ -6127,6 +6129,7 @@ srp_daemon.sh	hpc-utils
 srptool	cryptography
 ss	iproute2
 ss2	package-utils
+ssdd	dev-utils
 sserver	enterprise-login
 ssh	sysadmin-basic
 ssh-add	sysadmin-basic
