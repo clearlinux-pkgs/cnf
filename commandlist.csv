@@ -383,7 +383,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beeline	big-data-basic
 beid-update-nssdb	eid-mw
@@ -556,7 +556,7 @@ cachepic	texlive
 cairo-trace	devpkg-cairo
 cal	os-core
 calc	calc
-calc-prorate	ceph
+calc-prorate	conda
 calendarjanitor	akonadi
 calidns	pdns
 callgrind_annotate	valgrind
@@ -713,7 +713,7 @@ cheese	cheese
 cheetah	koji
 cheetah-analyze	koji
 cheetah-compile	koji
-cheroot	ceph
+cheroot	conda
 cherryd	ceph
 chfn	os-core
 chgpasswd	os-core
@@ -894,6 +894,7 @@ compare	ImageMagick
 compile-et.pl	devpkg-nspr
 compile_et	storage-utils
 composite	ImageMagick
+conda	conda
 conf.py	storage-cluster
 config_data	perl-extras
 configtest.sh	apache-tomcat
@@ -1327,6 +1328,7 @@ dropuser	postgresql
 dropwatch	dropwatch
 drs232	amateur-radio
 drs232_ldpc	amateur-radio
+dshbak	cluster-tools
 dstat	performance-tools
 dsymutil	llvm
 dsymutil-8	llvm8
@@ -2078,7 +2080,7 @@ gmic	desktop-apps-extras
 gml2gv	graphviz
 gnmanalyse	python-extras
 gnmmanage	python-extras
-gnome-autogen.sh	desktop-dev
+gnome-autogen.sh	os-utils-gui-dev
 gnome-boxes	gnome-boxes
 gnome-calculator	gnome-calculator
 gnome-calendar	desktop
@@ -2928,9 +2930,9 @@ jdeps	java-runtime
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -2988,8 +2990,8 @@ jshell13	java13-basic
 json-glib-format	devpkg-json-glib
 json-glib-validate	devpkg-json-glib
 json_pp	perl-basic
-json_reformat	desktop-dev
-json_verify	desktop-dev
+json_reformat	kvm-host-dev
+json_verify	kvm-host-dev
 json_xs	perl-extras
 jsondiff	diffoscope
 jsonpatch	openstack-common
@@ -3910,7 +3912,7 @@ mcat	storage-utils
 mcd	storage-utils
 mcdiff	sysadmin-basic
 mcedit	sysadmin-basic
-mcelog	kernel-iot-lts2017-preempt-rt
+mcelog	kernel-iot-lts2018
 mcheck	storage-utils
 mckey	hpc-utils
 mclasserase	storage-utils
@@ -4004,6 +4006,7 @@ minetestserver	minetestserver
 minfo	storage-utils
 minicom	minicom
 minimodem	amateur-radio
+miniterm.py	conda
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
 mix	openstack-common
@@ -4092,8 +4095,8 @@ modularize-9	llvm
 module-starter	perl-extras
 modulemd-validator-v1	os-clr-on-clr-dev
 modutil	cryptography
-mof_compiler	desktop-dev
-mof_compiler.bat	desktop-dev
+mof_compiler	os-utils-gui-dev
+mof_compiler.bat	os-utils-gui-dev
 moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
@@ -4264,6 +4267,8 @@ multixterm	tcl-basic
 mumble	mumble
 mumble-overlay	mumble
 munch	kde-frameworks5-dev
+munge	cluster-tools
+munged	cluster-tools
 murmurd	murmur
 musescore	MuseScore
 musixflx	texlive
@@ -4658,7 +4663,7 @@ ompi-clean	openmpi
 ompi-server	openmpi
 ompi_info	openmpi
 omshell	pxe-server
-onig-config	php-basic-dev
+onig-config	sysadmin-basic-dev
 onnode	samba
 ontap_lsmplugin	sysadmin-remote
 oom-listener	big-data-basic
@@ -4688,7 +4693,7 @@ opt	llvm
 opt-8	llvm8
 opt-9	llvm
 optimizegraphics	desktop-kde-apps
-optipng	desktop-dev
+optipng	os-utils-gui-dev
 orbd	java-runtime
 orc-bugreport	devpkg-orc
 orca	desktop
@@ -4844,6 +4849,7 @@ pczm	maker-basic
 pdata_tools	storage-utils
 pdb2mdb	mono
 pdbedit	samba
+pdcp	cluster-tools
 pdf180	texlive
 pdf270	texlive
 pdf2dsc	ghostscript
@@ -4899,6 +4905,7 @@ pdns_notify	pdns
 pdns_recursor	pdns-recursor
 pdns_server	pdns
 pdnsutil	pdns
+pdsh	cluster-tools
 pdvitomp	texlive
 pdvitype	texlive
 pdwtags	dev-utils
@@ -4932,7 +4939,7 @@ perror	mariadb
 pesigcheck	os-clr-on-clr
 pesign	os-clr-on-clr
 pesign-client	os-clr-on-clr
-pevent	R-extras-dev
+pevent	cluster-tools
 peverify	mono
 pf2afm	ghostscript
 pfarrei	texlive
@@ -5044,7 +5051,7 @@ platex	texlive
 play	sox
 pldd	os-core
 plipconfig	net-tools
-plookup	R-extras-dev
+plookup	cluster-tools
 plot-bamstats	samtools
 plot-roh.py	samtools
 plot-vcfstats	samtools
@@ -5056,7 +5063,7 @@ pm_which	perl-extras
 pmap	procps-ng
 pmc	time-server-basic
 pmempool	pmdk
-pmix_info	R-extras-dev
+pmix_info	cluster-tools
 pmpost	texlive
 pmqtest	dev-utils
 pmreorder	pmdk
@@ -5128,7 +5135,7 @@ pppoe-discovery	NetworkManager
 pppstats	NetworkManager
 pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
-pps	R-extras-dev
+pps	cluster-tools
 pr	os-core
 pre-grohtml	man-pages
 precat	aspell
@@ -5297,8 +5304,6 @@ pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
 pyside2-lupdate	python-qt
-pyside2-rcc	python-qt
-pyside2-uic	python-qt
 pyside_tool.py	python-qt
 pyspark	big-data-basic
 pytest	python-extras
@@ -5453,7 +5458,7 @@ rdma_xserver	hpc-utils
 rdmsr	performance-tools
 rdoc	ruby-basic
 rds-ctl	v4l-utils
-re2c	kde-frameworks5-dev
+re2c	php-basic-dev
 readelf	binutils
 readelf.py	dpdk
 readlink	os-core
@@ -5493,6 +5498,7 @@ remmina-file-wrapper.sh	Remmina
 remmina-gnome	Remmina
 remote-viewer	virt-viewer
 remotectl	cockpit
+remunge	cluster-tools
 rename	os-core
 renderdoccmd	developer-gpu
 renice	os-core
@@ -5580,6 +5586,7 @@ rpcclient	samba
 rpcdebug	nfs-utils
 rpcgen	os-core
 rpcinfo	nfs-utils
+rpdcp	cluster-tools
 rpdfcrop	texlive
 rping	hpc-utils
 rpm	package-utils
@@ -5672,7 +5679,10 @@ rvnamed	network-basic
 rxe_cfg	hpc-utils
 s3fs	s3fs-fuse
 s3put	cloud-api
+sacct	cluster-tools
+sacctmgr	cluster-tools
 sadf	sysstat
+salloc	cluster-tools
 salt-call	salt
 salt-cloud	salt
 salt-run	salt
@@ -5704,10 +5714,13 @@ saslauthd	desktop-kde-apps
 sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
 sassc	games-dev
+sattach	cluster-tools
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
 saxfr	pdns
+sbatch	cluster-tools
 sbattach	os-clr-on-clr
+sbcast	cluster-tools
 sbcdec	games-dev
 sbcenc	games-dev
 sbcinfo	games-dev
@@ -5724,6 +5737,7 @@ scan-build	llvm
 scan-build-9	llvm
 scan-view	llvm
 scan-view-9	llvm
+scancel	cluster-tools
 scandeps.pl	perl-extras
 scanimage	hardware-printing
 sccmap	graphviz
@@ -5742,6 +5756,7 @@ scons-time-3.1.2	scons
 scons.bat	scons
 sconsign	scons
 sconsign-3.1.2	scons
+scontrol	cluster-tools
 scor2prt	texlive
 scp	sysadmin-basic
 screen	sysadmin-basic
@@ -5765,6 +5780,7 @@ sdbadmin	cloud-api
 sddm	sddm
 sddm-greeter	sddm
 sddmthemeinstaller	desktop-kde
+sdiag	cluster-tools
 sdiff	diffutils
 sdig	pdns
 sdkserver	openstack-common
@@ -5893,6 +5909,7 @@ sgmldiff	docbook-utils
 sgmlspl.pl	perl-extras
 sgp_dd	openstack-common
 sh	os-core
+sh5util	cluster-tools
 sha1sum	os-core
 sha224sum	os-core
 sha256sum	os-core
@@ -5944,6 +5961,7 @@ simplemixer_testapp	software-defined-cockpit
 simpleplayer	desktop-apps
 simplescreenrecorder	simplescreenrecorder
 simplesearch	devpkg-xapian-core
+sinfo	cluster-tools
 sip	machine-learning-web-ui
 size	binutils
 sjisconv	texlive
@@ -5973,8 +5991,13 @@ sln	python-extras
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
+slurmctld	cluster-tools
+slurmd	cluster-tools
+slurmdbd	cluster-tools
+slurmstepd	cluster-tools
 sm-notify	nfs-utils
 smTestDriver-pv5.7	ParaView
+smap	cluster-tools
 smartctl	smartmontools
 smartd	smartmontools
 smartx_interactive_example	software-defined-cockpit
@@ -6105,6 +6128,7 @@ splitdiff	dev-utils
 splitindex	texlive
 spm	salt
 sponge	os-testsuite-0day
+sprio	cluster-tools
 sprof	os-core
 sql	parallel
 sql-split	perl-extras
@@ -6120,13 +6144,16 @@ sqlt-diff-old	perl-extras
 sqlt-dumper	perl-extras
 sqlt-graph	perl-extras
 square	calc
+squeue	cluster-tools
 squid	squid
 squidclient	squid
 src-hilite-lesspipe.sh	dev-utils
 srcredact	texlive
+sreport	cluster-tools
 srp_daemon	hpc-utils
 srp_daemon.sh	hpc-utils
 srptool	cryptography
+srun	cluster-tools
 ss	iproute2
 ss2	package-utils
 ssdd	dev-utils
@@ -6137,6 +6164,7 @@ ssh-agent	sysadmin-basic
 ssh-copy-id	sysadmin-basic
 ssh-keygen	sysadmin-basic
 ssh-keyscan	sysadmin-basic
+sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
 sshpass	ansible
@@ -6153,6 +6181,7 @@ sss_ssh_knownhostsproxy	enterprise-login
 sssctl	enterprise-login
 sssd	enterprise-login
 sst_dump	mariadb
+sstat	cluster-tools
 stacer	stacer
 stack	haskell-basic
 start-all.cmd	big-data-basic
@@ -6194,6 +6223,7 @@ stow	sysadmin-basic
 strace	strace
 stream	ImageMagick
 stress-ng	dev-utils
+strigger	cluster-tools
 strings	binutils
 stringto-test	devpkg-exiv2
 strip	binutils
@@ -6234,6 +6264,7 @@ suricata-update	suricata
 suricatactl	suricata
 suricatasc	suricata
 svcutil	mono
+sview	cluster-tools
 svlc	vlc
 svmdbtool	vpp
 svmtool	vpp
@@ -6808,6 +6839,7 @@ unlink	os-core
 unlz4	lz4
 unlzma	xz
 unmunch	kde-frameworks5-dev
+unmunge	cluster-tools
 unopkg	libreoffice
 unpack200	java-runtime
 unpack20011	java11-basic
@@ -7027,7 +7059,7 @@ vptovf	texlive
 vpxdec	devpkg-libvpx
 vpxenc	devpkg-libvpx
 vsyasm	yasm
-vte-2.91	desktop-dev
+vte-2.91	os-utils-gui-dev
 vtep-ctl	openvswitch
 vtkParseJava-pv5.7	ParaView
 vtkProbeOpenGLVersion-pv5.7	ParaView
@@ -7054,9 +7086,9 @@ watchgnupg	gnupg
 watchquagga	quagga
 wavpack	games-dev
 wayland-scanner	devpkg-wayland
-wbemcli	desktop-dev
-wbemcli.bat	desktop-dev
-wbemcli.py	desktop-dev
+wbemcli	os-utils-gui-dev
+wbemcli.bat	os-utils-gui-dev
+wbemcli.py	os-utils-gui-dev
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
@@ -7277,7 +7309,7 @@ xclip	x11-tools
 xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
-xcursorgen	desktop-dev
+xcursorgen	os-utils-gui-dev
 xdg-dbus-proxy	games-dev
 xdg-desktop-icon	desktop-i3
 xdg-desktop-menu	desktop-i3
@@ -7372,7 +7404,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	sysadmin-basic-dev
+xml	kvm-host-dev
 xml2-config	libxml2
 xml2pot	desktop-kde-apps
 xml2stems	gtkwave
@@ -7388,7 +7420,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	sysadmin-basic-dev
+xmlstarlet	kvm-host-dev
 xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
