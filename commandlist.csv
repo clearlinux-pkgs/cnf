@@ -91,6 +91,7 @@ acrnprobe	software-defined-cockpit-dev
 acrntrace	software-defined-cockpit-dev
 activate-global-python-argcomplete	diffoscope
 acyclic	graphviz
+add.modules	modules
 adddebug	desktop-kde-apps
 addftinfo	man-pages
 addgnupghome	gnupg
@@ -1494,6 +1495,7 @@ env_parallel.bash	parallel
 env_parallel.dash	parallel
 env_parallel.mksh	parallel
 env_parallel.sh	parallel
+envml	modules
 envs	domotica
 envsubst	c-basic
 eo_debug	desktop-enlightenment
@@ -2172,6 +2174,7 @@ gresource	firmware-update
 grid	desktop-apps
 grig	amateur-radio
 grilo-test-ui-0.3	totem
+grisbi	grisbi
 grl-inspect-0.3	totem
 grl-launch-0.3	totem
 grn	man-pages
@@ -2205,6 +2208,9 @@ gsequencer	gsequencer
 gsettings	firmware-update
 gsettings-data-convert	devpkg-GConf
 gsettings-schema-convert	devpkg-GConf
+gsf	libgsf
+gsf-office-thumbnailer	libgsf
+gsf-vba-dump	libgsf
 gsftopk	texlive
 gsl-config	devpkg-gsl
 gsl-histogram	devpkg-gsl
@@ -4004,6 +4010,7 @@ mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
 mkpic	texlive
+mkroot	modules
 mksquashfs	storage-utils
 mkswap	os-core
 mkt1font	texlive
@@ -4040,6 +4047,7 @@ modprobe	sysadmin-basic
 modularize	llvm
 modularize-9	llvm
 module-starter	perl-extras
+modulecmd	modules
 modulemd-validator-v1	os-clr-on-clr-dev
 modutil	cryptography
 mof_compiler	os-utils-gui-dev
@@ -6368,8 +6376,8 @@ tcftest	mail-utils-dev
 tchmgr	mail-utils-dev
 tchmttest	mail-utils-dev
 tchtest	mail-utils-dev
-tclsh	tcl-basic
-tclsh8.6	tcl-basic
+tclsh	modules
+tclsh8.6	modules
 tcpdump	network-basic
 tcpdump.4.9.3	network-basic
 tctmgr	mail-utils-dev
