@@ -5116,7 +5116,6 @@ projinfo	maker-gis
 protoc	protobuf
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
-protoc-gen-go	cloud-native-basic
 protocoltojson	kde-frameworks5
 prove	perl-basic
 proxy	os-core-webproxy
@@ -5709,7 +5708,7 @@ scontrol	cluster-tools
 scor2prt	texlive
 scp	sysadmin-basic
 screen	sysadmin-basic
-screen-4.7.0	sysadmin-basic
+screen-4.8.0	sysadmin-basic
 script	os-core
 scriptlive	os-core
 scriptreplay	os-core
@@ -6511,7 +6510,6 @@ tiffsplit	devpkg-tiff
 tificc	devpkg-lcms2
 tig	dev-utils
 tilix	tilix
-tiller	cloud-native-basic
 time	sysadmin-basic
 timed-read	tcl-basic
 timed-run	tcl-basic
