@@ -1703,7 +1703,7 @@ fixproc	performance-tools
 fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
-flake8	jupyter
+flake8	Sphinx
 flare	flare
 flarq	amateur-radio
 flash-var	os-clr-on-clr
@@ -2797,6 +2797,7 @@ isnsdd	storage-utils-dev
 iso-info	asunder
 iso-read	asunder
 isohybrid	syslinux
+isohybrid.pl	syslinux
 isort	scm-server
 isosize	os-core
 isotovideo	openqa
@@ -3125,6 +3126,7 @@ keystone-manage	openstack-common
 keystone-status	openstack-common
 keystone-wsgi-admin	openstack-common
 keystone-wsgi-public	openstack-common
+keytab-lilo	syslinux
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
@@ -3654,6 +3656,7 @@ lsmtd	mtd-utils
 lsns	os-core
 lsof	sysadmin-basic
 lspci	sysadmin-basic
+lss16toppm	syslinux
 lss3	cloud-api
 lsscsi	storage-utils
 lssubsys	devpkg-libcgroup
@@ -3876,6 +3879,7 @@ mcopy	storage-utils
 mcs	mono
 mcview	sysadmin-basic
 md5fa	samtools
+md5pass	syslinux
 md5sum	os-core
 md5sum-lite	samtools
 mdadm	storage-utils
@@ -3971,6 +3975,7 @@ mk_cmds	storage-utils
 mkbitmap	maker-cnc
 mkbundle	mono
 mkdir	os-core
+mkdiskimage	syslinux
 mkdosfs	dosfstools
 mke2fs	storage-utils
 mkexfatfs	storage-utils
@@ -5084,6 +5089,7 @@ ppdpo	hardware-printing
 pphs	ghostscript
 ppltotf	texlive
 ppm2tiff	devpkg-tiff
+ppmtolss16	syslinux
 pppd	NetworkManager
 pppdump	NetworkManager
 pppoe-discovery	NetworkManager
@@ -5216,6 +5222,7 @@ pwmake	os-core-dev
 pwmconfig	lm-sensors
 pwscore	os-core-dev
 pwunconv	os-core
+pxelinux-options	syslinux
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
@@ -5857,6 +5864,7 @@ sgmlspl.pl	perl-extras
 sgp_dd	openstack-common
 sh	os-core
 sh5util	cluster-tools
+sha1pass	syslinux
 sha1sum	os-core
 sha224sum	os-core
 sha256sum	os-core
@@ -6297,6 +6305,8 @@ sysctl	procps-ng
 sysdig	performance-tools
 sysdig-probe-loader	performance-tools
 syslinux	syslinux
+syslinux-nomtools	syslinux
+syslinux2ansi	syslinux
 sysprof	sysprof
 sysprof-cli	sysprof
 systemctl	sysadmin-basic
