@@ -1600,6 +1600,7 @@ extractbb	texlive
 extractrc	desktop-kde-apps
 extractres	texlive
 f-engrave	maker-cnc
+f2fs_io	storage-utils
 f2fscrypt	storage-utils
 f2fstat	storage-utils
 f2py	jupyter
@@ -2528,6 +2529,7 @@ ibus	desktop
 ibus-daemon	desktop
 ibus-setup	desktop
 ibus-table-createdb	desktop
+ibus-ui-emojier-plasma	desktop-kde
 ibv_asyncwatch	hpc-utils
 ibv_devices	hpc-utils
 ibv_devinfo	hpc-utils
@@ -4298,8 +4300,13 @@ native2ascii	java-basic
 nautilus	nautilus
 nautilus-autorun-software	nautilus
 nc	sysadmin-basic
+nc-config	R-extras-dev
 ncat	ncat
+nccopy	R-extras-dev
 ncdu	ncdu
+ncdump	R-extras-dev
+ncgen	R-extras-dev
+ncgen3	R-extras-dev
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
 ndctl	storage-utils
@@ -6370,6 +6377,7 @@ targetd_lsmplugin	sysadmin-remote
 task	productivity
 taskadmin	cloud-api
 taskset	os-core
+tastenbrett	desktop-kde
 tbl	man-pages
 tbtadm	sysadmin-basic
 tc	iproute2
@@ -6435,6 +6443,7 @@ testparm	samba
 testpattern	hardware-printing
 testpmd	dpdk
 testr	software-testing
+testsad	dpdk
 testsaslauthd	desktop-kde-apps
 testsolv	devpkg-libsolv
 tex	texlive
