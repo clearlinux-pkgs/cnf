@@ -322,7 +322,7 @@ auvirt	audit
 avahi-daemon	avahi-daemon
 avcenc	libva-utils
 avcstreamoutdemo	libva-utils
-avx512_1	lensfun
+avx512_1	SVT-HEVC
 awesome	desktop-awesome
 awesome-client	desktop-awesome
 awk	os-core
@@ -826,7 +826,7 @@ cloc	cloc
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
-clr-desktop-files.sh	desktop
+clr-desktop-files.sh	xfce4-desktop
 clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
@@ -2598,6 +2598,7 @@ img2webp	transcoding-support
 imgsize	perl-extras
 import	ImageMagick
 import_interpolation	desktop
+inb	performance-tools
 includemocs	desktop-kde-apps
 includeres	texlive
 indent	c-basic
@@ -2615,6 +2616,7 @@ initra-aws	kernel-hyperv-lts
 initra-desktop	kernel-lts2017
 inkscape	inkscape
 inkview	inkscape
+inl	performance-tools
 innochecksum	mariadb
 innoextract	sysadmin-basic
 inotifywait	inotify-tools
@@ -2676,6 +2678,7 @@ intltool-update	intltool
 intltoolize	intltool
 invgeod	maker-gis
 invproj	maker-gis
+inw	performance-tools
 ionice	os-core
 ioping	performance-tools
 iostat	sysstat
@@ -2897,6 +2900,7 @@ javah	java-basic
 javap	java-basic
 javap11	java11-basic
 javap13	java13-basic
+jcat	automotive-tools
 jcmd	java-basic
 jcmd11	java11-basic
 jcmd13	java13-basic
@@ -4065,6 +4069,7 @@ mof_compiler.bat	os-utils-gui-dev
 moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
+mokutil	sysadmin-basic
 monkeytype	python-extras
 monmaptool	ceph
 mono	mono
@@ -4708,7 +4713,10 @@ otfinfo	texlive
 otftotfm	texlive
 otp2ocp	texlive
 out123	mpg123
+outb	performance-tools
+outl	performance-tools
 outocp	texlive
+outw	performance-tools
 ovf2ovp	texlive
 ovn-controller	openvswitch
 ovn-controller-vtep	openvswitch
@@ -5351,6 +5359,7 @@ qra64sim	amateur-radio
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
 qscxmlc	storage-utils-dev
+qt5ct	qt5ct
 qtattributionsscanner	devpkg-qttools
 qtcreator	qt-creator
 qtdiag	qt-basic
@@ -6917,6 +6926,10 @@ vidir	os-testsuite-0day
 vieet	desktop-enlightenment
 view	vim
 viewdoc	python-extras
+vifm	vifm
+vifm-convert-dircolors	vifm
+vifm-pause	vifm
+vifm-screen-split	vifm
 vigpg	byobu
 vigr	os-core
 vim	vim
@@ -7263,9 +7276,9 @@ xdg-mime	desktop-i3
 xdg-open	desktop-i3
 xdg-screensaver	desktop-i3
 xdg-settings	desktop-i3
-xdg-user-dir	desktop
+xdg-user-dir	xfce4-desktop
 xdg-user-dirs-gtk-update	desktop
-xdg-user-dirs-update	desktop
+xdg-user-dirs-update	xfce4-desktop
 xdotool	x11-tools
 xdpyinfo	x11-tools
 xdt-autogen	xfce4-desktop
