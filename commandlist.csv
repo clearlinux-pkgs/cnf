@@ -377,7 +377,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	os-utils-gui-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
@@ -675,7 +675,7 @@ cgconfigparser	devpkg-libcgroup
 cgcreate	devpkg-libcgroup
 cgdb	dev-utils
 cgdelete	devpkg-libcgroup
-cgdisk	storage-utils
+cgdisk	bootloader
 cgexec	devpkg-libcgroup
 cgget	devpkg-libcgroup
 cgi-fcgi	kvm-host-dev
@@ -1701,7 +1701,7 @@ fix-include.sh	desktop-kde-apps
 fix-qdf	devpkg-qpdf
 fixcvsdiff	dev-utils
 fixkdeincludes	desktop-kde-apps
-fixparts	storage-utils
+fixparts	bootloader
 fixproc	performance-tools
 fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
@@ -1881,7 +1881,7 @@ gdbus-codegen	firmware-update
 gdcmpgif	devpkg-libgd
 gdialog	zenity
 gdiffmk	man-pages
-gdisk	storage-utils
+gdisk	bootloader
 gdk-pixbuf-csource	lightdm
 gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
@@ -5874,7 +5874,7 @@ sg_write_verify	openstack-common
 sg_write_x	openstack-common
 sg_xcopy	openstack-common
 sg_zone	openstack-common
-sgdisk	storage-utils
+sgdisk	bootloader
 sgen	mono
 sgen-grep-binprot	mono
 sginfo	openstack-common
