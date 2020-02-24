@@ -1230,7 +1230,7 @@ dmeventd	boot-encrypted
 dmidecode	sysadmin-basic
 dmsetup	boot-encrypted
 dmstats	boot-encrypted
-dmypy	python-extras
+dmypy	Sphinx
 dnf	dnf
 dnf-3	dnf
 dnf-automatic-3	dnf
@@ -4261,8 +4261,8 @@ myisamchk	mariadb
 myisamlog	mariadb
 myisampack	mariadb
 mymeta-cpanfile	perl-extras
-mypy	python-extras
-mypyc	python-extras
+mypy	Sphinx
+mypyc	Sphinx
 myrocks_hotbackup	mariadb
 mysql	mariadb
 mysql_client_test	mariadb
@@ -4339,6 +4339,8 @@ net-snmp-create-v3-user	performance-tools
 netaddr	ansible
 netcap	devpkg-libcap-ng
 netdata	netdata
+netdata-claim.sh	netdata
+netdatacli	netdata
 nethogs	nethogs
 netloc_draw_to_json	hwloc
 netloc_ib_extract_dats	hwloc
@@ -5527,6 +5529,7 @@ ripd	quagga
 ripngd	quagga
 rjoe	joe
 rlogin-cwd	tcl-basic
+rlwrap	rlwrap
 rm	os-core
 rmcp-ping	sysadmin-hostmgmt
 rmcpping	sysadmin-hostmgmt
@@ -6184,7 +6187,7 @@ stringto-test	devpkg-exiv2
 strip	binutils
 struct2osd	okteta
 stty	os-core
-stubgen	python-extras
+stubgen	Sphinx
 stubquery	pdns
 stunbdc	games-dev
 stund	games-dev
@@ -6407,8 +6410,8 @@ tcftest	mail-utils-dev
 tchmgr	mail-utils-dev
 tchmttest	mail-utils-dev
 tchtest	mail-utils-dev
-tclsh	modules
-tclsh8.6	modules
+tclsh	tcl-basic
+tclsh8.6	tcl-basic
 tcpdump	network-basic
 tcpdump.4.9.3	network-basic
 tctmgr	mail-utils-dev
@@ -7512,7 +7515,7 @@ zopflipng	fonttools
 zramctl	os-core
 zrun	os-testsuite-0day
 zsh	zsh
-zsh-5.7.1	zsh
+zsh-5.8	zsh
 zstd	zstd
 zstd-frugal	zstd
 zstdcat	zstd
