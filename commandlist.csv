@@ -6437,7 +6437,6 @@ telem-seq.sh	amateur-radio
 telem-unit.pl	amateur-radio
 telem-volts.py	amateur-radio
 telem_journal	devpkg-telemetrics-client
-telem_update	devpkg-telemetrics-client
 telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
@@ -6924,7 +6923,7 @@ vgrename	boot-encrypted
 vgs	boot-encrypted
 vgscan	boot-encrypted
 vgsplit	boot-encrypted
-vi	neovim
+vi	vim-minimal
 vidir	os-testsuite-0day
 vieet	desktop-enlightenment
 view	vim
@@ -6936,6 +6935,7 @@ vifm-screen-split	vifm
 vigpg	byobu
 vigr	os-core
 vim	vim
+vim-minimal	vim-minimal
 vimdiff	vim
 vimdot	graphviz
 vimtutor	vim
