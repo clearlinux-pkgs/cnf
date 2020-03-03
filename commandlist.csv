@@ -319,7 +319,18 @@ autoupdate	c-basic
 autoupdate213	c-basic-legacy
 autrace	audit
 auvirt	audit
+avahi-autoipd	devpkg-avahi
+avahi-browse	devpkg-avahi
+avahi-browse-domains	devpkg-avahi
 avahi-daemon	avahi-daemon
+avahi-dnsconfd	devpkg-avahi
+avahi-publish	devpkg-avahi
+avahi-publish-address	devpkg-avahi
+avahi-publish-service	devpkg-avahi
+avahi-resolve	devpkg-avahi
+avahi-resolve-address	devpkg-avahi
+avahi-resolve-host-name	devpkg-avahi
+avahi-set-host-name	devpkg-avahi
 avcenc	libva-utils
 avcstreamoutdemo	libva-utils
 avx512_1	SVT-HEVC
@@ -852,8 +863,8 @@ clr-python-timestamp	os-core-dev
 clr-pyversion-strip	os-core-dev
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	performance-tools
-clr_debug_fuse	performance-tools
+clr_debug_daemon	dev-utils
+clr_debug_fuse	dev-utils
 clr_power	os-core-plus
 clrtrust	p11-kit
 cluster	graphviz
@@ -1746,7 +1757,7 @@ fixcvsdiff	dev-utils
 fixkdeincludes	desktop-kde-apps
 fixparts	bootloader
 fixproc	performance-tools
-fixqt4headers.pl	devpkg-qtbase
+fixqt4headers.pl	devpkg-avahi
 fixuifiles	desktop-kde-apps
 flac	flac
 flake8	Sphinx
@@ -2214,7 +2225,6 @@ gpredict	amateur-radio
 gprof	binutils
 gr2fonttest	devpkg-graphite
 gradio	Gradio
-gradle	kde-frameworks5-dev
 gramps	gramps
 granatier	desktop-kde-games
 grantlee_strings_extractor.py	desktop-kde-apps
@@ -3730,7 +3740,7 @@ lsusb	sysadmin-basic
 ltdbtool	samba
 ltp-bump	ltp
 ltp-pan	ltp
-ltrace	performance-tools
+ltrace	dev-utils
 lttng	lttng
 lttng-crash	lttng
 lttng-gen-tp	lttng
@@ -4118,7 +4128,7 @@ mmdblookup	network-basic-dev
 mmount	storage-utils
 mmove	storage-utils
 mmpfb	texlive
-moc	devpkg-qtbase
+moc	devpkg-avahi
 mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
@@ -4320,9 +4330,9 @@ mutt_pgpring	mutt
 muttbug	mutt
 mutter	desktop
 mv	os-core
-mvn	kde-frameworks5-dev
-mvnDebug	kde-frameworks5-dev
-mvnyjp	kde-frameworks5-dev
+mvn	os-clr-on-clr-dev
+mvnDebug	os-clr-on-clr-dev
+mvnyjp	os-clr-on-clr-dev
 mvxattr	samba
 mxtar	storage-utils
 my_print_defaults	mariadb
@@ -5392,9 +5402,9 @@ qbs-setup-toolchains	qt-creator
 qcollectiongenerator	qt-basic
 qconvex	R-extras-dev
 qdbus	qt-basic
-qdbuscpp2xml	devpkg-qtbase
+qdbuscpp2xml	devpkg-avahi
 qdbusviewer	qt-basic
-qdbusxml2cpp	devpkg-qtbase
+qdbusxml2cpp	devpkg-avahi
 qdelaunay	R-extras-dev
 qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
@@ -5415,8 +5425,8 @@ qgltf	qt-basic
 qhalf	R-extras-dev
 qhelpgenerator	devpkg-qttools
 qhull	R-extras-dev
-qlalr	devpkg-qtbase
-qmake	devpkg-qtbase
+qlalr	devpkg-avahi
+qmake	devpkg-avahi
 qmi-firmware-update	games-dev
 qmi-network	games-dev
 qmicli	games-dev
@@ -5453,7 +5463,7 @@ quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
-qvkgen	devpkg-qtbase
+qvkgen	devpkg-avahi
 qvlc	vlc
 qvoronoi	R-extras-dev
 qwebengine_convert_dict	lib-qt5webengine
@@ -5502,7 +5512,7 @@ rbd-replay-many	ceph
 rbd-replay-prep	ceph
 rbdmap	ceph
 rbox	R-extras-dev
-rcc	devpkg-qtbase
+rcc	devpkg-avahi
 rclone	rclone
 rcmysql	mariadb
 rcopy	hpc-utils
@@ -6402,7 +6412,7 @@ sxpm	devpkg-libXpm
 symilar	scm-server
 sync	os-core
 synclient	os-utils-gui
-syncqt.pl	devpkg-qtbase
+syncqt.pl	devpkg-avahi
 synctex	texlive
 syndaemon	os-utils-gui
 synergy	synergy
@@ -6853,7 +6863,7 @@ udpong	hpc-utils
 udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
-uic	devpkg-qtbase
+uic	devpkg-avahi
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
@@ -7455,7 +7465,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	kde-frameworks5-dev
+xml	os-clr-on-clr
 xml2-config	libxml2
 xml2pot	desktop-kde-apps
 xml2stems	gtkwave
@@ -7471,7 +7481,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kde-frameworks5-dev
+xmlstarlet	os-clr-on-clr
 xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
