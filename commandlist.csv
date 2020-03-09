@@ -1324,6 +1324,7 @@ dotty	graphviz
 doveadm	dovecot
 doveconf	dovecot
 dovecot	dovecot
+dovecot-sysreport	dovecot
 doxygen	doxygen
 dpcd_reg	igt-gpu-tools
 dpdk-devbind	dpdk
@@ -3063,7 +3064,6 @@ jupyter-kernel	jupyter
 jupyter-kernelspec	jupyter
 jupyter-lab	jupyter
 jupyter-labextension	jupyter
-jupyter-labhub	jupyter
 jupyter-migrate	jupyter
 jupyter-nbconvert	jupyter
 jupyter-nbextension	jupyter
@@ -4630,6 +4630,8 @@ obj2yaml-8	llvm8
 obj2yaml-9	llvm
 objcopy	binutils
 objdump	binutils
+object-remote-node	perl-extras
+object-remote-slave	perl-extras
 object_detection_sample_ssd	computer-vision-openvino
 obs	obs-studio
 obs-ffmpeg-mux	obs-studio
@@ -5556,6 +5558,7 @@ remmina-file-wrapper.sh	Remmina
 remmina-gnome	Remmina
 remote-viewer	virt-viewer
 remotectl	cockpit
+remoterepl	perl-extras
 remunge	cluster-tools
 rename	os-core
 renderdoccmd	developer-gpu
