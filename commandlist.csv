@@ -2048,7 +2048,6 @@ gimp-console-2.10	gimp
 gimp-test-clipboard-2.0	gimp
 gimptool-2.0	gimp
 gio	firmware-update
-gio-launch-desktop	firmware-update
 gio-querymodules	firmware-update
 git	git
 git-clang-format	llvm
@@ -3663,7 +3662,6 @@ log2asc	automotive-tools
 log2gpx	amateur-radio
 log2long	automotive-tools
 logger	os-core
-logilab-pytest	os-clr-on-clr-dev
 login	os-core
 loginctl	sysadmin-basic
 logname	os-core
@@ -4744,7 +4742,7 @@ opt	llvm
 opt-8	llvm8
 opt-9	llvm
 optimizegraphics	desktop-kde-apps
-optipng	desktop-dev
+optipng	os-utils-gui-dev
 orbd	java-basic
 orc-bugreport	devpkg-orc
 orca	desktop
@@ -6766,7 +6764,7 @@ tpm2_unseal	cryptoprocessor-management
 tpm2_verifysignature	cryptoprocessor-management
 tpm_server	os-testsuite
 tput	sysadmin-basic
-tqdm	mercurial
+tqdm	python-testing
 tr	os-core
 trace	linux-tools
 trace-cmd	dev-utils
@@ -6816,6 +6814,7 @@ turnutils_oauth	coturn
 turnutils_peer	coturn
 turnutils_stunclient	coturn
 turnutils_uclient	coturn
+twine	python-testing
 twinwave	gtkwave
 twopi	graphviz
 tyalpha	desktop-enlightenment
