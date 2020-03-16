@@ -388,7 +388,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
@@ -2973,9 +2973,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
