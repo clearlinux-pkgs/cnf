@@ -592,6 +592,10 @@ cantor	education-tertiary
 cantor_python3server	education-tertiary
 cantor_scripteditor	education-tertiary
 capinfos	wireshark
+capnp	rr
+capnpc	rr
+capnpc-c++	rr
+capnpc-capnp	rr
 capsh	sysadmin-basic
 capstats	network-monitor-node
 captest	devpkg-libcap-ng
@@ -1435,8 +1439,6 @@ e2scrub_all	os-core
 e2undo	storage-utils
 e4crypt	os-core
 e4defrag	storage-utils
-earlyoom	earlyoom
-earlyoom-clr-telemetry	earlyoom
 easy_install	python3-basic
 easy_install-3.8	python3-basic
 easyaccess-test	devpkg-exiv2
@@ -1991,6 +1993,7 @@ get-iab	network-security-monitoring
 get-oui	network-security-monitoring
 get-versions	sysadmin-basic
 get_cpuinfo_mhz.sh	dev-utils
+get_cyclictest_snapshot	dev-utils
 get_device	openstack-common
 get_driver	openstack-common
 get_module	openstack-common
@@ -2860,7 +2863,6 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isohybrid.pl	syslinux
 isort	pcs
 isosize	os-core
 isotovideo	openqa
@@ -3189,7 +3191,6 @@ keystone-manage	openstack-common
 keystone-status	openstack-common
 keystone-wsgi-admin	openstack-common
 keystone-wsgi-public	openstack-common
-keytab-lilo	syslinux
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
@@ -3719,7 +3720,6 @@ lsmtd	mtd-utils
 lsns	os-core
 lsof	sysadmin-basic
 lspci	sysadmin-basic
-lss16toppm	syslinux
 lss3	cloud-api
 lsscsi	storage-utils
 lssubsys	devpkg-libcgroup
@@ -3949,7 +3949,6 @@ mcopy	storage-utils
 mcs	mono
 mcview	sysadmin-basic
 md5fa	samtools
-md5pass	syslinux
 md5sum	os-core
 md5sum-lite	samtools
 mdadm	storage-utils
@@ -4052,7 +4051,6 @@ mk_cmds	storage-utils
 mkbitmap	maker-cnc
 mkbundle	mono
 mkdir	os-core
-mkdiskimage	syslinux
 mkdosfs	dosfstools
 mke2fs	storage-utils
 mkexfatfs	storage-utils
@@ -4982,7 +4980,7 @@ perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
 perl-reversion	perl-extras
-perl5.30.1	perl-basic
+perl5.30.2	perl-basic
 perlbrew	perl-extras
 perlbug	perl-basic
 perldoc	perl-basic
@@ -5188,7 +5186,6 @@ ppdpo	hardware-printing
 pphs	ghostscript
 ppltotf	texlive
 ppm2tiff	devpkg-tiff
-ppmtolss16	syslinux
 pppd	NetworkManager
 pppdump	NetworkManager
 pppoe-discovery	NetworkManager
@@ -5321,7 +5318,6 @@ pwmake	os-core-dev
 pwmconfig	lm-sensors
 pwscore	os-core-dev
 pwunconv	os-core
-pxelinux-options	syslinux
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
@@ -5666,6 +5662,13 @@ rpms2solv	devpkg-libsolv
 rpmsign	package-utils
 rpmspec	package-utils
 rpmverify	package-utils
+rr	rr
+rr-collect-symbols.py	rr
+rr_exec_stub	rr
+rr_page_32	rr
+rr_page_32_replay	rr
+rr_page_64	rr
+rr_page_64_replay	rr
 rrdcached	rrdtool
 rrdcgi	rrdtool
 rrdcreate	rrdtool
@@ -5968,7 +5971,6 @@ sgmlspl.pl	perl-extras
 sgp_dd	openstack-common
 sh	os-core
 sh5util	cluster-tools
-sha1pass	syslinux
 sha1sum	os-core
 sha224sum	os-core
 sha256sum	os-core
@@ -5998,6 +6000,7 @@ siege2csv.pl	performance-tools
 sieveeditor	desktop-kde-apps
 sig-list-to-certs	os-clr-on-clr
 sign-efi-sig-list	os-clr-on-clr
+signal-rr-recording.sh	rr
 signaltest	dev-utils
 signcode	mono
 signtool	cryptography
@@ -6420,7 +6423,6 @@ sysdig	performance-tools
 sysdig-probe-loader	performance-tools
 syslinux	syslinux
 syslinux-nomtools	syslinux
-syslinux2ansi	syslinux
 sysprof	sysprof
 sysprof-cli	sysprof
 systemctl	sysadmin-basic
