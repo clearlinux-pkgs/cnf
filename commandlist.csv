@@ -854,6 +854,7 @@ clipfilter	perl-extras
 clipjoin	perl-extras
 cllualatex	texlive
 cloc	cloc
+clockdiff	clr-network-troubleshooter
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
@@ -1209,7 +1210,7 @@ diff3	diffutils
 diffeet	desktop-enlightenment
 diffimg	desktop-apps
 diffoscope	diffoscope
-diffstat	dev-utils
+diffstat	package-builder
 dig	clr-network-troubleshooter
 digikam	digikam
 digitaglinktree	digikam
@@ -3433,7 +3434,7 @@ lgroupadd	devpkg-libuser
 lgroupdel	devpkg-libuser
 lgroupmod	devpkg-libuser
 libassuan-config	devpkg-libassuan
-libdeps.py	os-clr-on-clr
+libdeps.py	libdeps
 libevdev-tweak-device	devpkg-libevdev
 libftdi1-config	maker-basic
 libgcrypt-config	devpkg-libgcrypt
@@ -4478,6 +4479,7 @@ nim	nim
 nimble	nim
 nimgrep	nim
 nimsuggest	nim
+ninfod	clr-network-troubleshooter
 ninja	dev-utils
 nisdomainname	net-tools
 nl	os-core
@@ -5062,7 +5064,6 @@ pinentry-curses	gnupg
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
 ping	clr-network-troubleshooter
-ping6	clr-network-troubleshooter
 ping_pong	samba
 pinky	os-core
 pip	python3-basic
@@ -5478,6 +5479,7 @@ rake	ruby-basic
 randpkt	wireshark
 ranlib	binutils
 rarp	net-tools
+rarpd	clr-network-troubleshooter
 raster2pgsql	maker-gis
 ratbagctl	games
 ratbagd	games
@@ -5505,6 +5507,7 @@ rclone	rclone
 rcmysql	mariadb
 rcopy	hpc-utils
 rctest	hardware-bluetooth
+rdisc	clr-network-troubleshooter
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
 rdma-ndd	hpc-utils
@@ -6593,6 +6596,7 @@ text2tt	amateur-radio
 tflite_convert	machine-learning-tensorflow
 tfmtodit	man-pages
 tftopl	texlive
+tftpd	clr-network-troubleshooter
 tgt-admin	openstack-common
 tgt-setup-lun	openstack-common
 tgtadm	openstack-common
@@ -6773,7 +6777,6 @@ trace-cmd	dev-utils
 trace-summary	network-monitor-node
 tracegen	sddm
 tracepath	clr-network-troubleshooter
-tracepath6	clr-network-troubleshooter
 traceroute	network-basic
 traceroute6	clr-network-troubleshooter
 tracker	desktop-gnomelibs
