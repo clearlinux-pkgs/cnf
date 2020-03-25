@@ -5717,7 +5717,7 @@ sdiag	cluster-tools
 sdiff	diffutils
 sdig	pdns
 sdl-config	devpkg-SDL
-sdl2-config	devpkg-SDL2
+sdl2-config	transcoding-support
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
