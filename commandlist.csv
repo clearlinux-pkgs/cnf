@@ -3810,7 +3810,6 @@ make4ht	texlive
 makealias	kde-frameworks5-dev
 makecert	mono
 makeconv	sddm
-makedepend	dev-utils-dev
 makedtx	texlive
 makeglossaries	texlive
 makeglossaries-lite	texlive
@@ -4067,7 +4066,7 @@ modularize	llvm
 modularize-9	llvm
 module-starter	perl-extras
 modulecmd	modules
-modulemd-validator-v1	os-clr-on-clr-dev
+modulemd-validator	os-clr-on-clr-dev
 modutil	cryptography
 mof_compiler	desktop-dev
 mof_compiler.bat	desktop-dev
