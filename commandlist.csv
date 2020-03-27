@@ -849,7 +849,7 @@ clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	performance-tools
 clr_debug_fuse	performance-tools
 clr_power	os-core-plus
-clrtrust	p11-kit
+clrtrust	os-core
 cluster	graphviz
 clusterdb	postgresql
 cluttex	texlive
@@ -1691,7 +1691,7 @@ fileinfo	devpkg-leptonica
 filelight	filelight
 filterdiff	dev-utils
 fincore	os-core
-find	findutils
+find	os-core
 find-all-symbols	llvm
 find-all-symbols-9	llvm
 find-bundle.sh	os-core-search
@@ -2379,6 +2379,7 @@ hmac256	devpkg-libgcrypt
 hmaptool	llvm
 hmaptool-8	llvm8
 hmaptool-9	llvm
+homectl	sysadmin-basic
 horovodrun	machine-learning-tensorflow
 host	clr-network-troubleshooter
 hostid	os-core
@@ -4620,7 +4621,7 @@ openjade	php-basic-dev
 openscad	openscad
 openshot-qt	openshot-qt
 opensm	hpc-utils
-openssl	p11-kit
+openssl	os-core
 openvpn	network-basic
 openvt	kbd
 opl2ofm	texlive
@@ -4694,8 +4695,8 @@ ovsdb-tool	openvswitch
 ownership	sysadmin-basic
 oxygen-demo5	desktop-kde-apps
 oxygen-settings5	desktop-kde-apps
-p11-kit	p11-kit
-p11-trust	p11-kit
+p11-kit	os-core
+p11-trust	os-core
 p11tool	cryptography
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
@@ -6271,6 +6272,7 @@ systemd-mount	sysadmin-basic
 systemd-notify	sysadmin-basic
 systemd-nspawn	sysadmin-basic
 systemd-path	sysadmin-basic
+systemd-repart	sysadmin-basic
 systemd-resolve	sysadmin-basic
 systemd-run	sysadmin-basic
 systemd-socket-activate	sysadmin-basic
@@ -6611,7 +6613,7 @@ trietool-0.2	devpkg-libdatrie
 troff	man-pages
 true	os-core
 truncate	os-core
-trust	p11-kit
+trust	os-core
 ts	os-testsuite-0day
 tset	sysadmin-basic
 tshark	wireshark
@@ -6770,6 +6772,7 @@ useradd	os-core
 usercrash-wrapper	software-defined-cockpit-dev
 usercrash_c	software-defined-cockpit-dev
 usercrash_s	software-defined-cockpit-dev
+userdbctl	sysadmin-basic
 userdel	os-core
 userhelper	storage-utils
 usermod	os-core
@@ -7177,7 +7180,7 @@ xapian-progsrv	devpkg-xapian-core
 xapian-replicate	devpkg-xapian-core
 xapian-replicate-server	devpkg-xapian-core
 xapian-tcpsrv	devpkg-xapian-core
-xargs	findutils
+xargs	os-core
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xauth	x11-tools
