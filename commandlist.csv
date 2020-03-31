@@ -849,7 +849,7 @@ clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	performance-tools
 clr_debug_fuse	performance-tools
 clr_power	os-core-plus
-clrtrust	os-core
+clrtrust	p11-kit
 cluster	graphviz
 clusterdb	postgresql
 cluttex	texlive
@@ -1216,22 +1216,17 @@ dlltool	c-basic-mingw
 dlm_controld	pcs
 dlm_stonith	pcs
 dlm_tool	pcs
-dlt-adaptor-stdin	software-defined-cockpit-dev
-dlt-adaptor-udp	software-defined-cockpit-dev
 dlt-control	software-defined-cockpit-dev
 dlt-convert	software-defined-cockpit-dev
 dlt-daemon	software-defined-cockpit-dev
-dlt-dbus	software-defined-cockpit-dev
 dlt-example-filetransfer	software-defined-cockpit-dev
 dlt-example-user	software-defined-cockpit-dev
 dlt-example-user-common-api	software-defined-cockpit-dev
 dlt-example-user-func	software-defined-cockpit-dev
-dlt-kpi	software-defined-cockpit-dev
 dlt-logstorage-ctrl	software-defined-cockpit-dev
 dlt-passive-node-ctrl	software-defined-cockpit-dev
 dlt-receive	software-defined-cockpit-dev
 dlt-sortbytimestamp	software-defined-cockpit-dev
-dlt-system	software-defined-cockpit-dev
 dlt-test-client	software-defined-cockpit-dev
 dlt-test-filetransfer	software-defined-cockpit-dev
 dlt-test-fork-handler	software-defined-cockpit-dev
@@ -1691,7 +1686,7 @@ fileinfo	devpkg-leptonica
 filelight	filelight
 filterdiff	dev-utils
 fincore	os-core
-find	os-core
+find	findutils
 find-all-symbols	llvm
 find-all-symbols-9	llvm
 find-bundle.sh	os-core-search
@@ -2379,7 +2374,6 @@ hmac256	devpkg-libgcrypt
 hmaptool	llvm
 hmaptool-8	llvm8
 hmaptool-9	llvm
-homectl	sysadmin-basic
 horovodrun	machine-learning-tensorflow
 host	clr-network-troubleshooter
 hostid	os-core
@@ -2596,6 +2590,7 @@ igt_runner	igt-gpu-tools
 igt_stats	igt-gpu-tools
 igzip	kvm-host-dev
 iinfo	blender
+iio-sensor-proxy	iio-sensor-proxy
 ikdasm	mono
 ikhal	productivity
 ilasm	mono
@@ -4075,6 +4070,7 @@ moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
 mokutil	sysadmin-basic
+monitor-sensor	iio-sensor-proxy
 monkeytype	python-extras
 monmaptool	ceph
 mono	mono
@@ -4255,9 +4251,6 @@ mutt_pgpring	mutt
 muttbug	mutt
 mutter	desktop
 mv	os-core
-mvn	os-clr-on-clr-dev
-mvnDebug	os-clr-on-clr-dev
-mvnyjp	os-clr-on-clr-dev
 mvxattr	samba
 mxtar	storage-utils
 my_print_defaults	mariadb
@@ -4621,7 +4614,7 @@ openjade	php-basic-dev
 openscad	openscad
 openshot-qt	openshot-qt
 opensm	hpc-utils
-openssl	os-core
+openssl	p11-kit
 openvpn	network-basic
 openvt	kbd
 opl2ofm	texlive
@@ -4695,8 +4688,8 @@ ovsdb-tool	openvswitch
 ownership	sysadmin-basic
 oxygen-demo5	desktop-kde-apps
 oxygen-settings5	desktop-kde-apps
-p11-kit	os-core
-p11-trust	os-core
+p11-kit	p11-kit
+p11-trust	p11-kit
 p11tool	cryptography
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
@@ -6272,7 +6265,6 @@ systemd-mount	sysadmin-basic
 systemd-notify	sysadmin-basic
 systemd-nspawn	sysadmin-basic
 systemd-path	sysadmin-basic
-systemd-repart	sysadmin-basic
 systemd-resolve	sysadmin-basic
 systemd-run	sysadmin-basic
 systemd-socket-activate	sysadmin-basic
@@ -6613,7 +6605,7 @@ trietool-0.2	devpkg-libdatrie
 troff	man-pages
 true	os-core
 truncate	os-core
-trust	os-core
+trust	p11-kit
 ts	os-testsuite-0day
 tset	sysadmin-basic
 tshark	wireshark
@@ -6772,7 +6764,6 @@ useradd	os-core
 usercrash-wrapper	software-defined-cockpit-dev
 usercrash_c	software-defined-cockpit-dev
 usercrash_s	software-defined-cockpit-dev
-userdbctl	sysadmin-basic
 userdel	os-core
 userhelper	storage-utils
 usermod	os-core
@@ -7180,7 +7171,7 @@ xapian-progsrv	devpkg-xapian-core
 xapian-replicate	devpkg-xapian-core
 xapian-replicate-server	devpkg-xapian-core
 xapian-tcpsrv	devpkg-xapian-core
-xargs	os-core
+xargs	findutils
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xauth	x11-tools
