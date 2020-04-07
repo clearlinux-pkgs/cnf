@@ -2451,6 +2451,7 @@ htxelatex	texlive
 htxetex	texlive
 hub	git
 hugo	hugo
+humanfriendly	maker-gis
 hunspell	kde-frameworks5-dev
 hunzip	kde-frameworks5-dev
 hv_fcopy_daemon	os-cloudguest-azure
@@ -3980,7 +3981,6 @@ miniterm.py	conda
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
 mixer	mixer
-mixin	mixer
 mk4ht	texlive
 mkCSGB2312	perl-extras
 mk_cmds	storage-utils
@@ -4072,6 +4072,7 @@ moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
 mokutil	sysadmin-basic
+mongoose	R-extras-dev
 monitor-sensor	iio-sensor-proxy
 monkeytype	python-extras
 monmaptool	ceph
@@ -6580,7 +6581,6 @@ tpm2_stirrandom	cryptoprocessor-management
 tpm2_testparms	cryptoprocessor-management
 tpm2_unseal	cryptoprocessor-management
 tpm2_verifysignature	cryptoprocessor-management
-tpm_server	os-testsuite
 tput	sysadmin-basic
 tqdm	python-testing
 tr	os-core
