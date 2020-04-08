@@ -4718,6 +4718,7 @@ paplay	pulseaudio
 parallel	parallel
 paraview	ParaView
 paraview-config	ParaView
+paraview.conf	ParaView
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
@@ -4931,6 +4932,7 @@ pinentry-gnome3	desktop-gnomelibs
 ping	clr-network-troubleshooter
 ping_pong	samba
 pinky	os-core
+pinns	containers-basic
 pip	python3-basic
 pip2	deprecated-python2
 pip2.7	deprecated-python2
@@ -5920,7 +5922,7 @@ slurmd	cluster-tools
 slurmdbd	cluster-tools
 slurmstepd	cluster-tools
 sm-notify	nfs-utils
-smTestDriver-pv5.7	ParaView
+smTestDriver-pv5.8	ParaView
 smap	cluster-tools
 smartctl	smartmontools
 smartd	smartmontools
@@ -6937,14 +6939,14 @@ vpxenc	transcoding-support
 vsyasm	yasm
 vte-2.91	desktop-dev
 vtep-ctl	openvswitch
-vtkParseJava-pv5.7	ParaView
-vtkProbeOpenGLVersion-pv5.7	ParaView
-vtkProcessXML-pv5.7	ParaView
-vtkWrapClientServer-pv5.7	ParaView
-vtkWrapHierarchy-pv5.7	ParaView
-vtkWrapJava-pv5.7	ParaView
-vtkWrapPython-pv5.7	ParaView
-vtkWrapPythonInit-pv5.7	ParaView
+vtkParseJava-pv5.8	ParaView
+vtkProbeOpenGLVersion-pv5.8	ParaView
+vtkProcessXML-pv5.8	ParaView
+vtkWrapClientServer-pv5.8	ParaView
+vtkWrapHierarchy-pv5.8	ParaView
+vtkWrapJava-pv5.8	ParaView
+vtkWrapPython-pv5.8	ParaView
+vtkWrapPythonInit-pv5.8	ParaView
 vtysh	quagga
 vulkaninfo	dev-utils-dev
 vzt2vcd	gtkwave
