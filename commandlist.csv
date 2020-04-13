@@ -3890,6 +3890,7 @@ mcookie	os-core
 mcopy	storage-utils
 mcs	mono
 mcview	sysadmin-basic
+md2html	devpkg-md4c
 md5fa	samtools
 md5sum	os-core
 md5sum-lite	samtools
@@ -5301,7 +5302,7 @@ qra64code	amateur-radio
 qra64sim	amateur-radio
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
-qscxmlc	storage-utils-dev
+qscxmlc	qt5-dev
 qt5ct	qt5ct
 qtattributionsscanner	devpkg-qttools
 qtcreator	qt-creator
@@ -5425,7 +5426,7 @@ rename	os-core
 renderdoccmd	developer-gpu
 renice	os-core
 reordercap	wireshark
-repc	storage-utils-dev
+repc	qt5-dev
 replace	mariadb
 reply	perl-basic
 repo2solv	devpkg-libsolv
@@ -5861,6 +5862,10 @@ shutdown	sysadmin-basic
 siege	performance-tools
 siege.config	performance-tools
 siege2csv.pl	performance-tools
+sieve-dump	dovecot
+sieve-filter	dovecot
+sieve-test	dovecot
+sievec	dovecot
 sieveeditor	desktop-kde-apps
 sig-list-to-certs	os-clr-on-clr
 sign-efi-sig-list	os-clr-on-clr
