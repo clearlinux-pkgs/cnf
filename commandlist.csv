@@ -1339,9 +1339,6 @@ dtestsrq	hpc-utils
 dtestx	hpc-utils
 dtxgen	texlive
 du	os-core
-dul-receive-pack	mercurial
-dul-upload-pack	mercurial
-dulwich	mercurial
 dumbbench	perl-extras
 dump.f2fs	storage-utils
 dump_fts	hpc-utils
@@ -1632,9 +1629,6 @@ fakeroot	os-testsuite-0day
 fallocate	os-core
 false	os-core
 fancontrol	lm-sensors
-fast-import-filter	mercurial
-fast-import-info	mercurial
-fast-import-query	mercurial
 fatlabel	dosfstools
 fax2ps	devpkg-tiff
 fax2tiff	devpkg-tiff
@@ -2975,8 +2969,6 @@ jq	jq
 jrunscript	java-basic
 jrunscript11	java11-basic
 jrunscript13	java13-basic
-js52	devpkg-mozjs52
-js52-config	devpkg-mozjs52
 js60	devpkg-mozjs60
 js60-config	devpkg-mozjs60
 jsadebugd	java-basic
@@ -4957,6 +4949,7 @@ pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
 pkgdata	sddm
+pkginfo	mercurial
 pkill	procps-ng
 pkmon	desktop
 pktogf	texlive
