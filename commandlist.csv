@@ -1832,7 +1832,7 @@ gacutil2	mono
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
-gawk-5.0.1	os-core
+gawk-5.1.0	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
 gc	graphviz
