@@ -3382,6 +3382,7 @@ libnetcfg	perl-basic
 libpng-config	devpkg-libpng
 libpng16-config	devpkg-libpng
 librados-config	ceph
+librecad	LibreCAD
 libreoffice	libreoffice
 libtool	c-basic
 libtoolize	c-basic
