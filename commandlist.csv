@@ -2066,6 +2066,7 @@ gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
 gml2gv	graphviz
+gmsh	gmsh
 gnmanalyse	python-extras
 gnmmanage	python-extras
 gnome-autogen.sh	desktop-dev
@@ -5602,7 +5603,6 @@ rview	vim
 rvim	vim
 rvlc	vlc
 rvnamed	network-basic
-rxe_cfg	hpc-utils
 s3fs	s3fs-fuse
 s3put	cloud-api
 sacct	cluster-tools
