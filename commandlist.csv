@@ -1789,6 +1789,7 @@ fsck.fat	dosfstools
 fsck.msdos	dosfstools
 fsck.vfat	dosfstools
 fsck.xfs	xfsprogs
+fsearch	fsearch
 fsfreeze	os-core
 fsk_mod	amateur-radio
 fst2vcd	gtkwave
