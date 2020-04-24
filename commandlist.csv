@@ -579,7 +579,7 @@ cansend	automotive-tools
 cansniffer	automotive-tools
 cantata	desktop-kde-apps
 cantor	education-tertiary
-cantor_python3server	education-tertiary
+cantor_pythonserver	education-tertiary
 cantor_scripteditor	education-tertiary
 capinfos	wireshark
 capnp	rr
