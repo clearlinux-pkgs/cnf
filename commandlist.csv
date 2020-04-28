@@ -1927,10 +1927,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop-enlightenment
+gdm	desktop
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop-enlightenment
-gdmflexiserver	desktop-enlightenment
+gdm-screenshot	desktop
+gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -2033,6 +2033,7 @@ gimp-console	gimp
 gimp-console-2.10	gimp
 gimp-test-clipboard-2.0	gimp
 gimptool-2.0	gimp
+ginsttest-runner	gnome-desktop-testing
 gio	libglib
 gio-querymodules	libglib
 git	git
@@ -2100,6 +2101,7 @@ gnome-chess	gnome-chess
 gnome-clocks	gnome-clocks
 gnome-contacts	gnome-contacts
 gnome-control-center	desktop
+gnome-desktop-testing-runner	gnome-desktop-testing
 gnome-disk-image-mounter	gnome-disk-utility
 gnome-disks	gnome-disk-utility
 gnome-extensions	desktop
@@ -4666,7 +4668,6 @@ ogrtindex	python-extras
 oiiotool	blender
 okteta	okteta
 okular	okular
-okularkirigami	okular
 oldconfig	service-os-dev
 olddefconfig	service-os-dev
 omfonts	texlive
