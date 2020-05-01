@@ -1,4 +1,5 @@
 2to3	python3-basic
+2to3-3.7	buildreq-spark
 2to3-3.8	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -26,7 +27,7 @@ PSVIWriter	R-extras-dev
 R	R-basic
 R-script	R-basic
 Redirect	R-extras-dev
-Rscript	devpkg-R
+Rscript	buildreq-spark
 SAX2Count	R-extras-dev
 SAX2Print	R-extras-dev
 SAXCount	R-extras-dev
@@ -861,7 +862,7 @@ clr-network-troubleshooter	clr-network-troubleshooter
 clr-python-avx2	os-core-dev
 clr-python-avx512	os-core-dev
 clr-python-timestamp	os-core-dev
-clr-pyversion-strip	os-core-dev
+clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	performance-tools
@@ -1843,7 +1844,6 @@ g++-8	c-extras-gcc8
 g++7	c-extras-gcc7
 g-ir-annotation-tool	devpkg-gobject-introspection
 g-ir-compiler	devpkg-gobject-introspection
-g-ir-doc-tool	devpkg-gobject-introspection
 g-ir-generate	devpkg-gobject-introspection
 g-ir-inspect	devpkg-gobject-introspection
 g-ir-scanner	devpkg-gobject-introspection
@@ -1871,7 +1871,6 @@ gcc-ranlib	c-basic
 gcc-ranlib-8	c-extras-gcc8
 gcc-ranlib7	c-extras-gcc7
 gcc7	c-extras-gcc7
-gcm-calibrate	gnome-color-manager
 gcm-import	gnome-color-manager
 gcm-inspect	gnome-color-manager
 gcm-picker	gnome-color-manager
@@ -2052,7 +2051,7 @@ gitg	dev-utils-gui
 gitk	dev-utils-gui
 gitolite	scm-server
 gjs	gjs
-gjs-console	gnome-weather
+gjs-console	gjs
 gkbd-keyboard-display	devpkg-libgnomekbd
 glacier	cloud-api
 glances	performance-tools
@@ -2998,6 +2997,8 @@ jrunscript11	java11-basic
 jrunscript13	java13-basic
 js60	devpkg-mozjs60
 js60-config	devpkg-mozjs60
+js68	devpkg-gjs
+js68-config	devpkg-gjs
 jsadebugd	java-basic
 jshell	java-basic
 jshell11	java11-basic
@@ -4770,6 +4771,7 @@ oxygen-settings5	desktop-kde-apps
 p11-kit	os-core
 p11-trust	os-core
 p11tool	cryptography
+pa-info	pulseaudio
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
 pacemaker_remoted	pcs
@@ -5021,8 +5023,7 @@ pip3	python3-basic
 pip3.8	python3-basic
 pip_stress	dev-utils
 pipewire	devpkg-pipewire
-pipewire-cli	devpkg-pipewire
-pipewire-monitor	devpkg-pipewire
+pipewire-media-session	devpkg-pipewire
 pipreqs	pcs
 pivot_root	os-core
 pixeltool	devpkg-qttools
@@ -5259,6 +5260,13 @@ pvresize	boot-encrypted
 pvs	boot-encrypted
 pvscan	boot-encrypted
 pvserver	ParaView
+pw-cat	devpkg-pipewire
+pw-cli	devpkg-pipewire
+pw-dot	devpkg-pipewire
+pw-mon	devpkg-pipewire
+pw-play	devpkg-pipewire
+pw-profiler	devpkg-pipewire
+pw-record	devpkg-pipewire
 pwck	os-core
 pwconv	os-core
 pwd	os-core
@@ -5274,6 +5282,7 @@ pybabel	Babel
 pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
+pydoc3.7	buildreq-spark
 pydoc3.8	python3-basic
 pydocstyle	python-extras
 pyflakes	fontforge
@@ -5323,10 +5332,14 @@ python2.7-config	deprecated-python2
 python3	python3-basic
 python3-config	python3-basic
 python3.7	python3-basic
+python3.7-config	buildreq-spark
+python3.7m	buildreq-spark
+python3.7m-config	buildreq-spark
 python3.8	python3-basic
 python3.8-config	python3-basic
 pythontex	texlive
 pyuic5	openshot-qt
+pyvenv-3.7	buildreq-spark
 qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
 qbs	qt-creator
@@ -5386,6 +5399,7 @@ qra64sim	amateur-radio
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
 qscxmlc	qt5-dev
+qsstv	amateur-radio
 qt5ct	qt5ct
 qtattributionsscanner	devpkg-qttools
 qtcreator	qt-creator
@@ -6882,18 +6896,18 @@ vacuumdb	postgresql
 vads	software-defined-cockpit
 vainfo	libva-utils
 vala	devpkg-vala
-vala-0.46	devpkg-vala
+vala-0.48	devpkg-vala
 vala-gen-introspect	devpkg-vala
-vala-gen-introspect-0.46	devpkg-vala
+vala-gen-introspect-0.48	devpkg-vala
 valac	devpkg-vala
-valac-0.46	devpkg-vala
+valac-0.48	devpkg-vala
 valadoc	devpkg-vala
-valadoc-0.46	devpkg-vala
+valadoc-0.48	devpkg-vala
 valgrind	valgrind
 valgrind-di-server	valgrind
 valgrind-listener	valgrind
 vapigen	devpkg-vala
-vapigen-0.46	devpkg-vala
+vapigen-0.48	devpkg-vala
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
