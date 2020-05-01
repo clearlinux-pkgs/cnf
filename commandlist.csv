@@ -1271,7 +1271,7 @@ dmeventd	boot-encrypted
 dmidecode	sysadmin-basic
 dmsetup	boot-encrypted
 dmstats	boot-encrypted
-dmypy	Sphinx
+dmypy	cve-bin-tool
 dnf	dnf
 dnf-3	dnf
 dnf-automatic-3	dnf
@@ -4343,8 +4343,8 @@ myisamchk	mariadb
 myisamlog	mariadb
 myisampack	mariadb
 mymeta-cpanfile	perl-extras
-mypy	Sphinx
-mypyc	Sphinx
+mypy	cve-bin-tool
+mypyc	cve-bin-tool
 myrocks_hotbackup	mariadb
 mysql	mariadb
 mysql_client_test	mariadb
@@ -5263,9 +5263,11 @@ pvserver	ParaView
 pw-cat	devpkg-pipewire
 pw-cli	devpkg-pipewire
 pw-dot	devpkg-pipewire
+pw-jack	devpkg-pipewire
 pw-mon	devpkg-pipewire
 pw-play	devpkg-pipewire
 pw-profiler	devpkg-pipewire
+pw-pulse	devpkg-pipewire
 pw-record	devpkg-pipewire
 pwck	os-core
 pwconv	os-core
@@ -6248,9 +6250,9 @@ stringto-test	devpkg-exiv2
 strip	binutils
 struct2osd	okteta
 stty	os-core
-stubgen	Sphinx
+stubgen	cve-bin-tool
 stubquery	pdns
-stubtest	Sphinx
+stubtest	cve-bin-tool
 stunbdc	games-dev
 stund	games-dev
 stunnel	cloud-api
