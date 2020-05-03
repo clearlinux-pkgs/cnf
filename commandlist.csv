@@ -377,7 +377,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
@@ -2051,7 +2051,7 @@ gitg	dev-utils-gui
 gitk	dev-utils-gui
 gitolite	scm-server
 gjs	gjs
-gjs-console	gjs
+gjs-console	devpkg-gjs
 gkbd-keyboard-display	devpkg-libgnomekbd
 glacier	cloud-api
 glances	performance-tools
@@ -2946,9 +2946,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -2997,8 +2997,8 @@ jrunscript11	java11-basic
 jrunscript13	java13-basic
 js60	devpkg-mozjs60
 js60-config	devpkg-mozjs60
-js68	devpkg-gjs
-js68-config	devpkg-gjs
+js68	devpkg-mozjs68
+js68-config	devpkg-mozjs68
 jsadebugd	java-basic
 jshell	java-basic
 jshell11	java11-basic
@@ -5263,11 +5263,9 @@ pvserver	ParaView
 pw-cat	devpkg-pipewire
 pw-cli	devpkg-pipewire
 pw-dot	devpkg-pipewire
-pw-jack	devpkg-pipewire
 pw-mon	devpkg-pipewire
 pw-play	devpkg-pipewire
 pw-profiler	devpkg-pipewire
-pw-pulse	devpkg-pipewire
 pw-record	devpkg-pipewire
 pwck	os-core
 pwconv	os-core
