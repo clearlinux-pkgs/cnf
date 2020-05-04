@@ -251,6 +251,7 @@ arptables-save	iptables
 artikulate	artikulate
 artikulate_editor	artikulate
 as	binutils
+as10k1	alsa-tools
 asadmin	cloud-api
 asapcat	akonadi
 asc2log	automotive-tools
@@ -377,7 +378,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 benchmark_app	computer-vision-openvino
@@ -1029,6 +1030,7 @@ cscript	calc
 csharp	mono
 csi	mono
 cslatex	texlive
+cspctl	alsa-tools
 csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
@@ -1232,6 +1234,7 @@ djpeg	devpkg-libjpeg-turbo
 dkms	kernel-lts2018-dkms
 dkms-new-kernel.sh	kernel-lts2018-dkms
 dkms-remove-old.sh	kernel-lts2018-dkms
+dl10k1	alsa-tools
 dlltool	c-basic-mingw
 dlm_controld	pcs
 dlm_stonith	pcs
@@ -1443,6 +1446,7 @@ ebtables-nft-save	iptables
 ebtables-restore	iptables
 ebtables-save	iptables
 echo	os-core
+echomixer	alsa-tools
 ecore_evas_convert	desktop-enlightenment
 ecpg	postgresql
 ed	editors
@@ -1526,6 +1530,7 @@ env_parallel.sh	parallel
 envml	modules
 envs	domotica
 envsubst	c-basic
+envy24control	alsa-tools
 eo_debug	desktop-enlightenment
 eog	eog
 eolian_cxx	desktop-enlightenment
@@ -2369,7 +2374,13 @@ hciattach	hardware-bluetooth
 hciconfig	hardware-bluetooth
 hcidump	hardware-bluetooth
 hcitool	hardware-bluetooth
+hda-verb	alsa-tools
+hdajackretask	alsa-tools
+hdajacksensetest	alsa-tools
 hdparm	sysadmin-basic
+hdspconf	alsa-tools
+hdsploader	alsa-tools
+hdspmixer	alsa-tools
 head	os-core
 hello_classification	computer-vision-openvino
 hello_nv12_input_classification	computer-vision-openvino
@@ -2492,6 +2503,7 @@ hwloc-info	hwloc
 hwloc-ls	hwloc
 hwloc-patch	hwloc
 hwloc-ps	hwloc
+hwmixvolume	alsa-tools
 hwstamp_ctl	time-server-basic
 hypnotoad	perl-extras
 hzip	kde-frameworks5-dev
@@ -2638,6 +2650,9 @@ infotocap	sysadmin-basic
 ini-test	devpkg-exiv2
 inimf	texlive
 init	sysadmin-basic
+init_audigy	alsa-tools
+init_audigy_eq10	alsa-tools
+init_live	alsa-tools
 initdb	postgresql
 initex	texlive
 initra	kernel-hyperv-lts
@@ -2946,9 +2961,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -3355,6 +3370,8 @@ ld.bfd	binutils
 ld.gold	c-basic
 ld.lld	llvm
 ld.lld-10	llvm
+ld10k1	alsa-tools
+ld10k1d	alsa-tools
 ld64.lld	llvm
 ld64.lld-10	llvm
 ldapadd	openldap
@@ -3669,6 +3686,7 @@ ln	os-core
 lneato	graphviz
 lnewusers	devpkg-libuser
 lnstat	iproute2
+lo10k1	alsa-tools
 loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
@@ -3730,8 +3748,6 @@ lscgroup	devpkg-libcgroup
 lscpu	os-core
 lsdiff	dev-utils
 lshw	sysadmin-basic
-lsi-exec	games
-lsi-settings	games
 lsinitrd	sysadmin-basic
 lsipc	os-core
 lskat	desktop-kde-games
@@ -4061,6 +4077,7 @@ minimodem	amateur-radio
 miniterm.py	maker-3dprinting
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
+mixartloader	alsa-tools
 mixer	mixer
 mk4ht	texlive
 mkCSGB2312	perl-extras
@@ -4850,6 +4867,7 @@ pcs_internal	pcs
 pcs_snmp_agent	pcs
 pcscd	gnupg
 pcsd	pcs
+pcxhrloader	alsa-tools
 pcxm	maker-basic
 pcym	maker-basic
 pczm	maker-basic
@@ -5032,7 +5050,6 @@ pk12util	cryptography
 pk2bm	texlive
 pkaction	polkit
 pkcheck	polkit
-pkcon	desktop-dev
 pkexec	polkit
 pkfix	texlive
 pkfix-helper	texlive
@@ -5040,7 +5057,6 @@ pkg-config	c-basic
 pkgdata	sddm
 pkginfo	mercurial
 pkill	procps-ng
-pkmon	desktop-dev
 pktogf	texlive
 pkttyagent	polkit
 pktype	texlive
@@ -5574,6 +5590,7 @@ rm	os-core
 rmcp-ping	sysadmin-hostmgmt
 rmcpping	sysadmin-hostmgmt
 rmdir	os-core
+rmedigicontrol	alsa-tools
 rmic	java-basic
 rmic11	java11-basic
 rmic13	java13-basic
@@ -5755,6 +5772,7 @@ sbcast	cluster-tools
 sbcdec	transcoding-support
 sbcenc	transcoding-support
 sbcinfo	transcoding-support
+sbiload	alsa-tools
 sbkeysync	os-clr-on-clr
 sbsiglist	os-clr-on-clr
 sbsign	os-clr-on-clr
@@ -6190,6 +6208,7 @@ srptool	cryptography
 srun	cluster-tools
 ss	iproute2
 ss2	package-utils
+sscape_ctl	alsa-tools
 ssdd	dev-utils
 sserver	enterprise-login
 ssh	sysadmin-basic
@@ -6227,7 +6246,6 @@ startx	x11-server
 startxfce4	xfce4-desktop
 stat	os-core
 stdbuf	os-core
-steam	games
 stellarium	stellarium
 stest	desktop-i3
 stl	maker-3dprinting
@@ -6858,6 +6876,7 @@ urlbst	texlive
 urxvt	rxvt-unicode
 urxvtc	rxvt-unicode
 urxvtd	rxvt-unicode
+us428control	alsa-tools
 usb-devices	sysadmin-basic
 usb_modeswitch	NetworkManager-extras
 usb_modeswitch_dispatcher	NetworkManager-extras
@@ -6874,6 +6893,7 @@ userdel	os-core
 userhelper	storage-utils
 usermod	os-core
 users	os-core
+usx2yloader	alsa-tools
 utf8mex	texlive
 utm2ll	amateur-radio
 utmpdump	os-core
@@ -7054,6 +7074,7 @@ vtkWrapPython-pv5.8	ParaView
 vtkWrapPythonInit-pv5.8	ParaView
 vtysh	quagga
 vulkaninfo	dev-utils-dev
+vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
 w	procps-ng
