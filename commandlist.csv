@@ -5182,6 +5182,7 @@ profile2mat.pl	openmpi
 profiles	samba
 proj	maker-gis
 projinfo	maker-gis
+projsync	maker-gis
 protoc	protobuf
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
@@ -6348,7 +6349,6 @@ swupd	os-core-update
 swupd-extract	mixer
 swupd-inspector	mixer
 swupd-overdue	os-core-update
-swupd-pre-release	swupd-client-pre-release
 swupd-probe	telemetrics
 swupd-search	python3-basic
 sxiv	sxiv
@@ -7347,6 +7347,10 @@ xfce4-popup-applicationsmenu	xfce4-desktop
 xfce4-popup-directorymenu	xfce4-desktop
 xfce4-popup-whiskermenu	xfce4-desktop
 xfce4-popup-windowmenu	xfce4-desktop
+xfce4-screensaver	xfce4-desktop
+xfce4-screensaver-command	xfce4-desktop
+xfce4-screensaver-configure	xfce4-desktop
+xfce4-screensaver-preferences	xfce4-desktop
 xfce4-screenshooter	xfce4-desktop
 xfce4-session	xfce4-desktop
 xfce4-session-logout	xfce4-desktop
@@ -7497,6 +7501,11 @@ yaml2obj	llvm
 yaml2obj-10	llvm
 yaml2obj-8	llvm8
 yaml2obj-9	llvm9
+yamlpp-events	perl-extras
+yamlpp-highlight	perl-extras
+yamlpp-load	perl-extras
+yamlpp-load-dump	perl-extras
+yamlpp-parse-emit	perl-extras
 yamlpp5-events	perl-extras
 yamlpp5-highlight	perl-extras
 yamlpp5-load	perl-extras
