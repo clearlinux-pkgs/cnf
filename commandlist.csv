@@ -345,6 +345,8 @@ aws_completer	cloud-api
 aws_zsh_completer.sh	cloud-api
 axel	axel
 axohelp	texlive
+az	azure-cli
+az.completion.sh	azure-cli
 b2sum	os-core
 babeltrace	dev-utils-dev
 babeltrace-log	dev-utils-dev
@@ -381,7 +383,6 @@ bdftogd	devpkg-libgd
 bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
-benchmark_app	computer-vision-openvino
 bg5+latex	texlive
 bg5+pdflatex	texlive
 bg5conv	texlive
@@ -836,7 +837,6 @@ clang-tidy	llvm
 clang-tidy-10	llvm
 clangd	llvm
 clangd-10	llvm
-classification_sample_async	computer-vision-openvino
 clddb-tool	nfs-utils
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
@@ -1646,6 +1646,7 @@ f2py3	jupyter
 f2py3.8	jupyter
 f95	c-basic
 faas-cli	faas-cli
+fab	azure-cli
 factor	os-core
 faillog	os-core
 faked	os-testsuite-0day
@@ -1897,6 +1898,7 @@ gdal_contour	python-extras
 gdal_grid	python-extras
 gdal_rasterize	python-extras
 gdal_translate	python-extras
+gdal_viewshed	python-extras
 gdaladdo	python-extras
 gdalbuildvrt	python-extras
 gdaldem	python-extras
@@ -1904,6 +1906,8 @@ gdalenhance	python-extras
 gdalinfo	python-extras
 gdallocationinfo	python-extras
 gdalmanage	python-extras
+gdalmdiminfo	python-extras
+gdalmdimtranslate	python-extras
 gdalserver	python-extras
 gdalsrsinfo	python-extras
 gdaltindex	python-extras
@@ -2377,10 +2381,6 @@ hdspconf	alsa-tools
 hdsploader	alsa-tools
 hdspmixer	alsa-tools
 head	os-core
-hello_classification	computer-vision-openvino
-hello_nv12_input_classification	computer-vision-openvino
-hello_query_device	computer-vision-openvino
-hello_reshape_ssd	computer-vision-openvino
 helm	cloud-native-basic
 help2man	dev-utils-dev
 hevcencode	libva-utils
@@ -4607,7 +4607,6 @@ objcopy	binutils
 objdump	binutils
 object-remote-node	perl-extras
 object-remote-slave	perl-extras
-object_detection_sample_ssd	computer-vision-openvino
 obs	obs-studio
 obs-ffmpeg-mux	obs-studio
 obxprop	desktop-lxqt
@@ -4659,7 +4658,7 @@ ociocheck	blender
 ocioconvert	blender
 ociodisplay	blender
 ociolutimage	blender
-ocloc	computer-vision-openvino
+ocloc	computer-vision-basic
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
@@ -4701,10 +4700,10 @@ openbox-gnome-session	desktop-lxqt
 openbox-kde-session	desktop-lxqt
 openbox-session	desktop-lxqt
 openconnect	network-basic
-opencv_annotation	computer-vision-openvino
-opencv_interactive-calibration	computer-vision-openvino
-opencv_version	computer-vision-openvino
-opencv_visualisation	computer-vision-openvino
+opencv_annotation	devpkg-opencv
+opencv_interactive-calibration	devpkg-opencv
+opencv_version	devpkg-opencv
+opencv_visualisation	devpkg-opencv
 openjade	php-basic-dev
 openscad	openscad
 openshot-qt	openshot-qt
@@ -5864,7 +5863,7 @@ setreg	mono
 setserial	sysadmin-basic
 setsid	os-core
 setterm	os-core
-setup_vars_opencv4.sh	computer-vision-openvino
+setup_vars_opencv4.sh	devpkg-opencv
 setvtrgb	kbd
 setxkbmap	x11-tools
 sfcgal-config	R-extras-dev
@@ -6147,7 +6146,6 @@ spa-inspect	devpkg-pipewire
 spa-monitor	devpkg-pipewire
 speaker-test	alsa-utils
 spectacle	spectacle
-speech_sample	computer-vision-openvino
 speexdec	devpkg-speex
 speexenc	devpkg-speex
 sphinx-apidoc	Sphinx
@@ -6217,6 +6215,7 @@ sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
 sshpass	ansible
+sshtunnel	azure-cli
 ssltap	cryptography
 ssocr	ssocr
 ssr-glinject	simplescreenrecorder
@@ -6269,7 +6268,6 @@ stunbdc	games-dev
 stund	games-dev
 stunnel	cloud-api
 sty2dtx	texlive
-style_transfer_sample	computer-vision-openvino
 su	os-core
 su-exec	su-exec
 subunit-1to2	software-testing
@@ -6948,19 +6946,19 @@ v4l2-sysfs-path	v4l-utils
 vacuumdb	postgresql
 vads	software-defined-cockpit
 vainfo	libva-utils
-vala	devpkg-vala
-vala-0.48	devpkg-vala
-vala-gen-introspect	devpkg-vala
-vala-gen-introspect-0.48	devpkg-vala
-valac	devpkg-vala
-valac-0.48	devpkg-vala
-valadoc	devpkg-vala
-valadoc-0.48	devpkg-vala
+vala	cryptoprocessor-management-dev
+vala-0.48	cryptoprocessor-management-dev
+vala-gen-introspect	cryptoprocessor-management-dev
+vala-gen-introspect-0.48	cryptoprocessor-management-dev
+valac	cryptoprocessor-management-dev
+valac-0.48	cryptoprocessor-management-dev
+valadoc	cryptoprocessor-management-dev
+valadoc-0.48	cryptoprocessor-management-dev
 valgrind	valgrind
 valgrind-di-server	valgrind
 valgrind-listener	valgrind
-vapigen	devpkg-vala
-vapigen-0.48	devpkg-vala
+vapigen	cryptoprocessor-management-dev
+vapigen-0.48	cryptoprocessor-management-dev
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
