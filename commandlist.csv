@@ -3762,6 +3762,7 @@ lssubsys	devpkg-libcgroup
 lstopo-no-graphics	hwloc
 lsusb	sysadmin-basic
 ltdbtool	samba
+lto-dump	c-basic
 ltp-bump	ltp
 ltp-pan	ltp
 ltrace	performance-tools
@@ -7272,9 +7273,9 @@ x86_64-generic-linux-g++	c-basic
 x86_64-generic-linux-g++-8	c-extras-gcc8
 x86_64-generic-linux-g++7	c-extras-gcc7
 x86_64-generic-linux-gcc	c-basic
+x86_64-generic-linux-gcc-10	c-basic
 x86_64-generic-linux-gcc-7	c-extras-gcc7
 x86_64-generic-linux-gcc-8	c-extras-gcc8
-x86_64-generic-linux-gcc-9	c-basic
 x86_64-generic-linux-gcc-ar	c-basic
 x86_64-generic-linux-gcc-ar-8	c-extras-gcc8
 x86_64-generic-linux-gcc-ar7	c-extras-gcc7
