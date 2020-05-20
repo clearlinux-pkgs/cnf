@@ -5061,7 +5061,6 @@ plasma-browser-integration-host	desktop-kde
 plasma-discover	desktop-kde
 plasma_session	desktop-kde
 plasma_waitforname	desktop-kde
-plasmapkg2	os-clr-on-clr-dev
 plasmashell	desktop-kde
 plasmawindowed	desktop-kde
 platex	texlive
@@ -5800,6 +5799,7 @@ sconsign	scons
 sconsign-3.1.2	scons
 scontrol	cluster-tools
 scor2prt	texlive
+scour	inkscape
 scp	sysadmin-basic
 screen	sysadmin-basic
 screen-4.8.0	sysadmin-basic
