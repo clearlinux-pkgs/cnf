@@ -649,6 +649,7 @@ ceph-create-keys	ceph
 ceph-dencoder	ceph
 ceph-deploy	storage-cluster
 ceph-fuse	ceph
+ceph-immutable-object-cache	ceph
 ceph-kvstore-tool	ceph
 ceph-mds	ceph
 ceph-mgr	ceph
@@ -2222,13 +2223,13 @@ groupdel	os-core
 groupmems	os-core
 groupmod	os-core
 groups	os-core
-grpc_cpp_plugin	ceph
-grpc_csharp_plugin	ceph
-grpc_node_plugin	ceph
-grpc_objective_c_plugin	ceph
-grpc_php_plugin	ceph
-grpc_python_plugin	ceph
-grpc_ruby_plugin	ceph
+grpc_cpp_plugin	kvm-host-dev
+grpc_csharp_plugin	kvm-host-dev
+grpc_node_plugin	kvm-host-dev
+grpc_objective_c_plugin	kvm-host-dev
+grpc_php_plugin	kvm-host-dev
+grpc_python_plugin	kvm-host-dev
+grpc_ruby_plugin	kvm-host-dev
 grpck	os-core
 grpconv	os-core
 grpunconv	os-core
@@ -3020,6 +3021,7 @@ json_reformat	desktop-dev
 json_verify	desktop-dev
 json_xs	perl-extras
 jsondiff	diffoscope
+jsonpatch	ceph
 jsonpointer	jupyter
 jsonschema	jupyter
 jspy	automotive-tools
@@ -3995,6 +3997,7 @@ mdb_stat	machine-learning-basic
 mdbrebase	mono
 mdel	storage-utils
 mdeltree	storage-utils
+mdfind	samba
 mdig	clr-network-troubleshooter
 mdir	storage-utils
 mdmon	storage-utils
