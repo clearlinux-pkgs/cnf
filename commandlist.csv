@@ -1723,6 +1723,7 @@ fio	fio
 fio-btrace2fio	fio
 fio-dedupe	fio
 fio-genzipf	fio
+fio-histo-log-pctiles.py	fio
 fio-verify-state	fio
 fio_generate_plots	fio
 firecracker	containers-virt
@@ -6543,6 +6544,11 @@ tflite_convert	machine-learning-tensorflow
 tfmtodit	man-pages
 tftopl	texlive
 tftpd	clr-network-troubleshooter
+tgt-admin	tgt
+tgt-setup-lun	tgt
+tgtadm	tgt
+tgtd	tgt
+tgtimg	tgt
 tgz	storage-utils
 theano-cache	machine-learning-basic
 theano-nose	machine-learning-basic
