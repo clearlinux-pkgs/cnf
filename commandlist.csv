@@ -82,7 +82,6 @@ acpidump	acpica-unix2
 acpiexamples	acpica-unix2
 acpiexec	acpica-unix2
 acpihelp	acpica-unix2
-acpinames	acpica-unix2
 acpisrc	acpica-unix2
 acpixtract	acpica-unix2
 acrn-dm	software-defined-cockpit-dev
@@ -381,7 +380,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1944,10 +1943,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop-enlightenment
+gdm	desktop
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop-enlightenment
-gdmflexiserver	desktop-enlightenment
+gdm-screenshot	desktop
+gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -2964,9 +2963,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -5405,6 +5404,7 @@ qmicli	games-dev
 qml	sddm
 qmlcachegen	devpkg-qtdeclarative
 qmleasing	devpkg-qtdeclarative
+qmlformat	sddm
 qmlimportscanner	devpkg-qtdeclarative
 qmllint	devpkg-qtdeclarative
 qmlmin	devpkg-qtdeclarative
@@ -5413,6 +5413,7 @@ qmlpreview	sddm
 qmlprofiler	sddm
 qmlscene	sddm
 qmltestrunner	devpkg-qtdeclarative
+qmltyperegistrar	sddm
 qpaeq	pulseaudio
 qpdf	devpkg-qpdf
 qphotorec	testdisk
@@ -7513,6 +7514,7 @@ xscreensaver-demo	xscreensaver
 xscreensaver-getimage	xscreensaver
 xscreensaver-getimage-file	xscreensaver
 xscreensaver-getimage-video	xscreensaver
+xscreensaver-systemd	xscreensaver
 xscreensaver-text	xscreensaver
 xsd	mono
 xsel	x11-tools
