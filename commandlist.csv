@@ -380,7 +380,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -2963,9 +2963,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -4953,7 +4953,7 @@ perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
 perl-reversion	perl-extras
-perl5.30.2	perl-basic
+perl5.30.3	perl-basic
 perlbrew	perl-extras
 perlbug	perl-basic
 perldoc	perl-basic
