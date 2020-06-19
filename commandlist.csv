@@ -560,7 +560,7 @@ cachepic	texlive
 cairo-trace	devpkg-cairo
 cal	os-core
 calc	calc
-calc-prorate	ceph
+calc-prorate	conda
 calendarjanitor	akonadi
 calidns	pdns
 callgrind_annotate	valgrind
@@ -729,7 +729,7 @@ cheese	cheese
 cheetah	koji
 cheetah-analyze	koji
 cheetah-compile	koji
-cheroot	ceph
+cheroot	conda
 cherryd	ceph
 chfn	os-core
 chgpasswd	os-core
@@ -915,6 +915,7 @@ compare	ImageMagick
 compile-et.pl	devpkg-nspr
 compile_et	storage-utils
 composite	ImageMagick
+conda	conda
 conf.py	storage-cluster
 config_data	perl-extras
 configure-printer	desktop-kde
