@@ -1417,6 +1417,7 @@ dvisvgm	texlive
 dvitodvi	texlive
 dvitomp	texlive
 dvitype	texlive
+dwdump	dropwatch
 dwebp	transcoding-support
 dwp	binutils
 dwspeak.sh	amateur-radio
@@ -3101,7 +3102,7 @@ kbookmarkmerger	keditbookmarks
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	education-secondary
+kbruch	desktop-kde-games
 kbuildsycoca5	kde-frameworks5
 kbxutil	gnupg
 kcachegrind	kcachegrind
@@ -3199,7 +3200,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	education-secondary
+kig	desktop-kde-games
 kigo	desktop-kde-games
 kill	procps-ng
 kill_instance	cloud-api
@@ -3335,7 +3336,7 @@ kwatchgnupg	kleopatra
 kwikdisk	kdf
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	education-secondary
+kwordquiz	desktop-kde-games
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -4727,6 +4728,9 @@ opensm	hpc-utils
 openssl	os-core
 openvpn	network-basic
 openvt	kbd
+opj_compress	kde-frameworks5-dev
+opj_decompress	kde-frameworks5-dev
+opj_dump	kde-frameworks5-dev
 opl2ofm	texlive
 opt	llvm
 opt-10	llvm
@@ -4831,7 +4835,7 @@ paraview.conf	ParaView
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	education-secondary
+parley	desktop-kde-games
 parse.f2fs	storage-utils
 parset	parallel
 parsetrigrams	kde-frameworks5
@@ -5343,7 +5347,7 @@ pygmentize	scm-server
 pyhs100	domotica
 pyjson5	jupyter
 pyjwt	domotica
-pykig.py	education-secondary
+pykig.py	desktop-kde-games
 pylint	pcs
 pylupdate5	openshot-qt
 pyozw_check	domotica
