@@ -4578,6 +4578,7 @@ nrpe	sysadmin-remote
 nsec3dig	pdns
 nsec3hash	clr-network-troubleshooter
 nsenter	os-core
+nsgmls	mail-utils-dev
 nslcd	enterprise-login
 nslookup	clr-network-troubleshooter
 nsm	time-server-basic
@@ -4706,6 +4707,7 @@ ompi_info	openmpi
 omshell	pxe-server
 onig-config	sysadmin-basic-dev
 onnode	samba
+onsgmls	mail-utils-dev
 ontap_lsmplugin	sysadmin-remote
 op2calltree	kcachegrind
 opafmconfigpp	hpc-utils
@@ -4750,6 +4752,7 @@ orted	openmpi
 orterun	openmpi
 osage	graphviz
 osdmaptool	ceph
+osgmlnorm	mail-utils-dev
 osinfo-db-export	virt-manager
 osinfo-db-import	virt-manager
 osinfo-db-path	virt-manager
@@ -4759,11 +4762,15 @@ osinfo-install-script	virt-manager
 osinfo-query	virt-manager
 osirrox	xorriso
 osmtest	hpc-utils
+ospam	mail-utils-dev
+ospcat	mail-utils-dev
+ospent	mail-utils-dev
 ospf6d	quagga
 ospfclient	quagga
 ospfd	quagga
 ostra-cg	dev-utils
 ostree	flatpak
+osx	mail-utils-dev
 ot2kpx	texlive
 otangle	texlive
 otfinfo	texlive
@@ -5990,6 +5997,7 @@ sgen-grep-binprot	mono
 sginfo	sysadmin-basic-dev
 sgm_dd	sysadmin-basic-dev
 sgmldiff	docbook-utils
+sgmlnorm	mail-utils-dev
 sgmlspl.pl	perl-extras
 sgp_dd	sysadmin-basic-dev
 sh	os-core
@@ -6191,10 +6199,13 @@ sp.S.x	npb
 sp.W.x	npb
 spa-inspect	devpkg-pipewire
 spa-monitor	devpkg-pipewire
+spam	mail-utils-dev
+spcat	mail-utils-dev
 speaker-test	alsa-utils
 spectacle	spectacle
 speexdec	devpkg-speex
 speexenc	devpkg-speex
+spent	mail-utils-dev
 sphinx-apidoc	Sphinx
 sphinx-autogen	Sphinx
 sphinx-build	Sphinx
@@ -6392,6 +6403,7 @@ swupd-inspector	mixer
 swupd-overdue	os-core-update
 swupd-probe	telemetrics
 swupd-search	python3-basic
+sx	mail-utils-dev
 sxiv	sxiv
 sxpm	devpkg-libXpm
 symilar	pcs
