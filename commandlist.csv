@@ -5065,7 +5065,6 @@ pip3.8	python3-basic
 pip_stress	dev-utils
 pipewire	devpkg-pipewire
 pipewire-media-session	devpkg-pipewire
-pipreqs	pcs
 pivot_root	os-core
 pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
@@ -5776,10 +5775,19 @@ sacct	cluster-tools
 sacctmgr	cluster-tools
 sadf	sysstat
 salloc	cluster-tools
+salt	salt
+salt-api	salt
 salt-call	salt
 salt-cloud	salt
+salt-cp	salt
+salt-key	salt
+salt-master	salt
+salt-minion	salt
+salt-proxy	salt
 salt-run	salt
 salt-ssh	salt
+salt-syndic	salt
+salt-unity	salt
 sam2vcf.pl	samtools
 samba	samba
 samba-gpupdate	samba
