@@ -939,7 +939,6 @@ convert	ImageMagick
 convert-caffe2-to-onnx	machine-learning-pytorch
 convert-dtsv0	dtc
 convert-onnx-to-caffe2	machine-learning-pytorch
-convert-test	devpkg-exiv2
 convertfilestopdf	devpkg-leptonica
 convertfilestops	devpkg-leptonica
 convertformat	devpkg-leptonica
@@ -1439,7 +1438,6 @@ earlyoom	earlyoom
 earlyoom-clr-telemetry	earlyoom
 easy_install	python3-basic
 easy_install-3.8	python3-basic
-easyaccess-test	devpkg-exiv2
 ebb	texlive
 ebong	texlive
 ebrowse	emacs
@@ -1613,7 +1611,6 @@ exfatfsck	storage-utils
 exfatlabel	storage-utils
 exifcomment	devpkg-exiv2
 exifdata	devpkg-exiv2
-exifdata-test	devpkg-exiv2
 exifprint	devpkg-exiv2
 exifvalue	devpkg-exiv2
 exiv2	devpkg-exiv2
@@ -2124,6 +2121,7 @@ gnome-desktop-testing-runner	gnome-desktop-testing
 gnome-disk-image-mounter	gnome-disk-utility
 gnome-disks	gnome-disk-utility
 gnome-extensions	desktop
+gnome-extensions-app	desktop
 gnome-flashback	desktop
 gnome-font-viewer	gnome-font-viewer
 gnome-help	desktop
@@ -2652,7 +2650,6 @@ indxbib	man-pages
 info	texinfo
 infocmp	sysadmin-basic
 infotocap	sysadmin-basic
-ini-test	devpkg-exiv2
 inimf	texlive
 init	sysadmin-basic
 init_audigy	alsa-tools
@@ -2731,7 +2728,6 @@ inw	performance-tools
 ionice	os-core
 ioping	performance-tools
 iostat	sysstat
-iotest	devpkg-exiv2
 iotop	iotop
 iowatcher	performance-tools
 ip	iproute2
@@ -2807,7 +2803,6 @@ iptables-translate	iptables
 iptables-xml	iptables
 iptceasy	devpkg-exiv2
 iptcprint	devpkg-exiv2
-iptctest	devpkg-exiv2
 iptest	jupyter
 iptest3	jupyter
 iptraf	network-basic
@@ -3173,7 +3168,6 @@ keepassxc	keepassxc
 keepassxc-cli	keepassxc
 keepassxc-proxy	keepassxc
 kexec	os-cloudguest-azure
-key-test	devpkg-exiv2
 key.dns_resolver	os-core-dev
 keychain	keychain
 keyctl	os-core-dev
@@ -3347,7 +3341,6 @@ l3build	texlive
 l4p-tmpl	perl-extras
 lacheck	texlive
 lamed	texlive
-largeiptc-test	devpkg-exiv2
 last	os-core
 lastb	os-core
 lastlog	os-core
@@ -4150,7 +4143,6 @@ mllatex	texlive
 mltex	texlive
 mm2gv	graphviz
 mmafm	texlive
-mmap-test	devpkg-exiv2
 mmc	storage-utils
 mmc-tool	asunder
 mmcli	NetworkManager-extras
@@ -4861,7 +4853,6 @@ patchelf	containers-basic-dev
 patchperl	perl-extras
 patchwork	graphviz
 patgen	texlive
-path-test	devpkg-exiv2
 pathchk	os-core
 pavucontrol	desktop-apps
 pax11publish	pulseaudio
@@ -5212,7 +5203,6 @@ prefcnt	dev-utils
 prepmx	texlive
 prerr.properties	devpkg-nspr
 preunzip	aspell
-prevtest	devpkg-exiv2
 prezip	aspell
 prezip-bin	aspell
 printafm	ghostscript
@@ -5718,6 +5708,7 @@ rstream	hpc-utils
 rstudio	R-rstudio
 rsvg-convert	devpkg-librsvg
 rsync	rsync
+rsync-ssl	rsync
 rsyslogd	rsyslog
 rt-migrate-test	dev-utils
 rtacct	iproute2
@@ -6324,7 +6315,6 @@ stress-ng	dev-utils
 strfile	fortune-mod
 strigger	cluster-tools
 strings	binutils
-stringto-test	devpkg-exiv2
 strip	binutils
 struct2osd	okteta
 stty	os-core
@@ -6627,7 +6617,6 @@ thunderbird	thunderbird
 tic	sysadmin-basic
 tidy_changelog	perl-extras
 tie	texlive
-tiff-test	devpkg-exiv2
 tiff2bw	devpkg-tiff
 tiff2pdf	devpkg-tiff
 tiff2ps	devpkg-tiff
@@ -7211,7 +7200,6 @@ weechat	weechat
 weechat-curses	weechat
 weechat-headless	weechat
 wemo	domotica
-werror-test	devpkg-exiv2
 weston	weston-extras
 weston-calibrator	weston-extras
 weston-clickdot	weston-extras
@@ -7310,8 +7298,6 @@ wpa_cli	wpa_supplicant
 wpa_passphrase	wpa_supplicant
 wpa_supplicant	wpa_supplicant
 wrc	wine
-write-test	devpkg-exiv2
-write2-test	devpkg-exiv2
 wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
 wsdl	mono
@@ -7538,7 +7524,6 @@ xmlwf	devpkg-expat
 xmodmap	x11-tools
 xmpdump	devpkg-exiv2
 xmpparse	devpkg-exiv2
-xmpparser-test	devpkg-exiv2
 xmpprint	devpkg-exiv2
 xmpsample	devpkg-exiv2
 xorrecord	xorriso
