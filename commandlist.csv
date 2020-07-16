@@ -1442,11 +1442,16 @@ ebb	texlive
 ebong	texlive
 ebrowse	emacs
 ebtables	iptables
+ebtables-legacy	network-basic
+ebtables-legacy-restore	network-basic
+ebtables-legacy-save	network-basic
 ebtables-nft	iptables
 ebtables-nft-restore	iptables
 ebtables-nft-save	iptables
 ebtables-restore	iptables
 ebtables-save	iptables
+ebtablesd	network-basic
+ebtablesu	network-basic
 echo	os-core
 echomixer	alsa-tools
 ecore_evas_convert	desktop-enlightenment
@@ -2733,6 +2738,7 @@ iotop	iotop
 iowatcher	performance-tools
 ip	iproute2
 ip6tables	iptables
+ip6tables-apply	iptables
 ip6tables-legacy	iptables
 ip6tables-legacy-restore	iptables
 ip6tables-legacy-save	iptables
@@ -5069,7 +5075,7 @@ pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
 pkgdata	sddm
-pkginfo	mercurial
+pkginfo	python-testing
 pkill	procps-ng
 pktogf	texlive
 pkttyagent	polkit
@@ -6097,7 +6103,6 @@ slurmdbd	cluster-tools
 slurmstepd	cluster-tools
 sm-notify	nfs-utils
 smTestDriver-pv5.8	ParaView
-smap	cluster-tools
 smartctl	smartmontools
 smartd	smartmontools
 smartx_interactive_example	software-defined-cockpit
