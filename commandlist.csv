@@ -1949,10 +1949,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop
+gdm	desktop-enlightenment
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop
-gdmflexiserver	desktop
+gdm-screenshot	desktop-enlightenment
+gdmflexiserver	desktop-enlightenment
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -2070,6 +2070,8 @@ git-receive-pack	git
 git-shell	git
 git-upload-archive	git
 git-upload-pack	git
+gitdiff	dev-utils
+gitdiffview	dev-utils
 gitg	dev-utils-gui
 gitk	dev-utils-gui
 gitolite	scm-server
@@ -2797,6 +2799,7 @@ ipsec	NetworkManager-extras
 ipset	openssh-server
 iptab	perl-extras
 iptables	iptables
+iptables-apply	iptables
 iptables-legacy	iptables
 iptables-legacy-restore	iptables
 iptables-legacy-save	iptables
@@ -4562,7 +4565,6 @@ nosetests-3.8	django
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
-notmuch-emacs-mua	notmuch
 novo2sam.pl	samtools
 npb-run-mpi.sh	npb
 npb-run-omp.sh	npb
@@ -4858,6 +4860,7 @@ pasuspender	pulseaudio
 patch	patch
 patchelf	containers-basic-dev
 patchperl	perl-extras
+patchview	dev-utils
 patchwork	graphviz
 patgen	texlive
 pathchk	os-core
@@ -6372,6 +6375,8 @@ svnadmin	subversion
 svnbackport	desktop-kde-apps
 svnbench	subversion
 svnchangesince	desktop-kde-apps
+svndiff	dev-utils
+svndiffview	dev-utils
 svndumpfilter	subversion
 svnforwardport	desktop-kde-apps
 svnfsfs	subversion
