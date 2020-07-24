@@ -1949,10 +1949,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop-enlightenment
+gdm	desktop
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop-enlightenment
-gdmflexiserver	desktop-enlightenment
+gdm-screenshot	desktop
+gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -4675,9 +4675,6 @@ ocamlruni	ocaml-basic
 ocamlyacc	ocaml-basic
 ociobakelut	blender
 ociocheck	blender
-ocioconvert	blender
-ociodisplay	blender
-ociolutimage	blender
 ocloc	computer-vision-basic
 ocs	dev-utils
 ocsptool	cryptography
@@ -5516,6 +5513,7 @@ raw_ethernet_bw	hpc-utils
 raw_ethernet_fs_rate	hpc-utils
 raw_ethernet_lat	hpc-utils
 rawshark	wireshark
+rawtextdump	devpkg-LibRaw
 rawtherapee	RawTherapee
 rawtherapee-cli	RawTherapee
 rbd	ceph
@@ -6801,6 +6799,7 @@ true	os-core
 truncate	os-core
 trust	os-core
 ts	os-testsuite-0day
+ts2phc	time-server-basic
 tset	sysadmin-basic
 tshark	wireshark
 tsort	os-core
