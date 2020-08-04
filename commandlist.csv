@@ -650,6 +650,7 @@ ceph-crash	ceph
 ceph-create-keys	ceph
 ceph-dencoder	ceph
 ceph-deploy	storage-cluster
+ceph-diff-sorted	ceph
 ceph-fuse	ceph
 ceph-immutable-object-cache	ceph
 ceph-kvstore-tool	ceph
@@ -5371,9 +5372,7 @@ pyro4-test-echoserver	python-data-science
 pyroma	python-extras
 pyroute2-cli	package-utils
 pyrsa-decrypt	cloud-api
-pyrsa-decrypt-bigfile	cloud-api
 pyrsa-encrypt	cloud-api
-pyrsa-encrypt-bigfile	cloud-api
 pyrsa-keygen	cloud-api
 pyrsa-priv2pub	cloud-api
 pyrsa-sign	cloud-api
@@ -5619,6 +5618,7 @@ rfddump	mtd-utils
 rfdformat	mtd-utils
 rfkill	os-core
 rftp	tcl-basic
+rgw-orphan-list	ceph
 rhythmbox	rhythmbox
 rhythmbox-client	rhythmbox
 ri	ruby-basic
