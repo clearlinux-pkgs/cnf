@@ -5545,6 +5545,7 @@ rdmsr	performance-tools
 rdoc	ruby-basic
 rds-ctl	v4l-utils
 re2c	php-basic-dev
+re2go	php-basic-dev
 readelf	binutils
 readelf.py	dpdk
 readlink	os-core
