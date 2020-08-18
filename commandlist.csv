@@ -1655,7 +1655,6 @@ f2py3	jupyter
 f2py3.8	jupyter
 f95	c-basic
 faas-cli	faas-cli
-fab	azure-cli
 factor	os-core
 faillog	os-core
 faked	os-testsuite-0day
@@ -2492,7 +2491,7 @@ htxelatex	texlive
 htxetex	texlive
 hub	git
 hugo	hugo
-humanfriendly	maker-gis
+humanfriendly	azure-cli
 hunspell	kde-frameworks5-dev
 hunzip	kde-frameworks5-dev
 hv_fcopy_daemon	os-cloudguest-azure
@@ -2517,6 +2516,7 @@ hwloc-ps	hwloc
 hwmixvolume	alsa-tools
 hwstamp_ctl	time-server-basic
 hypnotoad	perl-extras
+hypothesis	Solaar
 hzip	kde-frameworks5-dev
 i2c-stub-from-dump	maker-basic
 i2cdetect	maker-basic
@@ -6287,7 +6287,6 @@ sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
 sshpass	ansible
-sshtunnel	azure-cli
 ssltap	cryptography
 ssocr	ssocr
 ssr-glinject	simplescreenrecorder
@@ -6667,7 +6666,6 @@ tkmib	performance-tools
 tknewsbiff	tcl-basic
 tkpasswd	tcl-basic
 tlcockpit	texlive
-tldextract	letsencrypt-client
 tlmgr	texlive
 tload	procps-ng
 tlp	TLP
@@ -7621,11 +7619,6 @@ yamlpp-highlight	perl-extras
 yamlpp-load	perl-extras
 yamlpp-load-dump	perl-extras
 yamlpp-parse-emit	perl-extras
-yamlpp5-events	perl-extras
-yamlpp5-highlight	perl-extras
-yamlpp5-load	perl-extras
-yamlpp5-load-dump	perl-extras
-yamlpp5-parse-emit	perl-extras
 yapp	perl-extras
 yasm	yasm
 yat2m	devpkg-libgpg-error
