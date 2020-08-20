@@ -121,8 +121,7 @@ akonadi_davgroupware_resource	desktop-kde-apps
 akonadi_ews_resource	desktop-kde-apps
 akonadi_ewsmta_resource	desktop-kde-apps
 akonadi_followupreminder_agent	desktop-kde-apps
-akonadi_googlecalendar_resource	desktop-kde-apps
-akonadi_googlecontacts_resource	desktop-kde-apps
+akonadi_google_resource	desktop-kde-apps
 akonadi_ical_resource	desktop-kde-apps
 akonadi_icaldir_resource	desktop-kde-apps
 akonadi_imap_resource	desktop-kde-apps
@@ -3246,6 +3245,7 @@ kmplot	kmplot
 knavalbattle	desktop-kde-games
 knetattach	desktop-kde
 knetwalk	desktop-kde-games
+knewstuff-dialog	kde-frameworks5
 knotes	knotes
 koi8rxterm	xterm
 koji	koji
