@@ -1340,6 +1340,7 @@ dracut-catimages	sysadmin-basic
 dragon	dragon
 draw_lib_dependencies	desktop-kde-apps
 driverless	hardware-printing
+driverless-fax	hardware-printing
 dropdb	postgresql
 droplang	postgresql
 dropuser	postgresql
@@ -5358,11 +5359,11 @@ pyjson5	jupyter
 pyjwt	domotica
 pykig.py	desktop-kde-games
 pylint	pcs
-pylupdate5	openshot-qt
+pylupdate5	maker-3dprinting
 pyozw_check	domotica
 pyozw_shell	domotica
 pyperf	os-testsuite-phoronix-desktop
-pyrcc5	openshot-qt
+pyrcc5	maker-3dprinting
 pyreverse	pcs
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
@@ -5399,7 +5400,7 @@ python3.7m-config	buildreq-spark
 python3.8	python3-basic
 python3.8-config	python3-basic
 pythontex	texlive
-pyuic5	openshot-qt
+pyuic5	maker-3dprinting
 pyvenv-3.7	buildreq-spark
 qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
@@ -5763,7 +5764,6 @@ runghc	haskell-basic
 runghc-8.6.4	haskell-basic
 rungs	texlive
 runhaskell	haskell-basic
-runlevel	sysadmin-basic
 runscript	minicom
 runtest	os-core-dev
 runuser	os-core
@@ -6546,7 +6546,6 @@ telem_journal	devpkg-telemetrics-client
 telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
-telinit	sysadmin-basic
 telnet	netkit-telnet
 tensorboard	machine-learning-tensorflow
 tensorflow_model_server	tensorflow-serving
@@ -6931,6 +6930,8 @@ unflatten	graphviz
 unicode_start	kbd
 unicode_stop	kbd
 unidecode	domotica
+unifdef	dev-utils
+unifdefall	dev-utils
 uniq	os-core
 unison	unison
 unison-fsmonitor	unison
