@@ -868,8 +868,8 @@ clr-python-timestamp	os-core-dev
 clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	dev-utils
-clr_debug_fuse	dev-utils
+clr_debug_daemon	performance-tools
+clr_debug_fuse	performance-tools
 clr_power	os-core-plus
 clrtrust	os-core
 cluster	graphviz
@@ -1746,7 +1746,7 @@ fixcvsdiff	dev-utils
 fixkdeincludes	desktop-kde-apps
 fixparts	bootloader
 fixproc	performance-tools
-fixqt4headers.pl	devpkg-avahi
+fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
 flake8	Sphinx
@@ -2200,6 +2200,7 @@ gpgparsemail	gnupg
 gpgrt-config	devpkg-libgpg-error
 gpgscm	gnupg
 gpgsm	gnupg
+gpgsplit	gnupg
 gpgtar	gnupg
 gpgv	gnupg
 gphoto2	gphoto2
@@ -3787,7 +3788,7 @@ ltdbtool	samba
 lto-dump	c-basic
 ltp-bump	ltp
 ltp-pan	ltp
-ltrace	dev-utils
+ltrace	performance-tools
 lttng	lttng
 lttng-crash	lttng
 lttng-gen-tp	lttng
@@ -4166,7 +4167,7 @@ mmdblookup	network-basic-dev
 mmount	storage-utils
 mmove	storage-utils
 mmpfb	texlive
-moc	devpkg-avahi
+moc	devpkg-qtbase
 mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
@@ -5414,9 +5415,9 @@ qbs-setup-toolchains	qt-creator
 qcollectiongenerator	qt-basic
 qconvex	R-extras-dev
 qdbus	qt-basic
-qdbuscpp2xml	devpkg-avahi
+qdbuscpp2xml	devpkg-qtbase
 qdbusviewer	qt-basic
-qdbusxml2cpp	devpkg-avahi
+qdbusxml2cpp	devpkg-qtbase
 qdelaunay	R-extras-dev
 qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
@@ -5426,7 +5427,7 @@ qemu-img	clr-installer
 qemu-io	kvm-host
 qemu-keymap	kvm-host
 qemu-nbd	kvm-host
-qemu-pr-helper	kvm-host
+qemu-storage-daemon	kvm-host
 qemu-system-i386	kvm-host
 qemu-system-x86_64	kvm-host
 qemu-x86_64	kvm-host
@@ -5437,8 +5438,8 @@ qgltf	qt-basic
 qhalf	R-extras-dev
 qhelpgenerator	devpkg-qttools
 qhull	R-extras-dev
-qlalr	devpkg-avahi
-qmake	devpkg-avahi
+qlalr	devpkg-qtbase
+qmake	devpkg-qtbase
 qmi-firmware-update	games-dev
 qmi-network	games-dev
 qmicli	games-dev
@@ -5478,7 +5479,7 @@ quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
-qvkgen	devpkg-avahi
+qvkgen	devpkg-qtbase
 qvlc	vlc
 qvoronoi	R-extras-dev
 qwebengine_convert_dict	lib-qt5webengine
@@ -5529,7 +5530,7 @@ rbd-replay-many	ceph
 rbd-replay-prep	ceph
 rbdmap	ceph
 rbox	R-extras-dev
-rcc	devpkg-avahi
+rcc	devpkg-qtbase
 rclone	rclone
 rcmysql	mariadb
 rcopy	hpc-utils
@@ -6425,7 +6426,7 @@ sxpm	devpkg-libXpm
 symilar	pcs
 sync	os-core
 synclient	os-utils-gui
-syncqt.pl	devpkg-avahi
+syncqt.pl	devpkg-qtbase
 synctex	texlive
 syndaemon	os-utils-gui
 synergy	synergy
@@ -6911,7 +6912,7 @@ udpong	hpc-utils
 udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
-uic	devpkg-avahi
+uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
@@ -6966,7 +6967,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	qt-core
+update-mime-database	lightdm
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
@@ -7109,7 +7110,6 @@ virt-pki-validate	kvm-host
 virt-viewer	virt-viewer
 virt-xml	virt-manager
 virt-xml-validate	kvm-host
-virtfs-proxy-helper	kvm-host
 virtinterfaced	kvm-host
 virtlockd	kvm-host
 virtlogd	kvm-host
