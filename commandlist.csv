@@ -1951,10 +1951,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop
+gdm	desktop-enlightenment
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop
-gdmflexiserver	desktop
+gdm-screenshot	desktop-enlightenment
+gdmflexiserver	desktop-enlightenment
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
