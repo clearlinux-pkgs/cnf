@@ -858,7 +858,7 @@ clockdiff	clr-network-troubleshooter
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
-clr-desktop-files.sh	desktop
+clr-desktop-files.sh	xfce4-desktop
 clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
@@ -5277,6 +5277,7 @@ pspell-config	aspell
 pspp	pspp
 pspp-convert	pspp
 pspp-dump-sav	pspp
+pspp-output	pspp
 psppire	pspp
 psql	postgresql
 psresize	texlive
@@ -6970,7 +6971,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	lightdm
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
