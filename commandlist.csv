@@ -497,7 +497,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	devpkg-gnome-desktop
+bwrap	webkitgtk
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -2079,7 +2079,7 @@ gitg	dev-utils-gui
 gitk	dev-utils-gui
 gitolite	scm-server
 gjs	gjs
-gjs-console	gjs
+gjs-console	devpkg-gjs
 gkbd-keyboard-display	devpkg-libgnomekbd
 glacier	cloud-api
 glances	performance-tools
@@ -2281,6 +2281,7 @@ gst-launch-1.0	gstreamer
 gst-play-1.0	gstreamer
 gst-stats-1.0	gstreamer
 gst-tester-1.0	gstreamer
+gst-transcoder-1.0	gstreamer
 gst-typefind-1.0	gstreamer
 gsutil	os-cloudguest-gce
 gsx	ghostscript
@@ -3030,8 +3031,8 @@ jrunscript11	java11-basic
 jrunscript13	java13-basic
 js68	devpkg-mozjs68
 js68-config	devpkg-mozjs68
-js78	devpkg-gjs
-js78-config	devpkg-gjs
+js78	devpkg-mozjs78
+js78-config	devpkg-mozjs78
 jsadebugd	java-basic
 jshell	java-basic
 jshell11	java11-basic
@@ -3154,7 +3155,7 @@ kde-open5	desktop-kde
 kde-print-queue	desktop-kde
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3195,7 +3196,7 @@ keyring	django
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	storage-utils-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3204,7 +3205,7 @@ kfontinst	desktop-kde
 kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -3730,6 +3731,7 @@ log2asc	automotive-tools
 log2gpx	amateur-radio
 log2long	automotive-tools
 logger	os-core
+logilab-pytest	dev-utils-dev
 login	os-core
 loginctl	sysadmin-basic
 logname	os-core
@@ -4777,6 +4779,7 @@ osinfo-detect	virt-manager
 osinfo-install-script	virt-manager
 osinfo-query	virt-manager
 osirrox	xorriso
+oslat	dev-utils
 osmtest	hpc-utils
 ospam	mail-utils-dev
 ospcat	mail-utils-dev
@@ -5102,7 +5105,6 @@ plasmawindowed	desktop-kde
 platex	texlive
 platex-dev	texlive
 play	sox
-playout	gstreamer
 pldd	os-core
 plipconfig	net-tools
 plookup	cluster-tools
@@ -5475,7 +5477,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
@@ -7427,7 +7429,7 @@ xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
 xcursorgen	desktop-dev
-xdg-dbus-proxy	desktop-dev
+xdg-dbus-proxy	webkitgtk
 xdg-desktop-icon	desktop-i3
 xdg-desktop-menu	desktop-i3
 xdg-email	desktop-i3
