@@ -3153,7 +3153,7 @@ kde-open5	desktop-kde
 kde-print-queue	desktop-kde
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	mail-utils-dev
+kdebugdialog5	storage-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3194,7 +3194,7 @@ keyring	django
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	mail-utils-dev
+kf5-config	storage-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3203,7 +3203,7 @@ kfontinst	desktop-kde
 kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	mail-utils-dev
+kgendesignerplugin	storage-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -5475,7 +5475,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	mail-utils-dev
+qtwaylandscanner	storage-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
