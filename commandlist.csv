@@ -1379,6 +1379,9 @@ dumpmscat	samba
 dumpsexp	devpkg-libgcrypt
 dumpsolv	devpkg-libsolv
 dumresp	pdns
+dunst	desktop-i3
+dunstctl	desktop-i3
+dunstify	desktop-i3
 duperemove	duperemove
 dv2dt	texlive
 dvb-fe-tool	v4l-utils
