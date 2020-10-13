@@ -179,6 +179,7 @@ alsatplg	alsa-utils
 alsaucm	alsa-utils
 altonegen	transcoding-support
 amazon-efs-mount-watchdog	cloud-api
+amd_hdmi_compliance	igt-gpu-tools
 amidi	alsa-utils
 amixer	alsa-utils
 amqp-consume	kvm-host-dev
@@ -964,6 +965,7 @@ cpancover	perl-extras
 cpanel_json_xs	perl-extras
 cpanfile-dump	perl-extras
 cpanm	perl-extras
+cpantest	perl-extras
 cpio	cpio
 cpio-filter	perl-extras
 cpp	c-basic
@@ -1953,10 +1955,10 @@ gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
-gdm	desktop
+gdm	desktop-enlightenment
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop
-gdmflexiserver	desktop
+gdm-screenshot	desktop-enlightenment
+gdmflexiserver	desktop-enlightenment
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -2550,6 +2552,10 @@ i3bar	desktop-i3
 i3blocks	i3blocks
 i3lock	desktop-i3
 i3status	desktop-i3
+i915-perf-configs	igt-gpu-tools
+i915-perf-control	igt-gpu-tools
+i915-perf-reader	igt-gpu-tools
+i915-perf-recorder	igt-gpu-tools
 ias-setup	software-defined-cockpit
 ias-weston	software-defined-cockpit
 ias-weston-launch	software-defined-cockpit
@@ -2700,7 +2706,6 @@ integritysetup	boot-encrypted
 intel-gen4asm	igt-gpu-tools
 intel-gen4disasm	igt-gpu-tools
 intel-speed-select	linux-tools
-intel_aubdump	igt-gpu-tools
 intel_audio_dump	igt-gpu-tools
 intel_backlight	igt-gpu-tools
 intel_bios_dumper	igt-gpu-tools
@@ -3774,6 +3779,7 @@ lsblk	os-core
 lscgroup	devpkg-libcgroup
 lscpu	os-core
 lsdiff	dev-utils
+lsgpu	igt-gpu-tools
 lshw	sysadmin-basic
 lsinitrd	sysadmin-basic
 lsipc	os-core
@@ -4106,7 +4112,7 @@ minetestserver	minetestserver
 minfo	storage-utils
 minicom	minicom
 minimodem	amateur-radio
-miniterm.py	maker-3dprinting
+miniterm.py	domotica
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
 mixartloader	alsa-tools
