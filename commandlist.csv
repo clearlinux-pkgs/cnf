@@ -126,8 +126,6 @@ akonadi_ical_resource	desktop-kde-apps
 akonadi_icaldir_resource	desktop-kde-apps
 akonadi_imap_resource	desktop-kde-apps
 akonadi_indexing_agent	akonadi
-akonadi_kalarm_dir_resource	desktop-kde-apps
-akonadi_kalarm_resource	desktop-kde-apps
 akonadi_knut_resource	akonadi
 akonadi_maildir_resource	desktop-kde-apps
 akonadi_maildispatcher_agent	desktop-kde-apps
@@ -380,7 +378,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1131,8 +1129,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -2986,9 +2984,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -3157,8 +3155,10 @@ kcutiltest	desktop-dev
 kdb5_ldap_util	enterprise-login
 kdb5_util	enterprise-login
 kde-add-printer	desktop-kde
+kde-inhibit	desktop-kde
 kde-open5	desktop-kde
 kde-print-queue	desktop-kde
+kde-systemd-start-condition	desktop-kde
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
 kdebugdialog5	storage-utils-dev
@@ -3307,6 +3307,7 @@ krdc	desktop-kde-apps
 kreadconfig5	kde-frameworks5
 kreversi	desktop-kde-games
 krita	krita
+krita_version	krita
 kritarunner	krita
 kruler	desktop-kde-games
 krunner	desktop-kde
@@ -4334,7 +4335,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	desktop-dev
+mtdev-test	qt-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -4858,7 +4859,6 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
-pandoc-citeproc	pandoc
 pango-list	transcoding-support
 pango-view	transcoding-support
 paplay	pulseaudio
@@ -5836,7 +5836,7 @@ sar	sysstat
 saslauthd	desktop-kde-apps
 sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
-sassc	desktop-dev
+sassc	qt-basic-dev
 sattach	cluster-tools
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
