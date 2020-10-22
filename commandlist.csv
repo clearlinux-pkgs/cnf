@@ -1278,7 +1278,7 @@ dmeventd	boot-encrypted
 dmidecode	sysadmin-basic
 dmsetup	boot-encrypted
 dmstats	boot-encrypted
-dmypy	cve-bin-tool
+dmypy	Sphinx
 dnf	dnf
 dnf-3	dnf
 dnf-automatic-3	dnf
@@ -4402,8 +4402,8 @@ myisamchk	mariadb
 myisamlog	mariadb
 myisampack	mariadb
 mymeta-cpanfile	perl-extras
-mypy	cve-bin-tool
-mypyc	cve-bin-tool
+mypy	Sphinx
+mypyc	Sphinx
 myrocks_hotbackup	mariadb
 mysql	mariadb
 mysql_client_test	mariadb
@@ -6348,9 +6348,9 @@ strings	binutils
 strip	binutils
 struct2osd	okteta
 stty	os-core
-stubgen	cve-bin-tool
+stubgen	Sphinx
 stubquery	pdns
-stubtest	cve-bin-tool
+stubtest	Sphinx
 stunbdc	desktop-dev
 stund	desktop-dev
 stunnel	cloud-api
