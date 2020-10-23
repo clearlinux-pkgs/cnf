@@ -5359,6 +5359,7 @@ pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
+pybind11-config	python-extras
 pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
