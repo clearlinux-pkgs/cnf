@@ -869,8 +869,8 @@ clr-python-timestamp	os-core-dev
 clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	performance-tools
-clr_debug_fuse	performance-tools
+clr_debug_daemon	dev-utils
+clr_debug_fuse	dev-utils
 clr_power	os-core-plus
 clrtrust	os-core
 cluster	graphviz
@@ -1260,6 +1260,7 @@ dlt-test-fork-handler	software-defined-cockpit-dev
 dlt-test-init-free	software-defined-cockpit-dev
 dlt-test-multi-process	software-defined-cockpit-dev
 dlt-test-multi-process-client	software-defined-cockpit-dev
+dlt-test-non-verbose	software-defined-cockpit-dev
 dlt-test-stress	software-defined-cockpit-dev
 dlt-test-stress-client	software-defined-cockpit-dev
 dlt-test-stress-user	software-defined-cockpit-dev
@@ -1564,7 +1565,7 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epylint	scm-server
+epylint	pcs
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -2876,7 +2877,7 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	scm-server
+isort	pcs
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -3809,7 +3810,7 @@ ltdbtool	samba
 lto-dump	c-basic
 ltp-bump	ltp
 ltp-pan	ltp
-ltrace	performance-tools
+ltrace	dev-utils
 lttng	lttng
 lttng-crash	lttng
 lttng-gen-tp	lttng
@@ -4002,7 +4003,7 @@ mariadbd	mariadb
 mariadbd-multi	mariadb
 mariadbd-safe	mariadb
 mariadbd-safe-helper	mariadb
-markdown_py	koji
+markdown_py	scm-server
 masktest	samba
 match_parens	texlive
 mathspic	texlive
@@ -5366,7 +5367,7 @@ pydoc3	python3-basic
 pydoc3.7	buildreq-spark
 pydoc3.8	python3-basic
 pydocstyle	python-extras
-pyflakes	scm-server
+pyflakes	fontforge
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
@@ -5375,13 +5376,13 @@ pyhs100	domotica
 pyjson5	jupyter
 pyjwt	domotica
 pykig.py	desktop-kde-games
-pylint	scm-server
+pylint	pcs
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
 pyozw_shell	domotica
 pyperf	os-testsuite-phoronix-desktop
 pyrcc5	maker-3dprinting
-pyreverse	scm-server
+pyreverse	pcs
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
 pyro4-httpgateway	python-data-science
@@ -6439,7 +6440,7 @@ swupd-search	python3-basic
 sx	mail-utils-dev
 sxiv	sxiv
 sxpm	devpkg-libXpm
-symilar	scm-server
+symilar	pcs
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	devpkg-avahi
@@ -6702,8 +6703,8 @@ totem	totem
 totem-video-thumbnailer	totem
 touch	os-core
 touchpad-edge-detector	devpkg-libevdev
-tox	scm-server
-tox-quickstart	scm-server
+tox	django
+tox-quickstart	django
 tpage	perl-extras
 tpic2pdftex	texlive
 tpm2-abrmd	cryptoprocessor-management
