@@ -214,6 +214,7 @@ appletviewer	java-basic
 apply-kconfig	containers-virt-dev
 applygeo	R-extras-dev
 applygnupgdefaults	gnupg
+appserver	amateur-radio
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
 appstream-util	devpkg-appstream-glib
@@ -1426,8 +1427,8 @@ dvitomp	texlive
 dvitype	texlive
 dwdump	dropwatch
 dwebp	transcoding-support
+dwespeak.sh	amateur-radio
 dwp	binutils
-dwspeak.sh	amateur-radio
 dynamodb_dump	cloud-api
 dynamodb_load	cloud-api
 dyskctl	os-cloudguest-azure
@@ -3743,7 +3744,7 @@ log2asc	automotive-tools
 log2gpx	amateur-radio
 log2long	automotive-tools
 logger	os-core
-logilab-pytest	dev-utils-dev
+logilab-pytest	os-clr-on-clr-dev
 login	os-core
 loginctl	sysadmin-basic
 logname	os-core
