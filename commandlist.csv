@@ -1640,6 +1640,7 @@ expiry	os-core
 export2sam.pl	samtools
 exportfs	nfs-utils
 expr	os-core
+exr2aces	desktop-dev
 exrenvmap	desktop-dev
 exrheader	desktop-dev
 exrmakepreview	desktop-dev
@@ -3261,7 +3262,7 @@ kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	sysadmin-basic
 kmousetool	kmousetool
-kmouth	desktop-kde-apps
+kmouth	desktop-kde-games
 kmplot	kmplot
 knavalbattle	desktop-kde-games
 knetattach	desktop-kde
@@ -3744,7 +3745,6 @@ log2asc	automotive-tools
 log2gpx	amateur-radio
 log2long	automotive-tools
 logger	os-core
-logilab-pytest	os-clr-on-clr-dev
 login	os-core
 loginctl	sysadmin-basic
 logname	os-core
@@ -5159,7 +5159,7 @@ pngcrush	ImageMagick
 pngfix	devpkg-libpng
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
-po2xml	desktop-kde-apps
+po2xml	desktop-kde-games
 po4a	po4a
 po4a-display-man	po4a
 po4a-display-pod	po4a
@@ -6258,7 +6258,7 @@ spirv-remap	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
-split2po	desktop-kde-apps
+split2po	desktop-kde-games
 splitdiff	dev-utils
 splitindex	texlive
 spm	salt
@@ -6420,7 +6420,7 @@ svsematest	dev-utils
 swaplabel	os-core
 swapoff	os-core
 swapon	os-core
-swappo	desktop-kde-apps
+swappo	desktop-kde-games
 sway	sway
 swaybar	sway
 swaybg	sway
@@ -7541,7 +7541,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
-xml2pot	desktop-kde-apps
+xml2pot	desktop-kde-games
 xml2stems	gtkwave
 xml_grep	perl-extras
 xml_merge	perl-extras
