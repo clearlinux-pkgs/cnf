@@ -5717,10 +5717,6 @@ rpmverify	package-utils
 rr	rr
 rr-collect-symbols.py	rr
 rr_exec_stub	rr
-rr_page_32	rr
-rr_page_32_replay	rr
-rr_page_64	rr
-rr_page_64_replay	rr
 rrdcached	rrdtool
 rrdcgi	rrdtool
 rrdcreate	rrdtool
