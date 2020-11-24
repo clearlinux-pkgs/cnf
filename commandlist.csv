@@ -501,7 +501,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	devpkg-gnome-desktop
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -5919,7 +5919,7 @@ sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
 seahorse-daemon	desktop-dev
-secret-tool	devpkg-libsecret
+secret-tool	tilix
 secutil	mono
 sed	os-core
 sem	parallel
