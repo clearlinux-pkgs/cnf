@@ -4168,7 +4168,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-5.2.0	octave
+mkoctfile-6.1.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4717,11 +4717,11 @@ ocloc	computer-vision-basic
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-5.2.0	octave
+octave-6.1.0	octave
 octave-cli	octave
-octave-cli-5.2.0	octave
+octave-cli-6.1.0	octave
 octave-config	octave
-octave-config-5.2.0	octave
+octave-config-6.1.0	octave
 od	os-core
 odbc_config	R-extras-dev
 odbcinst	R-extras-dev
