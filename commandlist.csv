@@ -407,9 +407,9 @@ binpac	network-monitor-node
 binwalk	diffoscope
 biosdecode	sysadmin-basic
 bison	bison
-black	Solaar
-black-primer	Solaar
-blackd	Solaar
+black	pcs
+black-primer	pcs
+blackd	pcs
 blast2sam.pl	samtools
 blender	blender
 blinken	education-preschool
@@ -1016,6 +1016,7 @@ crm_mon	pcs
 crm_node	pcs
 crm_report	pcs
 crm_resource	pcs
+crm_rule	pcs
 crm_shadow	pcs
 crm_simulate	pcs
 crm_standby	pcs
@@ -1704,7 +1705,6 @@ fdtput	dtc
 fdupes	fdupes
 feh	feh
 fence_legacy	pcs
-fence_pcmk	pcs
 fetch_file	cloud-api
 fetchmail	mail-utils
 ffmpeg	kde-frameworks5-dev
@@ -4851,6 +4851,7 @@ p11tool	cryptography
 pa-info	pulseaudio
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
+pacemaker-remoted	pcs
 pacemaker_remoted	pcs
 pacemakerd	pcs
 pack200	java-basic
