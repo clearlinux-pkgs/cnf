@@ -3158,6 +3158,7 @@ kcookiejar5	kde-frameworks5
 kcpolymgr	desktop-dev
 kcpolytest	desktop-dev
 kcprototest	desktop-dev
+kcreatewebarchive	konqueror
 kcstashtest	desktop-dev
 kctreemgr	desktop-dev
 kctreetest	desktop-dev
@@ -5895,6 +5896,7 @@ screen-4.8.0	sysadmin-basic
 script	os-core
 scriptlive	os-core
 scriptreplay	os-core
+scrontab	cluster-tools
 scsi_logging_level	sysadmin-basic-dev
 scsi_mandat	sysadmin-basic-dev
 scsi_readcap	sysadmin-basic-dev
