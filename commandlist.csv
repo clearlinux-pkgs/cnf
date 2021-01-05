@@ -182,6 +182,8 @@ amazon-efs-mount-watchdog	cloud-api
 amd_hdmi_compliance	igt-gpu-tools
 amidi	alsa-utils
 amixer	alsa-utils
+ampctl	amateur-radio
+ampctld	amateur-radio
 amqp-consume	kvm-host-dev
 amqp-declare-queue	kvm-host-dev
 amqp-delete-queue	kvm-host-dev
@@ -379,7 +381,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1134,8 +1136,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	qt-basic-dev
-dbus-broker-launch	qt-basic-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1634,10 +1636,8 @@ exifprint	devpkg-exiv2
 exifvalue	devpkg-exiv2
 exiv2	devpkg-exiv2
 exiv2json	devpkg-exiv2
-exo-csource	xfce4-desktop
 exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
-exo-preferred-applications	xfce4-desktop
 expand	os-core
 expect	tcl-basic
 expiry	os-core
@@ -2013,7 +2013,6 @@ geotifcp	R-extras-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
 get-versions	sysadmin-basic
-get_cpuinfo_mhz.sh	dev-utils
 get_cyclictest_snapshot	dev-utils
 get_root_domain	perl-extras
 getcap	sysadmin-basic
@@ -2883,6 +2882,7 @@ iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
 isort	pcs
+isort-identify-imports	pcs
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -2994,9 +2994,9 @@ jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
 jdiff	diffoscope
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -4345,7 +4345,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	qt-basic-dev
+mtdev-test	desktop-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -5288,6 +5288,7 @@ psfstriptable	kbd
 psfxtable	kbd
 psicc	devpkg-lcms2
 psjoin	texlive
+pskctool	devpkg-oath-toolkit
 psktool	cryptography
 psl	devpkg-libpsl
 psl2sam.pl	samtools
@@ -5377,14 +5378,13 @@ pydoc3.7	buildreq-spark
 pydoc3.8	ParaView
 pydoc3.9	python3-basic
 pydocstyle	python-extras
-pyflakes	productivity
+pyflakes	Sphinx
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
 pygmentize	scm-server
 pyhs100	domotica
 pyjson5	jupyter
-pyjwt	domotica
 pykig.py	desktop-kde-games
 pylint	pcs
 pylupdate5	maker-3dprinting
@@ -5657,6 +5657,7 @@ rhythmbox-client	rhythmbox
 ri	ruby-basic
 rigctl	amateur-radio
 rigctl-wsjtx	amateur-radio
+rigctlcom	amateur-radio
 rigctlcom-wsjtx	amateur-radio
 rigctld	amateur-radio
 rigctld-wsjtx	amateur-radio
@@ -5849,7 +5850,7 @@ sar	sysstat
 saslauthd	desktop-kde-apps
 sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
-sassc	qt-basic-dev
+sassc	desktop-dev
 sattach	cluster-tools
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
@@ -7123,7 +7124,6 @@ vi	vim-minimal
 vidir	os-testsuite-0day
 vieet	desktop-enlightenment
 view	vim
-viewdoc	python-extras
 vifm	vifm
 vifm-convert-dircolors	vifm
 vifm-pause	vifm
@@ -7486,6 +7486,11 @@ xemacs	emacs-x11
 xembedsniproxy	desktop-kde
 xetex	texlive
 xfburn	xfce4-desktop
+xfce-build	xfce4-desktop
+xfce-do-release	xfce4-desktop
+xfce-get-release-notes	xfce4-desktop
+xfce-get-translations	xfce4-desktop
+xfce-update-news	xfce4-desktop
 xfce4-about	xfce4-desktop
 xfce4-accessibility-settings	xfce4-desktop
 xfce4-appearance-settings	xfce4-desktop
@@ -7494,6 +7499,7 @@ xfce4-display-settings	xfce4-desktop
 xfce4-find-cursor	xfce4-desktop
 xfce4-keyboard-settings	xfce4-desktop
 xfce4-kiosk-query	os-utils-gui-dev
+xfce4-mime-helper	xfce4-desktop
 xfce4-mime-settings	xfce4-desktop
 xfce4-mouse-settings	xfce4-desktop
 xfce4-notifyd-config	xfce4-desktop
