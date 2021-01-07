@@ -969,7 +969,6 @@ cpancover	perl-extras
 cpanel_json_xs	perl-extras
 cpanfile-dump	perl-extras
 cpanm	perl-extras
-cpantest	perl-extras
 cpio	cpio
 cpio-filter	perl-extras
 cpp	c-basic
@@ -4258,6 +4257,7 @@ mosh	sysadmin-basic
 mosh-client	sysadmin-basic
 mosh-server	sysadmin-basic
 mosquitto	mosquitto
+mosquitto_ctrl	mosquitto
 mosquitto_passwd	mosquitto
 mosquitto_pub	mosquitto
 mosquitto_rr	mosquitto
@@ -4276,6 +4276,7 @@ mount.nfs	cloud-api
 mount.nfs4	cloud-api
 mount.ntfs	storage-utils
 mount.ntfs-3g	storage-utils
+mount.smb3	storage-utils
 mount.sshfs	sshfs
 mount.vmhgfs	os-cloudguest-vmware
 mountpoint	os-core
@@ -6141,6 +6142,7 @@ smTestDriver-pv5.8	ParaView
 smartctl	smartmontools
 smartd	smartmontools
 smartx_interactive_example	software-defined-cockpit
+smb2-quota	storage-utils
 smbcacls	samba
 smbclient	samba
 smbcontrol	samba
