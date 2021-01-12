@@ -582,6 +582,7 @@ cangw	automotive-tools
 canlogserver	automotive-tools
 canplayer	automotive-tools
 cansend	automotive-tools
+cansequence	automotive-tools
 cansniffer	automotive-tools
 cantata	desktop-kde-apps
 cantor	education-tertiary
@@ -1543,10 +1544,7 @@ enlightenment_remote	desktop-enlightenment
 enlightenment_start	desktop-enlightenment
 env	os-core
 env_parallel	parallel
-env_parallel.ash	parallel
 env_parallel.bash	parallel
-env_parallel.dash	parallel
-env_parallel.mksh	parallel
 env_parallel.sh	parallel
 envml	modules
 envs	domotica
@@ -2909,7 +2907,10 @@ iwctl	iwd
 iwmon	iwd
 iwpmd	hpc-utils
 ixplore	pdns
-jacd	automotive-tools
+j1939acd	automotive-tools
+j1939cat	automotive-tools
+j1939spy	automotive-tools
+j1939sr	automotive-tools
 jack_alias	jack2
 jack_bufsize	jack2
 jack_connect	jack2
@@ -2976,7 +2977,6 @@ javah	java-basic
 javap	java-basic
 javap11	java11-basic
 javap13	java13-basic
-jcat	automotive-tools
 jcmd	java-basic
 jcmd11	java11-basic
 jcmd13	java13-basic
@@ -3060,8 +3060,6 @@ jsondiff	diffoscope
 jsonpatch	ceph
 jsonpointer	jupyter
 jsonschema	jupyter
-jspy	automotive-tools
-jsr	automotive-tools
 jstack	java-basic
 jstack11	java11-basic
 jstack13	java13-basic
@@ -4122,7 +4120,6 @@ minetestserver	minetestserver
 minfo	storage-utils
 minicom	minicom
 minimodem	amateur-radio
-miniterm.py	domotica
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
 mixartloader	alsa-tools
@@ -5409,6 +5406,8 @@ pyrsa-priv2pub	cloud-api
 pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
+pyserial-miniterm	domotica
+pyserial-ports	domotica
 pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
@@ -7068,6 +7067,7 @@ v4l2-compliance	v4l-utils
 v4l2-ctl	v4l-utils
 v4l2-dbg	v4l-utils
 v4l2-sysfs-path	v4l-utils
+vacopy	libva-utils
 vacuumdb	postgresql
 vads	software-defined-cockpit
 vainfo	libva-utils
