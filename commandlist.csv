@@ -2945,6 +2945,7 @@ jack_simple_client	jack2
 jack_simple_session_client	jack2
 jack_test	jack2
 jack_thru	jack2
+jack_transport	jack2
 jack_unload	jack2
 jack_wait	jack2
 jack_zombie	jack2
