@@ -2899,8 +2899,6 @@ isympy	python-data-science
 itstool	containers-basic-dev
 iusql	R-extras-dev
 iv	blender
-ivshmem-client	kvm-host
-ivshmem-server	kvm-host
 ivtv-ctl	v4l-utils
 iw	network-basic
 iwctl	iwd
@@ -5457,6 +5455,7 @@ qemu-img	clr-installer
 qemu-io	kvm-host
 qemu-keymap	kvm-host
 qemu-nbd	kvm-host
+qemu-pr-helper	kvm-host
 qemu-storage-daemon	kvm-host
 qemu-system-i386	kvm-host
 qemu-system-x86_64	kvm-host
