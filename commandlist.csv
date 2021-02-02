@@ -407,9 +407,9 @@ binpac	network-monitor-node
 binwalk	diffoscope
 biosdecode	sysadmin-basic
 bison	bison
-black	python-extras
-black-primer	python-extras
-blackd	python-extras
+black	jupyter
+black-primer	jupyter
+blackd	jupyter
 blast2sam.pl	samtools
 blender	blender
 blinken	education-preschool
@@ -617,7 +617,7 @@ ccache	ccache
 ccache-swig	machine-learning-basic
 cccheck	mono
 ccconfig	perl-extras
-cchardetect	python-extras
+cchardetect	jupyter
 ccmake	c-basic
 ccomps	graphviz
 ccrewrite	mono
@@ -719,7 +719,7 @@ chattr	os-core
 chcon	os-core
 chcpu	os-core
 cheatmake	desktop-kde-apps
-check-manifest	python-extras
+check-manifest	jupyter
 check-model	machine-learning-pytorch
 check-node	machine-learning-pytorch
 check-regexp	dev-utils
@@ -5397,7 +5397,7 @@ pyro4-httpgateway	python-data-science
 pyro4-ns	python-data-science
 pyro4-nsc	python-data-science
 pyro4-test-echoserver	python-data-science
-pyroma	python-extras
+pyroma	jupyter
 pyroute2-cli	package-utils
 pyrsa-decrypt	cloud-api
 pyrsa-encrypt	cloud-api
