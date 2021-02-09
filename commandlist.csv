@@ -413,6 +413,8 @@ blackd	jupyter
 blast2sam.pl	samtools
 blender	blender
 blinken	education-preschool
+blivet-gui	blivet-gui
+blivet-gui-daemon	blivet-gui
 blkdeactivate	boot-encrypted
 blkdiscard	os-core
 blkid	os-core
@@ -1292,6 +1294,7 @@ dnsbulktest	pdns
 dnsdomainname	net-tools
 dnsgram	pdns
 dnsmasq	dhcp-server
+dnspcap2calidns	pdns
 dnspcap2protobuf	pdns
 dnsreplay	pdns
 dnsscan	pdns
@@ -3089,6 +3092,7 @@ jupyter-nbgallery	jupyter
 jupyter-notebook	jupyter
 jupyter-qtconsole	jupyter
 jupyter-run	jupyter
+jupyter-server	jupyter
 jupyter-serverextension	jupyter
 jupyter-troubleshoot	jupyter
 jw	docbook-utils
@@ -4988,6 +4992,7 @@ peardev	php-basic
 peas-demo	devpkg-libpeas
 pecan	ceph
 pecl	php-basic
+ped	blivet-gui
 pedigree	texlive
 pedump	mono
 pee	os-testsuite-0day
@@ -5093,6 +5098,7 @@ pip3.9	python3-basic
 pip_stress	dev-utils
 pipewire	devpkg-pipewire
 pipewire-media-session	devpkg-pipewire
+pipewire-pulse	devpkg-pipewire
 pivot_root	os-core
 pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
@@ -5352,10 +5358,17 @@ pvserver	ParaView
 pw-cat	devpkg-pipewire
 pw-cli	devpkg-pipewire
 pw-dot	devpkg-pipewire
+pw-dump	devpkg-pipewire
+pw-metadata	devpkg-pipewire
+pw-mididump	devpkg-pipewire
+pw-midiplay	devpkg-pipewire
+pw-midirecord	devpkg-pipewire
 pw-mon	devpkg-pipewire
 pw-play	devpkg-pipewire
 pw-profiler	devpkg-pipewire
 pw-record	devpkg-pipewire
+pw-reserve	devpkg-pipewire
+pw-top	devpkg-pipewire
 pwck	os-core
 pwconv	os-core
 pwd	os-core
@@ -6241,8 +6254,10 @@ sp.D.x	npb
 sp.E.x	npb
 sp.S.x	npb
 sp.W.x	npb
+spa-acp-tool	devpkg-pipewire
 spa-inspect	devpkg-pipewire
 spa-monitor	devpkg-pipewire
+spa-resample	devpkg-pipewire
 spam	mail-utils-dev
 spcat	mail-utils-dev
 speaker-test	alsa-utils
@@ -7008,7 +7023,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	qt-core
+update-mime-database	firmware-update
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
