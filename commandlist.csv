@@ -5369,6 +5369,7 @@ pw-profiler	devpkg-pipewire
 pw-record	devpkg-pipewire
 pw-reserve	devpkg-pipewire
 pw-top	devpkg-pipewire
+pwait	procps-ng
 pwck	os-core
 pwconv	os-core
 pwd	os-core
