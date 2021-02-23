@@ -1454,7 +1454,6 @@ e4defrag	storage-utils
 earlyoom	earlyoom
 earlyoom-clr-telemetry	earlyoom
 easy_install	python3-basic
-easy_install-3.8	ParaView
 easy_install-3.9	python3-basic
 ebb	texlive
 ebong	texlive
@@ -5387,7 +5386,6 @@ pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
 pydoc3.7	buildreq-spark
-pydoc3.8	ParaView
 pydoc3.9	python3-basic
 pydocstyle	python-extras
 pyflakes	Sphinx
@@ -5439,8 +5437,6 @@ python3.7	python3-basic
 python3.7-config	buildreq-spark
 python3.7m	buildreq-spark
 python3.7m-config	buildreq-spark
-python3.8	ParaView
-python3.8-config	ParaView
 python3.9	python3-basic
 python3.9-config	python3-basic
 pythontex	texlive
@@ -5477,6 +5473,7 @@ qemu-system-x86_64	kvm-host
 qemu-x86_64	kvm-host
 qgis	maker-gis
 qgis_bench	maker-gis
+qgis_process	maker-gis
 qgit	dev-utils-gui
 qgltf	qt-basic
 qhalf	R-extras-dev
@@ -6152,7 +6149,7 @@ slurmd	cluster-tools
 slurmdbd	cluster-tools
 slurmstepd	cluster-tools
 sm-notify	cloud-api
-smTestDriver-pv5.8	ParaView
+smTestDriver-pv5.9	ParaView
 smartctl	smartmontools
 smartd	smartmontools
 smartx_interactive_example	software-defined-cockpit
@@ -6257,6 +6254,7 @@ sp.S.x	npb
 sp.W.x	npb
 spa-acp-tool	devpkg-pipewire
 spa-inspect	devpkg-pipewire
+spa-json-dump	devpkg-pipewire
 spa-monitor	devpkg-pipewire
 spa-resample	devpkg-pipewire
 spam	mail-utils-dev
@@ -7166,6 +7164,8 @@ virt-install	virt-manager
 virt-login-shell	kvm-host
 virt-manager	virt-manager
 virt-pki-validate	kvm-host
+virt-qemu-run	kvm-host
+virt-ssh-helper	kvm-host
 virt-viewer	virt-viewer
 virt-xml	virt-manager
 virt-xml-validate	kvm-host
@@ -7237,14 +7237,20 @@ vpxenc	transcoding-support
 vsyasm	yasm
 vte-2.91	tilix
 vtep-ctl	openvswitch
-vtkParseJava-pv5.8	ParaView
-vtkProbeOpenGLVersion-pv5.8	ParaView
-vtkProcessXML-pv5.8	ParaView
-vtkWrapClientServer-pv5.8	ParaView
-vtkWrapHierarchy-pv5.8	ParaView
-vtkWrapJava-pv5.8	ParaView
-vtkWrapPython-pv5.8	ParaView
-vtkWrapPythonInit-pv5.8	ParaView
+vtkParseJava-9.0	dev-utils-dev
+vtkParseJava-pv5.9	ParaView
+vtkProbeOpenGLVersion-9.0	dev-utils-dev
+vtkProbeOpenGLVersion-pv5.9	ParaView
+vtkProcessXML-pv5.9	ParaView
+vtkWrapClientServer-pv5.9	ParaView
+vtkWrapHierarchy-9.0	dev-utils-dev
+vtkWrapHierarchy-pv5.9	ParaView
+vtkWrapJava-9.0	dev-utils-dev
+vtkWrapJava-pv5.9	ParaView
+vtkWrapPython-9.0	dev-utils-dev
+vtkWrapPython-pv5.9	ParaView
+vtkWrapPythonInit-9.0	dev-utils-dev
+vtkWrapPythonInit-pv5.9	ParaView
 vtysh	quagga
 vulkaninfo	dev-utils-dev
 vxloader	alsa-tools
