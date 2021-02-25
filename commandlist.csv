@@ -375,7 +375,6 @@ bbox	texlive
 bc	bc
 bcache-super-show	bcache-tools
 bcc-lua	bcc
-bccmd	hardware-bluetooth
 bcftools	samtools
 bcmserver	automotive-tools
 bcomps	graphviz
@@ -1152,6 +1151,7 @@ dbus-update-activation-environment	sysadmin-basic
 dbus-uuidgen	sysadmin-basic
 dbwrap_tool	samba
 dc	bc
+dcb	iproute2
 dcbtool	performance-tools
 dconf	desktop
 dconf-editor	desktop-apps
@@ -3476,6 +3476,7 @@ libtool	c-basic
 libtoolize	c-basic
 libvirtd	kvm-host
 libwacom-list-local-devices	devpkg-libwacom
+libwacom-show-stylus	devpkg-libwacom
 lid	devpkg-libuser
 lightdm	lightdm
 lightdm-gtk-greeter	lightdm
