@@ -5748,6 +5748,7 @@ rrdcreate	rrdtool
 rrdinfo	rrdtool
 rrdtool	rrdtool
 rrdupdate	rrdtool
+rst2html	docutils
 rst2html.py	docutils
 rst2html4.py	docutils
 rst2html5.py	docutils
