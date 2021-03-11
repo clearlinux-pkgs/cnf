@@ -2779,6 +2779,7 @@ ipcs	os-core
 ipdb3	django
 ipe	ipe
 ipe6upgrade	ipe
+ipecurl	ipe
 ipeextract	ipe
 ipepresenter	ipe
 iperender	ipe
@@ -3834,8 +3835,10 @@ lu.S.x	npb
 lu.W.x	npb
 lua	lua-basic
 lua5.2	lua-basic
+lua5.3	lua-basic
 luac	lua-basic
 luac5.2	lua-basic
+luac5.3	lua-basic
 luacsplain	texlive
 luahbtex	texlive
 luajit	lua-basic
