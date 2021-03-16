@@ -4474,7 +4474,6 @@ ndctl	storage-utils
 ndg_httpclient	desktop-dev
 ndisasm	nasm
 ndpiReader	network-security-monitoring
-ndptool	devpkg-libndp
 ndrdump	samba
 nearblack	python-extras
 neato	graphviz
