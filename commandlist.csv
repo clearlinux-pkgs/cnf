@@ -1534,7 +1534,7 @@ elinks	network-basic
 elm_prefs_cc	desktop-enlightenment
 elua	desktop-enlightenment
 emacs	emacs
-emacs-27.1	emacs
+emacs-27.2	emacs
 emacs-x11	emacs-x11
 emacsclient	emacs
 embryo_cc	desktop-enlightenment
@@ -5410,6 +5410,7 @@ pyhs100	domotica
 pyjson5	jupyter
 pykig.py	desktop-kde-games
 pylint	pcs
+pyls	spyder-ide
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
 pyozw_shell	domotica
