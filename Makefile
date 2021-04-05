@@ -7,5 +7,7 @@ update:
 	python commandnotfound-list.py | LC_ALL=C sort > commandlist.csv
 	! git diff --exit-code  commandlist.csv
 	$(MAKE) bumpnogit
-	git commit -m "update command list for "`curl "https://download.clearlinux.org/update/version/formatstaging/latest"` -a
+	latest=`curl -sSf "https://download.clearlinux.org/update/version/formatstaging/latest"`; \
+	if [ -z "$$latest" ]; then exit 1; fi; \
+	git commit -m "update command list for $$latest" -a
 	test -n "$(NO_KOJI)" || $(MAKE) koji-nowait
