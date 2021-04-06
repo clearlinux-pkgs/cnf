@@ -1057,9 +1057,6 @@ ctanify	texlive
 ctanupload	texlive
 ctdb	samba
 ctdb_diagnostics	samba
-ctdb_local_daemons	samba
-ctdb_run_cluster_tests	samba
-ctdb_run_tests	samba
 ctdbd	samba
 ctdbd_wrapper	samba
 ctest	c-basic
@@ -3058,6 +3055,8 @@ jrunscript11	java11-basic
 jrunscript13	java13-basic
 js78	devpkg-mozjs78
 js78-config	devpkg-mozjs78
+js8	amateur-radio
+js8call	amateur-radio
 jsadebugd	java-basic
 jshell	java-basic
 jshell11	java11-basic
@@ -6579,7 +6578,7 @@ tchtest	mail-utils-dev
 tclsh	tcl-basic
 tclsh8.6	tcl-basic
 tcpdump	network-basic
-tcpdump.4.9.3	network-basic
+tcpdump.4.99.0	network-basic
 tctmgr	mail-utils-dev
 tctmttest	mail-utils-dev
 tcttest	mail-utils-dev
