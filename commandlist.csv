@@ -5370,6 +5370,7 @@ pw-cat	devpkg-pipewire
 pw-cli	devpkg-pipewire
 pw-dot	devpkg-pipewire
 pw-dump	devpkg-pipewire
+pw-loopback	devpkg-pipewire
 pw-metadata	devpkg-pipewire
 pw-mididump	devpkg-pipewire
 pw-midiplay	devpkg-pipewire
