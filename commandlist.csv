@@ -657,6 +657,7 @@ ceph-create-keys	ceph
 ceph-dencoder	ceph
 ceph-deploy	storage-cluster
 ceph-diff-sorted	ceph
+ceph-erasure-code-tool	ceph
 ceph-fuse	ceph
 ceph-immutable-object-cache	ceph
 ceph-kvstore-tool	ceph
@@ -675,7 +676,9 @@ ceph-volume	ceph
 ceph-volume-systemd	ceph
 cephfs-data-scan	ceph
 cephfs-journal-tool	ceph
+cephfs-mirror	ceph
 cephfs-table-tool	ceph
+cephfs-top	ceph
 cert-sync	mono
 cert-to-efi-hash-list	os-clr-on-clr
 cert-to-efi-sig-list	os-clr-on-clr
@@ -2320,6 +2323,16 @@ gtk3-demo	tilix
 gtk3-demo-application	tilix
 gtk3-icon-browser	tilix
 gtk3-widget-factory	tilix
+gtk4-builder-tool	desktop-dev
+gtk4-demo	desktop-dev
+gtk4-demo-application	desktop-dev
+gtk4-encode-symbolic-svg	desktop-dev
+gtk4-icon-browser	desktop-dev
+gtk4-launch	desktop-dev
+gtk4-print-editor	desktop-dev
+gtk4-query-settings	desktop-dev
+gtk4-update-icon-cache	desktop-dev
+gtk4-widget-factory	desktop-dev
 gtkdoc-check	devpkg-gtk-doc
 gtkdoc-depscan	devpkg-gtk-doc
 gtkdoc-fixxref	devpkg-gtk-doc
@@ -5677,6 +5690,8 @@ rfddump	mtd-utils
 rfdformat	mtd-utils
 rfkill	os-core
 rftp	tcl-basic
+rgw-gap-list	ceph
+rgw-gap-list-comparator	ceph
 rgw-orphan-list	ceph
 rhythmbox	rhythmbox
 rhythmbox-client	rhythmbox
