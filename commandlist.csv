@@ -635,6 +635,7 @@ cd-read	asunder
 cdda-player	asunder
 cddb_query	asunder
 cdparanoia	asunder
+cdrskin	os-utils-gui-dev
 cec-compliance	v4l-utils
 cec-ctl	v4l-utils
 cec-follower	v4l-utils
@@ -4881,6 +4882,7 @@ opt-8	llvm8
 opt-9	llvm9
 optex	texlive
 optimizegraphics	desktop-kde-apps
+optipng	os-utils-gui-dev
 orbd	java-basic
 orc-bugreport	devpkg-orc
 orca	desktop
@@ -7474,7 +7476,9 @@ withsctp	devpkg-libsctp
 wlfreerdp	pidgin
 wmc	wine
 wmctrl	x11-tools
+wnck-urgency-monitor	os-utils-gui-dev
 wnck-urgency-monitor-3	devpkg-libwnck3
+wnckprop	os-utils-gui-dev
 wnckprop-3	devpkg-libwnck3
 wofm2opl	texlive
 wol	pxe-server
@@ -7634,6 +7638,7 @@ xfce4-appfinder	xfce4-desktop
 xfce4-display-settings	xfce4-desktop
 xfce4-find-cursor	xfce4-desktop
 xfce4-keyboard-settings	xfce4-desktop
+xfce4-kiosk-query	os-utils-gui-dev
 xfce4-mime-helper	xfce4-desktop
 xfce4-mime-settings	xfce4-desktop
 xfce4-mouse-settings	xfce4-desktop
