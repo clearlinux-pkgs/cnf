@@ -503,7 +503,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	devpkg-gnome-desktop
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -2195,7 +2195,6 @@ gnome-shell-extension-prefs	desktop
 gnome-shell-extension-tool	desktop
 gnome-shell-perf-tool	desktop
 gnome-software	desktop
-gnome-software-editor	desktop
 gnome-system-monitor	gnome-system-monitor
 gnome-terminal	desktop
 gnome-thumbnail-font	gnome-font-viewer
@@ -3516,8 +3515,10 @@ libreoffice	libreoffice
 libtool	c-basic
 libtoolize	c-basic
 libvirtd	kvm-host
+libwacom-list-devices	devpkg-libwacom
 libwacom-list-local-devices	devpkg-libwacom
 libwacom-show-stylus	devpkg-libwacom
+libwacom-update-db	devpkg-libwacom
 lid	devpkg-libuser
 lightdm	lightdm
 lightdm-gtk-greeter	lightdm
@@ -5830,7 +5831,7 @@ rpc.statd	cloud-api
 rpcbind	cloud-api
 rpcclient	samba
 rpcdebug	cloud-api
-rpcgen	os-core
+rpcgen	c-basic
 rpcinfo	cloud-api
 rpdcp	cluster-tools
 rpdfcrop	texlive
@@ -7222,6 +7223,7 @@ vcd2lxt2	gtkwave
 vcd2vzt	gtkwave
 vcfutils.pl	samtools
 vdir	os-core
+vdpa	iproute2
 vdptool	performance-tools
 vendstat	hpc-utils
 verify-uselistorder	llvm
@@ -7534,7 +7536,7 @@ x86_64-generic-linux-g++-8	c-extras-gcc8
 x86_64-generic-linux-g++-9	c-extras-gcc9
 x86_64-generic-linux-g++7	c-extras-gcc7
 x86_64-generic-linux-gcc	c-basic
-x86_64-generic-linux-gcc-10	c-basic
+x86_64-generic-linux-gcc-11	c-basic
 x86_64-generic-linux-gcc-7	c-extras-gcc7
 x86_64-generic-linux-gcc-8	c-extras-gcc8
 x86_64-generic-linux-gcc-9	c-extras-gcc9
