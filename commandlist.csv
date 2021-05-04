@@ -2221,7 +2221,6 @@ google_metadata_script_runner	os-cloudguest-gce
 google_network_daemon	os-cloudguest-gce
 gozilla	global
 gparted	gparted
-gpartedbin	gparted
 gpasswd	os-core
 gpaste-client	gpaste
 gperf	performance-tools
@@ -4438,6 +4437,7 @@ mshowfat	storage-utils
 msidb	wine
 msiexec	wine
 msk144code	amateur-radio
+msm_dp_compliance	igt-gpu-tools
 msmtp	perl-basic
 msmtpd	perl-basic
 msql2mysql	mariadb
