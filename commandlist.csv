@@ -1481,8 +1481,7 @@ e4crypt	os-core
 e4defrag	storage-utils
 earlyoom	earlyoom
 earlyoom-clr-telemetry	earlyoom
-easy_install	python3-basic
-easy_install-3.9	python3-basic
+easy_install_is_deprecated	python3-basic
 ebb	texlive
 ebong	texlive
 ebrowse	emacs
@@ -3247,7 +3246,7 @@ kexec	os-cloudguest-azure
 key.dns_resolver	os-core-dev
 keychain	keychain
 keyctl	os-core-dev
-keyring	jupyter
+keyring	django
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
@@ -7440,7 +7439,7 @@ wget	wget
 wgsim	samtools
 wgsim_eval.pl	samtools
 whatis	man-pages
-wheel	jupyter
+wheel	django
 whereis	os-core
 which	which
 whiptail	byobu
