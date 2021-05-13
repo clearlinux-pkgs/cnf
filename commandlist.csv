@@ -2115,7 +2115,7 @@ gitg	dev-utils-gui
 gitk	dev-utils-gui
 gitolite	scm-server
 gjs	gjs
-gjs-console	devpkg-gjs
+gjs-console	gjs
 gkbd-keyboard-display	devpkg-libgnomekbd
 glacier	cloud-api
 glances	performance-tools
@@ -7503,7 +7503,7 @@ wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
 wsdl	mono
 wsdl2	mono
-wsdump.py	docker-compose
+wsdump.py	jupyter
 wsgen	java-basic
 wsimport	java-basic
 wsjtx	amateur-radio
