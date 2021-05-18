@@ -978,9 +978,9 @@ coredumpctl	sysadmin-basic
 corelist	perl-basic
 coreutils	os-core
 cover	perl-extras
-coverage	python-extras
-coverage-3.9	python-extras
-coverage3	python-extras
+coverage	django
+coverage-3.9	django
+coverage3	django
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -7275,7 +7275,6 @@ vipw	os-core
 virsh	kvm-host
 virt-admin	kvm-host
 virt-clone	virt-manager
-virt-convert	virt-manager
 virt-host-validate	kvm-host
 virt-install	virt-manager
 virt-login-shell	kvm-host
@@ -7762,11 +7761,7 @@ xrestop	x11-tools
 xscreensaver	xscreensaver
 xscreensaver-command	xscreensaver
 xscreensaver-demo	xscreensaver
-xscreensaver-getimage	xscreensaver
-xscreensaver-getimage-file	xscreensaver
-xscreensaver-getimage-video	xscreensaver
-xscreensaver-systemd	xscreensaver
-xscreensaver-text	xscreensaver
+xscreensaver-settings	xscreensaver
 xsd	mono
 xsel	x11-tools
 xset	x11-tools
