@@ -5644,7 +5644,6 @@ rabbitmq-plugins	rabbitmq-server
 rabbitmq-server	rabbitmq-server
 rabbitmqctl	rabbitmq-server
 racc	ruby-basic
-racc2y	ruby-basic
 rados	ceph
 radosgw	ceph
 radosgw-admin	ceph
@@ -5680,6 +5679,7 @@ rbd-replay-many	ceph
 rbd-replay-prep	ceph
 rbdmap	ceph
 rbox	R-extras-dev
+rbs	ruby-basic
 rcc	devpkg-avahi
 rclone	rclone
 rcmysql	mariadb
@@ -7041,6 +7041,7 @@ tybg	desktop-enlightenment
 tycat	desktop-enlightenment
 tyls	desktop-enlightenment
 typeoutfileinfo	texlive
+typeprof	ruby-basic
 typer	rabbitmq-server
 typop	desktop-enlightenment
 tyq	desktop-enlightenment
@@ -7153,6 +7154,7 @@ uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
 uptime	os-core
+urclock	rxvt-unicode
 urifind	perl-extras
 urlbst	texlive
 urxvt	rxvt-unicode
@@ -7792,7 +7794,6 @@ xzfgrep	xz
 xzgrep	xz
 xzless	xz
 xzmore	xz
-y2racc	ruby-basic
 yacc	bison
 yakuake	yakuake
 yamidecode	desktop-apps
