@@ -5109,7 +5109,7 @@ perfquery	hpc-utils
 perl	perl-basic
 perl-migrate-modules	perl-extras
 perl-reversion	perl-extras
-perl5.32.1	perl-basic
+perl5.34.0	perl-basic
 perlbrew	perl-extras
 perlbug	perl-basic
 perldoc	perl-basic
