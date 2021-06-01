@@ -7181,6 +7181,7 @@ usb-devices	sysadmin-basic
 usb_modeswitch	NetworkManager-extras
 usb_modeswitch_dispatcher	NetworkManager-extras
 usbhid-dump	sysadmin-basic
+usbredirect	devpkg-usbredir
 usbredirserver	devpkg-usbredir
 use-devel-assertos	perl-extras
 use-devel-checklib	perl-extras
