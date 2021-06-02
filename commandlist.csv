@@ -980,9 +980,9 @@ coredumpctl	sysadmin-basic
 corelist	perl-basic
 coreutils	os-core
 cover	perl-extras
-coverage	django
-coverage-3.9	django
-coverage3	django
+coverage	python-extras
+coverage-3.9	python-extras
+coverage3	python-extras
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -5531,6 +5531,7 @@ pyro4-ns	python-data-science
 pyro4-nsc	python-data-science
 pyro4-test-echoserver	python-data-science
 pyroma	jupyter
+pyroute2-cli	package-utils
 pyrsa-decrypt	cloud-api
 pyrsa-encrypt	cloud-api
 pyrsa-keygen	cloud-api
@@ -6441,6 +6442,7 @@ srp_daemon.sh	hpc-utils
 srptool	cryptography
 srun	cluster-tools
 ss	iproute2
+ss2	package-utils
 sscape_ctl	alsa-tools
 ssdd	dev-utils
 sserver	enterprise-login
@@ -7085,6 +7087,7 @@ ubiupdatevol	mtd-utils
 ucalc	perl-extras
 ucd	os-cloudguest
 ucd-data-fetch	os-cloudguest
+uclampset	os-core
 ucmatose	hpc-utils
 uconv	sddm
 ucs2any	devpkg-font-util
