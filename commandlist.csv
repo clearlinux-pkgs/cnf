@@ -504,7 +504,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	devpkg-gnome-desktop
+bwrap	webkitgtk
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -2749,6 +2749,7 @@ insert_kernel_faults.sh	ltp
 insmod	sysadmin-basic
 install	os-core
 install-info	texinfo
+install-printerdriver	desktop
 install-vbox-lga	kernel-lts2017
 installcheck	devpkg-libsolv
 installfont-tl	texlive
@@ -6031,6 +6032,7 @@ scontrol	cluster-tools
 scor2prt	texlive
 scour	inkscape
 scp	sysadmin-basic
+scp-dbus-service	desktop
 screen	sysadmin-basic
 screen-4.8.0	sysadmin-basic
 script	os-core
@@ -6615,6 +6617,8 @@ syslinux	syslinux
 syslinux-nomtools	syslinux
 sysprof	sysprof
 sysprof-cli	sysprof
+system-config-printer	desktop
+system-config-printer-applet	desktop
 systemctl	sysadmin-basic
 systemd-analyze	sysadmin-basic
 systemd-ask-password	sysadmin-basic
