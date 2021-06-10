@@ -4182,6 +4182,7 @@ megaraid_lsmplugin	sysadmin-remote
 meinproc5	desktop-kde
 meld	meld
 melt	kdenlive
+melt-7	kdenlive
 mem_image	devpkg-LibRaw
 memcached	memcached
 memdiskfind	syslinux
