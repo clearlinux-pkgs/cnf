@@ -2236,11 +2236,9 @@ gpaste-client	gpaste
 gperf	performance-tools
 gpg	gnupg
 gpg-agent	gnupg
-gpg-card	gnupg
 gpg-connect-agent	gnupg
 gpg-error	devpkg-libgpg-error
 gpg-error-config	devpkg-libgpg-error
-gpg-wks-client	gnupg
 gpg-wks-server	gnupg
 gpg2	gnupg
 gpgconf	gnupg
@@ -2706,7 +2704,6 @@ igt_runner	igt-gpu-tools
 igt_stats	igt-gpu-tools
 igzip	devpkg-dpdk
 iinfo	blender
-iio-sensor-proxy	iio-sensor-proxy
 ikdasm	mono
 ikhal	productivity
 ilasm	mono
@@ -2946,8 +2943,6 @@ isotptun	automotive-tools
 ispdb	desktop-kde-apps
 ispellaff2myspell	kde-frameworks5-dev
 isql	R-extras-dev
-ister.py	os-installer
-ister_gui.py	os-installer
 isutf8	os-testsuite-0day
 isympy	python-data-science
 itstool	containers-basic-dev
