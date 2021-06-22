@@ -285,7 +285,7 @@ attrd_updater	pcs
 audacious	audacious
 audisp-json	audit
 audisp-remote	audit
-audispd	audit
+audisp-syslog	audit
 audispd-zos-remote	audit
 auditctl	audit
 auditd	audit
@@ -1193,6 +1193,7 @@ decryptdir	tcl-basic
 defconfig	service-os-dev
 defrag.f2fs	storage-utils
 dehtmldiff	dev-utils
+dejagnu	os-core-dev
 delpart	os-core
 deltainfoxml2solv	devpkg-libsolv
 depdiagram-generate	kapidox
@@ -1547,6 +1548,7 @@ elementary_config	desktop-enlightenment
 elementary_quicklaunch	desktop-enlightenment
 elementary_run	desktop-enlightenment
 elementary_test	desktop-enlightenment
+elf2dmp	kvm-host
 elfedit	binutils
 elinks	network-basic
 elm_prefs_cc	desktop-enlightenment
@@ -2084,7 +2086,6 @@ ghc-pkg	haskell-basic
 ghc-pkg-8.6.4	haskell-basic
 ghci	haskell-basic
 ghci-8.6.4	haskell-basic
-ghwdump	gtkwave
 gidmigrator	desktop-kde-apps
 gie	devpkg-proj
 gif2h5	machine-learning-basic
@@ -5505,7 +5506,6 @@ pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
-pybind11-config	python-extras
 pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
@@ -7349,6 +7349,7 @@ vmware-user	os-cloudguest-vmware
 vmware-user-suid-wrapper	os-cloudguest-vmware
 vmware-vmblock-fuse	os-cloudguest-vmware
 vmware-xferlogs	os-cloudguest-vmware
+vmwgfxctrl	os-cloudguest-vmware
 vncconfig	tigervnc
 vncpasswd	tigervnc
 vncserver	tigervnc
