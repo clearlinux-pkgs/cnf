@@ -1019,6 +1019,7 @@ create_svnignore	desktop-kde-apps
 create_valgrind_check.awk	ltp
 createdb	postgresql
 createlang	postgresql
+createmodule.py	modules
 createrepo_c	mixer
 createuser	postgresql
 cri-containerd	cloud-control
@@ -2000,7 +2001,6 @@ gdk-pixbuf-csource	lightdm
 gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
-gdlib-config	devpkg-libgd
 gdm	desktop-enlightenment
 gdm-control	desktop-lxqt
 gdm-screenshot	desktop-enlightenment
@@ -2433,7 +2433,6 @@ haddock-ghc-8.6.4	haskell-basic
 half_mt	devpkg-LibRaw
 halog	haproxy
 halt	sysadmin-basic
-handy-0.0-demo	desktop-dev
 handy-1-demo	desktop-dev
 haproxy	haproxy
 hardinfo	hardinfo
@@ -4240,6 +4239,8 @@ minfo	storage-utils
 minicom	minicom
 minimodem	amateur-radio
 mirrorMappings	perl-extras
+mirror_server	machine-learning-basic
+mirror_server_stop	machine-learning-basic
 mispipe	os-testsuite-0day
 mixartloader	alsa-tools
 mixer	mixer
@@ -4575,6 +4576,7 @@ nautilus	nautilus
 nautilus-autorun-software	nautilus
 nc	sysadmin-basic
 nc-config	R-extras-dev
+nc4print	R-extras-dev
 ncat	ncat
 nccopy	R-extras-dev
 ncdu	ncdu
@@ -4832,6 +4834,7 @@ ocamlruni	ocaml-basic
 ocamlyacc	ocaml-basic
 ociobakelut	blender
 ociocheck	blender
+ocprint	R-extras-dev
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
@@ -7364,6 +7367,7 @@ vpl2vpl	texlive
 vpnc	NetworkManager-extras
 vpnc-disconnect	NetworkManager-extras
 vpp	vpp
+vpp3dlut	libva-utils
 vpp_api_test	vpp
 vpp_echo	vpp
 vpp_get_metrics	vpp
