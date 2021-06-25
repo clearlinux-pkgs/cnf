@@ -4146,6 +4146,7 @@ mcomp	storage-utils
 mconfig	mono
 mcookie	os-core
 mcopy	storage-utils
+mcp251xfd-dump	automotive-tools
 mcs	mono
 mcview	sysadmin-basic
 md2html	devpkg-md4c
