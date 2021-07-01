@@ -4996,6 +4996,7 @@ pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
 pango-list	transcoding-support
+pango-segmentation	transcoding-support
 pango-view	transcoding-support
 paplay	pulseaudio
 parallel	parallel
@@ -6075,6 +6076,7 @@ secret-tool	tilix
 secutil	mono
 sed	os-core
 sem	parallel
+send2trash	jupyter
 sendmail	perl-basic
 sendmail-postfix	postfix
 sensors	lm-sensors
