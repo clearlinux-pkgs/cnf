@@ -1708,6 +1708,7 @@ fallocate	os-core
 false	os-core
 fancontrol	lm-sensors
 faqpods	perl-extras
+fasta-sanitize.pl	samtools
 fatlabel	dosfstools
 fax2ps	devpkg-tiff
 fax2tiff	devpkg-tiff
@@ -2070,6 +2071,7 @@ gettext	c-basic
 gettext.sh	c-basic
 gettextize	c-basic
 gf_attach	storage-cluster
+gff2gff.py	samtools
 gfind_missing_files	storage-cluster
 gflags2man.py	os-cloudguest-gce
 gflags_completions.sh	devpkg-gflags
@@ -5259,6 +5261,7 @@ play	sox
 pldd	os-core
 plipconfig	net-tools
 plookup	cluster-tools
+plot-ampliconstats	samtools
 plot-bamstats	samtools
 plot-roh.py	samtools
 plot-vcfstats	samtools
