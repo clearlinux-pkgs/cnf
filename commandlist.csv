@@ -1841,7 +1841,6 @@ fontforge	fontforge
 fontimage	fontforge
 fontinst	texlive
 fontlint	fontforge
-fonttools	fonttools
 foomatic-rip	hardware-printing
 formail	mail-utils
 fossil	fossil
@@ -5521,8 +5520,6 @@ pydoc3.7	buildreq-spark
 pydoc3.9	python3-basic
 pydocstyle	python-extras
 pyflakes	Sphinx
-pyftmerge	fonttools
-pyftsubset	fonttools
 pygmentex	texlive
 pygmentize	scm-server
 pyhs100	domotica
@@ -7056,7 +7053,6 @@ ttfdump	texlive
 ttfread	hardware-printing
 ttftotype42	texlive
 ttree	perl-extras
-ttx	fonttools
 tty	os-core
 tune2fs	os-core
 turbostat	linux-tools
@@ -7902,8 +7898,6 @@ zone2json	pdns
 zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
 zoom2sam.pl	samtools
-zopfli	fonttools
-zopflipng	fonttools
 zramctl	os-core
 zrun	os-testsuite-0day
 zsh	zsh
