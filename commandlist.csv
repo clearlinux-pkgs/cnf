@@ -504,7 +504,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	devpkg-gnome-desktop
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -1022,7 +1022,6 @@ createlang	postgresql
 createmodule.py	modules
 createrepo_c	mixer
 createuser	postgresql
-cri-containerd	cloud-control
 crictl	containers-basic
 crio	containers-basic
 crio-status	containers-basic
@@ -3375,6 +3374,7 @@ krusader	krusader
 ksba-config	containers-basic-dev
 kscreen-console	desktop-kde-apps
 kscreen-doctor	desktop-kde-apps
+ksh	ksh
 kshell5	desktop-kde
 kshisen	desktop-kde-games
 ksirk	desktop-kde-games
@@ -4287,7 +4287,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-6.2.0	octave
+mkoctfile-6.3.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4841,11 +4841,11 @@ ocprint	R-extras-dev
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-6.2.0	octave
+octave-6.3.0	octave
 octave-cli	octave
-octave-cli-6.2.0	octave
+octave-cli-6.3.0	octave
 octave-config	octave
-octave-config-6.2.0	octave
+octave-config-6.3.0	octave
 od	os-core
 odbc_config	R-extras-dev
 odbcinst	R-extras-dev
