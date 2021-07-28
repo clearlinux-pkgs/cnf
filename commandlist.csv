@@ -2955,7 +2955,7 @@ ispellaff2myspell	kde-frameworks5-dev
 isql	R-extras-dev
 isutf8	os-testsuite-0day
 isympy	python-data-science
-itstool	containers-basic-dev
+itstool	cryptoprocessor-management-dev
 iusql	R-extras-dev
 iv	blender
 ivtv-ctl	v4l-utils
@@ -3262,9 +3262,9 @@ keepassxc-cli	keepassxc
 keepassxc-proxy	keepassxc
 ketcindy	texlive
 kexec	os-cloudguest-azure
-key.dns_resolver	os-core-dev
+key.dns_resolver	os-core-update-dev
 keychain	keychain
-keyctl	os-core-dev
+keyctl	os-core-update-dev
 keyring	django
 keytool	java-basic
 keytool11	java11-basic
@@ -5782,7 +5782,7 @@ reply	perl-basic
 repo2solv	devpkg-libsolv
 repomdxml2solv	devpkg-libsolv
 repstopdf	texlive
-request-key	os-core-dev
+request-key	os-core-update-dev
 rescan-scsi-bus.sh	sysadmin-basic-dev
 reset	sysadmin-basic
 resgen	mono
