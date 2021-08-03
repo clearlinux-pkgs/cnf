@@ -291,6 +291,9 @@ auditctl	audit
 auditd	audit
 audtool	audacious
 augenrules	audit
+augmatch	letsencrypt-client
+augparse	letsencrypt-client
+augtool	letsencrypt-client
 aulast	audit
 aulastlog	audit
 aureport	audit
@@ -1709,6 +1712,7 @@ f2py3.9	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
+fadot	letsencrypt-client
 faillog	os-core
 faked	os-testsuite-0day
 fakeroot	os-testsuite-0day
@@ -4599,7 +4603,7 @@ ncgen3	R-extras-dev
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
 ndctl	storage-utils
-ndg_httpclient	desktop-dev
+ndg_httpclient	letsencrypt-client
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -7341,6 +7345,7 @@ virt-ssh-helper	kvm-host
 virt-viewer	virt-viewer
 virt-xml	virt-manager
 virt-xml-validate	kvm-host
+virtchd	kvm-host
 virtinterfaced	kvm-host
 virtlockd	kvm-host
 virtlogd	kvm-host
