@@ -89,7 +89,7 @@ acrnd	software-defined-cockpit-dev
 acrnlog	software-defined-cockpit-dev
 acrnprobe	software-defined-cockpit-dev
 acrntrace	software-defined-cockpit-dev
-activate-global-python-argcomplete	diffoscope
+activate-global-python-argcomplete	jupyter
 acyclic	graphviz
 add.modules	modules
 adddebug	desktop-kde-apps
@@ -5335,6 +5335,8 @@ pod_cover	perl-extras
 podchecker	perl-basic
 podgrep	perl-extras
 podlint	perl-extras
+podman	podman
+podman-remote	podman
 podpath	perl-extras
 pods	perl-extras
 podselect	perl-extras
@@ -5574,8 +5576,8 @@ pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
 python	python3-basic
-python-argcomplete-check-easy-install-script	diffoscope
-python-argcomplete-tcsh	diffoscope
+python-argcomplete-check-easy-install-script	jupyter
+python-argcomplete-tcsh	jupyter
 python-config	deprecated-python2
 python2	deprecated-python2
 python2-config	deprecated-python2
@@ -5693,6 +5695,7 @@ radosgw-token	ceph
 rage	desktop-enlightenment
 rake	ruby-basic
 randpkt	wireshark
+randstat	cryptography
 ranlib	binutils
 rarp	net-tools
 rarpd	clr-network-troubleshooter
@@ -5765,7 +5768,7 @@ redsocks	network-basic
 refer	man-pages
 regdiff	samba
 regedit	wine
-register-python-argcomplete	diffoscope
+register-python-argcomplete	jupyter
 regpatch	samba
 regshell	samba
 regsvr32	wine
@@ -5881,6 +5884,7 @@ rpm2cpio	package-utils
 rpmbuild	package-utils
 rpmdb	package-utils
 rpmdb2solv	devpkg-libsolv
+rpmfile	cve-bin-tool
 rpmgraph	package-utils
 rpmkeys	package-utils
 rpmmd2solv	devpkg-libsolv
@@ -7437,7 +7441,6 @@ vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
 w	procps-ng
-waagent	os-cloudguest-azure
 waitress-serve	ceph
 wall	os-core
 wasm-ld	llvm
