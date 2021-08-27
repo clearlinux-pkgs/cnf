@@ -507,7 +507,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	devpkg-gnome-desktop
+bwrap	webkitgtk
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -2331,7 +2331,7 @@ gsl-randist	devpkg-gsl
 gslj	ghostscript
 gslp	ghostscript
 gsnd	ghostscript
-gsound-play	desktop
+gsound-play	devpkg-gsound
 gspell-app1	devpkg-gspell
 gss-client	enterprise-login
 gss-server	enterprise-login
@@ -4919,6 +4919,7 @@ opt-9	llvm9
 optex	texlive
 optimizegraphics	desktop-kde-apps
 optipng	os-utils-gui-dev
+optscript	editors
 orbd	java-basic
 orc-bugreport	devpkg-orc
 orca	desktop
@@ -5745,6 +5746,7 @@ readelf	binutils
 readelf.py	dpdk
 readlink	os-core
 readprofile	os-core
+readtags	editors
 realpath	os-core
 reboot	sysadmin-basic
 rebootmgrctl	rebootmgr
@@ -6428,7 +6430,6 @@ sphinx-apidoc	Sphinx
 sphinx-autogen	Sphinx
 sphinx-build	Sphinx
 sphinx-quickstart	Sphinx
-spice-client-glib-usb-acl-helper	spice-gtk
 spicy	spice-gtk
 spicy-screenshot	spice-gtk
 spicy-stats	spice-gtk
@@ -7079,7 +7080,6 @@ ttf2kotexfont	texlive
 ttf2pk	texlive
 ttf2tfm	texlive
 ttfdump	texlive
-ttfread	hardware-printing
 ttftotype42	texlive
 ttree	perl-extras
 ttx	fonttools
@@ -7441,6 +7441,7 @@ vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
 w	procps-ng
+waagent	os-cloudguest-azure
 waitress-serve	ceph
 wall	os-core
 wasm-ld	llvm
