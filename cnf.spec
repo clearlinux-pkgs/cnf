@@ -1,6 +1,6 @@
 Name     : cnf
 Version  : 1
-Release  : 733
+Release  : 734
 Source0  : 10-command-not-found.sh
 Source1  : commandlist.csv
 Source2  : alternatives.csv
@@ -26,7 +26,7 @@ cp %{SOURCE1} %{buildroot}/usr/share/clear
 cp %{SOURCE2} %{buildroot}/usr/share/clear
 
 %check
-grep "m4" %{SOURCE1}
+grep "^m4[[:space:]]" %{SOURCE1}
 
 %files
 %defattr(-,root,root,-)
