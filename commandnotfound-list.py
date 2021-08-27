@@ -26,11 +26,23 @@ blacklist = list()
 whitelist = list()
 
 
+def download(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    # Avoid automatic decoding performed via `response.text`, because chardet
+    # is too slow to process large swupd manifests. Instead, access raw bytes
+    # (after automatic decompression, if needed) with `response.content`, and
+    # decode to a UTF-8 string. Invalid UTF-8 sequences in content we are
+    # downloading are unlikely, but just in case, add an explicit error handler
+    # ("replace") to make sure decode errors are not raised.
+    return response.content.decode('utf-8', errors='replace')
+
+
 def read_MoM(version):
     global bundles
-    m = requests.get(URLPREFIX + str(version) + '/Manifest.MoM')
-    response = m.text.split('\n')
-    for line in response:
+    m = download(URLPREFIX + str(version) + '/Manifest.MoM')
+    lines = m.split('\n')
+    for line in lines:
         words = line.split('\t')
         if len(words) > 2:
             bundle = words[3]
@@ -64,16 +76,16 @@ def declare_binary(bundle: str, binary: str, size: int):
         bin_size[binary] = size
 
 
-def read_manifest(pack, version):
+def read_manifest(m, pack, version):
     bundlesize = 0
     # print("Looking at ", pack, version)
 
     if ".I." in pack:
         return
 
-    m = requests.get(URLPREFIX + str(version) + '/Manifest.' + pack)
+    lines = m.split('\n')
 
-    for line in m.text.split('\n'):
+    for line in lines:
         words = line.split('\t')
         if words[0] == "contentsize:":
             # print("Content size for bundle", pack,"is ", words[1])
@@ -91,11 +103,16 @@ def read_manifest(pack, version):
                 declare_binary(pack, basename, bundlesize)
 
 
-def grab_latest_release():
-    response = requests.get("https://download.clearlinux.org/update/version/formatstaging/latest")
+def download_manifest(pack, version):
+    if ".I." in pack:
+        return
+    m = download(URLPREFIX + str(version) + '/Manifest.' + pack)
+    return m
 
-    html = response.text.strip()
-    return html
+
+def grab_latest_release():
+    release = download("https://download.clearlinux.org/update/version/formatstaging/latest")
+    return release.strip()
 
 
 def main():
@@ -153,12 +170,16 @@ def main():
 
     read_MoM(VERSION)
 
+    manifests = dict()
+    for bundle in sorted(bundles):
+        m = download_manifest(bundle, bundles[bundle])
+        manifests[bundle] = m
     for bundle in sorted(bundles):
         if bundle not in blacklist:
-            read_manifest(bundle, bundles[bundle])
+            read_manifest(manifests[bundle], bundle, bundles[bundle])
     for bundle in sorted(bundles):
         if bundle in blacklist:
-            read_manifest(bundle, bundles[bundle])
+            read_manifest(manifests[bundle], bundle, bundles[bundle])
 
     for binary in sorted(bin_bundle):
         print(binary + "\t" + bin_bundle[binary])
