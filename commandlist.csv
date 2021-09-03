@@ -5780,7 +5780,6 @@ remmina	Remmina
 remmina-file-wrapper	Remmina
 remmina-gnome	Remmina
 remote-viewer	virt-viewer
-remotectl	cockpit
 remoterepl	perl-extras
 remunge	cluster-tools
 rename	os-core
@@ -7797,6 +7796,9 @@ xmlif	go-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
+xmlschema-json2xml	os-clr-on-clr-dev
+xmlschema-validate	os-clr-on-clr-dev
+xmlschema-xml2json	os-clr-on-clr-dev
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
