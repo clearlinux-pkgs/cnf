@@ -3233,7 +3233,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3274,7 +3274,7 @@ keyring	django
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	storage-utils-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3283,7 +3283,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -5665,7 +5665,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
@@ -7335,6 +7335,7 @@ vimtutor	vim
 vinagre	vinagre
 vipe	os-testsuite-0day
 vipw	os-core
+virgl_test_server	kvm-host-dev
 virsh	kvm-host
 virt-admin	kvm-host
 virt-clone	virt-manager
