@@ -2764,6 +2764,7 @@ install	os-core
 install-info	texinfo
 install-printerdriver	desktop
 install-vbox-lga	kernel-lts2017
+install.py	koji
 installcheck	devpkg-libsolv
 installfont-tl	texlive
 installkernel	kernel-install
@@ -4738,7 +4739,6 @@ nopaste	perl-basic
 normalizer	gpgme
 nosetests	django
 nosetests-3	django
-nosetests-3.9	django
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
