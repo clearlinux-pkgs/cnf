@@ -1391,8 +1391,6 @@ dropdb	postgresql
 droplang	postgresql
 dropuser	postgresql
 dropwatch	dropwatch
-drs232	amateur-radio
-drs232_ldpc	amateur-radio
 dshbak	cluster-tools
 dstat	performance-tools
 dsymutil	llvm
@@ -6492,7 +6490,6 @@ ssh-keyscan	sysadmin-basic
 sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
-sshpass	ansible
 ssltap	cryptography
 ssm-agent-worker	os-cloudguest-aws
 ssm-cli	os-cloudguest-aws
@@ -6776,6 +6773,7 @@ testdbfawk	amateur-radio
 testdisk	testdisk
 testepsg	gdal
 testj1939	automotive-tools
+testlibusb	amateur-radio
 testparm	samba
 testpattern	hardware-printing
 testr	software-testing
