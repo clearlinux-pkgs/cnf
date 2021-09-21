@@ -883,7 +883,7 @@ clipjoin	perl-extras
 cllualatex	texlive
 cloc	cloc
 clockdiff	clr-network-troubleshooter
-clr-avx2-move.pl	os-core-dev
+clr-avx2-move.pl	package-utils
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
 clr-desktop-files.sh	xfce4-desktop
@@ -891,9 +891,9 @@ clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
 clr-network-troubleshooter	clr-network-troubleshooter
-clr-python-avx2	os-core-dev
-clr-python-avx512	os-core-dev
-clr-python-timestamp	os-core-dev
+clr-python-avx2	package-utils
+clr-python-avx512	package-utils
+clr-python-timestamp	package-utils
 clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
@@ -1184,6 +1184,7 @@ ddns-confgen	clr-network-troubleshooter
 de-macro	texlive
 deadline_test	dev-utils
 deallocvt	kbd
+debugedit	package-utils
 debugfs	storage-utils
 debugger	software-defined-cockpit-dev
 debugviewer	openqa
@@ -1772,6 +1773,7 @@ find	os-core
 find-all-symbols	llvm
 find-all-symbols-11	llvm
 find-bundle.sh	os-core-search
+find-debuginfo	package-utils
 findfs	os-core
 findhyph	texlive
 findmissingcrystal	desktop-kde-apps
@@ -4318,6 +4320,8 @@ mktextfm	texlive
 mlabel	storage-utils
 mllatex	texlive
 mltex	texlive
+mm-common-get	desktop-dev
+mm-common-prepare	desktop-dev
 mm2gv	graphviz
 mmafm	texlive
 mmc	storage-utils
@@ -6105,6 +6109,7 @@ sendmail-postfix	postfix
 sensors	lm-sensors
 sensors-conf-convert	lm-sensors
 sensors-detect	lm-sensors
+sepdebugcrcfix	package-utils
 seq	os-core
 seq_cache_populate.pl	samtools
 seqdiag	python-extras
@@ -7260,13 +7265,13 @@ vacuumdb	postgresql
 vads	software-defined-cockpit
 vainfo	libva-utils
 vala	devpkg-vala
-vala-0.52	devpkg-vala
+vala-0.54	devpkg-vala
 vala-gen-introspect	devpkg-vala
-vala-gen-introspect-0.52	devpkg-vala
+vala-gen-introspect-0.54	devpkg-vala
 valac	devpkg-vala
-valac-0.52	devpkg-vala
+valac-0.54	devpkg-vala
 valadoc	devpkg-vala
-valadoc-0.52	devpkg-vala
+valadoc-0.54	devpkg-vala
 valgrind	valgrind
 valgrind-di-server	valgrind
 valgrind-listener	valgrind
@@ -7274,7 +7279,7 @@ vapi_c_gen.py	vpp
 vapi_cpp_gen.py	vpp
 vapi_json_parser.py	vpp
 vapigen	devpkg-vala
-vapigen-0.52	devpkg-vala
+vapigen-0.54	devpkg-vala
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
