@@ -507,7 +507,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	devpkg-gnome-desktop
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -2188,6 +2188,7 @@ gnome-calendar	desktop
 gnome-characters	gnome-characters
 gnome-chess	gnome-chess
 gnome-clocks	gnome-clocks
+gnome-connections	connections
 gnome-contacts	gnome-contacts
 gnome-control-center	desktop
 gnome-desktop-testing-runner	gnome-desktop-testing
@@ -3271,7 +3272,7 @@ kexec	os-cloudguest-azure
 key.dns_resolver	os-core-update-dev
 keychain	keychain
 keyctl	os-core-update-dev
-keyring	django
+keyring	python-extras
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
@@ -4139,7 +4140,7 @@ mariadbd	mariadb
 mariadbd-multi	mariadb
 mariadbd-safe	mariadb
 mariadbd-safe-helper	mariadb
-markdown_py	scm-server
+markdown_py	koji
 masktest	samba
 match_parens	texlive
 mathspic	texlive
@@ -4739,8 +4740,8 @@ nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
 normalizer	gpgme
-nosetests	django
-nosetests-3	django
+nosetests	python-extras
+nosetests-3	python-extras
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
@@ -5016,9 +5017,9 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
-pango-list	transcoding-support
-pango-segmentation	transcoding-support
-pango-view	transcoding-support
+pango-list	devpkg-pango
+pango-segmentation	devpkg-pango
+pango-view	devpkg-pango
 paplay	pulseaudio
 parallel	parallel
 paraview	ParaView
@@ -5062,12 +5063,12 @@ pcf2vpnc	NetworkManager-extras
 pcmanfm	pcmanfm
 pcmanfm-qt	desktop-lxqt
 pcprofiledump	os-core
-pcre-config	devpkg-pcre
+pcre-config	connections
 pcre2-config	devpkg-pcre2
 pcre2grep	devpkg-pcre2
 pcre2test	devpkg-pcre2
-pcregrep	devpkg-pcre
-pcretest	devpkg-pcre
+pcregrep	connections
+pcretest	connections
 pcs	pcs
 pcs_internal	pcs
 pcs_snmp_agent	pcs
@@ -7508,7 +7509,7 @@ wget	wget
 wgsim	samtools
 wgsim_eval.pl	samtools
 whatis	man-pages
-wheel	django
+wheel	python-extras
 whereis	os-core
 which	which
 whiptail	byobu
