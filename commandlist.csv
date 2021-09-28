@@ -1779,7 +1779,6 @@ findhyph	texlive
 findmissingcrystal	desktop-kde-apps
 findmnt	os-core
 findrule	perl-extras
-findsmb	samba
 fio	fio
 fio-btrace2fio	fio
 fio-dedupe	fio
@@ -3142,6 +3141,7 @@ jt9code	amateur-radio
 jupyter	jupyter
 jupyter-bundlerextension	jupyter
 jupyter-console	jupyter
+jupyter-dejavu	jupyter
 jupyter-kernel	jupyter
 jupyter-kernelspec	jupyter
 jupyter-lab	jupyter
@@ -4180,7 +4180,6 @@ mdb_stat	machine-learning-basic
 mdbrebase	mono
 mdel	storage-utils
 mdeltree	storage-utils
-mdfind	samba
 mdig	clr-network-troubleshooter
 mdir	storage-utils
 mdmon	storage-utils
@@ -4190,6 +4189,7 @@ mdoc-export-html	mono
 mdoc-export-msxdoc	mono
 mdoc-update	mono
 mdoc-validate	mono
+mdsearch	samba
 mdu	storage-utils
 mdvalidater	mono
 mech-dump	perl-basic
@@ -4936,13 +4936,13 @@ orterun	openmpi
 osage	graphviz
 osdmaptool	ceph
 osgmlnorm	mail-utils-dev
-osinfo-db-export	gnome-boxes
-osinfo-db-import	gnome-boxes
-osinfo-db-path	gnome-boxes
-osinfo-db-validate	gnome-boxes
-osinfo-detect	gnome-boxes
-osinfo-install-script	gnome-boxes
-osinfo-query	gnome-boxes
+osinfo-db-export	virt-manager
+osinfo-db-import	virt-manager
+osinfo-db-path	virt-manager
+osinfo-db-validate	virt-manager
+osinfo-detect	virt-manager
+osinfo-install-script	virt-manager
+osinfo-query	virt-manager
 osirrox	xorriso
 oslat	dev-utils
 osmtest	hpc-utils
@@ -5017,9 +5017,9 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
-pango-list	devpkg-pango
-pango-segmentation	devpkg-pango
-pango-view	devpkg-pango
+pango-list	transcoding-support
+pango-segmentation	transcoding-support
+pango-view	transcoding-support
 paplay	pulseaudio
 parallel	parallel
 paraview	ParaView
@@ -5510,6 +5510,7 @@ pvserver	ParaView
 pw-cat	devpkg-pipewire
 pw-cli	devpkg-pipewire
 pw-dot	devpkg-pipewire
+pw-dsdplay	devpkg-pipewire
 pw-dump	devpkg-pipewire
 pw-link	devpkg-pipewire
 pw-loopback	devpkg-pipewire
@@ -5598,6 +5599,7 @@ python3.9-config	python3-basic
 pythontex	texlive
 pyuic5	openshot-qt
 pyvenv-3.7	buildreq-spark
+q65code	amateur-radio
 q65sim	amateur-radio
 qalculate-gtk	qalculate-gtk
 qbittorrent	qbittorrent
