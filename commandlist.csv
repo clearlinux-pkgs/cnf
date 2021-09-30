@@ -764,7 +764,7 @@ chmorph	kde-frameworks5-dev
 choom	os-core
 chown	os-core
 chpasswd	os-core
-chrome-gnome-shell	desktop-apps-extras
+chrome-gnome-shell	firefox
 chronic	os-testsuite-0day
 chronyc	time-server-basic
 chronyd	time-server-basic
@@ -4811,7 +4811,6 @@ obs	obs-studio
 obs-ffmpeg-mux	obs-studio
 obxprop	desktop-lxqt
 ocaml	ocaml-basic
-ocaml-instr-graph	ocaml-basic
 ocamlbuild	ocaml-basic
 ocamlbuild.byte	ocaml-basic
 ocamlbuild.native	ocaml-basic
