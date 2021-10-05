@@ -464,6 +464,8 @@ bridge	iproute2
 bro	network-monitor-node
 bro-config	network-monitor-node
 broctl	network-monitor-node
+broker-benchmark	network-monitor-node
+broker-cluster-benchmark	network-monitor-node
 brotli	devpkg-brotli
 bscalc	sysadmin-remote
 bsdcat	libarchive
@@ -983,9 +985,9 @@ coredumpctl	sysadmin-basic
 corelist	perl-basic
 coreutils	os-core
 cover	perl-extras
-coverage	python-extras
-coverage-3.9	python-extras
-coverage3	python-extras
+coverage	django
+coverage-3.9	django
+coverage3	django
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -4416,7 +4418,6 @@ mount.ntfs	storage-utils
 mount.ntfs-3g	storage-utils
 mount.smb3	storage-utils
 mount.sshfs	sshfs
-mount.vmhgfs	os-cloudguest-vmware
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
@@ -5020,6 +5021,7 @@ pango-list	transcoding-support
 pango-segmentation	transcoding-support
 pango-view	transcoding-support
 paplay	pulseaudio
+paraglob-test	network-monitor-node
 parallel	parallel
 paraview	ParaView
 paraview-config	ParaView
@@ -7911,6 +7913,10 @@ zcmp	gzip
 zdiff	gzip
 zdump	os-core
 zebra	quagga
+zeek	network-monitor-node
+zeek-config	network-monitor-node
+zeek-wrapper	network-monitor-node
+zeekctl	network-monitor-node
 zegrep	gzip
 zenity	zenity
 zfgrep	gzip
