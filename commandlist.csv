@@ -2095,6 +2095,7 @@ gftp	gftp
 gftp-gtk	gftp
 gftp-text	gftp
 gftype	texlive
+gh	gh
 ghc	haskell-basic
 ghc-8.6.4	haskell-basic
 ghc-pkg	haskell-basic
@@ -5925,7 +5926,7 @@ rst2xml.py	docutils
 rstpep2html.py	docutils
 rstream	hpc-utils
 rstudio	R-rstudio
-rsvg-convert	devpkg-librsvg
+rsvg-convert	flatpak
 rsync	rsync
 rsync-ssl	rsync
 rsyslogd	rsyslog
@@ -7455,6 +7456,7 @@ wasm-ld	llvm
 wasm-ld-11	llvm
 watch	procps-ng
 watchgnupg	kleopatra
+watchmedo	python-extras
 watchquagga	quagga
 wavpack	desktop-dev
 wayland-scanner	devpkg-wayland
