@@ -340,7 +340,7 @@ avahi-resolve-host-name	devpkg-avahi
 avahi-set-host-name	devpkg-avahi
 avcenc	libva-utils
 avcstreamoutdemo	libva-utils
-avx512_1	flac
+avx512_1	devpkg-speex
 awesome	desktop-awesome
 awesome-client	desktop-awesome
 awk	os-core
@@ -1555,6 +1555,7 @@ elementary_perf	desktop-enlightenment
 elementary_quicklaunch	desktop-enlightenment
 elementary_run	desktop-enlightenment
 elementary_test	desktop-enlightenment
+elf-move.py	package-utils
 elf2dmp	kvm-host
 elfedit	binutils
 elinks	network-basic
@@ -2457,7 +2458,7 @@ hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
 hass	domotica
-haswell	lz4
+haswell	devpkg-expat
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -7459,7 +7460,7 @@ watchgnupg	kleopatra
 watchmedo	python-extras
 watchquagga	quagga
 wavpack	desktop-dev
-wayland-scanner	devpkg-wayland
+wayland-scanner	x11-server
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
@@ -7952,7 +7953,6 @@ zrun	os-testsuite-0day
 zsh	zsh
 zsh-5.8	zsh
 zstd	zstd
-zstd-frugal	zstd
 zstdcat	zstd
 zstdgrep	zstd
 zstdless	zstd
