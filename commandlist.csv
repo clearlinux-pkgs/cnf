@@ -340,7 +340,7 @@ avahi-resolve-host-name	devpkg-avahi
 avahi-set-host-name	devpkg-avahi
 avcenc	libva-utils
 avcstreamoutdemo	libva-utils
-avx512_1	devpkg-speex
+avx512_1	gsequencer
 awesome	desktop-awesome
 awesome-client	desktop-awesome
 awk	os-core
@@ -2458,7 +2458,7 @@ hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
 hass	domotica
-haswell	devpkg-expat
+haswell	gsequencer
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -6741,8 +6741,8 @@ tcftest	mail-utils-dev
 tchmgr	mail-utils-dev
 tchmttest	mail-utils-dev
 tchtest	mail-utils-dev
-tclsh	graphviz
-tclsh8.6	graphviz
+tclsh	tcl-basic
+tclsh8.6	tcl-basic
 tcpdump	network-basic
 tcpdump.4.99.1	network-basic
 tctmgr	mail-utils-dev
@@ -7204,7 +7204,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	firmware-update
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
@@ -7460,7 +7460,7 @@ watchgnupg	kleopatra
 watchmedo	python-extras
 watchquagga	quagga
 wavpack	desktop-dev
-wayland-scanner	x11-server
+wayland-scanner	devpkg-wayland
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
