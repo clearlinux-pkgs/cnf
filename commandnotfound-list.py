@@ -98,6 +98,9 @@ def read_manifest(m, pack, version):
             if 'd' in flags:
                 continue
 
+            if 'D' in flags:
+                continue
+
             if file.startswith('/usr/bin/'):
                 basename = os.path.basename(file)
                 declare_binary(pack, basename, bundlesize)
