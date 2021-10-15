@@ -340,7 +340,6 @@ avahi-resolve-host-name	devpkg-avahi
 avahi-set-host-name	devpkg-avahi
 avcenc	libva-utils
 avcstreamoutdemo	libva-utils
-avx512_1	gsequencer
 awesome	desktop-awesome
 awesome-client	desktop-awesome
 awk	os-core
@@ -1061,7 +1060,6 @@ cs2cs	devpkg-proj
 csc	mono
 csc-dim	mono
 cscope	dev-utils
-cscript	calc
 csharp	mono
 csi	mono
 cslatex	texlive
@@ -2458,7 +2456,6 @@ hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
 hass	domotica
-haswell	gsequencer
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
