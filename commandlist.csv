@@ -1123,7 +1123,7 @@ cvslastchange	desktop-kde-apps
 cvslastlog	desktop-kde-apps
 cvsrevertlast	desktop-kde-apps
 cvsversion	desktop-kde-apps
-cvt	x11-server
+cvt	devpkg-xorg-server
 cvtsudoers	sudo
 cweave	texlive
 cwebp	transcoding-support
