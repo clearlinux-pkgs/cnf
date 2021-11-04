@@ -3510,7 +3510,7 @@ ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
 ldd	os-core
-lddlibc4	jupyter
+lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
 ledmon	sysadmin-basic
@@ -4308,7 +4308,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-6.3.0	octave
+mkoctfile-6.4.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4862,11 +4862,11 @@ ocprint	R-extras-dev
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-6.3.0	octave
+octave-6.4.0	octave
 octave-cli	octave
-octave-cli-6.3.0	octave
+octave-cli-6.4.0	octave
 octave-config	octave
-octave-config-6.3.0	octave
+octave-config-6.4.0	octave
 od	os-core
 odbc_config	R-extras-dev
 odbcinst	R-extras-dev
@@ -5549,7 +5549,7 @@ pydoc	deprecated-python2
 pydoc3	python3-basic
 pydoc3.10	python3-basic
 pydoc3.7	buildreq-spark
-pydoc3.9	education
+pydoc3.9	bcc
 pydocstyle	python-extras
 pyflakes	cloud-api
 pyftmerge	fonttools
@@ -5604,8 +5604,8 @@ python3.7	python3-basic
 python3.7-config	buildreq-spark
 python3.7m	buildreq-spark
 python3.7m-config	buildreq-spark
-python3.9	education
-python3.9-config	education
+python3.9	bcc
+python3.9-config	bcc
 pythontex	texlive
 pyuic5	maker-3dprinting
 pyvenv-3.7	buildreq-spark
