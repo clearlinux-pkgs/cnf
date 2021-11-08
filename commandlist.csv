@@ -246,8 +246,8 @@ arlatex	texlive
 arp	net-tools
 arp-fingerprint	network-security-monitoring
 arp-scan	network-security-monitoring
-arpaname	network-basic
-arping	network-basic
+arpaname	clr-network-troubleshooter
+arping	clr-network-troubleshooter
 arptables	iptables
 arptables-nft	iptables
 arptables-nft-restore	iptables
@@ -886,7 +886,7 @@ clipfilter	perl-extras
 clipjoin	perl-extras
 cllualatex	texlive
 cloc	cloc
-clockdiff	network-basic
+clockdiff	clr-network-troubleshooter
 clr-avx2-move.pl	package-utils
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
@@ -1183,7 +1183,7 @@ dcraw_half	devpkg-LibRaw
 dd	os-core
 ddcmon	maker-basic
 ddd	ddd
-ddns-confgen	network-basic
+ddns-confgen	clr-network-troubleshooter
 de-macro	texlive
 deadline_test	dev-utils
 deallocvt	kbd
@@ -1246,7 +1246,7 @@ diffeet	desktop-enlightenment
 diffimg	desktop-apps
 diffoscope	diffoscope
 diffstat	package-builder
-dig	network-basic
+dig	clr-network-troubleshooter
 digikam	digikam
 digitaglinktree	digikam
 dijkstra	graphviz
@@ -2501,7 +2501,7 @@ hmaptool-8	llvm8
 hmaptool-9	llvm9
 homectl	sysadmin-basic
 horovodrun	machine-learning-tensorflow
-host	network-basic
+host	clr-network-troubleshooter
 hostid	os-core
 hostname	os-core
 hostnamectl	sysadmin-basic
@@ -2951,8 +2951,8 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	cve-bin-tool
-isort-identify-imports	cve-bin-tool
+isort	pcs
+isort-identify-imports	pcs
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -3148,6 +3148,7 @@ jupyter	jupyter
 jupyter-bundlerextension	jupyter
 jupyter-console	jupyter
 jupyter-dejavu	jupyter
+jupyter-execute	jupyter
 jupyter-kernel	jupyter
 jupyter-kernelspec	jupyter
 jupyter-lab	jupyter
@@ -4185,7 +4186,7 @@ mdb_stat	machine-learning-basic
 mdbrebase	mono
 mdel	storage-utils
 mdeltree	storage-utils
-mdig	network-basic
+mdig	clr-network-troubleshooter
 mdir	storage-utils
 mdmon	storage-utils
 mdoc	mono
@@ -4587,8 +4588,8 @@ mysqlslap	mariadb
 mysqltest	mariadb
 mytop	mariadb
 mzip	storage-utils
-named-checkzone	network-basic
-named-compilezone	network-basic
+named-checkzone	clr-network-troubleshooter
+named-compilezone	clr-network-troubleshooter
 namei	os-core
 nameif	net-tools
 nanddump	mtd-utils
@@ -4682,7 +4683,7 @@ nim	nim
 nimble	nim
 nimgrep	nim
 nimsuggest	nim
-ninfod	network-basic
+ninfod	clr-network-troubleshooter
 ninja	dev-utils
 nisdomainname	net-tools
 nl	os-core
@@ -4761,17 +4762,17 @@ npx	nodejs-basic
 nroff	man-pages
 nrpe	sysadmin-remote
 nsec3dig	pdns
-nsec3hash	network-basic
+nsec3hash	clr-network-troubleshooter
 nsenter	os-core
 nsgmls	mail-utils-dev
 nslcd	enterprise-login
-nslookup	network-basic
+nslookup	clr-network-troubleshooter
 nsm	time-server-basic
 nspr-config	devpkg-nspr
 nss-config	devpkg-nss
 nstat	iproute2
 nstor_lsmplugin	sysadmin-remote
-nsupdate	network-basic
+nsupdate	clr-network-troubleshooter
 ntfs-3g	storage-utils
 ntfs-3g.probe	storage-utils
 ntfscat	storage-utils
@@ -5234,7 +5235,7 @@ pinentry	gnupg
 pinentry-curses	gnupg
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
-ping	network-basic
+ping	clr-network-troubleshooter
 ping_pong	samba
 pinky	os-core
 pinns	containers-basic
@@ -5714,7 +5715,7 @@ randpkt	wireshark
 randstat	cryptography
 ranlib	binutils
 rarp	net-tools
-rarpd	network-basic
+rarpd	clr-network-troubleshooter
 raster2pgsql	maker-gis
 ratbagctl	games
 ratbagd	games
@@ -5744,7 +5745,7 @@ rclone	rclone
 rcmysql	mariadb
 rcopy	hpc-utils
 rctest	hardware-bluetooth
-rdisc	network-basic
+rdisc	clr-network-troubleshooter
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
 rdma-ndd	hpc-utils
@@ -6837,7 +6838,7 @@ text2tt	amateur-radio
 tflite_convert	machine-learning-tensorflow
 tfmtodit	man-pages
 tftopl	texlive
-tftpd	network-basic
+tftpd	clr-network-troubleshooter
 tgt-admin	tgt
 tgt-setup-lun	tgt
 tgtadm	tgt
@@ -6909,6 +6910,7 @@ to_erl	rabbitmq-server
 toco	machine-learning-tensorflow
 toco_from_protos	machine-learning-tensorflow
 toe	sysadmin-basic
+tomlq	yq
 top	htop
 top2	procps-ng
 totem	totem
@@ -7028,9 +7030,9 @@ trace	linux-tools
 trace-cmd	dev-utils
 trace-summary	network-monitor-node
 tracegen	sddm
-tracepath	network-basic
+tracepath	clr-network-troubleshooter
 traceroute	network-basic
-traceroute6	network-basic
+traceroute6	clr-network-troubleshooter
 tracker3	desktop-gnomelibs
 traefik	traefik
 transicc	devpkg-lcms2
@@ -7840,6 +7842,7 @@ xpra_signal_listener	xpra
 xpra_udev_product_version	xpra
 xprop	x11-tools
 xpstat	tcl-basic
+xq	yq
 xrandr	x11-tools
 xrdb	x11-tools
 xrdp	x11-tools
@@ -7909,6 +7912,7 @@ yelp	desktop
 yes	os-core
 ypdomainname	net-tools
 yplan	texlive
+yq	yq
 ytasm	yasm
 z3	dev-utils-dev
 zabbix_agentd	zabbix-agent
