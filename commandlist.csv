@@ -2951,8 +2951,8 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	pcs
-isort-identify-imports	pcs
+isort	cve-bin-tool
+isort-identify-imports	cve-bin-tool
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -5549,9 +5549,9 @@ pydoc	deprecated-python2
 pydoc3	python3-basic
 pydoc3.10	python3-basic
 pydoc3.7	buildreq-spark
-pydoc3.9	bcc
+pydoc3.9	jupyter
 pydocstyle	python-extras
-pyflakes	cloud-api
+pyflakes	Sphinx
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
@@ -5604,8 +5604,8 @@ python3.7	python3-basic
 python3.7-config	buildreq-spark
 python3.7m	buildreq-spark
 python3.7m-config	buildreq-spark
-python3.9	bcc
-python3.9-config	bcc
+python3.9	jupyter
+python3.9-config	jupyter
 pythontex	texlive
 pyuic5	maker-3dprinting
 pyvenv-3.7	buildreq-spark
