@@ -468,7 +468,7 @@ bro-config	network-monitor-node
 broctl	network-monitor-node
 broker-benchmark	network-monitor-node
 broker-cluster-benchmark	network-monitor-node
-brotli	devpkg-brotli
+brotli	jupyter
 bscalc	sysadmin-remote
 bsdcat	libarchive
 bsdcpio	libarchive
@@ -5966,6 +5966,7 @@ run-with-aspell	aspell
 run_erl	rabbitmq-server
 run_perftest_loopback	hpc-utils
 run_perftest_multi_devices	hpc-utils
+run_scaled	xpra
 run_srp_daemon	hpc-utils
 runc	cloud-control
 runcon	os-core
@@ -6776,7 +6777,6 @@ telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
 telnet	netkit-telnet
-tensorflow_model_server	tensorflow-serving
 terminology	desktop-enlightenment
 tesseract	tesseract
 test	os-core
