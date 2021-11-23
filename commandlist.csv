@@ -88,7 +88,7 @@ acrnd	software-defined-cockpit-dev
 acrnlog	software-defined-cockpit-dev
 acrnprobe	software-defined-cockpit-dev
 acrntrace	software-defined-cockpit-dev
-activate-global-python-argcomplete	jupyter
+activate-global-python-argcomplete	yq
 acyclic	graphviz
 add.modules	modules
 adddebug	desktop-kde-apps
@@ -407,7 +407,6 @@ bifcl	network-monitor-node
 bijiben	bijiben
 bin2hex.py	python-extras
 binpac	network-monitor-node
-binwalk	diffoscope
 biosdecode	sysadmin-basic
 bison	bison
 black	jupyter
@@ -447,7 +446,7 @@ boinc_client	boinc-client
 boinccmd	boinc-client
 boincmgr	boinc-client
 boincscr	boinc-client
-bokeh	python-extras
+bokeh	python-data-science
 boltctl	desktop
 bombardment	performance-tools
 bomber	desktop-kde-games
@@ -466,7 +465,7 @@ bro-config	network-monitor-node
 broctl	network-monitor-node
 broker-benchmark	network-monitor-node
 broker-cluster-benchmark	network-monitor-node
-brotli	jupyter
+brotli	devpkg-brotli
 bscalc	sysadmin-remote
 bsdcat	libarchive
 bsdcpio	libarchive
@@ -627,7 +626,7 @@ ccache	ccache
 ccache-swig	machine-learning-basic
 cccheck	mono
 ccconfig	perl-extras
-cchardetect	jupyter
+cchardetect	domotica
 ccmake	c-basic
 ccomps	graphviz
 ccrewrite	mono
@@ -1142,9 +1141,9 @@ darktable-cltest	darktable
 darktable-cmstest	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
-dask-scheduler	python-extras
-dask-ssh	python-extras
-dask-worker	python-extras
+dask-scheduler	conda
+dask-ssh	conda
+dask-worker	conda
 date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
@@ -1610,7 +1609,7 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epylint	pcs
+epylint	Solaar
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -2030,7 +2029,6 @@ gegl	devpkg-gegl
 gegl-imgcmp	devpkg-gegl
 gem	ruby-basic
 gen_binary_files	desktop
-gen_client	os-cloudguest-gce
 gen_packets	amateur-radio
 gen_unigram	desktop
 genbrk	sddm
@@ -2086,7 +2084,6 @@ gettextize	c-basic
 gf_attach	storage-cluster
 gff2gff.py	samtools
 gfind_missing_files	storage-cluster
-gflags2man.py	os-cloudguest-gce
 gflags_completions.sh	devpkg-gflags
 gfortran	c-basic
 gftodvi	texlive
@@ -2946,8 +2943,8 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	pcs
-isort-identify-imports	pcs
+isort	cve-bin-tool
+isort-identify-imports	cve-bin-tool
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -3057,7 +3054,6 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jdiff	diffoscope
 jemalloc-config	desktop-dev
 jemalloc.sh	desktop-dev
 jeprof	desktop-dev
@@ -3121,7 +3117,6 @@ json_pp	perl-basic
 json_reformat	desktop-dev
 json_verify	desktop-dev
 json_xs	perl-extras
-jsondiff	diffoscope
 jsonpatch	ceph
 jsonpointer	jupyter
 jsonschema	jupyter
@@ -5553,7 +5548,7 @@ pygmentize	scm-server
 pyhs100	domotica
 pyjson5	jupyter
 pykig.py	desktop-kde-games
-pylint	pcs
+pylint	Solaar
 pylupdate5	openshot-qt
 pyozw_check	domotica
 pyozw_shell	domotica
@@ -5561,7 +5556,7 @@ pyperf	os-testsuite-phoronix-desktop
 pypi-dep-fix.py	package-utils
 pyproject-build	jupyter
 pyrcc5	openshot-qt
-pyreverse	pcs
+pyreverse	Solaar
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
 pyro4-httpgateway	python-data-science
@@ -5570,12 +5565,12 @@ pyro4-nsc	python-data-science
 pyro4-test-echoserver	python-data-science
 pyroma	jupyter
 pyroute2-cli	package-utils
-pyrsa-decrypt	cloud-api
-pyrsa-encrypt	cloud-api
-pyrsa-keygen	cloud-api
-pyrsa-priv2pub	cloud-api
-pyrsa-sign	cloud-api
-pyrsa-verify	cloud-api
+pyrsa-decrypt	letsencrypt-client
+pyrsa-encrypt	letsencrypt-client
+pyrsa-keygen	letsencrypt-client
+pyrsa-priv2pub	letsencrypt-client
+pyrsa-sign	letsencrypt-client
+pyrsa-verify	letsencrypt-client
 pyscss	django
 pyserial-miniterm	inkscape
 pyserial-ports	inkscape
@@ -5583,8 +5578,8 @@ pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
 python	python3-basic
-python-argcomplete-check-easy-install-script	jupyter
-python-argcomplete-tcsh	jupyter
+python-argcomplete-check-easy-install-script	yq
+python-argcomplete-tcsh	yq
 python-config	deprecated-python2
 python2	deprecated-python2
 python2-config	deprecated-python2
@@ -5777,7 +5772,7 @@ redsocks	network-basic
 refer	man-pages
 regdiff	samba
 regedit	wine
-register-python-argcomplete	jupyter
+register-python-argcomplete	yq
 regpatch	samba
 regshell	samba
 regsvr32	wine
@@ -6641,7 +6636,7 @@ swupd-search	python3-basic
 sx	mail-utils-dev
 sxiv	sxiv
 sxpm	devpkg-libXpm
-symilar	pcs
+symilar	Solaar
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	sysadmin-basic-dev
