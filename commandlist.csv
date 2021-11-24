@@ -5249,7 +5249,7 @@ pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
 pkgdata	sddm
-pkginfo	python-extras
+pkginfo	mercurial
 pkill	procps-ng
 pktogf	texlive
 pkttyagent	polkit
@@ -7005,7 +7005,7 @@ tpm2_unseal	cryptoprocessor-management
 tpm2_verifysignature	cryptoprocessor-management
 tpm2_zgen2phase	cryptoprocessor-management
 tput	sysadmin-basic
-tqdm	python-extras
+tqdm	dev-utils
 tr	os-core
 trace	linux-tools
 trace-cmd	dev-utils
@@ -7568,7 +7568,7 @@ wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
 wsdl	mono
 wsdl2	mono
-wsdump.py	jupyter
+wsdump.py	docker-compose
 wsgen	java-basic
 wsimport	java-basic
 wsjtx	amateur-radio
