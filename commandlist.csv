@@ -5544,7 +5544,7 @@ pyflakes	Sphinx
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
-pygmentize	scm-server
+pygmentize	jupyter
 pyhs100	domotica
 pyjson5	jupyter
 pykig.py	desktop-kde-games
@@ -7005,7 +7005,7 @@ tpm2_unseal	cryptoprocessor-management
 tpm2_verifysignature	cryptoprocessor-management
 tpm2_zgen2phase	cryptoprocessor-management
 tput	sysadmin-basic
-tqdm	dev-utils
+tqdm	mercurial
 tr	os-core
 trace	linux-tools
 trace-cmd	dev-utils
