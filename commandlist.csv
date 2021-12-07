@@ -88,7 +88,7 @@ acrnd	software-defined-cockpit-dev
 acrnlog	software-defined-cockpit-dev
 acrnprobe	software-defined-cockpit-dev
 acrntrace	software-defined-cockpit-dev
-activate-global-python-argcomplete	yq
+activate-global-python-argcomplete	os-clr-on-clr-dev
 acyclic	graphviz
 add.modules	modules
 adddebug	desktop-kde-apps
@@ -1609,7 +1609,7 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epylint	Solaar
+epylint	pcs
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -3138,7 +3138,6 @@ jupyter	jupyter
 jupyter-bundlerextension	jupyter
 jupyter-console	jupyter
 jupyter-dejavu	jupyter
-jupyter-execute	jupyter
 jupyter-kernel	jupyter
 jupyter-kernelspec	jupyter
 jupyter-lab	jupyter
@@ -5548,7 +5547,7 @@ pygmentize	jupyter
 pyhs100	domotica
 pyjson5	jupyter
 pykig.py	desktop-kde-games
-pylint	Solaar
+pylint	pcs
 pylupdate5	openshot-qt
 pyozw_check	domotica
 pyozw_shell	domotica
@@ -5556,7 +5555,7 @@ pyperf	os-testsuite-phoronix-desktop
 pypi-dep-fix.py	package-utils
 pyproject-build	jupyter
 pyrcc5	openshot-qt
-pyreverse	Solaar
+pyreverse	pcs
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
 pyro4-httpgateway	python-data-science
@@ -5578,8 +5577,8 @@ pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
 python	python3-basic
-python-argcomplete-check-easy-install-script	yq
-python-argcomplete-tcsh	yq
+python-argcomplete-check-easy-install-script	os-clr-on-clr-dev
+python-argcomplete-tcsh	os-clr-on-clr-dev
 python-config	deprecated-python2
 python2	deprecated-python2
 python2-config	deprecated-python2
@@ -5772,7 +5771,7 @@ redsocks	network-basic
 refer	man-pages
 regdiff	samba
 regedit	wine
-register-python-argcomplete	yq
+register-python-argcomplete	os-clr-on-clr-dev
 regpatch	samba
 regshell	samba
 regsvr32	wine
@@ -6112,7 +6111,6 @@ sensors-detect	lm-sensors
 sepdebugcrcfix	package-utils
 seq	os-core
 seq_cache_populate.pl	samtools
-seqdiag	python-extras
 serialver	java-basic
 serialver11	java11-basic
 serialver13	java13-basic
@@ -6636,7 +6634,7 @@ swupd-search	python3-basic
 sx	mail-utils-dev
 sxiv	sxiv
 sxpm	devpkg-libXpm
-symilar	Solaar
+symilar	pcs
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	sysadmin-basic-dev
@@ -7937,8 +7935,6 @@ zone2json	pdns
 zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
 zoom2sam.pl	samtools
-zopfli	fonttools
-zopflipng	fonttools
 zramctl	os-core
 zrun	os-testsuite-0day
 zsh	zsh
