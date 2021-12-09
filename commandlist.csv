@@ -1263,7 +1263,6 @@ display-buttons	sysadmin-basic
 display-coords	sysadmin-basic
 distro	python-extras
 django-admin	python-extras
-django-admin.py	python-extras
 djpeg	devpkg-libjpeg-turbo
 dkms	kernel-native-dkms
 dkms-new-kernel.sh	kernel-native-dkms
@@ -2308,6 +2307,8 @@ groupdel	os-core
 groupmems	os-core
 groupmod	os-core
 groups	os-core
+growpart	growpart
+growpartfs	growpart
 grpck	os-core
 grpconv	os-core
 grpunconv	os-core
@@ -6457,7 +6458,7 @@ sqfscat	storage-utils
 sqfstar	storage-utils
 sql	parallel
 sql-split	perl-extras
-sqlformat	python-extras
+sqlformat	machine-learning-web-ui
 sqlite3	sqlite
 sqliterepo_c	mixer
 sqlmetal	mono
@@ -7566,7 +7567,7 @@ wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
 wsdl	mono
 wsdl2	mono
-wsdump.py	docker-compose
+wsdump	docker-compose
 wsgen	java-basic
 wsimport	java-basic
 wsjtx	amateur-radio
