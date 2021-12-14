@@ -1141,9 +1141,6 @@ darktable-cltest	darktable
 darktable-cmstest	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
-dask-scheduler	conda
-dask-ssh	conda
-dask-worker	conda
 date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
@@ -1170,6 +1167,7 @@ dbus-test-tool	sysadmin-basic
 dbus-update-activation-environment	sysadmin-basic
 dbus-uuidgen	sysadmin-basic
 dbwrap_tool	samba
+dbxtool	firmware-update
 dc	bc
 dcb	iproute2
 dcbtool	performance-tools
@@ -1905,8 +1903,10 @@ fusermount	fuse
 fusermount-glusterfs	storage-cluster
 fusermount3	fuse
 futurize	Sphinx
-fwupdate	fwupdate
+fwupdagent	firmware-update
+fwupdate	firmware-update
 fwupdmgr	firmware-update
+fwupdtool	firmware-update
 g++	c-basic
 g++-10	c-extras-gcc10
 g++-8	c-extras-gcc8
@@ -2093,11 +2093,11 @@ gftp-text	gftp
 gftype	texlive
 gh	gh
 ghc	haskell-basic
-ghc-8.6.4	haskell-basic
+ghc-9.2.1	haskell-basic
 ghc-pkg	haskell-basic
-ghc-pkg-8.6.4	haskell-basic
+ghc-pkg-9.2.1	haskell-basic
 ghci	haskell-basic
-ghci-8.6.4	haskell-basic
+ghci-9.2.1	haskell-basic
 gidmigrator	desktop-kde-apps
 gie	devpkg-proj
 gif2h5	machine-learning-basic
@@ -2443,7 +2443,7 @@ h5unjam	machine-learning-basic
 h5watch	machine-learning-basic
 hackbench	dev-utils
 haddock	haskell-basic
-haddock-ghc-8.6.4	haskell-basic
+haddock-ghc-9.2.1	haskell-basic
 half_mt	devpkg-LibRaw
 halog	haproxy
 halt	sysadmin-basic
@@ -3040,6 +3040,7 @@ javah	java-basic
 javap	java-basic
 javap11	java11-basic
 javap13	java13-basic
+jcat-tool	devpkg-fwupd
 jcmd	java-basic
 jcmd11	java11-basic
 jcmd13	java13-basic
@@ -4091,7 +4092,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	ceph
+mako-render	desktop-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -5046,7 +5047,7 @@ pathchk	os-core
 pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
-pbr	cloud-api
+pbr	python-extras
 pbunzip2	os-testsuite-phoronix-desktop
 pbzcat	os-testsuite-phoronix-desktop
 pbzip2	os-testsuite-phoronix-desktop
@@ -5546,7 +5547,6 @@ pyftsubset	fonttools
 pygmentex	texlive
 pygmentize	jupyter
 pyhs100	domotica
-pyjson5	jupyter
 pykig.py	desktop-kde-games
 pylint	pcs
 pylupdate5	openshot-qt
@@ -5572,8 +5572,8 @@ pyrsa-priv2pub	letsencrypt-client
 pyrsa-sign	letsencrypt-client
 pyrsa-verify	letsencrypt-client
 pyscss	django
-pyserial-miniterm	inkscape
-pyserial-ports	inkscape
+pyserial-miniterm	domotica
+pyserial-ports	domotica
 pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
@@ -5960,7 +5960,7 @@ run_srp_daemon	hpc-utils
 runc	cloud-control
 runcon	os-core
 runghc	haskell-basic
-runghc-8.6.4	haskell-basic
+runghc-9.2.1	haskell-basic
 rungs	texlive
 runhaskell	haskell-basic
 runscript	minicom
@@ -6279,7 +6279,7 @@ simpleplayer	desktop-apps
 simplescreenrecorder	simplescreenrecorder
 simplesearch	devpkg-xapian-core
 sinfo	cluster-tools
-sip	maker-gis
+sip	machine-learning-web-ui
 sitepods	perl-extras
 size	binutils
 sjisconv	texlive
@@ -7439,7 +7439,6 @@ vzt2vcd	gtkwave
 vztminer	gtkwave
 w	procps-ng
 waagent	os-cloudguest-azure
-waitress-serve	ceph
 wall	os-core
 wasm-ld	llvm
 wasm-ld-11	llvm
