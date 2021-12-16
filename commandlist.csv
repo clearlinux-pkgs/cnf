@@ -2944,8 +2944,8 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	cve-bin-tool
-isort-identify-imports	cve-bin-tool
+isort	ansible
+isort-identify-imports	ansible
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -3040,7 +3040,7 @@ javah	java-basic
 javap	java-basic
 javap11	java11-basic
 javap13	java13-basic
-jcat-tool	devpkg-fwupd
+jcat-tool	devpkg-libjcat
 jcmd	java-basic
 jcmd11	java11-basic
 jcmd13	java13-basic
@@ -5887,7 +5887,6 @@ rpm2cpio	package-utils
 rpmbuild	package-utils
 rpmdb	package-utils
 rpmdb2solv	devpkg-libsolv
-rpmfile	cve-bin-tool
 rpmgraph	package-utils
 rpmkeys	package-utils
 rpmmd2solv	devpkg-libsolv
@@ -6764,7 +6763,6 @@ telem_journal	devpkg-telemetrics-client
 telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
-telnet	netkit-telnet
 terminology	desktop-enlightenment
 tesseract	tesseract
 test	os-core
