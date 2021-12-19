@@ -126,8 +126,6 @@ akonadi_ical_resource	desktop-kde-apps
 akonadi_icaldir_resource	desktop-kde-apps
 akonadi_imap_resource	desktop-kde-apps
 akonadi_indexing_agent	akonadi
-akonadi_kalarm_dir_resource	desktop-kde-apps
-akonadi_kalarm_resource	desktop-kde-apps
 akonadi_knut_resource	akonadi
 akonadi_maildir_resource	desktop-kde-apps
 akonadi_maildispatcher_agent	desktop-kde-apps
