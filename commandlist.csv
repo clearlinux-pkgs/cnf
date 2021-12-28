@@ -2445,7 +2445,7 @@ haddock-ghc-9.2.1	haskell-basic
 half_mt	devpkg-LibRaw
 halog	haproxy
 halt	sysadmin-basic
-handy-1-demo	desktop-dev
+handy-1-demo	devpkg-libhandy
 haproxy	haproxy
 hardinfo	hardinfo
 hardlink	os-core
@@ -3117,7 +3117,6 @@ json_pp	perl-basic
 json_reformat	desktop-dev
 json_verify	desktop-dev
 json_xs	perl-extras
-jsonpatch	kvm-host-dev
 jsonpointer	jupyter
 jsonschema	jupyter
 jstack	java-basic
