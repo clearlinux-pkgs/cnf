@@ -1573,8 +1573,10 @@ endnote-format	perl-extras
 enlightenment	desktop-enlightenment
 enlightenment_askpass	desktop-enlightenment
 enlightenment_filemanager	desktop-enlightenment
+enlightenment_fprint	desktop-enlightenment
 enlightenment_imc	desktop-enlightenment
 enlightenment_open	desktop-enlightenment
+enlightenment_paledit	desktop-enlightenment
 enlightenment_remote	desktop-enlightenment
 enlightenment_start	desktop-enlightenment
 env	os-core
@@ -2011,10 +2013,10 @@ gdk-pixbuf-csource	lightdm
 gdk-pixbuf-pixdata	lightdm
 gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
-gdm	desktop-enlightenment
+gdm	desktop
 gdm-control	desktop-lxqt
-gdm-screenshot	desktop-enlightenment
-gdmflexiserver	desktop-enlightenment
+gdm-screenshot	desktop
+gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
