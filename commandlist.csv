@@ -412,6 +412,7 @@ black-primer	jupyter
 blackd	jupyter
 blast2sam.pl	samtools
 blender	blender
+blender-thumbnailer	blender
 blinken	education-preschool
 blivet-gui	blivet-gui
 blivet-gui-daemon	blivet-gui
