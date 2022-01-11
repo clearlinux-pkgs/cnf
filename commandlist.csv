@@ -1,6 +1,5 @@
 2to3	python3-basic
 2to3-3.10	python3-basic
-2to3-3.7	buildreq-spark
 4channels	devpkg-LibRaw
 4dsphere	calc
 7z	dev-utils
@@ -194,17 +193,6 @@ anacron	cronie
 analyze	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
-ansible	ansible
-ansible-config	ansible
-ansible-connection	ansible
-ansible-console	ansible
-ansible-doc	ansible
-ansible-galaxy	ansible
-ansible-inventory	ansible
-ansible-playbook	ansible
-ansible-pull	ansible
-ansible-test	ansible
-ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
 apachectl	httpd
@@ -289,9 +277,6 @@ auditctl	audit
 auditd	audit
 audtool	audacious
 augenrules	audit
-augmatch	letsencrypt-client
-augparse	letsencrypt-client
-augtool	letsencrypt-client
 aulast	audit
 aulastlog	audit
 aureport	audit
@@ -369,7 +354,6 @@ bashbug	shells
 bashdb	sysadmin-basic
 batch	os-cloudguest-azure
 bats	software-testing
-bazel	machine-learning-basic
 bbl2bib	texlive
 bbox	texlive
 bc	bc
@@ -405,9 +389,6 @@ bin2hex.py	python-extras
 binpac	network-monitor-node
 biosdecode	sysadmin-basic
 bison	bison
-black	python-extras
-black-primer	python-extras
-blackd	python-extras
 blast2sam.pl	samtools
 blender	blender
 blender-thumbnailer	blender
@@ -424,7 +405,6 @@ blkrawverify	performance-tools
 blktrace	performance-tools
 blkzone	os-core
 blockdev	os-core
-blockdiag	python-extras
 bluedevil-sendfile	desktop-kde
 bluedevil-wizard	desktop-kde
 bluemoon	hardware-bluetooth
@@ -570,7 +550,6 @@ cachepic	texlive
 cairo-trace	devpkg-cairo
 cal	os-core
 calc	calc
-calc-prorate	ceph
 calendarjanitor	akonadi
 calidns	pdns
 callgrind_annotate	valgrind
@@ -727,7 +706,6 @@ chattr	os-core
 chcon	os-core
 chcpu	os-core
 cheatmake	desktop-kde-apps
-check-manifest	python-extras
 check-regexp	dev-utils
 checkXML5	desktop-kde
 check_lft_balance.pl	hpc-utils
@@ -739,10 +717,6 @@ checklistings	texlive
 checkmk	c-basic
 checksctp	devpkg-libsctp
 cheese	cheese
-cheetah	koji
-cheetah-analyze	koji
-cheetah-compile	koji
-cherryd	ceph
 chfn	os-core
 chgpasswd	os-core
 chgrp	os-core
@@ -867,7 +841,6 @@ clangd	llvm
 clangd-11	llvm
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-cli4	letsencrypt-client
 clinfo	computer-vision-basic
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
@@ -900,14 +873,8 @@ clusterdb	postgresql
 cluttex	texlive
 clxelatex	texlive
 cm108	amateur-radio
-cm2html	Sphinx
-cm2latex	Sphinx
-cm2man	Sphinx
-cm2pseudoxml	Sphinx
-cm2xetex	Sphinx
-cm2xml	Sphinx
 cmake	c-basic
-cmark	Sphinx
+cmark	dev-utils-dev
 cmp	diffutils
 cmsutil	cryptography
 cmtime	hpc-utils
@@ -976,9 +943,9 @@ corelist	perl-basic
 corepack	nodejs-basic
 coreutils	os-core
 cover	perl-extras
-coverage	django
-coverage-3.10	django
-coverage3	django
+coverage	os-clr-on-clr-dev
+coverage-3.10	os-clr-on-clr-dev
+coverage3	os-clr-on-clr-dev
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -1343,7 +1310,6 @@ dosfslabel	dosfstools
 dot	graphviz
 dot2gxl	graphviz
 dot_builtins	desktop-apps
-dotenv	docker-compose
 dotty	graphviz
 doveadm	dovecot
 doveconf	dovecot
@@ -1578,7 +1544,6 @@ env_parallel	parallel
 env_parallel.bash	parallel
 env_parallel.sh	parallel
 envml	modules
-envs	domotica
 envsubst	c-basic
 envy24control	alsa-tools
 eo_debug	desktop-enlightenment
@@ -1600,7 +1565,6 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epylint	Solaar
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -1702,7 +1666,6 @@ f2py3.10	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
-fadot	letsencrypt-client
 faillog	os-core
 faked	os-testsuite-0day
 fakeroot	os-testsuite-0day
@@ -1809,12 +1772,10 @@ flash_otp_lock	mtd-utils
 flash_otp_write	mtd-utils
 flash_unlock	mtd-utils
 flashcp	mtd-utils
-flask	python-extras
 flatpak	flatpak
 flatpak-bisect	flatpak
 flatpak-builder	flatpak
 flatpak-coredumpctl	flatpak
-flatten_json	domotica
 fldigi	amateur-radio
 flea	mutt
 flex	flex
@@ -1896,7 +1857,7 @@ fuser	sysadmin-basic
 fusermount	fuse
 fusermount-glusterfs	storage-cluster
 fusermount3	fuse
-futurize	Sphinx
+futurize	machine-learning-basic
 fwupdagent	firmware-update
 fwupdate	firmware-update
 fwupdmgr	firmware-update
@@ -2388,7 +2349,6 @@ guile	guile
 guile-config	c-basic
 guile-snarf	c-basic
 guile-tools	c-basic
-gunicorn_pecan	ceph
 gunzip	gzip
 gusbcmd	devpkg-libgusb
 gv2gml	graphviz
@@ -2556,13 +2516,11 @@ httpcfg	mono
 httpd	httpd
 httpd.prefork	httpd
 httpd.worker	httpd
-httpx	domotica
 httxt2dbm	httpd
 htxelatex	texlive
 htxetex	texlive
 hub	git
 hugo	hugo
-humanfriendly	maker-gis
 hunspell	kde-frameworks5-dev
 hunzip	kde-frameworks5-dev
 hv_fcopy_daemon	os-cloudguest-azure
@@ -2588,7 +2546,6 @@ hwloc-ps	hwloc
 hwmixvolume	alsa-tools
 hwstamp_ctl	time-server-basic
 hypnotoad	perl-extras
-hypothesis	Solaar
 hzip	kde-frameworks5-dev
 i2c-stub-from-dump	maker-basic
 i2cdetect	maker-basic
@@ -2715,8 +2672,6 @@ ikdasm	mono
 ikhal	productivity
 ilasm	mono
 illinkanalyzer	mono
-imageio_download_bin	python-extras
-imageio_remove_bin	python-extras
 imagetops	devpkg-leptonica
 imapfilter	mail-utils
 img2simg	storage-utils
@@ -2757,7 +2712,6 @@ install	os-core
 install-info	texinfo
 install-printerdriver	desktop
 install-vbox-lga	kernel-lts2017
-install.py	koji
 installcheck	devpkg-libsolv
 installfont-tl	texlive
 installkernel	kernel-install
@@ -2831,7 +2785,6 @@ ipcmk	os-core
 ipcount	perl-extras
 ipcrm	os-core
 ipcs	os-core
-ipdb3	django
 ipe	ipe
 ipe6upgrade	ipe
 ipecurl	ipe
@@ -2891,15 +2844,15 @@ iptables-translate	iptables
 iptables-xml	iptables
 iptceasy	devpkg-exiv2
 iptcprint	devpkg-exiv2
-iptest	jupyter
-iptest3	jupyter
+iptest	python-data-science
+iptest3	python-data-science
 iptraf	network-basic
 iptraf-ng	network-basic
 ipvsadm	ipvsadm
 ipvsadm-restore	ipvsadm
 ipvsadm-save	ipvsadm
-ipython	jupyter
-ipython3	jupyter
+ipython	python-data-science
+ipython3	python-data-science
 ir-ctl	v4l-utils
 ir-keytable	v4l-utils
 irb	ruby-basic
@@ -2938,8 +2891,6 @@ iso-info	asunder
 iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
-isort	ansible
-isort-identify-imports	ansible
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -3113,7 +3064,6 @@ json_pp	perl-basic
 json_reformat	desktop-dev
 json_verify	desktop-dev
 json_xs	perl-extras
-jsonpointer	machine-learning-web-ui
 jsonschema	machine-learning-web-ui
 jstack	java-basic
 jstack11	java11-basic
@@ -3149,7 +3099,6 @@ jupyter-serverextension	jupyter
 jupyter-troubleshoot	jupyter
 jupyter-trust	jupyter
 jw	docbook-utils
-jws	letsencrypt-client
 k5srvutil	enterprise-login
 kaccess	desktop-kde
 kactivities-cli	kde-frameworks5
@@ -3226,7 +3175,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3263,11 +3212,10 @@ kexec	os-cloudguest-azure
 key.dns_resolver	os-core-update-dev
 keychain	keychain
 keyctl	os-core-update-dev
-keyring	docker-compose
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	storage-utils-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3276,7 +3224,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -3506,7 +3454,6 @@ less	less
 lessecho	less
 lesskey	less
 lexgrog	man-pages
-lexicon	letsencrypt-client
 lftp	lftp
 lftpget	lftp
 lgroupadd	devpkg-libuser
@@ -4148,7 +4095,6 @@ mcedit	sysadmin-basic
 mcelog	kernel-iot-lts2018
 mcheck	storage-utils
 mckey	hpc-utils
-mclasserase	storage-utils
 mcomp	storage-utils
 mconfig	mono
 mcookie	os-core
@@ -4339,8 +4285,6 @@ module-starter	perl-extras
 modulecmd	modules
 modulemd-validator	os-clr-on-clr-dev
 modutil	cryptography
-mof_compiler	desktop-dev
-mof_compiler.bat	desktop-dev
 moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
@@ -4596,7 +4540,6 @@ ncgen3	R-extras-dev
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
 ndctl	storage-utils
-ndg_httpclient	letsencrypt-client
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -4727,7 +4670,7 @@ noncvslist	desktop-kde-apps
 nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
-normalizer	gpgme
+normalizer	desktop-dev
 nosetests	python-extras
 nosetests-3	python-extras
 notepad	wine
@@ -5029,7 +4972,7 @@ pass	pass
 passmass	tcl-basic
 passwd	os-core
 paste	os-core
-pasteurize	Sphinx
+pasteurize	machine-learning-basic
 pasuspender	pulseaudio
 patch	patch
 patchelf	containers-basic-dev
@@ -5123,7 +5066,6 @@ pdwtags	dev-utils
 pear	nginx-unit
 peardev	nginx-unit
 peas-demo	devpkg-libpeas
-pecan	ceph
 pecl	nginx-unit
 ped	blivet-gui
 pedigree	texlive
@@ -5131,7 +5073,7 @@ pedump	mono
 pee	os-testsuite-0day
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-pep8	maker-gis
+pep8	os-clr-on-clr
 perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
@@ -5224,8 +5166,6 @@ ping_pong	samba
 pinky	os-core
 pinns	containers-basic
 pip	python3-basic
-pip2	deprecated-python2
-pip2.7	deprecated-python2
 pip3	python3-basic
 pip3.10	python3-basic
 pip_stress	dev-utils
@@ -5243,7 +5183,6 @@ pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
 pkgdata	sddm
-pkginfo	mercurial
 pkill	procps-ng
 pktogf	texlive
 pkttyagent	polkit
@@ -5263,7 +5202,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	storage-utils-dev
+plasmapkg2	mail-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5533,26 +5472,19 @@ pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
 pydoc3.10	python3-basic
-pydoc3.7	buildreq-spark
-pyflakes	lutris
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
-pygmentize	jupyter
-pyhs100	domotica
+pygmentize	scm-server
 pykig.py	desktop-kde-games
-pylint	Solaar
 pylupdate5	openshot-qt
 pyozw_check	domotica
 pyozw_shell	domotica
 pyperf	os-testsuite-phoronix-desktop
 pypi-dep-fix.py	package-utils
 pyrcc5	openshot-qt
-pyreverse	Solaar
-pyroma	python-extras
-pyroute2-cli	os-clr-on-clr-dev
-pyserial-miniterm	domotica
-pyserial-ports	domotica
+pyserial-miniterm	inkscape
+pyserial-ports	inkscape
 pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
@@ -5567,12 +5499,8 @@ python3-config	python3-basic
 python3.10	python3-basic
 python3.10-config	python3-basic
 python3.7	python3-basic
-python3.7-config	buildreq-spark
-python3.7m	buildreq-spark
-python3.7m-config	buildreq-spark
 pythontex	texlive
 pyuic5	openshot-qt
-pyvenv-3.7	buildreq-spark
 q65code	amateur-radio
 q65sim	amateur-radio
 qalculate-gtk	qalculate-gtk
@@ -5644,7 +5572,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
@@ -5722,7 +5650,6 @@ rds-ctl	v4l-utils
 re2c	php-basic-dev
 re2go	php-basic-dev
 readelf	binutils
-readelf.py	dpdk
 readlink	os-core
 readprofile	os-core
 readtags	editors
@@ -5786,7 +5713,6 @@ resolvectl	sysadmin-basic
 resolveip	mariadb
 restic	restic
 restore_kernel_faults_default.sh	ltp
-retype	python-extras
 rev	os-core
 reviewboard-am	desktop-kde-apps
 rfcomm	hardware-bluetooth
@@ -6078,7 +6004,6 @@ secret-tool	tilix
 secutil	mono
 sed	os-core
 sem	parallel
-send2trash	jupyter
 sendmail	perl-basic
 sendmail-postfix	postfix
 sensors	lm-sensors
@@ -6283,7 +6208,6 @@ slencheck	R-extras-dev
 sln	python-extras
 sload.f2fs	storage-utils
 slsh	editors-dev
-slugify	domotica
 slurmctld	cluster-tools
 slurmd	cluster-tools
 slurmdbd	cluster-tools
@@ -6433,7 +6357,6 @@ sqfscat	storage-utils
 sqfstar	storage-utils
 sql	parallel
 sql-split	perl-extras
-sqlformat	os-clr-on-clr-dev
 sqlite3	sqlite
 sqliterepo_c	mixer
 sqlmetal	mono
@@ -6456,7 +6379,6 @@ srp_daemon.sh	hpc-utils
 srptool	cryptography
 srun	cluster-tools
 ss	iproute2
-ss2	os-clr-on-clr-dev
 sscape_ctl	alsa-tools
 ssdd	dev-utils
 sserver	enterprise-login
@@ -6529,20 +6451,8 @@ stunnel	cloud-api
 sty2dtx	texlive
 su	os-core
 su-exec	su-exec
-subunit-1to2	software-testing
-subunit-2to1	software-testing
 subunit-diff	devpkg-subunit
-subunit-filter	software-testing
-subunit-ls	software-testing
-subunit-notify	software-testing
-subunit-output	software-testing
-subunit-stats	software-testing
-subunit-tags	software-testing
-subunit2csv	software-testing
 subunit2disk	devpkg-subunit
-subunit2gtk	software-testing
-subunit2junitxml	software-testing
-subunit2pyunit	software-testing
 sudo	sudo
 sudo_logsrvd	sudo
 sudo_sendlog	sudo
@@ -6610,7 +6520,6 @@ swupd-search	python3-basic
 sx	mail-utils-dev
 sxiv	sxiv
 sxpm	devpkg-libXpm
-symilar	Solaar
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	sysadmin-basic-dev
@@ -6685,7 +6594,6 @@ tail	os-core
 tallow	openssh-server
 tangle	texlive
 tap	python-extras
-tap2subunit	software-testing
 tapestat	sysstat
 tappy	python-extras
 tar	os-core-update
@@ -6752,7 +6660,6 @@ testj1939	automotive-tools
 testlibusb	amateur-radio
 testparm	samba
 testpattern	hardware-printing
-testr	software-testing
 testsaslauthd	desktop-kde-apps
 testsolv	devpkg-libsolv
 tex	texlive
@@ -6871,8 +6778,8 @@ totem	totem
 totem-video-thumbnailer	totem
 touch	os-core
 touchpad-edge-detector	devpkg-libevdev
-tox	docker-compose
-tox-quickstart	docker-compose
+tox	storage-utils-dev
+tox-quickstart	storage-utils-dev
 tpage	perl-extras
 tpic2pdftex	texlive
 tpm2	cryptoprocessor-management
@@ -6978,7 +6885,7 @@ tpm2_unseal	cryptoprocessor-management
 tpm2_verifysignature	cryptoprocessor-management
 tpm2_zgen2phase	cryptoprocessor-management
 tput	sysadmin-basic
-tqdm	mercurial
+tqdm	machine-learning-basic
 tr	os-core
 trace	linux-tools
 trace-cmd	dev-utils
@@ -7064,7 +6971,6 @@ turnutils_oauth	coturn
 turnutils_peer	coturn
 turnutils_stunclient	coturn
 turnutils_uclient	coturn
-twine	docker-compose
 twinwave	gtkwave
 twopi	graphviz
 tyalpha	desktop-enlightenment
@@ -7130,7 +7036,6 @@ unexpand	os-core
 unflatten	graphviz
 unicode_start	kbd
 unicode_stop	kbd
-unidecode	domotica
 unifdef	dev-utils
 unifdefall	dev-utils
 uniq	os-core
@@ -7475,7 +7380,7 @@ wget	wget
 wgsim	samtools
 wgsim_eval.pl	samtools
 whatis	man-pages
-wheel	docker-compose
+wheel	computer-vision-basic
 whereis	os-core
 which	which
 whiptail	byobu
@@ -7539,7 +7444,6 @@ wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
 wsdl	mono
 wsdl2	mono
-wsdump	docker-compose
 wsgen	java-basic
 wsimport	java-basic
 wsjtx	amateur-radio
@@ -7767,9 +7671,6 @@ xmlif	go-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
-xmlschema-json2xml	os-clr-on-clr-dev
-xmlschema-validate	os-clr-on-clr-dev
-xmlschema-xml2json	os-clr-on-clr-dev
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
