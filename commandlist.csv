@@ -124,6 +124,8 @@ akonadi_ical_resource	desktop-kde-apps
 akonadi_icaldir_resource	desktop-kde-apps
 akonadi_imap_resource	desktop-kde-apps
 akonadi_indexing_agent	akonadi
+akonadi_kalarm_dir_resource	desktop-kde-apps
+akonadi_kalarm_resource	desktop-kde-apps
 akonadi_knut_resource	akonadi
 akonadi_maildir_resource	desktop-kde-apps
 akonadi_maildispatcher_agent	desktop-kde-apps
@@ -193,6 +195,17 @@ anacron	cronie
 analyze	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
+ansible	ansible
+ansible-config	ansible
+ansible-connection	ansible
+ansible-console	ansible
+ansible-doc	ansible
+ansible-galaxy	ansible
+ansible-inventory	ansible
+ansible-playbook	ansible
+ansible-pull	ansible
+ansible-test	ansible
+ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
 apachectl	httpd
@@ -277,6 +290,9 @@ auditctl	audit
 auditd	audit
 audtool	audacious
 augenrules	audit
+augmatch	letsencrypt-client
+augparse	letsencrypt-client
+augtool	letsencrypt-client
 aulast	audit
 aulastlog	audit
 aureport	audit
@@ -1089,9 +1105,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	gpgme
-cython	gpgme
-cythonize	gpgme
+cygdb	os-core-dev
+cython	os-core-dev
+cythonize	os-core-dev
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1666,6 +1682,7 @@ f2py3.10	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
+fadot	letsencrypt-client
 faillog	os-core
 faked	os-testsuite-0day
 fakeroot	os-testsuite-0day
@@ -2528,7 +2545,6 @@ hv_kvp_daemon	os-cloudguest-azure
 hv_vss_daemon	os-cloudguest-azure
 hwasan_symbolize-10	llvm10
 hwclock	os-core
-hwinfo	performance-tools
 hwlatdetect	dev-utils
 hwloc-annotate	hwloc
 hwloc-bind	hwloc
@@ -2653,7 +2669,6 @@ idlj	java-basic
 idn	devpkg-libidn
 idn2	devpkg-libidn2
 iecset	alsa-utils
-ifcfg	iproute2
 ifconfig	net-tools
 ifdata	os-testsuite-0day
 ifnames	c-basic
@@ -3175,7 +3190,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	mail-utils-dev
+kdebugdialog5	storage-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3215,7 +3230,7 @@ keyctl	os-core-update-dev
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	mail-utils-dev
+kf5-config	storage-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3224,7 +3239,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	mail-utils-dev
+kgendesignerplugin	storage-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -4273,8 +4288,6 @@ mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
 mod	mono
-model-converter	computer-vision-models
-model-downloader	computer-vision-models
 modifyrepo_c	mixer
 modinfo	sysadmin-basic
 modpods	perl-extras
@@ -5202,7 +5215,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	mail-utils-dev
+plasmapkg2	storage-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5572,7 +5585,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	mail-utils-dev
+qtwaylandscanner	storage-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
@@ -5769,7 +5782,6 @@ rotctl	amateur-radio
 rotctld	amateur-radio
 route	net-tools
 route53	cloud-api
-routef	iproute2
 routel	iproute2
 rpc.idmapd	cloud-api
 rpc.mountd	cloud-api
@@ -5843,7 +5855,6 @@ rtmpdump	transcoding-support
 rtmpgw	transcoding-support
 rtmpsrv	transcoding-support
 rtmpsuck	transcoding-support
-rtpr	iproute2
 rtstat	iproute2
 rubibtex	texlive
 rubikrotation	texlive
