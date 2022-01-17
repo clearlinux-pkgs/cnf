@@ -4683,7 +4683,6 @@ noncvslist	desktop-kde-apps
 nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
-normalizer	desktop-dev
 nosetests	python-extras
 nosetests-3	python-extras
 notepad	wine
@@ -5496,8 +5495,8 @@ pyozw_shell	domotica
 pyperf	os-testsuite-phoronix-desktop
 pypi-dep-fix.py	package-utils
 pyrcc5	openshot-qt
-pyserial-miniterm	inkscape
-pyserial-ports	inkscape
+pyserial-miniterm	maker-3dprinting
+pyserial-ports	maker-3dprinting
 pyside2-lupdate	python-qt
 pyside_tool.py	python-qt
 pytest	python-extras
@@ -5748,6 +5747,7 @@ rigctld-wsjtx	amateur-radio
 rigmem	amateur-radio
 rigsmtr	amateur-radio
 rigswr	amateur-radio
+rigtestlibusb	amateur-radio
 riostream	hpc-utils
 ripd	quagga
 ripngd	quagga
@@ -5977,7 +5977,6 @@ sconsign	scons
 sconsign-3.1.2	scons
 scontrol	cluster-tools
 scor2prt	texlive
-scour	inkscape
 scp	sysadmin-basic
 scp-dbus-service	desktop
 screen	sysadmin-basic
@@ -6668,7 +6667,6 @@ testdbfawk	amateur-radio
 testdisk	testdisk
 testepsg	gdal
 testj1939	automotive-tools
-testlibusb	amateur-radio
 testparm	samba
 testpattern	hardware-printing
 testsaslauthd	desktop-kde-apps
@@ -7230,6 +7228,7 @@ virt-host-validate	kvm-host
 virt-install	virt-manager
 virt-login-shell	kvm-host
 virt-manager	virt-manager
+virt-pki-query-dn	kvm-host
 virt-pki-validate	kvm-host
 virt-qemu-run	kvm-host
 virt-ssh-helper	kvm-host
