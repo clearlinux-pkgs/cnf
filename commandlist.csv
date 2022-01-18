@@ -880,8 +880,8 @@ clr-python-timestamp	package-utils
 clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	gdb
-clr_debug_fuse	gdb
+clr_debug_daemon	binutils
+clr_debug_fuse	binutils
 clr_power	os-core-plus
 clrtrust	os-core
 cluster	graphviz
@@ -2859,8 +2859,6 @@ iptables-translate	iptables
 iptables-xml	iptables
 iptceasy	devpkg-exiv2
 iptcprint	devpkg-exiv2
-iptest	python-data-science
-iptest3	python-data-science
 iptraf	network-basic
 iptraf-ng	network-basic
 ipvsadm	ipvsadm
@@ -3190,7 +3188,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3230,7 +3228,7 @@ keyctl	os-core-update-dev
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	storage-utils-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3239,7 +3237,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -5214,7 +5212,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	storage-utils-dev
+plasmapkg2	mail-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5584,7 +5582,7 @@ qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
