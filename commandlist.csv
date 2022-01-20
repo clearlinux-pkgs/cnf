@@ -4,6 +4,7 @@
 4dsphere	calc
 7z	dev-utils
 7za	dev-utils
+AppImageUpdateDummy	krita
 CreateDOMDocument	R-extras-dev
 CuraEngine	maker-3dprinting
 DOMCount	R-extras-dev
@@ -1896,7 +1897,7 @@ gacutil2	mono
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
-gawk-5.1.0	os-core
+gawk-5.1.1	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
 gc	graphviz
@@ -2934,7 +2935,6 @@ j1939sr	automotive-tools
 jack_alias	jack2
 jack_bufsize	jack2
 jack_connect	jack2
-jack_control	jack2
 jack_cpu	jack2
 jack_cpu_load	jack2
 jack_disconnect	jack2
@@ -2953,7 +2953,6 @@ jack_monitor_client	jack2
 jack_multiple_metro	jack2
 jack_net_master	jack2
 jack_net_slave	jack2
-jack_netsource	jack2
 jack_property	jack2
 jack_rec	jack2
 jack_samplerate	jack2
