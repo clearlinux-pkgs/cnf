@@ -5648,7 +5648,6 @@ rbox	R-extras-dev
 rbs	ruby-basic
 rcc	sysadmin-basic-dev
 rclone	rclone
-rcmysql	mariadb
 rcopy	hpc-utils
 rctest	hardware-bluetooth
 rdisc	clr-network-troubleshooter
@@ -6019,6 +6018,7 @@ sed	os-core
 sem	parallel
 sendmail	perl-basic
 sendmail-postfix	postfix
+sensord	lm-sensors
 sensors	lm-sensors
 sensors-conf-convert	lm-sensors
 sensors-detect	lm-sensors
