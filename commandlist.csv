@@ -238,6 +238,7 @@ aria_dump_log	mariadb
 aria_ftdump	mariadb
 aria_pack	mariadb
 aria_read_log	mariadb
+aria_s3_copy	mariadb
 ark	ark
 arlatex	texlive
 arp	net-tools
@@ -1894,6 +1895,8 @@ g-ir-scanner	devpkg-gobject-introspection
 g-lensfun-update-data	lensfun
 gacutil	mono
 gacutil2	mono
+galera_new_cluster	mariadb
+galera_recovery	mariadb
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
@@ -4065,6 +4068,8 @@ mariadb-backup	mariadb
 mariadb-binlog	mariadb
 mariadb-check	mariadb
 mariadb-client-test	mariadb
+mariadb-config	mariadb
+mariadb-conv	mariadb
 mariadb-convert-table-format	mariadb
 mariadb-dump	mariadb
 mariadb-dumpslow	mariadb
@@ -4076,6 +4081,7 @@ mariadb-install-db	mariadb
 mariadb-ldb	mariadb
 mariadb-plugin	mariadb
 mariadb-secure-installation	mariadb
+mariadb-service-convert	mariadb
 mariadb-setpermission	mariadb
 mariadb-show	mariadb
 mariadb-slap	mariadb
