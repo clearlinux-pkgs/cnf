@@ -1641,7 +1641,6 @@ exactness_play	desktop-enlightenment
 exactness_record	desktop-enlightenment
 exceltex	texlive
 execltp	ltp
-exempi	desktop-dev
 exfatfsck	storage-utils
 exfatlabel	storage-utils
 exifcomment	devpkg-exiv2
@@ -6011,7 +6010,6 @@ sdl2-config	games
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
-seahorse-daemon	desktop-dev
 secret-tool	tilix
 secutil	mono
 sed	os-core
