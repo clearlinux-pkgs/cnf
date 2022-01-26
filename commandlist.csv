@@ -5624,7 +5624,6 @@ rarpd	clr-network-troubleshooter
 raster2pgsql	maker-gis
 ratbagctl	games
 ratbagd	games
-raw	os-core
 raw-identify	devpkg-LibRaw
 raw2tiff	devpkg-tiff
 raw_ethernet_burst_lat	hpc-utils
