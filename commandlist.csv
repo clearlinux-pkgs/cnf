@@ -6657,6 +6657,7 @@ telem_journal	devpkg-telemetrics-client
 telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
+telnet	netkit-telnet
 terminology	desktop-enlightenment
 tesseract	tesseract
 test	os-core
