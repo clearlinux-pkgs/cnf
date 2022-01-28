@@ -6215,6 +6215,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
+slirp4netns	podman
 sln	python-extras
 sload.f2fs	storage-utils
 slsh	editors-dev
