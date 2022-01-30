@@ -155,6 +155,7 @@ akregator	desktop-kde-apps
 akregatorstorageexporter	desktop-kde-apps
 al	mono
 al2	mono
+albatross	texlive
 aleph	texlive
 allcm	texlive
 alldefconfig	service-os-dev
@@ -2104,6 +2105,7 @@ git-clang-format-9	llvm9
 git-cvsserver	dev-utils
 git-hub	git
 git-icdiff	icdiff
+git-latexdiff	texlive
 git-receive-pack	git
 git-shell	git
 git-upload-archive	git
@@ -2564,6 +2566,7 @@ hwloc-patch	hwloc
 hwloc-ps	hwloc
 hwmixvolume	alsa-tools
 hwstamp_ctl	time-server-basic
+hyperxmp-add-bytecount	texlive
 hypnotoad	perl-extras
 hzip	kde-frameworks5-dev
 i2c-stub-from-dump	maker-basic
@@ -3398,7 +3401,6 @@ l2test	hardware-bluetooth
 l3build	texlive
 l4p-tmpl	perl-extras
 lacheck	texlive
-lamed	texlive
 last	os-core
 lastb	os-core
 lastlog	os-core
@@ -3534,6 +3536,7 @@ lli-10	llvm10
 lli-11	llvm
 lli-8	llvm8
 lli-9	llvm9
+llmk	texlive
 llvm-addr2line	llvm
 llvm-addr2line-10	llvm10
 llvm-addr2line-11	llvm
@@ -6355,6 +6358,7 @@ spirv-opt	developer-gpu
 spirv-reduce	developer-gpu
 spirv-remap	developer-gpu
 spirv-val	developer-gpu
+spix	texlive
 splain	perl-basic
 split	os-core
 split2po	desktop-kde-games
@@ -6755,6 +6759,7 @@ tiffset	devpkg-tiff
 tiffsplit	devpkg-tiff
 tificc	devpkg-lcms2
 tig	dev-utils
+tikztosvg	texlive
 tilix	tilix
 time	sysadmin-basic
 timed-read	tcl-basic
@@ -7671,6 +7676,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
+xml2pmx	texlive
 xml2pot	desktop-kde-games
 xml2stems	gtkwave
 xml_grep	perl-extras
