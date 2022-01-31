@@ -7087,7 +7087,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	firmware-update
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
