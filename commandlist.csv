@@ -82,12 +82,6 @@ acpiexec	acpica-unix2
 acpihelp	acpica-unix2
 acpisrc	acpica-unix2
 acpixtract	acpica-unix2
-acrn-dm	software-defined-cockpit-dev
-acrnctl	software-defined-cockpit-dev
-acrnd	software-defined-cockpit-dev
-acrnlog	software-defined-cockpit-dev
-acrnprobe	software-defined-cockpit-dev
-acrntrace	software-defined-cockpit-dev
 acyclic	graphviz
 add.modules	modules
 adddebug	desktop-kde-apps
@@ -158,12 +152,8 @@ al2	mono
 albatross	texlive
 aleph	texlive
 allcm	texlive
-alldefconfig	service-os-dev
 allec	texlive
-allmodconfig	service-os-dev
 allneeded	texlive
-allnoconfig	service-os-dev
-allyesconfig	service-os-dev
 alrecord	transcoding-support
 alsa-info.sh	alsa-utils
 alsa_capture_example	software-defined-cockpit
@@ -609,13 +599,6 @@ casync	casync
 cat	os-core
 catchsegv	python-extras
 catman	man-pages
-cbc_attach	software-defined-cockpit
-cbc_diagnostic	software-defined-cockpit
-cbc_lifecycle	software-defined-cockpit
-cbc_logging	software-defined-cockpit
-cbc_thermal	software-defined-cockpit
-cbc_thermal_chart.py	software-defined-cockpit
-cbc_thermald_start	software-defined-cockpit
 cc	c-basic
 ccache	ccache
 ccache-swig	machine-learning-basic
@@ -989,7 +972,6 @@ cracklib-check	clr-installer
 cracklib-format	clr-installer
 cracklib-packer	clr-installer
 cracklib-unpacker	clr-installer
-crashlogctl	software-defined-cockpit-dev
 crashprobe	devpkg-telemetrics-client
 create-cracklib-dict	clr-installer
 create_cvsignore	desktop-kde-apps
@@ -1162,7 +1144,6 @@ deadline_test	dev-utils
 deallocvt	kbd
 debugedit	package-utils
 debugfs	storage-utils
-debugger	software-defined-cockpit-dev
 debugviewer	openqa
 decode-dimms	maker-basic
 decode-edid	maker-basic
@@ -1170,7 +1151,6 @@ decode-vaio	maker-basic
 decode_aprs	amateur-radio
 decode_tm6000	v4l-utils
 decryptdir	tcl-basic
-defconfig	service-os-dev
 defrag.f2fs	storage-utils
 dehtmldiff	dev-utils
 dejagnu	os-core-dev
@@ -2012,7 +1992,6 @@ genccode	sddm
 gencfu	sddm
 gencmn	sddm
 gencnval	sddm
-genconfig	service-os-dev
 gendef.exe	c-basic-mingw
 gendesc	dev-utils
 gendict	sddm
@@ -2365,7 +2344,6 @@ gtkdocize	devpkg-gtk-doc
 gtkwave	gtkwave
 guards	dev-utils
 guess-ploidy.py	samtools
-guiconfig	service-os-dev
 guild	c-basic
 guile	guile
 guile-config	c-basic
@@ -3512,7 +3490,6 @@ list_instances	cloud-api
 listbib	texlive
 listgeo	R-extras-dev
 listings-ext.sh	texlive
-listnewconfig	service-os-dev
 lkbib	man-pages
 ll2utm	amateur-radio
 llc	llvm
@@ -4163,7 +4140,6 @@ memkind-hbw-nodes	os-clr-on-clr
 memprof2calltree	kcachegrind
 memtier_benchmark	os-testsuite-phoronix
 mendex	texlive
-menuconfig	service-os-dev
 mergecap	wireshark
 mergerepo_c	mixer
 mergesolv	devpkg-libsolv
@@ -4824,8 +4800,6 @@ ogrtindex	gdal
 oiiotool	blender
 okteta	okteta
 okular	okular
-oldconfig	service-os-dev
-olddefconfig	service-os-dev
 omfonts	texlive
 ompi-clean	openmpi
 ompi-server	openmpi
@@ -5941,7 +5915,6 @@ sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
 sassc	desktop-dev
 sattach	cluster-tools
-savedefconfig	service-os-dev
 saxfr	pdns
 sbatch	cluster-tools
 sbattach	os-clr-on-clr
@@ -6034,7 +6007,6 @@ servicemenuinstaller	dolphin
 set-crio-default-runtime	containers-virt
 setarch	os-core
 setcap	sysadmin-basic
-setconfig	service-os-dev
 setfacl	acl
 setfattr	devpkg-attr
 setfont	kbd
@@ -7122,9 +7094,6 @@ usbredirserver	devpkg-usbredir
 use-devel-assertos	perl-extras
 use-devel-checklib	perl-extras
 useradd	os-core
-usercrash-wrapper	software-defined-cockpit-dev
-usercrash_c	software-defined-cockpit-dev
-usercrash_s	software-defined-cockpit-dev
 userdbctl	sysadmin-basic
 userdel	os-core
 userhelper	storage-utils
