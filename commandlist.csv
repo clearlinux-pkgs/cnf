@@ -2676,6 +2676,15 @@ imapfilter	mail-utils
 img2simg	storage-utils
 img2webp	transcoding-support
 imgsize	perl-extras
+imlib2_bumpmap	os-utils-gui-dev
+imlib2_colorspace	os-utils-gui-dev
+imlib2_conv	os-utils-gui-dev
+imlib2_grab	os-utils-gui-dev
+imlib2_load	os-utils-gui-dev
+imlib2_poly	os-utils-gui-dev
+imlib2_show	os-utils-gui-dev
+imlib2_test	os-utils-gui-dev
+imlib2_view	os-utils-gui-dev
 implantisomd5	clr-installer-iso-init
 import	ImageMagick
 import_interpolation	desktop
@@ -5956,7 +5965,7 @@ scor2prt	texlive
 scp	sysadmin-basic
 scp-dbus-service	desktop
 screen	sysadmin-basic
-screen-4.8.0	sysadmin-basic
+screen-4.9.0	sysadmin-basic
 script	os-core
 scriptlive	os-core
 scriptreplay	os-core
