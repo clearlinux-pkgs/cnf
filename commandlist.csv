@@ -2578,11 +2578,6 @@ i915-perf-configs	igt-gpu-tools
 i915-perf-control	igt-gpu-tools
 i915-perf-reader	igt-gpu-tools
 i915-perf-recorder	igt-gpu-tools
-ias-setup	software-defined-cockpit
-ias-weston	software-defined-cockpit
-ias-weston-launch	software-defined-cockpit
-ias-weston-screenshooter	software-defined-cockpit
-iasimage	iasimage
 iasl	acpica-unix2
 ib_acme	hpc-utils
 ib_atomic_bw	hpc-utils
@@ -4051,7 +4046,6 @@ makeconv	sddm
 makedtx	texlive
 makeglossaries	texlive
 makeglossaries-lite	texlive
-makehrtf	transcoding-support
 makeindex	texlive
 makeinfo	texinfo
 makejvf	texlive
