@@ -5484,6 +5484,7 @@ pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
+pybind11-config	os-clr-on-clr-dev
 pycodestyle	python3-basic
 pydoc	deprecated-python2
 pydoc3	python3-basic
@@ -5515,6 +5516,8 @@ python3.10	python3-basic
 python3.10-config	python3-basic
 python3.7	python3-basic
 pythontex	texlive
+pythran	os-clr-on-clr-dev
+pythran-config	os-clr-on-clr-dev
 pyuic5	openshot-qt
 q65code	amateur-radio
 q65sim	amateur-radio
