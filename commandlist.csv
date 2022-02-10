@@ -736,7 +736,7 @@ choom	os-core
 chown	os-core
 chpasswd	os-core
 chrome-gnome-shell	firefox
-chronic	os-testsuite-0day
+chronic	moreutils
 chronyc	time-server-basic
 chronyd	time-server-basic
 chroot	os-core
@@ -904,7 +904,7 @@ colrm	os-core
 columbiad	columbiad
 column	os-core
 columns	c-basic
-combine	os-testsuite-0day
+combine	moreutils
 combinediff	dev-utils
 comm	os-core
 compare	ImageMagick
@@ -1577,7 +1577,7 @@ erb	ruby-basic
 erl	rabbitmq-server
 erl_call	rabbitmq-server
 erlc	rabbitmq-server
-errno	os-testsuite-0day
+errno	moreutils
 es2gears_wayland	lib-opengl
 escapesrc	sddm
 escputil	hardware-printing
@@ -2652,10 +2652,10 @@ idn	devpkg-libidn
 idn2	devpkg-libidn2
 iecset	alsa-utils
 ifconfig	net-tools
-ifdata	os-testsuite-0day
+ifdata	moreutils
 ifnames	c-basic
 ifnames213	c-basic-legacy
-ifne	os-testsuite-0day
+ifne	moreutils
 ifstat	iproute2
 iftop	iftop
 igrep	blender
@@ -2909,7 +2909,7 @@ isotptun	automotive-tools
 ispdb	desktop-kde-apps
 ispellaff2myspell	kde-frameworks5-dev
 isql	R-extras-dev
-isutf8	os-testsuite-0day
+isutf8	moreutils
 isympy	python-data-science
 itstool	cryptoprocessor-management-dev
 iusql	R-extras-dev
@@ -3411,7 +3411,7 @@ lc	mono
 lchage	devpkg-libuser
 lchfn	devpkg-libuser
 lchsh	devpkg-libuser
-lckdo	os-testsuite-0day
+lckdo	moreutils
 lconvert	devpkg-qttools
 lcov	dev-utils
 ld	binutils
@@ -4218,7 +4218,7 @@ minimodem	amateur-radio
 mirrorMappings	perl-extras
 mirror_server	machine-learning-basic
 mirror_server_stop	machine-learning-basic
-mispipe	os-testsuite-0day
+mispipe	moreutils
 mixartloader	alsa-tools
 mixer	mixer
 mk4ht	texlive
@@ -4312,7 +4312,6 @@ mojo	perl-extras
 mokutil	sysadmin-basic
 mongoose	R-extras-dev
 monitor-sensor	iio-sensor-proxy
-monkeytype	python-extras
 monmaptool	ceph
 mono	mono
 mono-api-html	mono
@@ -5086,7 +5085,7 @@ pecl	nginx-unit
 ped	blivet-gui
 pedigree	texlive
 pedump	mono
-pee	os-testsuite-0day
+pee	moreutils
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
 pep8	os-clr-on-clr
@@ -6372,7 +6371,7 @@ split2po	desktop-kde-games
 splitdiff	dev-utils
 splitindex	texlive
 spm	salt
-sponge	os-testsuite-0day
+sponge	moreutils
 sprio	cluster-tools
 sprof	os-core
 sqfscat	storage-utils
@@ -6930,7 +6929,7 @@ troff	man-pages
 true	os-core
 truncate	os-core
 trust	os-core
-ts	os-testsuite-0day
+ts	moreutils
 ts2phc	time-server-basic
 tset	sysadmin-basic
 tshark	wireshark
@@ -7213,7 +7212,7 @@ vgs	boot-encrypted
 vgscan	boot-encrypted
 vgsplit	boot-encrypted
 vi	vim-minimal
-vidir	os-testsuite-0day
+vidir	moreutils
 vieet	desktop-enlightenment
 view	vim
 vifm	vifm
@@ -7228,7 +7227,7 @@ vimdiff	vim
 vimdot	graphviz
 vimtutor	vim
 vinagre	vinagre
-vipe	os-testsuite-0day
+vipe	moreutils
 vipw	os-core
 virgl_test_server	kvm-host-dev
 virsh	kvm-host
@@ -7259,8 +7258,8 @@ virtsecretd	kvm-host
 virtstoraged	kvm-host
 virtualenv	python3-basic
 visudo	sudo
-vkcube	dev-utils-dev
-vkcubepp	dev-utils-dev
+vkcube	mail-utils-dev
+vkcubepp	mail-utils-dev
 vlc	vlc
 vlc-wrapper	vlc
 vlna	texlive
@@ -7332,7 +7331,7 @@ vtkWrapPython-pv5.9	ParaView
 vtkWrapPythonInit-9.0	dev-utils-dev
 vtkWrapPythonInit-pv5.9	ParaView
 vtysh	quagga
-vulkaninfo	dev-utils-dev
+vulkaninfo	mail-utils-dev
 vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
@@ -7829,7 +7828,7 @@ zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
 zoom2sam.pl	samtools
 zramctl	os-core
-zrun	os-testsuite-0day
+zrun	moreutils
 zsh	zsh
 zsh-5.8	zsh
 zstd	zstd
