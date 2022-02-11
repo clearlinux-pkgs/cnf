@@ -496,7 +496,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	devpkg-gnome-desktop
+bwrap	webkitgtk
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
