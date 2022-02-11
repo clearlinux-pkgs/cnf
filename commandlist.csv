@@ -496,7 +496,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	devpkg-gnome-desktop
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -5942,7 +5942,7 @@ sar	sysstat
 saslauthd	desktop-kde-apps
 sasldblistusers2	desktop-kde-apps
 saslpasswd2	desktop-kde-apps
-sassc	desktop-dev
+sassc	sassc
 sattach	cluster-tools
 saxfr	pdns
 sbatch	cluster-tools
