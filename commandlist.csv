@@ -3175,6 +3175,7 @@ kdb5_util	enterprise-login
 kde-add-printer	desktop-kde
 kde-geo-uri-handler	desktop-kde
 kde-inhibit	desktop-kde
+kde-open	desktop-kde
 kde-open5	desktop-kde
 kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
@@ -3188,6 +3189,7 @@ kdeconnect-handler	kdeconnect-kde
 kdeconnect-indicator	kdeconnect-kde
 kdeconnect-settings	kdeconnect-kde
 kdeconnect-sms	kdeconnect-kde
+kdecp	desktop-kde
 kdecp5	desktop-kde
 kded5	desktop-kde
 kdedoc	desktop-kde-apps
@@ -3197,6 +3199,7 @@ kdeinit5_wrapper	desktop-kde
 kdekillall	desktop-kde-apps
 kdelnk2desktop.py	desktop-kde-apps
 kdemangen.pl	desktop-kde-apps
+kdemv	desktop-kde
 kdemv5	desktop-kde
 kdenlive	kdenlive
 kdenlive_render	kdenlive
@@ -3207,6 +3210,7 @@ kdialog_progress_helper	desktop-kde-apps
 kdiamond	desktop-kde-games
 kdiff3	kdiff3
 keditbookmarks	keditbookmarks
+keditfiletype	desktop-kde
 keditfiletype5	desktop-kde
 keepalived	keepalived
 keepassxc	keepassxc
@@ -3248,6 +3252,7 @@ killbots	desktop-kde-games
 kimagemapeditor	desktop-kde-apps
 kinfocenter	desktop-kde
 kinit	enterprise-login
+kioclient	desktop-kde
 kioclient5	desktop-kde
 kissutil	amateur-radio
 kiten	desktop-kde-apps
@@ -3269,6 +3274,7 @@ kmail	desktop-kde-apps
 kmail-refresh-settings	desktop-kde-apps
 kmenuedit	desktop-kde
 kmidiff	devpkg-libabigail
+kmimetypefinder	desktop-kde
 kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	sysadmin-basic
@@ -3345,10 +3351,12 @@ ksplashqml	desktop-kde-apps
 ksquares	desktop-kde-games
 ksshaskpass	desktop-kde
 kstars	education-secondary
+kstart	desktop-kde
 kstart5	desktop-kde
 kstatsviewer	ksysguard
 ksu	enterprise-login
 ksudoku	desktop-kde-games
+ksvgtopng	desktop-kde
 ksvgtopng5	desktop-kde
 kswitch	enterprise-login
 ksysguard	ksysguard
@@ -6592,6 +6600,7 @@ systemd-tmpfiles	sysadmin-basic
 systemd-tty-ask-password-agent	sysadmin-basic
 systemd-umount	sysadmin-basic
 systemmonitor	desktop-kde-apps
+systemsettings	desktop-kde
 systemsettings5	desktop-kde
 t1ascii	texlive
 t1asm	texlive
@@ -7831,7 +7840,7 @@ zoom2sam.pl	samtools
 zramctl	os-core
 zrun	moreutils
 zsh	zsh
-zsh-5.8	zsh
+zsh-5.8.1	zsh
 zstd	zstd
 zstdcat	zstd
 zstdgrep	zstd
