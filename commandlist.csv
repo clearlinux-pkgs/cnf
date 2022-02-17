@@ -4880,9 +4880,9 @@ optimizegraphics	desktop-kde-apps
 optipng	os-utils-gui-dev
 optscript	editors
 orbd	java-basic
-orc-bugreport	transcoding-support
+orc-bugreport	devpkg-orc
 orca	desktop
-orcc	transcoding-support
+orcc	devpkg-orc
 orte-clean	openmpi
 orte-info	openmpi
 orte-server	openmpi
@@ -5848,7 +5848,7 @@ rst2xml.py	docutils
 rstpep2html.py	docutils
 rstream	hpc-utils
 rstudio	R-rstudio
-rsvg-convert	transcoding-support
+rsvg-convert	flatpak
 rsync	rsync
 rsync-ssl	rsync
 rsyslogd	rsyslog
