@@ -221,7 +221,7 @@ apu-1-config	devpkg-apr-util
 apxs	application-server
 ar	binutils
 arandr	arandr
-arcconf_lsmplugin	sysadmin-remote
+arcconf_lsmplugin	firmware-update
 arecord	alsa-utils
 arecordmidi	alsa-utils
 argon2	php-basic-dev
@@ -454,7 +454,7 @@ broctl	network-monitor-node
 broker-benchmark	network-monitor-node
 broker-cluster-benchmark	network-monitor-node
 brotli	devpkg-brotli
-bscalc	sysadmin-remote
+bscalc	firmware-update
 bsdcat	libarchive
 bsdcpio	libarchive
 bsdiff	mixer
@@ -2498,7 +2498,7 @@ hp2ps	haskell-basic
 hpc	haskell-basic
 hpftodit	man-pages
 hprobe	devpkg-telemetrics-client
-hpsa_lsmplugin	sysadmin-remote
+hpsa_lsmplugin	firmware-update
 hsc2hs	haskell-basic
 ht	texlive
 htags	global
@@ -3831,7 +3831,7 @@ loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
 lobase	libreoffice
-local_lsmplugin	sysadmin-remote
+local_lsmplugin	firmware-update
 localc	libreoffice
 locale	os-core
 localectl	sysadmin-basic
@@ -3895,8 +3895,8 @@ lsirq	os-core
 lskat	desktop-kde-games
 lslocks	os-core
 lslogins	os-core
-lsmcli	sysadmin-remote
-lsmd	sysadmin-remote
+lsmcli	firmware-update
+lsmd	firmware-update
 lsmem	os-core
 lsmod	sysadmin-basic
 lsmtd	mtd-utils
@@ -3961,7 +3961,7 @@ lvcreate	boot-encrypted
 lvdisplay	boot-encrypted
 lvextend	boot-encrypted
 lvm	boot-encrypted
-lvm-cache-stats	sysadmin-remote
+lvm-cache-stats	firmware-update
 lvmconf	boot-encrypted
 lvmconfig	boot-encrypted
 lvmdiskscan	boot-encrypted
@@ -4163,7 +4163,7 @@ mdu	storage-utils
 mdvalidater	mono
 mech-dump	perl-basic
 media-ctl	v4l-utils
-megaraid_lsmplugin	sysadmin-remote
+megaraid_lsmplugin	firmware-update
 meinproc5	desktop-kde
 meld	meld
 melt	kdenlive
@@ -4617,7 +4617,7 @@ nf-monitor	libnl
 nf-queue	libnl
 nfct	network-basic
 nfnl_osf	iptables
-nfs_lsmplugin	sysadmin-remote
+nfs_lsmplugin	firmware-update
 nfsconf	cloud-api
 nfsdcld	cloud-api
 nfsdclddb	cloud-api
@@ -4726,7 +4726,7 @@ nsm	time-server-basic
 nspr-config	devpkg-nspr
 nss-config	devpkg-nss
 nstat	iproute2
-nstor_lsmplugin	sysadmin-remote
+nstor_lsmplugin	firmware-update
 nsupdate	clr-network-troubleshooter
 ntfs-3g	storage-utils
 ntfs-3g.probe	storage-utils
@@ -4842,7 +4842,7 @@ omshell	pxe-server
 onig-config	sysadmin-basic-dev
 onnode	samba
 onsgmls	mail-utils-dev
-ontap_lsmplugin	sysadmin-remote
+ontap_lsmplugin	firmware-update
 oomctl	sysadmin-basic
 op2calltree	kcachegrind
 opafmconfigpp	hpc-utils
@@ -6189,9 +6189,9 @@ signver	cryptography
 sigtool	clamav
 sigwaittest	dev-utils
 sim_client	enterprise-login
-sim_lsmplugin	sysadmin-remote
+sim_lsmplugin	firmware-update
 sim_server	enterprise-login
-simc_lsmplugin	sysadmin-remote
+simc_lsmplugin	firmware-update
 simg2img	storage-utils
 simg2simg	storage-utils
 simpdftex	texlive
@@ -6272,7 +6272,7 @@ smbtar	samba
 smbtorture	samba
 smbtree	samba
 sminfo	hpc-utils
-smispy_lsmplugin	sysadmin-remote
+smispy_lsmplugin	firmware-update
 smpdump	hpc-utils
 smpquery	hpc-utils
 smtpd.py	deprecated-python2
@@ -6364,6 +6364,7 @@ spicy-screenshot	spice-gtk
 spicy-stats	spice-gtk
 spirv-as	developer-gpu
 spirv-cfg	developer-gpu
+spirv-cross	developer-gpu
 spirv-dis	developer-gpu
 spirv-lesspipe.sh	developer-gpu
 spirv-link	developer-gpu
@@ -6629,7 +6630,7 @@ tap	python-extras
 tapestat	sysstat
 tappy	python-extras
 tar	os-core-update
-targetd_lsmplugin	sysadmin-remote
+targetd_lsmplugin	firmware-update
 task	productivity
 taskadmin	cloud-api
 taskset	os-core
@@ -7043,7 +7044,7 @@ uconv	sddm
 ucs2any	devpkg-font-util
 udaddy	hpc-utils
 udevadm	sysadmin-basic
-udisksctl	sysadmin-remote
+udisksctl	firmware-update
 udp_daemon	amateur-radio
 udpong	hpc-utils
 udunits2	R-extras-dev
@@ -7056,7 +7057,7 @@ umax_pp	hardware-printing
 umount	os-core
 umount.nfs	cloud-api
 umount.nfs4	cloud-api
-umount.udisks2	sysadmin-remote
+umount.udisks2	firmware-update
 uname	os-core
 uname26	os-core
 unbuffer	tcl-basic
@@ -7181,6 +7182,7 @@ vapi_cpp_gen.py	vpp
 vapi_json_parser.py	vpp
 vapigen	cryptoprocessor-management-dev
 vapigen-0.54	cryptoprocessor-management-dev
+vat2	vpp
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
@@ -7268,8 +7270,8 @@ virtsecretd	kvm-host
 virtstoraged	kvm-host
 virtualenv	python3-basic
 visudo	sudo
-vkcube	mail-utils-dev
-vkcubepp	mail-utils-dev
+vkcube	dev-utils-dev
+vkcubepp	dev-utils-dev
 vlc	vlc
 vlc-wrapper	vlc
 vlna	texlive
@@ -7295,7 +7297,7 @@ vncconfig	tigervnc
 vncpasswd	tigervnc
 vncserver	tigervnc
 vncviewer	tigervnc
-volume_key	sysadmin-remote
+volume_key	firmware-update
 vp8enc	libva-utils
 vp9enc	libva-utils
 vpddecode	sysadmin-basic
@@ -7341,7 +7343,7 @@ vtkWrapPython-pv5.9	ParaView
 vtkWrapPythonInit-9.0	dev-utils-dev
 vtkWrapPythonInit-pv5.9	ParaView
 vtysh	quagga
-vulkaninfo	mail-utils-dev
+vulkaninfo	dev-utils-dev
 vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
@@ -7354,7 +7356,7 @@ watch	procps-ng
 watchgnupg	gnupg
 watchquagga	quagga
 wavpack	desktop-dev
-wayland-scanner	developer-gpu
+wayland-scanner	devpkg-wayland
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
