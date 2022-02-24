@@ -7356,7 +7356,7 @@ watch	procps-ng
 watchgnupg	gnupg
 watchquagga	quagga
 wavpack	desktop-dev
-wayland-scanner	devpkg-wayland
+wayland-scanner	developer-gpu
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
