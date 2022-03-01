@@ -5177,7 +5177,6 @@ pidgin	pidgin
 pidof	procps-ng
 pidstat	sysstat
 piforever	calc
-piglit	os-testsuite-graphics
 pigz	sysadmin-basic
 pimd	quagga
 pimdataexporter	desktop-kde-apps
@@ -5796,7 +5795,6 @@ rotctl	amateur-radio
 rotctld	amateur-radio
 route	net-tools
 route53	cloud-api
-routel	iproute2
 rpc.idmapd	cloud-api
 rpc.mountd	cloud-api
 rpc.nfsd	cloud-api
@@ -7355,7 +7353,7 @@ wasm-ld-13	llvm
 watch	procps-ng
 watchgnupg	gnupg
 watchquagga	quagga
-wavpack	desktop-dev
+wavpack	devpkg-wavpack
 wayland-scanner	developer-gpu
 wbinfo	samba
 wc	os-core
@@ -7485,9 +7483,9 @@ wsrep_sst_mariabackup	mariadb
 wsrep_sst_mysqldump	mariadb
 wsrep_sst_rsync	mariadb
 wsrep_sst_rsync_wan	mariadb
-wvgain	desktop-dev
-wvtag	desktop-dev
-wvunpack	desktop-dev
+wvgain	devpkg-wavpack
+wvtag	devpkg-wavpack
+wvunpack	devpkg-wavpack
 wwan	TLP
 wx-config	devpkg-wxWidgets
 wxrc	devpkg-wxWidgets
