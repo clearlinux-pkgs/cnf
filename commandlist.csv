@@ -3138,7 +3138,7 @@ kbookmarkmerger	keditbookmarks
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	desktop-kde-games
+kbruch	education-secondary
 kbuildsycoca5	kde-frameworks5
 kbxutil	gnupg
 kcachegrind	kcachegrind
@@ -3243,7 +3243,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	desktop-kde-games
+kig	education-secondary
 kigo	desktop-kde-games
 kill	procps-ng
 kill_instance	cloud-api
@@ -3387,7 +3387,7 @@ kwikdisk	kdf
 kwin_wayland	desktop-kde
 kwin_wayland_wrapper	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	desktop-kde-games
+kwordquiz	education-secondary
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -4985,7 +4985,7 @@ paraview.conf	ParaView
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	desktop-kde-games
+parley	education-secondary
 parse.f2fs	storage-utils
 parset	parallel
 parsetrigrams	kde-frameworks5
@@ -5501,7 +5501,7 @@ pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
 pygmentize	scm-server
-pykig.py	desktop-kde-games
+pykig.py	education-secondary
 pylupdate5	openshot-qt
 pyozw_check	domotica
 pyozw_shell	domotica
