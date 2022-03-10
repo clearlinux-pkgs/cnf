@@ -50,7 +50,6 @@ Xwayland	x11-server
 [	os-core
 a2ping	texlive
 a2x	dev-utils
-a2x.py	dev-utils
 a5toa4	texlive
 ab	httpd
 abcconvert	blender
@@ -254,7 +253,6 @@ asapcat	akonadi
 asc2log	automotive-tools
 ascii-xfr	minicom
 asciidoc	dev-utils
-asciidoc.py	dev-utils
 asciinema	productivity
 aseqdump	alsa-utils
 aseqnet	alsa-utils
@@ -7269,6 +7267,7 @@ virtstoraged	kvm-host
 virtualenv	python3-basic
 visudo	sudo
 vkcube	dev-utils-dev
+vkcube-wayland	dev-utils-dev
 vkcubepp	dev-utils-dev
 vlc	vlc
 vlc-wrapper	vlc
