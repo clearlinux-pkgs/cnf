@@ -3099,7 +3099,6 @@ jupyter-qtconsole	jupyter
 jupyter-run	jupyter
 jupyter-serverextension	jupyter
 jupyter-troubleshoot	jupyter
-jupyter-trust	jupyter
 jw	docbook-utils
 k5srvutil	enterprise-login
 kaccess	desktop-kde
@@ -4878,9 +4877,9 @@ optimizegraphics	desktop-kde-apps
 optipng	os-utils-gui-dev
 optscript	editors
 orbd	java-basic
-orc-bugreport	devpkg-orc
+orc-bugreport	transcoding-support
 orca	desktop
-orcc	devpkg-orc
+orcc	transcoding-support
 orte-clean	openmpi
 orte-info	openmpi
 orte-server	openmpi
@@ -5844,7 +5843,7 @@ rst2xml.py	docutils
 rstpep2html.py	docutils
 rstream	hpc-utils
 rstudio	R-rstudio
-rsvg-convert	flatpak
+rsvg-convert	transcoding-support
 rsync	rsync
 rsync-ssl	rsync
 rsyslogd	rsyslog
