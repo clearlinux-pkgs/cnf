@@ -443,6 +443,7 @@ borgfs	borgbackup
 bovo	desktop-kde-games
 bowtie2sam.pl	samtools
 bpftrace	bpftrace
+bpftrace-aotrt	bpftrace
 brctl	network-basic
 breeze-settings5	desktop-kde
 bridge	iproute2
