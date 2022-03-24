@@ -374,7 +374,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -461,6 +461,8 @@ bsdiff	mixer
 bsdtar	libarchive
 bsdump	mixer
 bspatch	mixer
+bspc	bspwm
+bspwm	bspwm
 bt.A.x	npb
 bt.B.x	npb
 bt.C.x	npb
@@ -1075,8 +1077,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1710,7 +1712,7 @@ fixcvsdiff	dev-utils
 fixkdeincludes	desktop-kde-apps
 fixparts	bootloader
 fixproc	performance-tools
-fixqt4headers.pl	sysadmin-basic-dev
+fixqt4headers.pl	network-basic-dev
 fixuifiles	desktop-kde-apps
 flac	flac
 flake8	python-extras
@@ -2009,7 +2011,7 @@ ghc-pkg	haskell-basic
 ghc-pkg-9.2.1	haskell-basic
 ghci	haskell-basic
 ghci-9.2.1	haskell-basic
-gi-docgen	desktop-dev
+gi-docgen	qt-basic-dev
 gidmigrator	desktop-kde-apps
 gie	devpkg-proj
 gif2h5	machine-learning-basic
@@ -2128,6 +2130,7 @@ gnome-shell-perf-tool	desktop
 gnome-software	desktop
 gnome-system-monitor	gnome-system-monitor
 gnome-terminal	desktop
+gnome-text-editor	gnome-text-editor
 gnome-thumbnail-font	gnome-font-viewer
 gnome-todo	gnome-todo
 gnome-tweaks	education
@@ -2948,9 +2951,9 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -3000,8 +3003,8 @@ js78	devpkg-mozjs78
 js78-config	devpkg-mozjs78
 js8	amateur-radio
 js8call	amateur-radio
-js91	devpkg-gjs
-js91-config	devpkg-gjs
+js91	devpkg-mozjs91
+js91-config	devpkg-mozjs91
 jsadebugd	java-basic
 jshell	java-basic
 jshell11	java11-basic
@@ -3161,9 +3164,9 @@ keepassxc-cli	keepassxc
 keepassxc-proxy	keepassxc
 ketcindy	texlive
 kexec	os-cloudguest-azure
-key.dns_resolver	os-core-update-dev
+key.dns_resolver	network-basic-dev
 keychain	keychain
-keyctl	os-core-update-dev
+keyctl	network-basic-dev
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
@@ -3181,6 +3184,7 @@ kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
 kgoldrunner	desktop-kde-games
+kgx	desktop
 khal	productivity
 khangman	education-preschool
 khelpcenter	desktop-kde-apps
@@ -3843,7 +3847,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	desktop-dev
+mako-render	qt-basic-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4082,7 +4086,7 @@ mmdblookup	network-basic-dev
 mmount	storage-utils
 mmove	storage-utils
 mmpfb	texlive
-moc	sysadmin-basic-dev
+moc	network-basic-dev
 mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
@@ -4228,7 +4232,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	desktop-dev
+mtdev-test	qt-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -4617,7 +4621,7 @@ ompi-clean	openmpi
 ompi-server	openmpi
 ompi_info	openmpi
 omshell	pxe-server
-onig-config	sysadmin-basic-dev
+onig-config	php-basic-dev
 onnode	samba
 onsgmls	mail-utils-dev
 ontap_lsmplugin	firmware-update
@@ -4775,7 +4779,7 @@ paste	os-core
 pasteurize	machine-learning-basic
 pasuspender	pulseaudio
 patch	patch
-patchelf	containers-basic-dev
+patchelf	network-basic-dev
 patchperl	perl-extras
 patchview	dev-utils
 patchwork	graphviz
@@ -5311,9 +5315,9 @@ qbs-setup-toolchains	qt-creator
 qcollectiongenerator	qt-basic
 qconvex	R-extras-dev
 qdbus	qt-basic
-qdbuscpp2xml	sysadmin-basic-dev
+qdbuscpp2xml	network-basic-dev
 qdbusviewer	qt-basic
-qdbusxml2cpp	sysadmin-basic-dev
+qdbusxml2cpp	network-basic-dev
 qdelaunay	R-extras-dev
 qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
@@ -5336,8 +5340,8 @@ qgltf	qt-basic
 qhalf	R-extras-dev
 qhelpgenerator	devpkg-qttools
 qhull	R-extras-dev
-qlalr	sysadmin-basic-dev
-qmake	sysadmin-basic-dev
+qlalr	network-basic-dev
+qmake	network-basic-dev
 qmi-firmware-update	desktop-dev
 qmi-network	desktop-dev
 qmicli	desktop-dev
@@ -5376,7 +5380,7 @@ quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
-qvkgen	sysadmin-basic-dev
+qvkgen	network-basic-dev
 qvlc	vlc
 qvoronoi	R-extras-dev
 qwebengine_convert_dict	lib-qt5webengine
@@ -5427,7 +5431,7 @@ rbd-replay-prep	ceph
 rbdmap	ceph
 rbox	R-extras-dev
 rbs	ruby-basic
-rcc	sysadmin-basic-dev
+rcc	network-basic-dev
 rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
@@ -5492,7 +5496,7 @@ reply	perl-basic
 repo2solv	devpkg-libsolv
 repomdxml2solv	devpkg-libsolv
 repstopdf	texlive
-request-key	os-core-update-dev
+request-key	network-basic-dev
 rescan-scsi-bus.sh	sysadmin-basic-dev
 reset	sysadmin-basic
 resgen	mono
@@ -6315,7 +6319,7 @@ sxiv	sxiv
 sxpm	devpkg-libXpm
 sync	os-core
 synclient	os-utils-gui
-syncqt.pl	sysadmin-basic-dev
+syncqt.pl	network-basic-dev
 synctex	texlive
 syndaemon	os-utils-gui
 synergy	synergy
@@ -6811,7 +6815,7 @@ udpong	hpc-utils
 udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
-uic	sysadmin-basic-dev
+uic	network-basic-dev
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
