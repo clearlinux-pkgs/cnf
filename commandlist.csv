@@ -2361,7 +2361,6 @@ hardinfo	hardinfo
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
-hass	domotica
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -3995,9 +3994,6 @@ mg.S.x	npb
 mg.W.x	npb
 mib2c	performance-tools
 mib2c-update	performance-tools
-mid3cp	domotica
-mid3iconv	domotica
-mid3v2	domotica
 midi2xml	gsequencer
 mido-connect	machine-learning-basic
 mido-play	machine-learning-basic
@@ -4101,7 +4097,6 @@ module-starter	perl-extras
 modulecmd	modules
 modulemd-validator	os-clr-on-clr-dev
 modutil	cryptography
-moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
 mokutil	sysadmin-basic
@@ -4281,8 +4276,6 @@ musescore	MuseScore
 musixflx	texlive
 musixtex	texlive
 musl-gcc	musl
-mutagen-inspect	domotica
-mutagen-pony	domotica
 mutt	mutt
 mutt_pgpring	mutt
 muttbug	mutt
@@ -5281,8 +5274,6 @@ pygmentex	texlive
 pygmentize	scm-server
 pykig.py	education-secondary
 pylupdate5	openshot-qt
-pyozw_check	domotica
-pyozw_shell	domotica
 pypi-dep-fix.py	package-utils
 pyrcc5	openshot-qt
 pyserial-miniterm	maker-3dprinting
@@ -7135,7 +7126,6 @@ webquiz	texlive
 weechat	weechat
 weechat-curses	weechat
 weechat-headless	weechat
-wemo	domotica
 weston	weston-extras
 weston-calibrator	weston-extras
 weston-clickdot	weston-extras
