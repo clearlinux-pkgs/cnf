@@ -1119,9 +1119,7 @@ dehtmldiff	dev-utils
 dejagnu	os-core-dev
 delpart	os-core
 deltainfoxml2solv	devpkg-libsolv
-depdiagram-generate	kapidox
-depdiagram-generate-all	kapidox
-depdiagram-prepare	kapidox
+depdiagram_generate_all	kapidox
 depmod	sysadmin-basic
 depythontex	texlive
 derb	sddm
@@ -2361,6 +2359,7 @@ hardinfo	hardinfo
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
+hass	domotica
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -3061,7 +3060,9 @@ kanji-config-updmap	texlive
 kanji-config-updmap-sys	texlive
 kanji-config-updmap-user	texlive
 kanji-fontmap-creator	texlive
-kapidox_generate	kapidox
+kapidox-depdiagram-generate	kapidox
+kapidox-depdiagram-prepare	kapidox
+kapidox-generate	kapidox
 kapman	desktop-kde-games
 kapplymousetheme	desktop-kde
 kapptemplate	desktop-kde-apps
@@ -3671,6 +3672,7 @@ lsblk	os-core
 lscgroup	devpkg-libcgroup
 lscpu	os-core
 lsdiff	dev-utils
+lsfd	os-core
 lsgpu	igt-gpu-tools
 lshw	sysadmin-basic
 lsinitrd	sysadmin-basic
@@ -3994,6 +3996,9 @@ mg.S.x	npb
 mg.W.x	npb
 mib2c	performance-tools
 mib2c-update	performance-tools
+mid3cp	domotica
+mid3iconv	domotica
+mid3v2	domotica
 midi2xml	gsequencer
 mido-connect	machine-learning-basic
 mido-play	machine-learning-basic
@@ -4097,6 +4102,7 @@ module-starter	perl-extras
 modulecmd	modules
 modulemd-validator	os-clr-on-clr-dev
 modutil	cryptography
+moggsplit	domotica
 mogrify	ImageMagick
 mojo	perl-extras
 mokutil	sysadmin-basic
@@ -4276,6 +4282,8 @@ musescore	MuseScore
 musixflx	texlive
 musixtex	texlive
 musl-gcc	musl
+mutagen-inspect	domotica
+mutagen-pony	domotica
 mutt	mutt
 mutt_pgpring	mutt
 muttbug	mutt
@@ -5274,6 +5282,8 @@ pygmentex	texlive
 pygmentize	scm-server
 pykig.py	education-secondary
 pylupdate5	openshot-qt
+pyozw_check	domotica
+pyozw_shell	domotica
 pypi-dep-fix.py	package-utils
 pyrcc5	openshot-qt
 pyserial-miniterm	maker-3dprinting
@@ -7126,6 +7136,7 @@ webquiz	texlive
 weechat	weechat
 weechat-curses	weechat
 weechat-headless	weechat
+wemo	domotica
 weston	weston-extras
 weston-calibrator	weston-extras
 weston-clickdot	weston-extras
