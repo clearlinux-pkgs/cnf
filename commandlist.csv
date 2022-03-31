@@ -908,9 +908,9 @@ corelist	perl-basic
 corepack	nodejs-basic
 coreutils	os-core
 cover	perl-extras
-coverage	os-clr-on-clr-dev
-coverage-3.10	os-clr-on-clr-dev
-coverage3	os-clr-on-clr-dev
+coverage	python-extras
+coverage-3.10	python-extras
+coverage3	python-extras
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -2379,7 +2379,7 @@ hdsploader	alsa-tools
 hdspmixer	alsa-tools
 head	os-core
 helm	cloud-native-basic
-help2man	dev-utils-dev
+help2man	storage-utils-dev
 hevcencode	libva-utils
 hex2bin.py	python-extras
 hex2dump.py	python-extras
