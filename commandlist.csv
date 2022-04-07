@@ -7373,7 +7373,7 @@ x86_64-generic-linux-g++-9	c-extras-gcc9
 x86_64-generic-linux-g++7	c-extras-gcc7
 x86_64-generic-linux-gcc	c-basic
 x86_64-generic-linux-gcc-10	c-extras-gcc10
-x86_64-generic-linux-gcc-11	c-basic
+x86_64-generic-linux-gcc-12	c-basic
 x86_64-generic-linux-gcc-7	c-extras-gcc7
 x86_64-generic-linux-gcc-8	c-extras-gcc8
 x86_64-generic-linux-gcc-9	c-extras-gcc9
