@@ -5340,7 +5340,7 @@ pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
-pybind11-config	os-clr-on-clr-dev
+pybind11-config	dev-utils-dev
 pycodestyle	python3-basic
 pydoc3	python3-basic
 pydoc3.10	python3-basic
@@ -5365,8 +5365,8 @@ python3.10	python3-basic
 python3.10-config	python3-basic
 python3.7	python3-basic
 pythontex	texlive
-pythran	os-clr-on-clr-dev
-pythran-config	os-clr-on-clr-dev
+pythran	dev-utils-dev
+pythran-config	dev-utils-dev
 pyuic5	openshot-qt
 q65code	amateur-radio
 q65sim	amateur-radio
@@ -5380,12 +5380,12 @@ qbs-setup-android	qt-creator
 qbs-setup-qt	qt-creator
 qbs-setup-toolchains	qt-creator
 qcollectiongenerator	qt-basic
-qconvex	R-extras-dev
+qconvex	dev-utils-dev
 qdbus	qt-basic
 qdbuscpp2xml	network-basic-dev
 qdbusviewer	qt-basic
 qdbusxml2cpp	network-basic-dev
-qdelaunay	R-extras-dev
+qdelaunay	dev-utils-dev
 qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
 qemu-ga	qemu-guest-additions
@@ -5404,9 +5404,9 @@ qgis_bench	maker-gis
 qgis_process	maker-gis
 qgit	dev-utils-gui
 qgltf	qt-basic
-qhalf	R-extras-dev
+qhalf	dev-utils-dev
 qhelpgenerator	devpkg-qttools
-qhull	R-extras-dev
+qhull	dev-utils-dev
 qlalr	network-basic-dev
 qmake	network-basic-dev
 qmi-firmware-update	games-dev
@@ -5449,7 +5449,7 @@ queuelat	dev-utils
 quilt	dev-utils
 qvkgen	network-basic-dev
 qvlc	vlc
-qvoronoi	R-extras-dev
+qvoronoi	dev-utils-dev
 qwebengine_convert_dict	lib-qt5webengine
 r	R-basic
 r-mpost	texlive
@@ -5496,7 +5496,7 @@ rbd-replay	ceph
 rbd-replay-many	ceph
 rbd-replay-prep	ceph
 rbdmap	ceph
-rbox	R-extras-dev
+rbox	dev-utils-dev
 rbs	ruby-basic
 rcc	network-basic-dev
 rclone	rclone
