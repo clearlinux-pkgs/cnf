@@ -839,7 +839,7 @@ clockdiff	clr-network-troubleshooter
 clr-avx2-move.pl	package-utils
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
-clr-desktop-files.sh	desktop
+clr-desktop-files.sh	xfce4-desktop
 clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
@@ -2149,10 +2149,10 @@ gnome-panel	desktop
 gnome-panel-control	desktop-lxqt
 gnome-photos	gnome-photos
 gnome-screenshot	gnome-screenshot
-gnome-session	desktop
-gnome-session-custom-session	desktop
-gnome-session-inhibit	desktop
-gnome-session-quit	desktop
+gnome-session	os-testsuite-graphics
+gnome-session-custom-session	os-testsuite-graphics
+gnome-session-inhibit	os-testsuite-graphics
+gnome-session-quit	os-testsuite-graphics
 gnome-session-remmina	Remmina
 gnome-shell	desktop
 gnome-shell-extension-prefs	desktop
@@ -4352,7 +4352,7 @@ mutagen-pony	domotica
 mutt	mutt
 mutt_pgpring	mutt
 muttbug	mutt
-mutter	desktop
+mutter	os-testsuite-graphics
 mv	os-core
 mvxattr	samba
 mxtar	storage-utils
