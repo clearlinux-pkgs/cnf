@@ -3045,6 +3045,7 @@ jupyter-qtconsole	jupyter
 jupyter-run	jupyter
 jupyter-serverextension	jupyter
 jupyter-troubleshoot	jupyter
+jupyter-trust	jupyter
 jw	docbook-utils
 k5srvutil	enterprise-login
 kaccess	desktop-kde
