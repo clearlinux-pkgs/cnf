@@ -850,8 +850,8 @@ clr-python-timestamp	package-utils
 clr-pyversion-strip	buildreq-spark
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	binutils
-clr_debug_fuse	binutils
+clr_debug_daemon	gdb
+clr_debug_fuse	gdb
 clr_power	os-core-plus
 clrtrust	os-core
 cluster	graphviz
@@ -868,6 +868,7 @@ cmus	cmus
 cmus-remote	cmus
 cockpit-bridge	cockpit
 codiff	dev-utils
+coffdump	binutils
 col	os-core
 col1	byobu
 colcrt	os-core
@@ -1206,6 +1207,7 @@ dkms-new-kernel.sh	kernel-native-dkms
 dkms-remove-old.sh	kernel-native-dkms
 dl10k1	alsa-tools
 dlltool	c-basic-mingw
+dllwrap	binutils
 dlm_controld	pcs
 dlm_stonith	pcs
 dlm_tool	pcs
@@ -2529,6 +2531,7 @@ hwmixvolume	alsa-tools
 hwstamp_ctl	time-server-basic
 hyperxmp-add-bytecount	texlive
 hypnotoad	perl-extras
+hypothesis	os-clr-on-clr-dev
 hzip	kde-frameworks5-dev
 i2c-stub-from-dump	maker-basic
 i2cdetect	maker-basic
@@ -6240,6 +6243,7 @@ squeue	cluster-tools
 squid	squid
 squidclient	squid
 src-hilite-lesspipe.sh	dev-utils
+srconv	binutils
 srcredact	texlive
 sreport	cluster-tools
 srp_daemon	hpc-utils
@@ -6401,6 +6405,7 @@ syscse	dev-utils
 sysctl	procps-ng
 sysdig	performance-tools
 sysdig-probe-loader	performance-tools
+sysdump	binutils
 syslinux	syslinux
 syslinux-nomtools	syslinux
 sysprof	sysprof
@@ -7259,6 +7264,7 @@ widl	wine
 wifi	TLP
 wifi-status	byobu
 winbindd	samba
+windmc	binutils
 windres	c-basic-mingw
 wine	wine
 wine-preloader	wine
@@ -7545,6 +7551,9 @@ xmlif	go-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
+xmlschema-json2xml	os-clr-on-clr-dev
+xmlschema-validate	os-clr-on-clr-dev
+xmlschema-xml2json	os-clr-on-clr-dev
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
