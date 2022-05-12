@@ -5318,6 +5318,7 @@ pw-cli	flatpak
 pw-dot	flatpak
 pw-dsdplay	flatpak
 pw-dump	flatpak
+pw-jack	flatpak
 pw-link	flatpak
 pw-loopback	flatpak
 pw-metadata	flatpak
