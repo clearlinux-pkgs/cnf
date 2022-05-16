@@ -367,7 +367,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -587,6 +587,8 @@ captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
 captype	wireshark
 cargo	rust-basic
+cargo-clippy	rust-basic
+cargo-fmt	rust-basic
 caribou-preferences	desktop
 caspol	mono
 casync	casync
@@ -833,6 +835,7 @@ clipbrowse	perl-extras
 clipedit	perl-extras
 clipfilter	perl-extras
 clipjoin	perl-extras
+clippy-driver	rust-basic
 cllualatex	texlive
 cloc	cloc
 clockdiff	clr-network-troubleshooter
@@ -1100,8 +1103,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	qt-basic-dev
-dbus-broker-launch	qt-basic-dev
+dbus-broker	games-dev
+dbus-broker-launch	games-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -2043,7 +2046,7 @@ ghc-pkg	haskell-basic
 ghc-pkg-9.2.2	haskell-basic
 ghci	haskell-basic
 ghci-9.2.2	haskell-basic
-gi-docgen	qt-basic-dev
+gi-docgen	games-dev
 gidmigrator	desktop-kde-apps
 gie	devpkg-proj
 gif2h5	machine-learning-basic
@@ -2951,9 +2954,9 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -3916,7 +3919,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	qt-basic-dev
+mako-render	games-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4302,7 +4305,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	qt-basic-dev
+mtdev-test	games-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -5739,10 +5742,13 @@ runhaskell	haskell-basic
 runscript	minicom
 runtest	os-core-dev
 runuser	os-core
+rust-demangler	rust-basic
 rust-gdb	rust-basic
+rust-gdbgui	rust-basic
 rust-lldb	rust-basic
 rustc	rust-basic
 rustdoc	rust-basic
+rustfmt	rust-basic
 rview	vim
 rvim	vim
 rvlc	vlc
