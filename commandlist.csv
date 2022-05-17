@@ -438,6 +438,7 @@ bovo	desktop-kde-games
 bowtie2sam.pl	samtools
 bpftrace	bpftrace
 bpftrace-aotrt	bpftrace
+brcm_iscsiuio	storage-utils
 brctl	network-basic
 breeze-settings5	desktop-kde
 bridge	iproute2
@@ -7698,7 +7699,7 @@ zoom2sam.pl	samtools
 zramctl	os-core
 zrun	moreutils
 zsh	zsh
-zsh-5.8.1	zsh
+zsh-5.9	zsh
 zstd	zstd
 zstdcat	zstd
 zstdgrep	zstd
