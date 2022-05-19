@@ -367,7 +367,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1642,6 +1642,7 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fs_io	storage-utils
 f2fscrypt	storage-utils
+f2fslabel	storage-utils
 f2fstat	storage-utils
 f2py	python-extras
 f2py3	python-extras
@@ -2128,7 +2129,7 @@ gml2gv	graphviz
 gmsh	gmsh
 gnmanalyse	gdal
 gnmmanage	gdal
-gnome-autogen.sh	desktop-dev
+gnome-autogen.sh	os-utils-gui-dev
 gnome-boxes	gnome-boxes
 gnome-calculator	gnome-calculator
 gnome-calendar	desktop
@@ -2955,9 +2956,9 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -3016,8 +3017,8 @@ jshell13	java13-basic
 json-glib-format	devpkg-json-glib
 json-glib-validate	devpkg-json-glib
 json_pp	perl-basic
-json_reformat	desktop-dev
-json_verify	desktop-dev
+json_reformat	os-utils-gui-dev
+json_verify	os-utils-gui-dev
 json_xs	perl-extras
 jsonschema	machine-learning-web-ui
 jstack	java-basic
@@ -4147,8 +4148,8 @@ mktextfm	texlive
 mlabel	storage-utils
 mllatex	texlive
 mltex	texlive
-mm-common-get	desktop-dev
-mm-common-prepare	desktop-dev
+mm-common-get	os-utils-gui-dev
+mm-common-prepare	os-utils-gui-dev
 mm2gv	graphviz
 mmafm	texlive
 mmc	storage-utils
@@ -7174,7 +7175,7 @@ vptovf	texlive
 vpxdec	transcoding-support
 vpxenc	transcoding-support
 vsyasm	yasm
-vte-2.91	desktop-dev
+vte-2.91	os-utils-gui-dev
 vtep-ctl	openvswitch
 vtkParseJava-9.0	dev-utils-dev
 vtkParseJava-pv5.9	ParaView
@@ -7439,7 +7440,7 @@ xclip	x11-tools
 xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
-xcursorgen	desktop-dev
+xcursorgen	os-utils-gui-dev
 xdg-dbus-proxy	webkitgtk
 xdg-desktop-icon	bspwm
 xdg-desktop-menu	bspwm
