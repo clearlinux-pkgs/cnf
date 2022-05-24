@@ -7331,6 +7331,7 @@ wsimport	java-basic
 wsjtx	amateur-radio
 wsjtx_app_version	amateur-radio
 wsprd	amateur-radio
+wsrep_sst_backup	mariadb
 wsrep_sst_common	mariadb
 wsrep_sst_mariabackup	mariadb
 wsrep_sst_mysqldump	mariadb
