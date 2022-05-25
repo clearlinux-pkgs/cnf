@@ -7436,6 +7436,7 @@ xargs	os-core
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xauth	x11-tools
+xb-tool	devpkg-xmlb
 xbuild	mono
 xclip	x11-tools
 xclip-copyfile	x11-tools
