@@ -217,7 +217,7 @@ apu-1-config	devpkg-apr-util
 apxs	application-server
 ar	binutils
 arandr	arandr
-arcconf_lsmplugin	firmware-update
+arcconf_lsmplugin	sysadmin-remote
 arecord	alsa-utils
 arecordmidi	alsa-utils
 argon2	php-basic-dev
@@ -448,7 +448,7 @@ broctl	network-monitor-node
 broker-benchmark	network-monitor-node
 broker-cluster-benchmark	network-monitor-node
 brotli	devpkg-brotli
-bscalc	firmware-update
+bscalc	sysadmin-remote
 bsdcat	libarchive
 bsdcpio	libarchive
 bsdiff	mixer
@@ -2484,7 +2484,7 @@ hp2ps	haskell-basic
 hpc	haskell-basic
 hpftodit	man-pages
 hprobe	devpkg-telemetrics-client
-hpsa_lsmplugin	firmware-update
+hpsa_lsmplugin	sysadmin-remote
 hsc2hs	haskell-basic
 ht	texlive
 htags	global
@@ -2786,6 +2786,7 @@ ipecurl	ipe
 ipeextract	ipe
 ipepresenter	ipe
 iperender	ipe
+iperender-par	ipe
 iperf3	iperf
 ipescript	ipe
 ipetoipe	ipe
@@ -2862,11 +2863,11 @@ isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
-iscsi-inq	devpkg-libiscsi
-iscsi-ls	devpkg-libiscsi
-iscsi-perf	devpkg-libiscsi
-iscsi-readcapacity16	devpkg-libiscsi
-iscsi-swp	devpkg-libiscsi
+iscsi-inq	sysadmin-remote
+iscsi-ls	sysadmin-remote
+iscsi-perf	sysadmin-remote
+iscsi-readcapacity16	sysadmin-remote
+iscsi-swp	sysadmin-remote
 iscsi_discovery	storage-utils
 iscsi_fw_login	storage-utils
 iscsi_offload	storage-utils
@@ -3688,7 +3689,7 @@ loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
 lobase	libreoffice
-local_lsmplugin	firmware-update
+local_lsmplugin	sysadmin-remote
 localc	libreoffice
 locale	os-core
 localectl	sysadmin-basic
@@ -3753,8 +3754,8 @@ lsirq	os-core
 lskat	desktop-kde-games
 lslocks	os-core
 lslogins	os-core
-lsmcli	firmware-update
-lsmd	firmware-update
+lsmcli	sysadmin-remote
+lsmd	sysadmin-remote
 lsmem	os-core
 lsmod	sysadmin-basic
 lsmtd	mtd-utils
@@ -3820,7 +3821,7 @@ lvcreate	boot-encrypted
 lvdisplay	boot-encrypted
 lvextend	boot-encrypted
 lvm	boot-encrypted
-lvm-cache-stats	firmware-update
+lvm-cache-stats	sysadmin-remote
 lvmconf	boot-encrypted
 lvmconfig	boot-encrypted
 lvmdiskscan	boot-encrypted
@@ -4022,7 +4023,7 @@ mdu	storage-utils
 mdvalidater	mono
 mech-dump	perl-basic
 media-ctl	v4l-utils
-megaraid_lsmplugin	firmware-update
+megaraid_lsmplugin	sysadmin-remote
 meinproc5	desktop-kde
 meld	meld
 melt	kdenlive
@@ -4477,7 +4478,7 @@ nf-monitor	libnl
 nf-queue	libnl
 nfct	network-basic
 nfnl_osf	iptables
-nfs_lsmplugin	firmware-update
+nfs_lsmplugin	sysadmin-remote
 nfsconf	cloud-api
 nfsdcld	cloud-api
 nfsdclddb	cloud-api
@@ -4586,7 +4587,7 @@ nsm	time-server-basic
 nspr-config	devpkg-nspr
 nss-config	devpkg-nss
 nstat	iproute2
-nstor_lsmplugin	firmware-update
+nstor_lsmplugin	sysadmin-remote
 nsupdate	clr-network-troubleshooter
 ntfs-3g	storage-utils
 ntfs-3g.probe	storage-utils
@@ -4700,7 +4701,7 @@ omshell	pxe-server
 onig-config	php-basic-dev
 onnode	samba
 onsgmls	mail-utils-dev
-ontap_lsmplugin	firmware-update
+ontap_lsmplugin	sysadmin-remote
 oomctl	sysadmin-basic
 op2calltree	kcachegrind
 opafmconfigpp	hpc-utils
@@ -6038,9 +6039,9 @@ signver	cryptography
 sigtool	clamav
 sigwaittest	dev-utils
 sim_client	enterprise-login
-sim_lsmplugin	firmware-update
+sim_lsmplugin	sysadmin-remote
 sim_server	enterprise-login
-simc_lsmplugin	firmware-update
+simc_lsmplugin	sysadmin-remote
 simg2img	storage-utils
 simg2simg	storage-utils
 simpdftex	texlive
@@ -6121,7 +6122,7 @@ smbtar	samba
 smbtorture	samba
 smbtree	samba
 sminfo	hpc-utils
-smispy_lsmplugin	firmware-update
+smispy_lsmplugin	sysadmin-remote
 smpdump	hpc-utils
 smpquery	hpc-utils
 sn	mono
@@ -6480,7 +6481,7 @@ tap	python-extras
 tapestat	sysstat
 tappy	python-extras
 tar	os-core-update
-targetd_lsmplugin	firmware-update
+targetd_lsmplugin	sysadmin-remote
 task	productivity
 taskadmin	cloud-api
 taskset	os-core
@@ -6894,7 +6895,7 @@ uconv	sddm
 ucs2any	devpkg-font-util
 udaddy	hpc-utils
 udevadm	sysadmin-basic
-udisksctl	firmware-update
+udisksctl	sysadmin-remote
 udp_daemon	amateur-radio
 udpong	hpc-utils
 udunits2	R-extras-dev
@@ -6907,7 +6908,7 @@ umax_pp	hardware-printing
 umount	os-core
 umount.nfs	cloud-api
 umount.nfs4	cloud-api
-umount.udisks2	firmware-update
+umount.udisks2	sysadmin-remote
 uname	os-core
 uname26	os-core
 unbuffer	tcl-basic
@@ -7146,7 +7147,7 @@ vncconfig	tigervnc
 vncpasswd	tigervnc
 vncserver	tigervnc
 vncviewer	tigervnc
-volume_key	firmware-update
+volume_key	sysadmin-remote
 vp8enc	libva-utils
 vp9enc	libva-utils
 vpddecode	sysadmin-basic
