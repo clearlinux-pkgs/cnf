@@ -1104,8 +1104,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	games-dev
-dbus-broker-launch	games-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -2048,7 +2048,7 @@ ghc-pkg	haskell-basic
 ghc-pkg-9.2.2	haskell-basic
 ghci	haskell-basic
 ghci-9.2.2	haskell-basic
-gi-docgen	games-dev
+gi-docgen	qt-basic-dev
 gidmigrator	desktop-kde-apps
 gie	devpkg-proj
 gif2h5	machine-learning-basic
@@ -2399,7 +2399,6 @@ hardinfo	hardinfo
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
-hass	domotica
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -3922,7 +3921,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	games-dev
+mako-render	qt-basic-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4308,7 +4307,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	games-dev
+mtdev-test	qt-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
