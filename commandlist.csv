@@ -2399,6 +2399,7 @@ hardinfo	hardinfo
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
+hass	domotica
 haveged	haveged
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
@@ -4960,7 +4961,7 @@ perfquery	hpc-utils
 perl	perl-basic
 perl-migrate-modules	perl-extras
 perl-reversion	perl-extras
-perl5.34.0	perl-basic
+perl5.36.0	perl-basic
 perlbrew	perl-extras
 perlbug	perl-basic
 perldoc	perl-basic
