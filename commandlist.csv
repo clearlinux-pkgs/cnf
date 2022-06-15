@@ -3146,7 +3146,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	mail-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3189,7 +3189,7 @@ keyctl	network-basic-dev
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	storage-utils-dev
+kf5-config	mail-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3198,7 +3198,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	mail-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -5098,7 +5098,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	storage-utils-dev
+plasmapkg2	mail-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5498,7 +5498,7 @@ qtpaths-qt6	os-clr-on-clr-dev
 qtpaths6-qt6	os-clr-on-clr-dev
 qtplugininfo	devpkg-qttools
 qtplugininfo-qt6	os-clr-on-clr-dev
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	mail-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
