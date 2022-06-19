@@ -1336,6 +1336,7 @@ dragon	dragon
 draw_lib_dependencies	desktop-kde-apps
 driverless	hardware-printing
 driverless-fax	hardware-printing
+drkonqi-coredump-gui	desktop-kde
 dropdb	postgresql
 droplang	postgresql
 dropuser	postgresql
@@ -3146,7 +3147,7 @@ kde-print-queue	desktop-kde
 kde-systemd-start-condition	desktop-kde-apps
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	mail-utils-dev
+kdebugdialog5	storage-utils-dev
 kdebugsettings	kdebugsettings
 kdeconnect-app	kdeconnect-kde
 kdeconnect-cli	kdeconnect-kde
@@ -3189,7 +3190,7 @@ keyctl	network-basic-dev
 keytool	java-basic
 keytool11	java11-basic
 keytool13	java13-basic
-kf5-config	mail-utils-dev
+kf5-config	storage-utils-dev
 kf5kross	desktop-kde-games
 kfind	kfind
 kfloppy	kfloppy
@@ -3198,7 +3199,7 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	mail-utils-dev
+kgendesignerplugin	storage-utils-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -4467,6 +4468,7 @@ netcap	devpkg-libcap-ng
 netdata	netdata
 netdata-claim.sh	netdata
 netdatacli	netdata
+netfix	performance-tools
 nethogs	nethogs
 netloc_draw_to_json	hwloc
 netloc_ib_extract_dats	hwloc
@@ -5098,7 +5100,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	mail-utils-dev
+plasmapkg2	storage-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5498,7 +5500,7 @@ qtpaths-qt6	kde-frameworks5-dev
 qtpaths6-qt6	kde-frameworks5-dev
 qtplugininfo	devpkg-qttools
 qtplugininfo-qt6	kde-frameworks5-dev
-qtwaylandscanner	mail-utils-dev
+qtwaylandscanner	storage-utils-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
