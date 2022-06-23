@@ -188,6 +188,7 @@ androidtestrunner-qt6	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
 ansible	ansible
+ansible-community	ansible
 ansible-config	ansible
 ansible-connection	ansible
 ansible-console	ansible
@@ -3452,6 +3453,7 @@ libpng16-config	devpkg-libpng
 librados-config	ceph
 librecad	LibreCAD
 libreoffice	libreoffice
+librest-demo	devpkg-rest
 libtool	c-basic
 libtoolize	c-basic
 libvirtd	kvm-host
