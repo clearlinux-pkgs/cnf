@@ -5750,7 +5750,7 @@ rst2xml.py	docutils
 rstpep2html.py	docutils
 rstream	hpc-utils
 rstudio	R-rstudio
-rsvg-convert	transcoding-support
+rsvg-convert	flatpak
 rsync	rsync
 rsync-ssl	rsync
 rsyslogd	rsyslog
