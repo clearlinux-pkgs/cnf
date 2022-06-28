@@ -1312,6 +1312,7 @@ dovecot-sysreport	dovecot
 doxygen	doxygen
 dpcd_reg	igt-gpu-tools
 dpdk-devbind.py	dpdk
+dpdk-dumpcap	dpdk
 dpdk-hugepages.py	dpdk
 dpdk-pdump	dpdk
 dpdk-pmdinfo.py	dpdk
@@ -1326,6 +1327,7 @@ dpdk-test-crypto-perf	dpdk
 dpdk-test-eventdev	dpdk
 dpdk-test-fib	dpdk
 dpdk-test-flow-perf	dpdk
+dpdk-test-gpudev	dpdk
 dpdk-test-pipeline	dpdk
 dpdk-test-regex	dpdk
 dpdk-test-sad	dpdk
@@ -2139,7 +2141,7 @@ gml2gv	graphviz
 gmsh	gmsh
 gnmanalyse	gdal
 gnmmanage	gdal
-gnome-autogen.sh	os-utils-gui-dev
+gnome-autogen.sh	desktop-dev
 gnome-boxes	gnome-boxes
 gnome-calculator	gnome-calculator
 gnome-calendar	desktop
@@ -3029,8 +3031,8 @@ jshell13	java13-basic
 json-glib-format	devpkg-json-glib
 json-glib-validate	devpkg-json-glib
 json_pp	perl-basic
-json_reformat	os-utils-gui-dev
-json_verify	os-utils-gui-dev
+json_reformat	desktop-dev
+json_verify	desktop-dev
 json_xs	perl-extras
 jsonschema	machine-learning-web-ui
 jstack	java-basic
@@ -4166,8 +4168,8 @@ mktextfm	texlive
 mlabel	storage-utils
 mllatex	texlive
 mltex	texlive
-mm-common-get	os-utils-gui-dev
-mm-common-prepare	os-utils-gui-dev
+mm-common-get	desktop-dev
+mm-common-prepare	desktop-dev
 mm2gv	graphviz
 mmafm	texlive
 mmc	storage-utils
@@ -4716,7 +4718,7 @@ ompi-clean	openmpi
 ompi-server	openmpi
 ompi_info	openmpi
 omshell	pxe-server
-onig-config	php-basic-dev
+onig-config	sysadmin-basic-dev
 onnode	samba
 onsgmls	mail-utils-dev
 ontap_lsmplugin	sysadmin-remote
@@ -6480,6 +6482,7 @@ systemd-ask-password	sysadmin-basic
 systemd-cat	sysadmin-basic
 systemd-cgls	sysadmin-basic
 systemd-cgtop	sysadmin-basic
+systemd-creds	sysadmin-basic
 systemd-cryptenroll	sysadmin-basic
 systemd-delta	sysadmin-basic
 systemd-detect-virt	sysadmin-basic
@@ -7228,7 +7231,7 @@ vptovf	texlive
 vpxdec	transcoding-support
 vpxenc	transcoding-support
 vsyasm	yasm
-vte-2.91	os-utils-gui-dev
+vte-2.91	desktop-dev
 vtep-ctl	openvswitch
 vtkParseJava-9.0	dev-utils-dev
 vtkParseJava-pv5.9	ParaView
@@ -7495,7 +7498,7 @@ xclip	x11-tools
 xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
-xcursorgen	os-utils-gui-dev
+xcursorgen	desktop-dev
 xdg-dbus-proxy	webkitgtk
 xdg-desktop-icon	bspwm
 xdg-desktop-menu	bspwm
