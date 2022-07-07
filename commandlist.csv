@@ -1295,6 +1295,7 @@ docker-proxy	cloud-control
 docker-runc	cloud-control
 docker-set-default-runtime	cloud-control
 dockerd	cloud-control
+docutils	docutils
 dolphin	dolphin
 domainname	net-tools
 dos2unix	sysadmin-basic
@@ -5932,6 +5933,7 @@ seahorse	seahorse
 secret-tool	devpkg-libsecret
 secutil	mono
 sed	os-core
+seer	seer
 sem	parallel
 sendmail	perl-basic
 sendmail-postfix	postfix
