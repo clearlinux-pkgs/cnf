@@ -4054,6 +4054,7 @@ memhog	sysadmin-basic
 memkind-auto-dax-kmem-nodes	os-clr-on-clr
 memkind-hbw-nodes	os-clr-on-clr
 memprof2calltree	kcachegrind
+memtier	os-clr-on-clr
 memtier_benchmark	os-testsuite-phoronix
 mendex	texlive
 mergecap	wireshark
@@ -7401,7 +7402,7 @@ wvunpack	devpkg-wavpack
 wwan	TLP
 wx-config	devpkg-wxWidgets
 wxrc	devpkg-wxWidgets
-wxrc-3.1	devpkg-wxWidgets
+wxrc-3.2	devpkg-wxWidgets
 x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
