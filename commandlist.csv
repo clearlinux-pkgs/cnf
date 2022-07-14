@@ -3019,8 +3019,6 @@ jq	jq
 jrunscript	java-basic
 jrunscript11	java11-basic
 jrunscript13	java13-basic
-js78	devpkg-mozjs78
-js78-config	devpkg-mozjs78
 js8	amateur-radio
 js8call	amateur-radio
 js91	devpkg-mozjs91
@@ -3051,7 +3049,6 @@ jt65code	amateur-radio
 jt9	amateur-radio
 jt9code	amateur-radio
 jupyter	jupyter
-jupyter-bundlerextension	jupyter
 jupyter-console	jupyter
 jupyter-dejavu	jupyter
 jupyter-kernel	jupyter
@@ -3061,12 +3058,10 @@ jupyter-labextension	jupyter
 jupyter-labhub	jupyter
 jupyter-migrate	jupyter
 jupyter-nbconvert	jupyter
-jupyter-nbextension	jupyter
 jupyter-nbgallery	jupyter
 jupyter-notebook	jupyter
 jupyter-qtconsole	jupyter
 jupyter-run	jupyter
-jupyter-serverextension	jupyter
 jupyter-troubleshoot	jupyter
 jupyter-trust	jupyter
 jw	docbook-utils
