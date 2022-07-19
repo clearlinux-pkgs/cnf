@@ -2096,6 +2096,7 @@ git-receive-pack	git
 git-shell	git
 git-upload-archive	git
 git-upload-pack	git
+git2_cli	os-utils-gui-dev
 gitdiff	dev-utils
 gitdiffview	dev-utils
 gitg	dev-utils-gui
