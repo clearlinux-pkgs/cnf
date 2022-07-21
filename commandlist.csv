@@ -5069,6 +5069,7 @@ pip3	python3-basic
 pip3.10	python3-basic
 pip_stress	dev-utils
 pipewire	flatpak
+pipewire-avb	flatpak
 pipewire-pulse	flatpak
 pivot_root	os-core
 pixeltool	devpkg-qttools
