@@ -2547,7 +2547,7 @@ hwloc-ls	hwloc
 hwloc-patch	hwloc
 hwloc-ps	hwloc
 hwmixvolume	alsa-tools
-hwstamp_ctl	time-server-basic
+hwstamp_ctl	network-time-sensitive
 hyperxmp-add-bytecount	texlive
 hypnotoad	perl-extras
 hypothesis	os-clr-on-clr-dev
@@ -2901,6 +2901,7 @@ iso-read	asunder
 iso8601	pcs
 isohybrid	syslinux
 isosize	os-core
+isotest	hardware-bluetooth
 isotovideo	openqa
 isotpdump	automotive-tools
 isotpperf	automotive-tools
@@ -4601,7 +4602,7 @@ nsenter	os-core
 nsgmls	mail-utils-dev
 nslcd	enterprise-login
 nslookup	clr-network-troubleshooter
-nsm	time-server-basic
+nsm	network-time-sensitive
 nspr-config	devpkg-nspr
 nss-config	devpkg-nss
 nstat	iproute2
@@ -5031,8 +5032,8 @@ pgrep	procps-ng
 pgsql2shp	maker-gis
 phar	nginx-unit
 phar.phar	nginx-unit
-phc2sys	time-server-basic
-phc_ctl	time-server-basic
+phc2sys	network-time-sensitive
+phc_ctl	network-time-sensitive
 phononsettings	desktop-kde
 phoronix-test-suite	phoronix-test-suite
 photorec	testdisk
@@ -5125,7 +5126,7 @@ pm_which	perl-extras
 pmall	perl-extras
 pman	perl-extras
 pmap	procps-ng
-pmc	time-server-basic
+pmc	network-time-sensitive
 pmcat	perl-extras
 pmcheck	perl-extras
 pmdesc	perl-extras
@@ -5310,7 +5311,7 @@ pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptked	perl-extras
 ptksh	perl-extras
-ptp4l	time-server-basic
+ptp4l	network-time-sensitive
 ptsematest	dev-utils
 ptx	os-core
 pulseaudio	pulseaudio
@@ -6687,7 +6688,7 @@ time	sysadmin-basic
 timed-read	tcl-basic
 timed-run	tcl-basic
 timedatectl	sysadmin-basic
-timemaster	time-server-basic
+timemaster	network-time-sensitive
 timeout	os-core
 tini-static	containers-basic
 tipc	iproute2
@@ -6846,7 +6847,7 @@ true	os-core
 truncate	os-core
 trust	os-core
 ts	moreutils
-ts2phc	time-server-basic
+ts2phc	network-time-sensitive
 tset	sysadmin-basic
 tshark	wireshark
 tsort	os-core
