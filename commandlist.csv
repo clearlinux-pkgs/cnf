@@ -913,7 +913,7 @@ conky	conky
 connect-proxy	network-basic
 conntrack	network-basic
 conntrackd	network-basic
-consolehelper	storage-utils
+consolehelper	package-utils
 containerd	cloud-control
 containerd-shim	cloud-control
 containerd-shim-kata-v2	containers-virt
@@ -1192,7 +1192,7 @@ diff3	diffutils
 diffeet	desktop-enlightenment
 diffimg	desktop-apps
 diffoscope	diffoscope
-diffstat	dev-utils
+diffstat	package-builder
 dig	clr-network-troubleshooter
 digikam	digikam
 digitaglinktree	digikam
@@ -1611,7 +1611,7 @@ evince-previewer	evince
 evince-thumbnailer	evince
 evolution	evolution
 evtest	x11-tools
-ex	vim
+ex	gvim
 exactness	desktop-enlightenment
 exactness_inject	desktop-enlightenment
 exactness_inspect	desktop-enlightenment
@@ -5800,8 +5800,8 @@ rust-lldb	rust-basic
 rustc	rust-basic
 rustdoc	rust-basic
 rustfmt	rust-basic
-rview	vim
-rvim	vim
+rview	gvim
+rvim	gvim
 rvlc	vlc
 rvnamed	network-basic
 rvnamed-ng	network-basic
@@ -7041,7 +7041,7 @@ use-devel-checklib	perl-extras
 useradd	os-core
 userdbctl	sysadmin-basic
 userdel	os-core
-userhelper	storage-utils
+userhelper	package-utils
 usermod	os-core
 users	os-core
 usx2yloader	alsa-tools
@@ -7125,7 +7125,7 @@ vgsplit	boot-encrypted
 vi	vim-minimal
 vidir	moreutils
 vieet	desktop-enlightenment
-view	vim
+view	gvim
 vifm	vifm
 vifm-convert-dircolors	vifm
 vifm-pause	vifm
@@ -7134,9 +7134,9 @@ vigpg	byobu
 vigr	os-core
 vim	vim
 vim-minimal	vim-minimal
-vimdiff	vim
+vimdiff	gvim
 vimdot	graphviz
-vimtutor	vim
+vimtutor	gvim
 vinagre	vinagre
 vipe	moreutils
 vipw	os-core
@@ -7675,7 +7675,7 @@ xvfb-run	x11-server
 xwd	x11-tools
 xwdrun	os-testsuite-graphics
 xwininfo	x11-tools
-xxd	vim
+xxd	gvim
 xz	xz
 xzcat	xz
 xzcmp	xz
