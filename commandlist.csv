@@ -473,6 +473,7 @@ bt.W.x	npb
 btattach	hardware-bluetooth
 btfdiff	dev-utils
 btmon	hardware-bluetooth
+btop	btop
 btrace	performance-tools
 btrecord	performance-tools
 btreplay	performance-tools
@@ -4493,8 +4494,6 @@ nfnl_osf	iptables
 nfs_lsmplugin	sysadmin-remote
 nfsconf	nfs-utils
 nfsdcld	nfs-utils
-nfsdclddb	nfs-utils
-nfsdclnts	nfs-utils
 nfsdcltrack	nfs-utils
 nfsidmap	nfs-utils
 nfsstat	nfs-utils
@@ -6188,7 +6187,6 @@ sndfile-metadata-get	transcoding-support
 sndfile-metadata-set	transcoding-support
 sndfile-play	transcoding-support
 sndfile-regtest	transcoding-support
-sndfile-resample	devpkg-libsamplerate
 sndfile-salvage	transcoding-support
 snmp-bridge-mib	performance-tools
 snmpbulkget	performance-tools
@@ -6352,7 +6350,6 @@ startplasma-x11	desktop-kde-apps
 startx	x11-server
 startxfce4	xfce4-desktop
 stat	os-core
-stdbuf	os-core
 stdpods	perl-extras
 stellarium	stellarium
 stest	bspwm
