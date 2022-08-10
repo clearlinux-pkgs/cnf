@@ -5701,6 +5701,7 @@ rpc.nfsd	nfs-utils
 rpc.statd	nfs-utils
 rpcbind	nfs-utils
 rpcclient	samba
+rpcctl	nfs-utils
 rpcdebug	nfs-utils
 rpcgen	c-basic
 rpcinfo	nfs-utils
