@@ -2876,11 +2876,11 @@ isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
-iscsi-inq	sysadmin-remote
-iscsi-ls	sysadmin-remote
-iscsi-perf	sysadmin-remote
-iscsi-readcapacity16	sysadmin-remote
-iscsi-swp	sysadmin-remote
+iscsi-inq	devpkg-libiscsi
+iscsi-ls	devpkg-libiscsi
+iscsi-perf	devpkg-libiscsi
+iscsi-readcapacity16	devpkg-libiscsi
+iscsi-swp	devpkg-libiscsi
 iscsi_discovery	storage-utils
 iscsi_fw_login	storage-utils
 iscsi_offload	storage-utils
@@ -4728,7 +4728,7 @@ opencv_interactive-calibration	devpkg-opencv
 opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
-openjade	php-basic-dev
+openjade	os-clr-on-clr-dev
 openscad	openscad
 openshot-qt	openshot-qt
 opensm	hpc-utils
