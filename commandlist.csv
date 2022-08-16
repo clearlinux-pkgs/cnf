@@ -4728,7 +4728,7 @@ opencv_interactive-calibration	devpkg-opencv
 opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
-openjade	os-clr-on-clr-dev
+openjade	php-basic-dev
 openscad	openscad
 openshot-qt	openshot-qt
 opensm	hpc-utils
