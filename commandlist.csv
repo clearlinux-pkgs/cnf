@@ -4255,6 +4255,7 @@ mount.sshfs	sshfs
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
+mozcerts-qt5	kde-frameworks5-dev
 mozroots	mono
 mp2bug	perl-extras
 mpartition	storage-utils
@@ -5404,6 +5405,7 @@ qbs-create-project	qt-creator
 qbs-setup-android	qt-creator
 qbs-setup-qt	qt-creator
 qbs-setup-toolchains	qt-creator
+qcatool-qt5	kde-frameworks5-dev
 qcollectiongenerator	qt-basic
 qconvex	dev-utils-dev
 qdbus	qt-basic
