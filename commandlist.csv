@@ -440,6 +440,7 @@ bootctl	sysadmin-basic
 bootgraph	performance-tools
 borg	borgbackup
 borgfs	borgbackup
+botan	kde-frameworks5-dev
 bovo	desktop-kde-games
 bowtie2sam.pl	samtools
 bpftrace	bpftrace
