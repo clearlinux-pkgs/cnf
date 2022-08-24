@@ -343,6 +343,7 @@ axohelp	texlive
 b2sum	os-core
 babeltrace	dev-utils-dev
 babeltrace-log	dev-utils-dev
+babl	devpkg-babl
 badblocks	storage-utils
 baloo_file	desktop-kde
 baloo_file_extractor	desktop-kde
@@ -440,7 +441,7 @@ bootctl	sysadmin-basic
 bootgraph	performance-tools
 borg	borgbackup
 borgfs	borgbackup
-botan	kde-frameworks5-dev
+botan	devpkg-Botan
 bovo	desktop-kde-games
 bowtie2sam.pl	samtools
 bpftrace	bpftrace
@@ -4145,7 +4146,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-6.4.0	octave
+mkoctfile-7.2.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4686,11 +4687,11 @@ ocprint	R-extras-dev
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-6.4.0	octave
+octave-7.2.0	octave
 octave-cli	octave
-octave-cli-6.4.0	octave
+octave-cli-7.2.0	octave
 octave-config	octave
-octave-config-6.4.0	octave
+octave-config-7.2.0	octave
 od	os-core
 odbc_config	R-extras-dev
 odbcinst	R-extras-dev
@@ -4842,6 +4843,7 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
+pandoc-server	pandoc
 pango-list	transcoding-support
 pango-segmentation	transcoding-support
 pango-view	transcoding-support
