@@ -7143,7 +7143,7 @@ vimtutor	gvim
 vinagre	vinagre
 vipe	moreutils
 vipw	os-core
-virgl_test_server	kvm-host-dev
+virgl_test_server	devpkg-virglrenderer
 virsh	kvm-host
 virt-admin	kvm-host
 virt-clone	virt-manager
