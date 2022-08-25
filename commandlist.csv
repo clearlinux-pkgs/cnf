@@ -86,7 +86,7 @@ add.modules	modules
 adddebug	desktop-kde-apps
 addftinfo	man-pages
 addgnupghome	gnupg
-addmoddel	devpkg-exiv2
+addmoddel	desktop-kde
 addpart	os-core
 addr2line	binutils
 adhocfilelist	texlive
@@ -499,7 +499,7 @@ bundledoc	texlive
 bundler	ruby-basic
 bunzip2	sysadmin-basic
 busctl	sysadmin-basic
-bwrap	webkitgtk
+bwrap	lutris
 byobu	byobu
 byobu-config	byobu
 byobu-ctrl-a	byobu
@@ -1118,7 +1118,7 @@ dbus-broker-launch	games-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
-dbus-launch.x11	desktop
+dbus-launch.x11	desktop-kde
 dbus-monitor	sysadmin-basic
 dbus-run-session	sysadmin-basic
 dbus-send	sysadmin-basic
@@ -1161,9 +1161,9 @@ depythontex	texlive
 derb	sddm
 designer	devpkg-qttools
 designer-qt6	kde-frameworks5-dev
-desktop-file-edit	desktop
-desktop-file-install	desktop
-desktop-file-validate	desktop
+desktop-file-edit	desktop-kde
+desktop-file-install	desktop-kde
+desktop-file-validate	desktop-kde
 desktoptojson	kde-frameworks5
 determine_maximum_mpps.sh	dev-utils
 detex	texlive
@@ -1622,12 +1622,12 @@ exceltex	texlive
 execltp	ltp
 exfatfsck	storage-utils
 exfatlabel	storage-utils
-exifcomment	devpkg-exiv2
-exifdata	devpkg-exiv2
-exifprint	devpkg-exiv2
-exifvalue	devpkg-exiv2
-exiv2	devpkg-exiv2
-exiv2json	devpkg-exiv2
+exifcomment	desktop-kde
+exifdata	desktop-kde
+exifprint	desktop-kde
+exifvalue	desktop-kde
+exiv2	desktop-kde
+exiv2json	desktop-kde
 exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
 expand	os-core
@@ -2022,7 +2022,7 @@ gentrigrams	kde-frameworks5
 genxs	mono
 geod	devpkg-proj
 geos-config	maker-gis
-geotag	devpkg-exiv2
+geotag	desktop-kde
 geotifcp	R-extras-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
@@ -2853,8 +2853,8 @@ iptables-restore-translate	iptables
 iptables-save	iptables
 iptables-translate	iptables
 iptables-xml	iptables
-iptceasy	devpkg-exiv2
-iptcprint	devpkg-exiv2
+iptceasy	desktop-kde
+iptcprint	desktop-kde
 iptraf	network-basic
 iptraf-ng	network-basic
 ipvsadm	ipvsadm
@@ -4065,7 +4065,7 @@ message_aggregator	amateur-radio
 metacity	desktop
 metacity-message	desktop
 metacity-theme-viewer	desktop
-metacopy	devpkg-exiv2
+metacopy	desktop-kde
 metaflac	flac
 mev	sysadmin-basic
 mex	texlive
@@ -4285,7 +4285,7 @@ mptopdf	texlive
 mpv	mpv
 mrd	storage-utils
 mren	storage-utils
-mrwthumb	devpkg-exiv2
+mrwthumb	desktop-kde
 ms_print	valgrind
 mscore	MuseScore
 msgattrib	c-basic
@@ -6526,7 +6526,7 @@ tabs	sysadmin-basic
 tabulate	python-extras
 tac	os-core
 taglib-config	devpkg-taglib
-taglist	devpkg-exiv2
+taglist	desktop-kde
 tail	os-core
 tallow	openssh-server
 tangle	texlive
@@ -7003,7 +7003,7 @@ unzip	unzip
 unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
-update-desktop-database	desktop
+update-desktop-database	desktop-kde
 update-fragment	containers-virt-dev
 update-helper	os-core-update
 update-mime-database	lightdm
@@ -7020,7 +7020,7 @@ uplatex	texlive
 uplatex-dev	texlive
 upmendex	texlive
 upmpost	texlive
-upower	desktop
+upower	desktop-kde
 uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
@@ -7508,7 +7508,7 @@ xdg-open	bspwm
 xdg-screensaver	bspwm
 xdg-settings	bspwm
 xdg-user-dir	games
-xdg-user-dirs-gtk-update	desktop
+xdg-user-dirs-gtk-update	desktop-kde
 xdg-user-dirs-update	games
 xdotool	x11-tools
 xdpyinfo	x11-tools
@@ -7627,10 +7627,10 @@ xmltex	texlive
 xmlto	go-basic-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
-xmpdump	devpkg-exiv2
-xmpparse	devpkg-exiv2
-xmpprint	devpkg-exiv2
-xmpsample	devpkg-exiv2
+xmpdump	desktop-kde
+xmpparse	desktop-kde
+xmpprint	desktop-kde
+xmpsample	desktop-kde
 xorrecord	xorriso
 xorriso	xorriso
 xorriso-dd-target	xorriso
