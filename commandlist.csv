@@ -459,10 +459,10 @@ brotli	devpkg-brotli
 bscalc	sysadmin-remote
 bsdcat	libarchive
 bsdcpio	libarchive
-bsdiff	mixer
+bsdiff	devpkg-bsdiff
 bsdtar	libarchive
-bsdump	mixer
-bspatch	mixer
+bsdump	devpkg-bsdiff
+bspatch	devpkg-bsdiff
 bspc	bspwm
 bspwm	bspwm
 bt.A.x	npb
@@ -2206,6 +2206,11 @@ google_instance_setup	os-cloudguest-gce
 google_metadata_script_runner	os-cloudguest-gce
 google_network_daemon	os-cloudguest-gce
 gozilla	global
+gp-archive	binutils
+gp-collect-app	binutils
+gp-display-html	binutils
+gp-display-src	binutils
+gp-display-text	binutils
 gparted	gparted
 gpasswd	os-core
 gpaste-client	gpaste
@@ -2241,6 +2246,7 @@ gpm	sysadmin-basic
 gpm-root	sysadmin-basic
 gpredict	amateur-radio
 gprof	binutils
+gprofng	binutils
 gr2fonttest	devpkg-graphite
 gradio	Gradio
 gramps	gramps
@@ -2702,8 +2708,8 @@ init_audigy_eq10	alsa-tools
 init_live	alsa-tools
 initdb	postgresql
 initex	texlive
-initra	kernel-hyperv-lts
-initra-aws	kernel-hyperv-lts
+initra	kernel-hyperv
+initra-aws	kernel-hyperv
 initra-desktop	kernel-lts2017
 inkscape	inkscape
 inkview	inkscape
