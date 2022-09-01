@@ -5937,7 +5937,7 @@ seahorse	seahorse
 secret-tool	devpkg-libsecret
 secutil	mono
 sed	os-core
-seer	seer
+seergdb	seer
 sem	parallel
 sendmail	perl-basic
 sendmail-postfix	postfix
