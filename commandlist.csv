@@ -1612,7 +1612,7 @@ evince-previewer	evince
 evince-thumbnailer	evince
 evolution	evolution
 evtest	x11-tools
-ex	gvim
+ex	vim
 exactness	desktop-enlightenment
 exactness_inject	desktop-enlightenment
 exactness_inspect	desktop-enlightenment
@@ -5810,8 +5810,8 @@ rust-lldb	rust-basic
 rustc	rust-basic
 rustdoc	rust-basic
 rustfmt	rust-basic
-rview	gvim
-rvim	gvim
+rview	vim
+rvim	vim
 rvlc	vlc
 rvnamed	network-basic
 rvnamed-ng	network-basic
@@ -7136,7 +7136,7 @@ vgsplit	boot-encrypted
 vi	vim-minimal
 vidir	moreutils
 vieet	desktop-enlightenment
-view	gvim
+view	vim
 vifm	vifm
 vifm-convert-dircolors	vifm
 vifm-pause	vifm
@@ -7145,9 +7145,9 @@ vigpg	byobu
 vigr	os-core
 vim	vim
 vim-minimal	vim-minimal
-vimdiff	gvim
+vimdiff	vim
 vimdot	graphviz
-vimtutor	gvim
+vimtutor	vim
 vinagre	vinagre
 vipe	moreutils
 vipw	os-core
@@ -7695,7 +7695,7 @@ xvfb-run	x11-server
 xwd	x11-tools
 xwdrun	os-testsuite-graphics
 xwininfo	x11-tools
-xxd	gvim
+xxd	vim
 xz	xz
 xzcat	xz
 xzcmp	xz
