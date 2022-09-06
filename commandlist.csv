@@ -1118,7 +1118,7 @@ dbus-broker-launch	games-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
-dbus-launch.x11	desktop-kde
+dbus-launch.x11	desktop
 dbus-monitor	sysadmin-basic
 dbus-run-session	sysadmin-basic
 dbus-send	sysadmin-basic
@@ -1161,9 +1161,9 @@ depythontex	texlive
 derb	sddm
 designer	devpkg-qttools
 designer-qt6	kde-frameworks5-dev
-desktop-file-edit	desktop-kde
-desktop-file-install	desktop-kde
-desktop-file-validate	desktop-kde
+desktop-file-edit	desktop
+desktop-file-install	desktop
+desktop-file-validate	desktop
 desktoptojson	kde-frameworks5
 determine_maximum_mpps.sh	dev-utils
 detex	texlive
@@ -1882,7 +1882,8 @@ galera_recovery	mariadb
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
-gawk-5.1.1	os-core
+gawk-5.2.0	os-core
+gawkbug	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
 gc	graphviz
@@ -7011,10 +7012,10 @@ unzip	unzip
 unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
-update-desktop-database	desktop-kde
+update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	lightdm
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
@@ -7028,7 +7029,7 @@ uplatex	texlive
 uplatex-dev	texlive
 upmendex	texlive
 upmpost	texlive
-upower	desktop-kde
+upower	desktop
 uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
@@ -7525,7 +7526,7 @@ xdg-open	bspwm
 xdg-screensaver	bspwm
 xdg-settings	bspwm
 xdg-user-dir	games
-xdg-user-dirs-gtk-update	desktop-kde
+xdg-user-dirs-gtk-update	desktop
 xdg-user-dirs-update	games
 xdotool	x11-tools
 xdpyinfo	x11-tools
