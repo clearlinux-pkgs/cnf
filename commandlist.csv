@@ -262,7 +262,7 @@ asn1Decoding	devpkg-libtasn1
 asn1Parser	devpkg-libtasn1
 aspell	aspell
 aspell-import	aspell
-assimp	qt-basic-dev
+assimp	desktop-dev
 assistant	qt-basic
 assistant-qt6	kde-frameworks5-dev
 asunder	asunder
@@ -374,7 +374,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1118,7 +1118,7 @@ dbus-broker-launch	games-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
-dbus-launch.x11	desktop
+dbus-launch.x11	desktop-kde
 dbus-monitor	sysadmin-basic
 dbus-run-session	sysadmin-basic
 dbus-send	sysadmin-basic
@@ -1161,9 +1161,9 @@ depythontex	texlive
 derb	sddm
 designer	devpkg-qttools
 designer-qt6	kde-frameworks5-dev
-desktop-file-edit	desktop
-desktop-file-install	desktop
-desktop-file-validate	desktop
+desktop-file-edit	desktop-kde
+desktop-file-install	desktop-kde
+desktop-file-validate	desktop-kde
 desktoptojson	kde-frameworks5
 determine_maximum_mpps.sh	dev-utils
 detex	texlive
@@ -2980,9 +2980,9 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	desktop-dev
+jemalloc.sh	desktop-dev
+jeprof	desktop-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -7012,7 +7012,7 @@ unzip	unzip
 unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
-update-desktop-database	desktop
+update-desktop-database	desktop-kde
 update-fragment	containers-virt-dev
 update-helper	os-core-update
 update-mime-database	qt-core
@@ -7029,7 +7029,7 @@ uplatex	texlive
 uplatex-dev	texlive
 upmendex	texlive
 upmpost	texlive
-upower	desktop
+upower	desktop-kde
 uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
@@ -7526,7 +7526,7 @@ xdg-open	bspwm
 xdg-screensaver	bspwm
 xdg-settings	bspwm
 xdg-user-dir	games
-xdg-user-dirs-gtk-update	desktop
+xdg-user-dirs-gtk-update	desktop-kde
 xdg-user-dirs-update	games
 xdotool	x11-tools
 xdpyinfo	x11-tools
@@ -7635,9 +7635,6 @@ xmlif	go-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
-xmlschema-json2xml	desktop-dev
-xmlschema-validate	desktop-dev
-xmlschema-xml2json	desktop-dev
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
