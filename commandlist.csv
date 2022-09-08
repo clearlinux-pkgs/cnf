@@ -1816,6 +1816,7 @@ freetype-config	fonts-basic
 freshclam	clamav
 fribidi	devpkg-fribidi
 fsadm	boot-encrypted
+fsarchiver	storage-utils
 fsck	os-core
 fsck.btrfs	os-core-update
 fsck.cramfs	os-core
