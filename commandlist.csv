@@ -262,7 +262,7 @@ asn1Decoding	devpkg-libtasn1
 asn1Parser	devpkg-libtasn1
 aspell	aspell
 aspell-import	aspell
-assimp	desktop-dev
+assimp	qt-basic-dev
 assistant	qt-basic
 assistant-qt6	kde-frameworks5-dev
 asunder	asunder
@@ -374,7 +374,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -2978,9 +2978,9 @@ jdeprscan13	java13-basic
 jdeps	java-basic
 jdeps11	java11-basic
 jdeps13	java13-basic
-jemalloc-config	desktop-dev
-jemalloc.sh	desktop-dev
-jeprof	desktop-dev
+jemalloc-config	qt-basic-dev
+jemalloc.sh	qt-basic-dev
+jeprof	qt-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
