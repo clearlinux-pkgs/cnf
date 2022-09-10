@@ -25,7 +25,7 @@ PSVIWriter	R-extras-dev
 R	R-basic
 R-script	R-basic
 Redirect	R-extras-dev
-Rscript	buildreq-spark
+Rscript	devpkg-R
 SAX2Count	R-extras-dev
 SAX2Print	R-extras-dev
 SAXCount	R-extras-dev
@@ -4358,6 +4358,7 @@ mtype	storage-utils
 multibibliography	texlive
 multimon-ng	amateur-radio
 multipath	storage-utils
+multipathc	storage-utils
 multipathd	storage-utils
 multirender_test	devpkg-LibRaw
 multixterm	tcl-basic
@@ -6554,8 +6555,8 @@ tcftest	mail-utils-dev
 tchmgr	mail-utils-dev
 tchmttest	mail-utils-dev
 tchtest	mail-utils-dev
-tclsh	modules
-tclsh8.6	modules
+tclsh	tcl-basic
+tclsh8.6	tcl-basic
 tcpdump	network-basic
 tcpdump.4.99.1	network-basic
 tctmgr	mail-utils-dev
