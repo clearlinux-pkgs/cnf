@@ -1262,8 +1262,8 @@ dmsetup	boot-encrypted
 dmstats	boot-encrypted
 dmypy	python-extras
 dnf	dnf
-dnf-3	koji
-dnf-automatic-3	koji
+dnf-3	dnf
+dnf-automatic-3	dnf
 dnsbulktest	pdns
 dnsdomainname	net-tools
 dnsgram	pdns
@@ -1510,7 +1510,7 @@ elfedit	binutils
 elinks	network-basic
 elm_prefs_cc	desktop-enlightenment
 emacs	emacs
-emacs-28.1	emacs
+emacs-28.2	emacs
 emacs-x11	emacs-x11
 emacsclient	emacs
 embryo_cc	desktop-enlightenment
@@ -4133,7 +4133,7 @@ mkfs.ubifs	mtd-utils
 mkfs.vfat	dosfstools
 mkfs.xfs	xfsprogs
 mkgrkindex	texlive
-mkhomedir_helper	os-core
+mkhomedir_helper	sysadmin-basic
 mkindex	texlive
 mkinitrd	sysadmin-basic
 mkisofs	xorriso
@@ -4837,9 +4837,9 @@ padsp	pulseaudio
 pahole	dev-utils
 pal2rgb	devpkg-tiff
 palapeli	desktop-kde-games
-pam_tally	os-core
-pam_tally2	os-core
-pam_timestamp_check	os-core
+pam_tally	sysadmin-basic
+pam_tally2	sysadmin-basic
+pam_timestamp_check	sysadmin-basic
 pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
@@ -6327,6 +6327,7 @@ ssh-keyscan	sysadmin-basic
 sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
+sshpass	ansible
 ssltap	cryptography
 ssm-agent-worker	os-cloudguest-aws
 ssm-cli	os-cloudguest-aws
@@ -6981,8 +6982,8 @@ unitd	nginx-unit
 unix-lpr.sh	ghostscript
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
-unix_chkpwd	os-core
-unix_update	os-core
+unix_chkpwd	sysadmin-basic
+unix_update	sysadmin-basic
 unlink	os-core
 unlz4	lz4
 unlzma	xz
@@ -7007,7 +7008,7 @@ upbibtex	texlive
 update-desktop-database	desktop-kde
 update-fragment	service-os-dev
 update-helper	os-core-update
-update-mime-database	qt-core
+update-mime-database	lightdm
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
