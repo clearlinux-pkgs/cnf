@@ -4630,7 +4630,7 @@ nvim	neovim
 nvlc	vlc
 nvme	storage-utils
 oLschema2ldif	samba
-oathtool	ceph
+oathtool	devpkg-oath-toolkit
 obj2yaml-11	llvm11
 objcopy	binutils
 objdump	binutils
@@ -5272,7 +5272,7 @@ psfstriptable	kbd
 psfxtable	kbd
 psicc	devpkg-lcms2
 psjoin	texlive
-pskctool	ceph
+pskctool	devpkg-oath-toolkit
 psktool	cryptography
 psl	devpkg-libpsl
 psl2sam.pl	samtools
@@ -6959,6 +6959,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
