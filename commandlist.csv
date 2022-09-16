@@ -1039,7 +1039,6 @@ ctanupload	texlive
 ctdb	samba
 ctdb_diagnostics	samba
 ctdbd	samba
-ctdbd_wrapper	samba
 ctest	c-basic
 ctie	texlive
 ctr	cloud-control
