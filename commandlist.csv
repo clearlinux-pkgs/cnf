@@ -2337,6 +2337,7 @@ gtk4-demo-application	devpkg-gtk4
 gtk4-encode-symbolic-svg	devpkg-gtk4
 gtk4-icon-browser	devpkg-gtk4
 gtk4-launch	devpkg-gtk4
+gtk4-node-editor	devpkg-gtk4
 gtk4-print-editor	devpkg-gtk4
 gtk4-query-settings	devpkg-gtk4
 gtk4-update-icon-cache	devpkg-gtk4
@@ -4891,9 +4892,9 @@ pcmanfm	pcmanfm
 pcmanfm-qt	desktop-lxqt
 pcprofiledump	os-core
 pcre-config	devpkg-pcre
-pcre2-config	connections
-pcre2grep	connections
-pcre2test	connections
+pcre2-config	devpkg-pcre2
+pcre2grep	devpkg-pcre2
+pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
 pcs	pcs
@@ -5563,6 +5564,7 @@ rcc	devpkg-qtbase
 rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
+rdbg	ruby-basic
 rdisc	clr-network-troubleshooter
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
@@ -6638,7 +6640,6 @@ text2pcap	wireshark
 text2tt	amateur-radio
 tfmtodit	man-pages
 tftopl	texlive
-tftpd	clr-network-troubleshooter
 tgt-admin	tgt
 tgt-setup-lun	tgt
 tgtadm	tgt
@@ -6830,7 +6831,6 @@ trace-summary	network-monitor-node
 tracegen	qt-basic
 tracepath	clr-network-troubleshooter
 traceroute	network-basic
-traceroute6	clr-network-troubleshooter
 tracker3	desktop-gnomelibs
 transicc	devpkg-lcms2
 translit	perl-extras
