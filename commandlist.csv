@@ -916,7 +916,6 @@ conky	conky
 connect-proxy	network-basic
 conntrack	network-basic
 conntrackd	network-basic
-consolehelper	package-utils
 containerd	cloud-control
 containerd-shim	cloud-control
 containerd-shim-runc-v1	cloud-control
@@ -3026,6 +3025,8 @@ jq	jq
 jrunscript	java-basic
 jrunscript11	java11-basic
 jrunscript13	java13-basic
+js102	devpkg-gjs
+js102-config	devpkg-gjs
 js8	amateur-radio
 js8call	amateur-radio
 js91	devpkg-mozjs91
@@ -7047,7 +7048,6 @@ use-devel-checklib	perl-extras
 useradd	os-core
 userdbctl	sysadmin-basic
 userdel	os-core
-userhelper	package-utils
 usermod	os-core
 users	os-core
 usx2yloader	alsa-tools
