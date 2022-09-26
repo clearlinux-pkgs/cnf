@@ -38,7 +38,6 @@ SvtAv1EncApp	SVT-AV1
 SvtHevcEncApp	SVT-HEVC
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
-WebKitWebDriver	webkitgtk
 X	x11-server
 XInclude	R-extras-dev
 Xdummy	x11vnc
@@ -1935,7 +1934,8 @@ gcov-tool-9	c-extras-gcc9
 gcov-tool7	c-extras-gcc7
 gcov2perl	perl-extras
 gcov7	c-extras-gcc7
-gcr-viewer	devpkg-gcr
+gcr-viewer	devpkg-libgdata
+gcr-viewer-gtk4	devpkg-gcr
 gcron.py	storage-cluster
 gd2copypal	devpkg-libgd
 gd2togif	devpkg-libgd
@@ -2170,7 +2170,6 @@ gnome-panel-control	desktop-lxqt
 gnome-photos	gnome-photos
 gnome-screenshot	gnome-screenshot
 gnome-session	os-testsuite-graphics
-gnome-session-custom-session	os-testsuite-graphics
 gnome-session-inhibit	os-testsuite-graphics
 gnome-session-quit	os-testsuite-graphics
 gnome-session-remmina	Remmina
@@ -3025,8 +3024,8 @@ jq	jq
 jrunscript	java-basic
 jrunscript11	java11-basic
 jrunscript13	java13-basic
-js102	devpkg-gjs
-js102-config	devpkg-gjs
+js102	devpkg-mozjs102
+js102-config	devpkg-mozjs102
 js8	amateur-radio
 js8call	amateur-radio
 js91	devpkg-mozjs91
@@ -7235,6 +7234,7 @@ vpxdec	transcoding-support
 vpxenc	transcoding-support
 vsyasm	yasm
 vte-2.91	desktop-dev
+vte-2.91-gtk4	desktop-dev
 vtep-ctl	openvswitch
 vtkParseJava-9.0	go-basic-dev
 vtkParseJava-pv5.9	ParaView
