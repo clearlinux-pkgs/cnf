@@ -1934,7 +1934,7 @@ gcov-tool-9	c-extras-gcc9
 gcov-tool7	c-extras-gcc7
 gcov2perl	perl-extras
 gcov7	c-extras-gcc7
-gcr-viewer	devpkg-libgdata
+gcr-viewer	devpkg-compat-gcr-soname1
 gcr-viewer-gtk4	devpkg-gcr
 gcron.py	storage-cluster
 gd2copypal	devpkg-libgd
