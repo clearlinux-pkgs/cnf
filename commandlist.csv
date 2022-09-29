@@ -38,6 +38,7 @@ SvtAv1EncApp	SVT-AV1
 SvtHevcEncApp	SVT-HEVC
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
+WebKitWebDriver	webkitgtk
 X	x11-server
 XInclude	R-extras-dev
 Xdummy	x11vnc
@@ -2318,10 +2319,10 @@ gtester	libglib
 gtester-report	libglib
 gtf	x11-server
 gtk-builder-tool	maker-cnc
-gtk-demo	firefox
+gtk-demo	xfce4-desktop
 gtk-encode-symbolic-svg	maker-cnc
 gtk-launch	maker-cnc
-gtk-query-immodules-2.0	firefox
+gtk-query-immodules-2.0	xfce4-desktop
 gtk-query-immodules-3.0	maker-cnc
 gtk-query-settings	maker-cnc
 gtk-update-icon-cache	maker-cnc
@@ -6744,6 +6745,7 @@ tpm2_duplicate	cryptoprocessor-management
 tpm2_ecdhkeygen	cryptoprocessor-management
 tpm2_ecdhzgen	cryptoprocessor-management
 tpm2_ecephemeral	cryptoprocessor-management
+tpm2_encodeobject	cryptoprocessor-management
 tpm2_encryptdecrypt	cryptoprocessor-management
 tpm2_eventlog	cryptoprocessor-management
 tpm2_evictcontrol	cryptoprocessor-management
@@ -6866,6 +6868,7 @@ tss2_getdescription	cryptoprocessor-management
 tss2_getinfo	cryptoprocessor-management
 tss2_getplatformcertificates	cryptoprocessor-management
 tss2_getrandom	cryptoprocessor-management
+tss2_gettpm2object	cryptoprocessor-management
 tss2_gettpmblobs	cryptoprocessor-management
 tss2_import	cryptoprocessor-management
 tss2_list	cryptoprocessor-management
