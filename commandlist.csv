@@ -4821,6 +4821,7 @@ p11-trust	os-core
 p11tool	cryptography
 pa-info	pulseaudio
 pacat	pulseaudio
+pacdiscovery	os-core-webproxy
 pacemaker-remoted	pcs
 pacemaker_remoted	pcs
 pacemakerd	pcs
@@ -4830,6 +4831,7 @@ pack20013	java13-basic
 package-stash-conflicts	perl-basic
 package_crystalsvg	desktop-kde-apps
 pacmd	pulseaudio
+pacrunner	os-core-webproxy
 pactl	pulseaudio
 padsp	pulseaudio
 pahole	dev-utils
@@ -7649,8 +7651,6 @@ xpath	perl-extras
 xpra	xpra
 xpra_Xdummy	xpra
 xpra_launcher	xpra
-xpra_signal_listener	xpra
-xpra_udev_product_version	xpra
 xprop	x11-tools
 xpstat	tcl-basic
 xq	yq
