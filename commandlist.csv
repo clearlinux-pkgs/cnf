@@ -5870,6 +5870,7 @@ sbsiglist	os-clr-on-clr
 sbsign	os-clr-on-clr
 sbvarsign	os-clr-on-clr
 sbverify	os-clr-on-clr
+scalar	git
 scan-build	llvm
 scan-build-14	llvm
 scan-build-py	llvm
