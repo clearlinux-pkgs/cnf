@@ -4172,6 +4172,7 @@ mmc-tool	asunder
 mmcli	NetworkManager-extras
 mmd	storage-utils
 mmdblookup	network-basic-dev
+mmdbresolve	wireshark
 mmount	storage-utils
 mmove	storage-utils
 mmpfb	texlive
