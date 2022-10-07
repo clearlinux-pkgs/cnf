@@ -3038,8 +3038,8 @@ jshell13	java13-basic
 json-glib-format	devpkg-json-glib
 json-glib-validate	devpkg-json-glib
 json_pp	perl-basic
-json_reformat	kvm-host-dev
-json_verify	kvm-host-dev
+json_reformat	desktop-dev
+json_verify	desktop-dev
 json_xs	perl-extras
 jsonschema	machine-learning-web-ui
 jstack	java-basic
@@ -7237,8 +7237,8 @@ vptovf	texlive
 vpxdec	transcoding-support
 vpxenc	transcoding-support
 vsyasm	yasm
-vte-2.91	kvm-host-dev
-vte-2.91-gtk4	kvm-host-dev
+vte-2.91	desktop-dev
+vte-2.91-gtk4	desktop-dev
 vtep-ctl	openvswitch
 vtkParseJava-9.0	go-basic-dev
 vtkParseJava-pv5.9	ParaView
