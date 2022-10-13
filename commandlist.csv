@@ -1010,7 +1010,6 @@ crontab	cronie
 crushtool	ceph
 cryptdir	tcl-basic
 cryptsetup	boot-encrypted
-cryptsetup-reencrypt	boot-encrypted
 cs2cs	devpkg-proj
 csc	mono
 csc-dim	mono
@@ -2917,7 +2916,7 @@ ispellaff2myspell	kde-frameworks5-dev
 isql	R-extras-dev
 isutf8	moreutils
 isympy	python-data-science
-itstool	containers-basic-dev
+itstool	cryptoprocessor-management-dev
 iusql	R-extras-dev
 iv	blender
 ivtv-ctl	v4l-utils
@@ -4865,7 +4864,7 @@ paste	os-core
 pasteurize	machine-learning-basic
 pasuspender	pulseaudio
 patch	patch
-patchelf	containers-basic-dev
+patchelf	os-core-update-dev
 patchperl	perl-extras
 patchview	dev-utils
 patchwork	graphviz
