@@ -5087,6 +5087,7 @@ plasma-browser-integration-host	desktop-kde
 plasma-discover	desktop-kde
 plasma-discover-update	desktop-kde
 plasma-interactiveconsole	desktop-kde-apps
+plasma-localegen-helper	desktop-kde-apps
 plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
