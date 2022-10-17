@@ -1094,6 +1094,7 @@ darktable-cltest	darktable
 darktable-cmstest	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
+dask	python-data-science
 date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
