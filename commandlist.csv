@@ -702,6 +702,7 @@ cgdisk	bootloader
 cgexec	devpkg-libcgroup
 cgget	devpkg-libcgroup
 cgi-fcgi	kvm-host-dev
+cgps	gpsd
 cgrulesengd	devpkg-libcgroup
 cgset	devpkg-libcgroup
 cgsnapshot	devpkg-libcgroup
@@ -1987,6 +1988,7 @@ gedit	gedit
 geeqie	geeqie
 gegl	devpkg-gegl
 gegl-imgcmp	devpkg-gegl
+gegps	gpsd
 gem	ruby-basic
 gen_binary_files	desktop
 gen_packets	amateur-radio
@@ -2242,6 +2244,23 @@ gpm-root	sysadmin-basic
 gpredict	amateur-radio
 gprof	binutils
 gprofng	binutils
+gps2udp	gpsd
+gpscat	gpsd
+gpscsv	gpsd
+gpsctl	gpsd
+gpsd	gpsd
+gpsdctl	gpsd
+gpsdebuginfo	gpsd
+gpsdecode	gpsd
+gpsfake	gpsd
+gpsmon	gpsd
+gpspipe	gpsd
+gpsplot	gpsd
+gpsprof	gpsd
+gpsrinex	gpsd
+gpssnmp	gpsd
+gpssubframe	gpsd
+gpxlogger	gpsd
 gr2fonttest	devpkg-graphite
 gradio	Gradio
 gramps	gramps
@@ -3383,6 +3402,7 @@ latexrevise	texlive
 latte-dock	latte-dock
 launch_instance	cloud-api
 lc	mono
+lcdgps	gpsd
 lchage	devpkg-libuser
 lchfn	devpkg-libuser
 lchsh	devpkg-libuser
@@ -4611,6 +4631,7 @@ ntfsundelete	storage-utils
 ntlm_auth	samba
 ntopng	ntopng
 ntpdate	sysadmin-hostmgmt
+ntpshmmon	gpsd
 numactl	sysadmin-basic
 numademo	sysadmin-basic
 numastat	sysadmin-basic
@@ -5212,6 +5233,7 @@ pppstats	NetworkManager
 pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
 pps	cluster-tools
+ppscheck	gpsd
 pr	os-core
 pre-grohtml	man-pages
 precat	aspell
@@ -6915,6 +6937,7 @@ ubirename	mtd-utils
 ubirmvol	mtd-utils
 ubirsvol	mtd-utils
 ubiupdatevol	mtd-utils
+ubxtool	gpsd
 ucalc	perl-extras
 ucd	os-cloudguest
 ucd-data-fetch	os-cloudguest
@@ -7577,6 +7600,8 @@ xfwm4-tweaks-settings	xfce4-desktop
 xfwm4-workspace-settings	xfce4-desktop
 xgettext	c-basic
 xgettext.pl	perl-extras
+xgps	gpsd
+xgpsspeed	gpsd
 xhlatex	texlive
 xhost	x11-tools
 xindex	texlive
@@ -7714,6 +7739,7 @@ zeek-wrapper	network-monitor-node
 zeekctl	network-monitor-node
 zegrep	gzip
 zenity	zenity
+zerk	gpsd
 zfgrep	gzip
 zforce	gzip
 zgrep	gzip
