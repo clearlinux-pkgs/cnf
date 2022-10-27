@@ -1,5 +1,6 @@
 2to3	python3-basic
-2to3-3.10	python3-basic
+2to3-3.10	conda
+2to3-3.11	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
 7z	dev-utils
@@ -942,7 +943,7 @@ corepack	nodejs-basic
 coreutils	os-core
 cover	perl-extras
 coverage	python-extras
-coverage-3.10	python-extras
+coverage-3.11	python-extras
 coverage3	python-extras
 cp	os-core
 cpack	c-basic
@@ -1655,7 +1656,7 @@ f2fslabel	storage-utils
 f2fstat	storage-utils
 f2py	python-extras
 f2py3	python-extras
-f2py3.10	python-extras
+f2py3.11	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -2668,7 +2669,7 @@ idiag-socket-details	libnl
 idiff	blender
 idl2wrs	wireshark
 idle3	python3-tcl
-idle3.10	python3-tcl
+idle3.11	python3-tcl
 idlj	java-basic
 idn	devpkg-libidn
 idn2	devpkg-libidn2
@@ -3315,7 +3316,6 @@ kreadconfig5	kde-frameworks5
 kreversi	desktop-kde-games
 krita	krita
 krita_version	krita
-kritarunner	krita
 kruler	desktop-kde-games
 krunner	desktop-kde-apps
 krunner-plugininstaller	desktop-kde
@@ -3850,12 +3850,13 @@ lvcreate	boot-encrypted
 lvdisplay	boot-encrypted
 lvextend	boot-encrypted
 lvm	boot-encrypted
-lvm-cache-stats	sysadmin-remote
-lvmconf	boot-encrypted
+lvm-cache-stats	blivet-gui
+lvm_import_vdo	boot-encrypted
 lvmconfig	boot-encrypted
+lvmdbusd	boot-encrypted
+lvmdevices	boot-encrypted
 lvmdiskscan	boot-encrypted
 lvmdump	boot-encrypted
-lvmetad	boot-encrypted
 lvmsadc	boot-encrypted
 lvmsar	boot-encrypted
 lvreduce	boot-encrypted
@@ -5077,7 +5078,7 @@ pinky	os-core
 pinns	containers-basic
 pip	python3-basic
 pip3	python3-basic
-pip3.10	python3-basic
+pip3.11	python3-basic
 pip_stress	dev-utils
 pipewire	flatpak
 pipewire-avb	flatpak
@@ -5386,7 +5387,8 @@ pybabel	Babel
 pybind11-config	go-basic-dev
 pycodestyle	python3-basic
 pydoc3	python3-basic
-pydoc3.10	python3-basic
+pydoc3.10	conda
+pydoc3.11	python3-basic
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
@@ -5404,8 +5406,10 @@ python	python3-basic
 python2.7	python2-basic
 python3	python3-basic
 python3-config	python3-basic
-python3.10	python3-basic
-python3.10-config	python3-basic
+python3.10	conda
+python3.10-config	conda
+python3.11	python3-basic
+python3.11-config	python3-basic
 python3.7	python3-basic
 pythontex	texlive
 pythran	go-basic-dev
@@ -7118,6 +7122,7 @@ vgexport	boot-encrypted
 vgextend	boot-encrypted
 vgimport	boot-encrypted
 vgimportclone	boot-encrypted
+vgimportdevices	boot-encrypted
 vgmerge	boot-encrypted
 vgmknodes	boot-encrypted
 vgreduce	boot-encrypted
