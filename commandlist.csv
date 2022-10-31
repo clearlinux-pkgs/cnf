@@ -739,7 +739,6 @@ chmorph	kde-frameworks5-dev
 choom	os-core
 chown	os-core
 chpasswd	os-core
-chrome-gnome-shell	desktop-apps-extras
 chronic	moreutils
 chronyc	time-server-basic
 chronyd	time-server-basic
