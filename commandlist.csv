@@ -1,5 +1,4 @@
 2to3	python3-basic
-2to3-3.10	conda
 2to3-3.11	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -907,7 +906,6 @@ compare	ImageMagick
 compile-et.pl	devpkg-nspr
 compile_et	os-cloudguest-equinix
 composite	ImageMagick
-conda	conda
 conf.py	storage-cluster
 config_data	perl-extras
 configure-printer	desktop-kde
@@ -4646,7 +4644,7 @@ nvim	neovim
 nvlc	vlc
 nvme	storage-utils
 oLschema2ldif	samba
-oathtool	devpkg-oath-toolkit
+oathtool	ceph
 obj2yaml-11	llvm11
 objcopy	binutils
 objdump	binutils
@@ -5289,7 +5287,7 @@ psfstriptable	kbd
 psfxtable	kbd
 psicc	devpkg-lcms2
 psjoin	texlive
-pskctool	devpkg-oath-toolkit
+pskctool	ceph
 psktool	cryptography
 psl	devpkg-libpsl
 psl2sam.pl	samtools
@@ -5387,7 +5385,6 @@ pybabel	Babel
 pybind11-config	go-basic-dev
 pycodestyle	python3-basic
 pydoc3	python3-basic
-pydoc3.10	conda
 pydoc3.11	python3-basic
 pyftmerge	fonttools
 pyftsubset	fonttools
@@ -5406,8 +5403,6 @@ python	python3-basic
 python2.7	python2-basic
 python3	python3-basic
 python3-config	python3-basic
-python3.10	conda
-python3.10-config	conda
 python3.11	python3-basic
 python3.11-config	python3-basic
 python3.7	python3-basic
@@ -5483,7 +5478,6 @@ qpaeq	pulseaudio
 qpdf	devpkg-qpdf
 qphotorec	testdisk
 qrencode	desktop-kde-apps
-qrenderdoc	developer-gpu
 qsb	kde-frameworks5-dev
 qscxmlc	qt5-dev
 qsstv	amateur-radio
@@ -5617,7 +5611,6 @@ remote-viewer	virt-viewer
 remoterepl	perl-extras
 remunge	cluster-tools
 rename	os-core
-renderdoccmd	developer-gpu
 renice	os-core
 reordercap	wireshark
 repc	qt5-dev
