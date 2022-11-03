@@ -649,6 +649,7 @@ ceph-dencoder	ceph
 ceph-deploy	storage-cluster
 ceph-diff-sorted	ceph
 ceph-erasure-code-tool	ceph
+ceph-exporter	ceph
 ceph-fuse	ceph
 ceph-immutable-object-cache	ceph
 ceph-kvstore-tool	ceph
@@ -1016,6 +1017,7 @@ croco-0.6-config	devpkg-libcroco
 crond	cronie
 cronnext	cronie
 crontab	cronie
+crushdiff	ceph
 crushtool	ceph
 cryptdir	tcl-basic
 cryptsetup	boot-encrypted
@@ -2303,6 +2305,13 @@ groupmod	os-core
 groups	os-core
 growpart	growpart
 growpartfs	growpart
+grpc_cpp_plugin	kvm-host-dev
+grpc_csharp_plugin	kvm-host-dev
+grpc_node_plugin	kvm-host-dev
+grpc_objective_c_plugin	kvm-host-dev
+grpc_php_plugin	kvm-host-dev
+grpc_python_plugin	kvm-host-dev
+grpc_ruby_plugin	kvm-host-dev
 grpck	os-core
 grpconv	os-core
 grpunconv	os-core
@@ -3963,7 +3972,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	games-dev
+mako-render	containers-basic-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4657,7 +4666,7 @@ nvim	neovim
 nvlc	vlc
 nvme	storage-utils
 oLschema2ldif	samba
-oathtool	ceph
+oathtool	devpkg-oath-toolkit
 obj2yaml-11	llvm11
 objcopy	binutils
 objdump	binutils
@@ -5301,7 +5310,7 @@ psfstriptable	kbd
 psfxtable	kbd
 psicc	devpkg-lcms2
 psjoin	texlive
-pskctool	ceph
+pskctool	devpkg-oath-toolkit
 psktool	cryptography
 psl	devpkg-libpsl
 psl2sam.pl	samtools
@@ -6673,6 +6682,7 @@ thin_repair	storage-utils
 thin_restore	storage-utils
 thin_rmap	storage-utils
 thin_trim	storage-utils
+thrift	clr-installer
 thumbpdf	texlive
 thunar	xfce4-desktop
 thunar-settings	xfce4-desktop
@@ -7176,6 +7186,7 @@ virt-login-shell	kvm-host
 virt-manager	virt-manager
 virt-pki-query-dn	kvm-host
 virt-pki-validate	kvm-host
+virt-qemu-qmp-proxy	kvm-host
 virt-qemu-run	kvm-host
 virt-ssh-helper	kvm-host
 virt-viewer	virt-viewer
