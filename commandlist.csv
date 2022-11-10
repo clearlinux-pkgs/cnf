@@ -6422,7 +6422,6 @@ sty2dtx	texlive
 su	os-core
 su-exec	su-exec
 subunit-diff	devpkg-subunit
-subunit2disk	devpkg-subunit
 sudo	sudo
 sudo_logsrvd	sudo
 sudo_sendlog	sudo
@@ -7396,6 +7395,7 @@ wineserver	wine
 winpr-hash	pidgin
 winpr-makecert	pidgin
 wipefs	os-core
+wireplumber	audio-pipewire
 wireshark	wireshark
 wish	tcl-basic
 wish8.6	tcl-basic
@@ -7421,6 +7421,8 @@ wovp2ovf	texlive
 wpa_cli	wpa_supplicant
 wpa_passphrase	wpa_supplicant
 wpa_supplicant	wpa_supplicant
+wpctl	audio-pipewire
+wpexec	audio-pipewire
 wrc	wine
 wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
