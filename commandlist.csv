@@ -1708,6 +1708,7 @@ fdtget	dtc
 fdtoverlay	dtc
 fdtput	dtc
 fdupes	fdupes
+fectest	mtd-utils
 feh	feh
 fence_legacy	pcs
 fetch_file	cloud-api
@@ -1776,6 +1777,7 @@ flash_erase	mtd-utils
 flash_eraseall	mtd-utils
 flash_lock	mtd-utils
 flash_otp_dump	mtd-utils
+flash_otp_erase	mtd-utils
 flash_otp_info	mtd-utils
 flash_otp_lock	mtd-utils
 flash_otp_write	mtd-utils
@@ -4298,6 +4300,7 @@ mount.ntfs	storage-utils
 mount.ntfs-3g	storage-utils
 mount.smb3	storage-utils
 mount.sshfs	sshfs
+mount.ubifs	mtd-utils
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
@@ -4469,6 +4472,7 @@ named-compilezone	clr-network-troubleshooter
 namei	os-core
 nameif	net-tools
 nanddump	mtd-utils
+nandflipbits	mtd-utils
 nandtest	mtd-utils
 nandwrite	mtd-utils
 nano	sysadmin-basic
@@ -6359,6 +6363,7 @@ sshare	cluster-tools
 sshd	openssh-server
 sshfs	sshfs
 sshpass	ansible
+sshuttle	sshuttle
 ssltap	cryptography
 ssm-agent-worker	os-cloudguest-aws
 ssm-cli	os-cloudguest-aws
@@ -6975,6 +6980,7 @@ ubinize	mtd-utils
 ubirename	mtd-utils
 ubirmvol	mtd-utils
 ubirsvol	mtd-utils
+ubiscan	mtd-utils
 ubiupdatevol	mtd-utils
 ubxtool	gpsd
 ucalc	perl-extras
