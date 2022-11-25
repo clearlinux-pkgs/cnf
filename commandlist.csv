@@ -6684,8 +6684,6 @@ tgtadm	tgt
 tgtd	tgt
 tgtimg	tgt
 tgz	storage-utils
-theano-cache	machine-learning-basic
-theano-nose	machine-learning-basic
 thermald	thermal_daemon
 thin_check	storage-utils
 thin_delta	storage-utils
