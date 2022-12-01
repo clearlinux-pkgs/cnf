@@ -2910,6 +2910,7 @@ ipvsadm-restore	ipvsadm
 ipvsadm-save	ipvsadm
 ipython	python-data-science
 ipython3	python-data-science
+ipython3.11	python-data-science
 ir-ctl	v4l-utils
 ir-keytable	v4l-utils
 irb	ruby-basic
