@@ -1797,7 +1797,6 @@ fllog	amateur-radio
 flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
-flow	computer-vision-basic
 flrig	amateur-radio
 fltk-config	containers-basic-dev
 fluid	containers-basic-dev
@@ -7202,6 +7201,7 @@ virt-pki-query-dn	kvm-host
 virt-pki-validate	kvm-host
 virt-qemu-qmp-proxy	kvm-host
 virt-qemu-run	kvm-host
+virt-qemu-sev-validate	kvm-host
 virt-ssh-helper	kvm-host
 virt-viewer	virt-viewer
 virt-xml	virt-manager
