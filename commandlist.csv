@@ -843,6 +843,8 @@ clang-tidy-15	llvm
 clangd	llvm
 clangd-11	llvm11
 clangd-15	llvm
+clean-forward-declaration.sh	desktop-kde-apps
+clean-includes.sh	desktop-kde-apps
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
 clinfo	computer-vision-basic
@@ -6172,7 +6174,7 @@ slencheck	R-extras-dev
 slirp4netns	podman
 sln	python-extras
 sload.f2fs	storage-utils
-slsh	os-core-update-dev
+slsh	devpkg-newt
 slurmctld	cluster-tools
 slurmd	cluster-tools
 slurmdbd	cluster-tools
