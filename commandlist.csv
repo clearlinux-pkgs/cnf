@@ -6756,7 +6756,6 @@ totem-video-thumbnailer	totem
 touch	os-core
 touchpad-edge-detector	devpkg-libevdev
 tox	python-extras
-tox-quickstart	python-extras
 tpage	perl-extras
 tpic2pdftex	texlive
 tpm2	cryptoprocessor-management
