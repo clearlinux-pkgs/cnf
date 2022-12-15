@@ -6174,7 +6174,7 @@ slencheck	R-extras-dev
 slirp4netns	podman
 sln	python-extras
 sload.f2fs	storage-utils
-slsh	devpkg-newt
+slsh	devpkg-slang
 slurmctld	cluster-tools
 slurmd	cluster-tools
 slurmdbd	cluster-tools
