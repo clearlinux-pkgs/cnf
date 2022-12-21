@@ -4,6 +4,7 @@
 4dsphere	calc
 7z	dev-utils
 7za	dev-utils
+ATR_analysis	smartcard
 AppImageUpdateDummy	krita
 CreateDOMDocument	R-extras-dev
 CuraEngine	maker-3dprinting
@@ -597,6 +598,7 @@ capstats	network-monitor-node
 captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
 captype	wireshark
+cardos-tool	smartcard
 cargo	rust-basic
 cargo-clippy	rust-basic
 cargo-fmt	rust-basic
@@ -1026,6 +1028,7 @@ crontab	cronie
 crushdiff	ceph
 crushtool	ceph
 cryptdir	tcl-basic
+cryptoflex-tool	smartcard
 cryptsetup	boot-encrypted
 cs2cs	devpkg-proj
 csc	mono
@@ -1078,6 +1081,8 @@ curl	curl
 curl-config	curl
 curve_keygen	libzmq
 cut	os-core
+cvc-create	smartcard
+cvc-print	smartcard
 cve-bin-tool	cve-bin-tool
 cvlc	vlc
 cvs-clean	desktop-kde-apps
@@ -1276,6 +1281,7 @@ dmypy	python-extras
 dnf	dnf
 dnf-3	dnf
 dnf-automatic-3	dnf
+dnie-tool	smartcard
 dnsbulktest	pdns
 dnsdomainname	net-tools
 dnsgram	pdns
@@ -1449,6 +1455,7 @@ e2scrub_all	os-core
 e2undo	os-cloudguest-equinix
 e4crypt	os-core
 e4defrag	os-cloudguest-equinix
+eactest	smartcard
 earlyoom	earlyoom
 earlyoom-clr-telemetry	earlyoom
 easy_install_is_deprecated	python3-basic
@@ -1503,9 +1510,11 @@ efl_canvas_wl_test_stack	desktop-enlightenment
 efl_debug	desktop-enlightenment
 efl_debugd	desktop-enlightenment
 efreetd	desktop-enlightenment
+egk-tool	smartcard
 eglinfo	lib-opengl
 egrep	os-core
 eid-viewer	eid-mw
+eidenv	smartcard
 eina_btlog	desktop-enlightenment
 eina_modinfo	desktop-enlightenment
 eject	os-core
@@ -1631,6 +1640,7 @@ exactness_inject	desktop-enlightenment
 exactness_inspect	desktop-enlightenment
 exactness_play	desktop-enlightenment
 exactness_record	desktop-enlightenment
+example	smartcard
 exceltex	texlive
 execltp	ltp
 exfatfsck	storage-utils
@@ -2082,6 +2092,7 @@ ghci	haskell-basic
 ghci-9.2.2	haskell-basic
 gi-docgen	games-dev
 gidmigrator	desktop-kde-apps
+gids-tool	smartcard
 gie	devpkg-proj
 gif2h5	machine-learning-basic
 gif2rgb	R-extras-dev
@@ -2217,6 +2228,7 @@ go-md2man	containers-basic-dev
 goaccess	goaccess
 gobject-query	libglib
 gofmt	go-basic
+goid-tool	smartcard
 google_accounts_daemon	os-cloudguest-gce
 google_clock_skew_daemon	os-cloudguest-gce
 google_instance_setup	os-cloudguest-gce
@@ -2234,9 +2246,11 @@ gpaste-client	gpaste
 gperf	performance-tools
 gpg	gnupg
 gpg-agent	gnupg
+gpg-card	gnupg
 gpg-connect-agent	gnupg
 gpg-error	devpkg-libgpg-error
 gpg-error-config	devpkg-libgpg-error
+gpg-wks-client	gnupg
 gpg-wks-server	gnupg
 gpg2	gnupg
 gpgconf	gnupg
@@ -2325,6 +2339,7 @@ grpunconv	os-core
 gs	ghostscript
 gsbj	ghostscript
 gsc	ghostscript
+gscriptor	smartcard
 gsdj	ghostscript
 gsdj500	ghostscript
 gsequencer	gsequencer
@@ -2629,6 +2644,7 @@ i915-perf-configs	igt-gpu-tools
 i915-perf-control	igt-gpu-tools
 i915-perf-reader	igt-gpu-tools
 i915-perf-recorder	igt-gpu-tools
+iasecc-tool	smartcard
 iasl	acpica-unix2
 ib_acme	hpc-utils
 ib_atomic_bw	hpc-utils
@@ -2703,6 +2719,8 @@ idn2	devpkg-libidn2
 iecset	alsa-utils
 ifconfig	net-tools
 ifdata	moreutils
+ifdhandler	smartcard
+ifdproxy	smartcard
 ifnames	c-basic
 ifnames213	c-basic-legacy
 ifne	moreutils
@@ -4519,6 +4537,7 @@ netdata-claim.sh	netdata
 netdatacli	netdata
 netfix	performance-tools
 nethogs	nethogs
+netkey-tool	smartcard
 netloc_draw_to_json	hwloc
 netloc_ib_extract_dats	hwloc
 netloc_ib_gather_raw	hwloc
@@ -4630,6 +4649,7 @@ notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
 novo2sam.pl	samtools
+npa-tool	smartcard
 npb-run-mpi.sh	npb
 npb-run-omp.sh	npb
 nping	nmap
@@ -4778,12 +4798,19 @@ openbox-gnome-session	desktop-lxqt
 openbox-kde-session	desktop-lxqt
 openbox-session	desktop-lxqt
 openconnect	network-basic
+openct-control	smartcard
+openct-tool	smartcard
 opencv_annotation	devpkg-opencv
 opencv_interactive-calibration	devpkg-opencv
 opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	os-clr-on-clr-dev
+openpgp-tool	smartcard
+opensc-asn1	smartcard
+opensc-explorer	smartcard
+opensc-notify	smartcard
+opensc-tool	smartcard
 openscad	openscad
 openshot-qt	openshot-qt
 opensm	hpc-utils
@@ -4952,6 +4979,7 @@ pcretest	devpkg-pcre
 pcs	pcs
 pcs_internal	pcs
 pcs_snmp_agent	pcs
+pcsc_scan	smartcard
 pcscd	gnupg
 pcsd	pcs
 pcxhrloader	alsa-tools
@@ -5119,6 +5147,7 @@ pip_stress	dev-utils
 pipewire	flatpak
 pipewire-avb	flatpak
 pipewire-pulse	flatpak
+piv-tool	smartcard
 pivot_root	os-core
 pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
@@ -5126,6 +5155,11 @@ pk12util	cryptography
 pk2bm	texlive
 pkaction	polkit
 pkcheck	polkit
+pkcs11-register	smartcard
+pkcs11-tool	smartcard
+pkcs15-crypt	smartcard
+pkcs15-init	smartcard
+pkcs15-tool	smartcard
 pkexec	polkit
 pkfix	texlive
 pkfix-helper	texlive
@@ -5905,6 +5939,7 @@ sbsiglist	os-clr-on-clr
 sbsign	os-clr-on-clr
 sbvarsign	os-clr-on-clr
 sbverify	os-clr-on-clr
+sc-hsm-tool	smartcard
 scalar	git
 scan-build	llvm
 scan-build-15	llvm
@@ -5939,6 +5974,7 @@ screen	sysadmin-basic
 screen-4.9.0	sysadmin-basic
 script	os-core
 scriptlive	os-core
+scriptor	smartcard
 scriptreplay	os-core
 scrontab	cluster-tools
 scsi_logging_level	sysadmin-basic-dev
@@ -7328,6 +7364,7 @@ weechat	weechat
 weechat-curses	weechat
 weechat-headless	weechat
 wemo	domotica
+westcos-tool	smartcard
 weston	weston-extras
 weston-calibrator	weston-extras
 weston-clickdot	weston-extras
