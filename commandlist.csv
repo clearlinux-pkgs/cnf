@@ -1735,6 +1735,9 @@ fgconsole	kbd
 fgrep	os-core
 fibmap.f2fs	storage-utils
 fidentify	testdisk
+fido2-assert	os-core-dev
+fido2-cred	os-core-dev
+fido2-token	os-core-dev
 fig4latex	texlive
 filan	socat
 file	file
