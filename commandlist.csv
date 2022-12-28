@@ -316,6 +316,7 @@ autoupdate	c-basic
 autoupdate213	c-basic-legacy
 autrace	audit
 auvirt	audit
+av1encode	libva-utils
 avahi-autoipd	devpkg-avahi
 avahi-browse	devpkg-avahi
 avahi-browse-domains	devpkg-avahi
@@ -341,8 +342,7 @@ aws_zsh_completer.sh	cloud-api
 axel	axel
 axohelp	texlive
 b2sum	os-core
-babeltrace	dev-utils-dev
-babeltrace-log	dev-utils-dev
+babeltrace2	dev-utils-dev
 babl	devpkg-babl
 badblocks	os-cloudguest-equinix
 baloo_file	desktop-kde
@@ -6300,7 +6300,6 @@ socat	socat
 soelim	man-pages
 soffice	libreoffice
 solaar	Solaar-gui
-solaar-cli	Solaar
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
 sort	os-core
