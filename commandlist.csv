@@ -342,6 +342,8 @@ aws_zsh_completer.sh	cloud-api
 axel	axel
 axohelp	texlive
 b2sum	os-core
+babeltrace	dev-utils-dev
+babeltrace-log	dev-utils-dev
 babeltrace2	dev-utils-dev
 babl	devpkg-babl
 badblocks	os-cloudguest-equinix
@@ -2053,6 +2055,7 @@ gentrigrams	kde-frameworks5
 genxs	mono
 geod	devpkg-proj
 geos-config	maker-gis
+geosop	maker-gis
 geotag	devpkg-exiv2
 geotifcp	R-extras-dev
 get-iab	network-security-monitoring
@@ -3365,6 +3368,7 @@ kreadconfig5	kde-frameworks5
 kreversi	desktop-kde-games
 krita	krita
 krita_version	krita
+kritarunner	krita
 kruler	desktop-kde-games
 krunner	desktop-kde-apps
 krunner-plugininstaller	desktop-kde
@@ -4959,6 +4963,7 @@ patchview	dev-utils
 patchwork	graphviz
 patgen	texlive
 pathchk	os-core
+pattrs	cluster-tools
 pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
@@ -5108,6 +5113,8 @@ pglobal	dev-utils
 pgpewrap	mutt
 pgrep	procps-ng
 pgsql2shp	maker-gis
+pgtopo_export	maker-gis
+pgtopo_import	maker-gis
 phar	php-basic
 phar.phar	php-basic
 phc2sys	network-time-sensitive
@@ -5221,6 +5228,7 @@ pmfunc	perl-extras
 pminclude	perl-extras
 pminst	perl-extras
 pmix_info	cluster-tools
+pmixcc	cluster-tools
 pmload	perl-extras
 pmls	perl-extras
 pmpath	perl-extras
@@ -5306,9 +5314,11 @@ pppdump	NetworkManager
 pppoe-discovery	NetworkManager
 pppstats	NetworkManager
 pprof	devpkg-gperftools
+pprof-symbolize	devpkg-gperftools
 pprof2calltree	kcachegrind
 pps	cluster-tools
 ppscheck	gpsd
+pquery	cluster-tools
 pr	os-core
 pre-grohtml	man-pages
 precat	aspell
@@ -5900,7 +5910,6 @@ salt-proxy	salt
 salt-run	salt
 salt-ssh	salt
 salt-syndic	salt
-salt-unity	salt
 sam2vcf.pl	samtools
 samba	samba
 samba-gpupdate	samba
@@ -6056,6 +6065,7 @@ sg_decode_sense	sysadmin-basic-dev
 sg_emc_trespass	sysadmin-basic-dev
 sg_format	sysadmin-basic-dev
 sg_get_config	sysadmin-basic-dev
+sg_get_elem_status	sysadmin-basic-dev
 sg_get_lba_status	sysadmin-basic-dev
 sg_ident	sysadmin-basic-dev
 sg_inq	sysadmin-basic-dev
@@ -6078,6 +6088,7 @@ sg_read_long	sysadmin-basic-dev
 sg_readcap	sysadmin-basic-dev
 sg_reassign	sysadmin-basic-dev
 sg_referrals	sysadmin-basic-dev
+sg_rep_pip	sysadmin-basic-dev
 sg_rep_zones	sysadmin-basic-dev
 sg_requests	sysadmin-basic-dev
 sg_reset	sysadmin-basic-dev
@@ -6679,6 +6690,7 @@ testparm	samba
 testpattern	hardware-printing
 testsaslauthd	desktop-kde-apps
 testsolv	devpkg-libsolv
+testtex	blender
 tex	texlive
 tex2aspc	texlive
 tex2lyx	LyX
