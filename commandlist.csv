@@ -4972,7 +4972,7 @@ pbunzip2	os-testsuite-phoronix-desktop
 pbzcat	os-testsuite-phoronix-desktop
 pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
-pcap-config	devpkg-libpcap
+pcap-config	devpkg-dpdk
 pcasc	maker-basic
 pcf2vpnc	NetworkManager-extras
 pcmanfm	pcmanfm
