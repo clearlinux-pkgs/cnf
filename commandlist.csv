@@ -2935,7 +2935,6 @@ ipvsadm-restore	ipvsadm
 ipvsadm-save	ipvsadm
 ipython	python-data-science
 ipython3	python-data-science
-ipython3.11	python-data-science
 ir-ctl	v4l-utils
 ir-keytable	v4l-utils
 irb	ruby-basic
@@ -4963,7 +4962,6 @@ patchview	dev-utils
 patchwork	graphviz
 patgen	texlive
 pathchk	os-core
-pattrs	cluster-tools
 pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
@@ -5228,7 +5226,6 @@ pmfunc	perl-extras
 pminclude	perl-extras
 pminst	perl-extras
 pmix_info	cluster-tools
-pmixcc	cluster-tools
 pmload	perl-extras
 pmls	perl-extras
 pmpath	perl-extras
@@ -5318,7 +5315,6 @@ pprof-symbolize	devpkg-gperftools
 pprof2calltree	kcachegrind
 pps	cluster-tools
 ppscheck	gpsd
-pquery	cluster-tools
 pr	os-core
 pre-grohtml	man-pages
 precat	aspell
@@ -6649,7 +6645,7 @@ tchtest	mail-utils-dev
 tclsh	tcl-basic
 tclsh8.6	tcl-basic
 tcpdump	network-basic
-tcpdump.4.99.1	network-basic
+tcpdump.4.99.2	network-basic
 tctmgr	mail-utils-dev
 tctmttest	mail-utils-dev
 tcttest	mail-utils-dev
