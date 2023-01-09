@@ -67,6 +67,7 @@ abilint	devpkg-libabigail
 abipkgdiff	devpkg-libabigail
 abireport	package-builder
 about-eid-mw	eid-mw
+accel-config	accel-config
 accessdb	man-pages
 accountstest	os-clr-on-clr-dev
 accountwizard	desktop-kde-apps
