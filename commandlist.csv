@@ -1138,7 +1138,7 @@ dbus-broker-launch	games-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
-dbus-launch.x11	desktop-kde
+dbus-launch.x11	desktop
 dbus-monitor	sysadmin-basic
 dbus-run-session	sysadmin-basic
 dbus-send	sysadmin-basic
@@ -1180,9 +1180,9 @@ depmod	sysadmin-basic
 depythontex	texlive
 derb	sddm
 designer	devpkg-qttools
-desktop-file-edit	desktop-kde
-desktop-file-install	desktop-kde
-desktop-file-validate	desktop-kde
+desktop-file-edit	desktop
+desktop-file-install	desktop
+desktop-file-validate	desktop
 desktoptojson	kde-frameworks5
 determine_maximum_mpps.sh	dev-utils
 detex	texlive
@@ -1478,6 +1478,7 @@ ebtablesd	network-basic
 ebtablesu	network-basic
 echo	os-core
 echomixer	alsa-tools
+echosim	amateur-radio
 ecore_evas_convert	desktop-enlightenment
 ecpg	postgresql
 ed	editors
@@ -3174,7 +3175,7 @@ kbookmarkmerger	keditbookmarks
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	desktop-kde-games
+kbruch	education-primary
 kbuildsycoca5	kde-frameworks5
 kbxutil	gnupg
 kcachegrind	kcachegrind
@@ -3280,7 +3281,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	desktop-kde-games
+kig	education-primary
 kigo	desktop-kde-games
 kill	procps-ng
 kill_instance	cloud-api
@@ -3424,7 +3425,7 @@ kwikdisk	kdf
 kwin_wayland	desktop-kde
 kwin_wayland_wrapper	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	desktop-kde-games
+kwordquiz	education-primary
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -4942,7 +4943,7 @@ paraview.conf	ParaView
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	desktop-kde-games
+parley	education-primary
 parse.f2fs	storage-utils
 parset	parallel
 parsetrigrams	kde-frameworks5
@@ -5473,7 +5474,7 @@ pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
 pygmentize	scm-server
-pykig.py	desktop-kde-games
+pykig.py	education-primary
 pylint	python-extras
 pylint-config	python-extras
 pylupdate5	openshot-qt
@@ -7097,7 +7098,7 @@ unzip	unzip
 unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
-update-desktop-database	desktop-kde
+update-desktop-database	desktop
 update-fragment	service-os-dev
 update-helper	os-core-update
 update-mime-database	lightdm
@@ -7114,7 +7115,7 @@ uplatex	texlive
 uplatex-dev	texlive
 upmendex	texlive
 upmpost	texlive
-upower	desktop-kde
+upower	desktop
 uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
@@ -7618,7 +7619,7 @@ xdg-open	bspwm
 xdg-screensaver	bspwm
 xdg-settings	bspwm
 xdg-user-dir	games
-xdg-user-dirs-gtk-update	desktop-kde
+xdg-user-dirs-gtk-update	desktop
 xdg-user-dirs-update	games
 xdotool	x11-tools
 xdpyinfo	x11-tools
