@@ -775,6 +775,7 @@ clamdscan	clamav
 clamdtop	clamav
 clamonacc	clamav
 clamscan	clamav
+clamsubmit	clamav
 clang	llvm
 clang++	llvm
 clang++-11	llvm11
@@ -6647,7 +6648,7 @@ tchtest	mail-utils-dev
 tclsh	tcl-basic
 tclsh8.6	tcl-basic
 tcpdump	network-basic
-tcpdump.4.99.2	network-basic
+tcpdump.4.99.3	network-basic
 tctmgr	mail-utils-dev
 tctmttest	mail-utils-dev
 tcttest	mail-utils-dev
