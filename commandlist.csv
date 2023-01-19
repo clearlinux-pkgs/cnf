@@ -894,6 +894,11 @@ cmtime	hpc-utils
 cmus	cmus
 cmus-remote	cmus
 cockpit-bridge	cockpit
+code_cov_capture	igt-gpu-tools
+code_cov_gather_on_build	igt-gpu-tools
+code_cov_gather_on_test	igt-gpu-tools
+code_cov_gen_report	igt-gpu-tools
+code_cov_parse_info	igt-gpu-tools
 codiff	dev-utils
 coffdump	binutils
 col	os-core
@@ -2736,6 +2741,7 @@ ifne	moreutils
 ifstat	iproute2
 iftop	iftop
 igrep	blender
+igt_comms_decoder	igt-gpu-tools
 igt_results	igt-gpu-tools
 igt_resume	igt-gpu-tools
 igt_runner	igt-gpu-tools
@@ -2831,6 +2837,7 @@ intel_lid	igt-gpu-tools
 intel_opregion_decode	igt-gpu-tools
 intel_panel_fitter	igt-gpu-tools
 intel_perf_counters	igt-gpu-tools
+intel_pm_rpm	igt-gpu-tools
 intel_reg	igt-gpu-tools
 intel_reg_checker	igt-gpu-tools
 intel_residency	igt-gpu-tools
