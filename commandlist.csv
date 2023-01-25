@@ -1756,6 +1756,7 @@ filecap	devpkg-libcap-ng
 filefrag	os-cloudguest-equinix
 fileinfo	devpkg-leptonica
 filelight	filelight
+filemap-verify.py	package-utils
 filterdiff	dev-utils
 fincore	os-core
 find	os-core
