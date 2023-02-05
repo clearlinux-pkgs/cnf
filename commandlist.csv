@@ -3505,7 +3505,6 @@ ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldconfig	os-core
 ldd	os-core
-lddlibc4	os-core-legacy
 ledctl	sysadmin-basic
 ledmon	sysadmin-basic
 lensfun-add-adapter	lensfun
