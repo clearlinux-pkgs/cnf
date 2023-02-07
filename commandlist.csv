@@ -2394,10 +2394,10 @@ gtester	libglib
 gtester-report	libglib
 gtf	x11-server
 gtk-builder-tool	maker-cnc
-gtk-demo	xfce4-desktop
+gtk-demo	firefox
 gtk-encode-symbolic-svg	maker-cnc
 gtk-launch	maker-cnc
-gtk-query-immodules-2.0	xfce4-desktop
+gtk-query-immodules-2.0	firefox
 gtk-query-immodules-3.0	maker-cnc
 gtk-query-settings	maker-cnc
 gtk-update-icon-cache	maker-cnc
@@ -6318,6 +6318,8 @@ soapsuds	mono
 socat	socat
 soelim	man-pages
 soffice	libreoffice
+softflowctl	softflowd
+softflowd	softflowd
 solaar	Solaar-gui
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
