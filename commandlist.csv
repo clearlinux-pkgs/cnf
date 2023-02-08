@@ -6269,6 +6269,7 @@ smbstatus	samba
 smbtar	samba
 smbtorture	samba
 smbtree	samba
+smemstat	smemstat
 sminfo	hpc-utils
 smispy_lsmplugin	sysadmin-remote
 smpdump	hpc-utils
