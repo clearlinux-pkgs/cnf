@@ -1335,7 +1335,6 @@ dosfslabel	dosfstools
 dot	graphviz
 dot2gxl	graphviz
 dot_builtins	desktop-apps
-dotty	graphviz
 doveadm	dovecot
 doveconf	dovecot
 dovecot	dovecot
@@ -1845,6 +1844,7 @@ fontinst	texlive
 fontlint	fontforge
 fonttools	fonttools
 foomatic-rip	hardware-printing
+forkstat	forkstat
 formail	mail-utils
 fortune	fortune-mod
 fossil	fossil
@@ -3781,7 +3781,6 @@ llvm-xray	llvm
 llvm-xray-11	llvm11
 llvm-xray-15	llvm
 ln	os-core
-lneato	graphviz
 lnewusers	devpkg-libuser
 lnstat	iproute2
 lo10k1	alsa-tools
