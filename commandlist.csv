@@ -1141,8 +1141,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	games-dev
-dbus-broker-launch	games-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1481,6 +1481,7 @@ ebtables-nft-restore	iptables
 ebtables-nft-save	iptables
 ebtables-restore	iptables
 ebtables-save	iptables
+ebtables-translate	iptables
 ebtablesd	network-basic
 ebtablesu	network-basic
 echo	os-core
@@ -1670,15 +1671,15 @@ expiry	os-core
 export2sam.pl	samtools
 exportfs	nfs-utils
 expr	os-core
-exr2aces	games-dev
-exrenvmap	games-dev
-exrheader	games-dev
-exrinfo	games-dev
-exrmakepreview	games-dev
-exrmaketiled	games-dev
-exrmultipart	games-dev
-exrmultiview	games-dev
-exrstdattr	games-dev
+exr2aces	qt-basic-dev
+exrenvmap	qt-basic-dev
+exrheader	qt-basic-dev
+exrinfo	qt-basic-dev
+exrmakepreview	qt-basic-dev
+exrmaketiled	qt-basic-dev
+exrmultipart	qt-basic-dev
+exrmultiview	qt-basic-dev
+exrstdattr	qt-basic-dev
 extcheck	java-basic
 extconv	texlive
 extend_dmalloc	desktop-kde-apps
@@ -2107,7 +2108,7 @@ ghc-pkg	haskell-basic
 ghc-pkg-9.2.2	haskell-basic
 ghci	haskell-basic
 ghci-9.2.2	haskell-basic
-gi-docgen	games-dev
+gi-docgen	qt-basic-dev
 gidmigrator	desktop-kde-apps
 gids-tool	smartcard
 gie	devpkg-proj
@@ -2699,7 +2700,6 @@ ibus	desktop
 ibus-daemon	desktop
 ibus-setup	desktop
 ibus-table-createdb	desktop
-ibus-ui-emojier-plasma	desktop-kde
 ibv_asyncwatch	hpc-utils
 ibv_devices	hpc-utils
 ibv_devinfo	hpc-utils
@@ -3951,7 +3951,6 @@ lxqt-config-file-associations	desktop-lxqt
 lxqt-config-globalkeyshortcuts	desktop-lxqt
 lxqt-config-input	desktop-lxqt
 lxqt-config-locale	desktop-lxqt
-lxqt-config-monitor	desktop-lxqt
 lxqt-config-notificationd	desktop-lxqt
 lxqt-config-powermanagement	desktop-lxqt
 lxqt-config-session	desktop-lxqt
@@ -4408,7 +4407,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	games-dev
+mtdev-test	qt-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -5165,6 +5164,7 @@ pip3	python3-basic
 pip3.11	python3-basic
 pip_stress	dev-utils
 pipewire	flatpak
+pipewire-aes67	flatpak
 pipewire-avb	flatpak
 pipewire-pulse	flatpak
 piv-tool	smartcard
@@ -5199,6 +5199,7 @@ plasma-apply-wallpaperimage	desktop-kde-apps
 plasma-browser-integration-host	desktop-kde
 plasma-discover	desktop-kde
 plasma-discover-update	desktop-kde
+plasma-emojier	desktop-kde
 plasma-interactiveconsole	desktop-kde-apps
 plasma-localegen-helper	desktop-kde-apps
 plasma-open-settings	desktop-kde
@@ -6482,8 +6483,8 @@ stty	os-core
 stubgen	python-extras
 stubquery	pdns
 stubtest	python-extras
-stunbdc	games-dev
-stund	games-dev
+stunbdc	qt-basic-dev
+stund	qt-basic-dev
 stunnel	cloud-api
 sty2dtx	texlive
 su	os-core
@@ -7063,9 +7064,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	desktop-dev
-umockdev-run	desktop-dev
-umockdev-wrapper	desktop-dev
+umockdev-record	qt-basic-dev
+umockdev-run	qt-basic-dev
+umockdev-wrapper	qt-basic-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
