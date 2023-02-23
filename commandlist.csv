@@ -347,6 +347,7 @@ babeltrace	dev-utils-dev
 babeltrace-log	dev-utils-dev
 babeltrace2	dev-utils-dev
 babl	devpkg-babl
+backend-test-tools	pypi-onnx
 badblocks	os-cloudguest-equinix
 baloo_file	desktop-kde
 baloo_file_extractor	desktop-kde
@@ -721,6 +722,8 @@ chattr	os-core
 chcon	os-core
 chcpu	os-core
 cheatmake	desktop-kde-apps
+check-model	pypi-onnx
+check-node	pypi-onnx
 check-regexp	dev-utils
 checkXML5	desktop-kde
 check_lft_balance.pl	hpc-utils
@@ -4940,9 +4943,9 @@ pamon	pulseaudio
 pamphletangler	texlive
 pandoc	pandoc
 pandoc-server	pandoc
-pango-list	devpkg-pango
-pango-segmentation	devpkg-pango
-pango-view	devpkg-pango
+pango-list	transcoding-support
+pango-segmentation	transcoding-support
+pango-view	transcoding-support
 paplay	pulseaudio
 paraglob-test	network-monitor-node
 parallel	parallel
