@@ -7177,6 +7177,7 @@ v4l2-compliance	v4l-utils
 v4l2-ctl	v4l-utils
 v4l2-dbg	v4l-utils
 v4l2-sysfs-path	v4l-utils
+v4l2-tracer	v4l-utils
 vacopy	libva-utils
 vacuumdb	postgresql
 vacuumlo	postgresql
