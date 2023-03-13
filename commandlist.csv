@@ -5453,6 +5453,7 @@ pw-cli	flatpak
 pw-dot	flatpak
 pw-dsdplay	flatpak
 pw-dump	flatpak
+pw-encplay	flatpak
 pw-jack	flatpak
 pw-link	flatpak
 pw-loopback	flatpak
@@ -6025,6 +6026,7 @@ sdl2-config	games
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
+seatd	devpkg-wlroots
 secret-tool	devpkg-libsecret
 secutil	mono
 sed	os-core
