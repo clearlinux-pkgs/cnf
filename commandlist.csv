@@ -1057,7 +1057,6 @@ csplit	os-core
 csslint-0.6	devpkg-libcroco
 cstool	capstone
 csv2cve	cve-bin-tool
-csysdig	performance-tools
 ct_run	rabbitmq-server
 ctags	editors
 ctail	byobu
@@ -1658,6 +1657,7 @@ exactness_record	desktop-enlightenment
 example	smartcard
 exceltex	texlive
 execltp	ltp
+exfatattrib	storage-utils
 exfatfsck	storage-utils
 exfatlabel	storage-utils
 exifcomment	desktop-kde
@@ -6026,7 +6026,7 @@ sdl2-config	games
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse	seahorse
-seatd	devpkg-wlroots
+seatd	devpkg-seatd
 secret-tool	devpkg-libsecret
 secutil	mono
 sed	os-core
@@ -6216,7 +6216,6 @@ sjisconv	texlive
 sjislatex	texlive
 sjispdflatex	texlive
 skdump	devpkg-libatasmart
-skivi	python-extras
 skk	desktop-dev
 sktest	devpkg-libatasmart
 slapacl	openldap
@@ -6574,8 +6573,6 @@ synergys	synergy
 syntool	synergy
 syscse	dev-utils
 sysctl	procps-ng
-sysdig	performance-tools
-sysdig-probe-loader	performance-tools
 sysdump	binutils
 syslinux	syslinux
 syslinux-nomtools	syslinux
