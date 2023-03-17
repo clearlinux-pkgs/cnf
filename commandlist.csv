@@ -4087,7 +4087,7 @@ mcat	storage-utils
 mcd	storage-utils
 mcdiff	sysadmin-basic
 mcedit	sysadmin-basic
-mcelog	kernel-iot-lts2018
+mcelog	kernel-lts2017
 mcheck	storage-utils
 mckey	hpc-utils
 mcomp	storage-utils
