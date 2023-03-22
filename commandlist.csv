@@ -39,7 +39,6 @@ SvtAv1EncApp	SVT-AV1
 SvtHevcEncApp	SVT-HEVC
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
-WebKitWebDriver	webkitgtk
 X	x11-server
 XInclude	R-extras-dev
 Xdummy	x11vnc
