@@ -1147,7 +1147,7 @@ dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
-dbus-launch.x11	desktop
+dbus-launch.x11	desktop-kde
 dbus-monitor	sysadmin-basic
 dbus-run-session	sysadmin-basic
 dbus-send	sysadmin-basic
@@ -1189,9 +1189,9 @@ depmod	sysadmin-basic
 depythontex	texlive
 derb	sddm
 designer	devpkg-qttools
-desktop-file-edit	desktop
-desktop-file-install	desktop
-desktop-file-validate	desktop
+desktop-file-edit	desktop-kde
+desktop-file-install	desktop-kde
+desktop-file-validate	desktop-kde
 desktoptojson	kde-frameworks5
 determine_maximum_mpps.sh	dev-utils
 detex	texlive
@@ -7114,7 +7114,7 @@ unzip	unzip
 unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
-update-desktop-database	desktop
+update-desktop-database	desktop-kde
 update-fragment	service-os-dev
 update-helper	os-core-update
 update-mime-database	lightdm
@@ -7131,7 +7131,7 @@ uplatex	texlive
 uplatex-dev	texlive
 upmendex	texlive
 upmpost	texlive
-upower	desktop
+upower	desktop-kde
 uppltotf	texlive
 uptex	texlive
 uptftopl	texlive
@@ -7524,9 +7524,9 @@ wvgain	devpkg-wavpack
 wvtag	devpkg-wavpack
 wvunpack	devpkg-wavpack
 wwan	TLP
-wx-config	devpkg-wxWidgets
-wxrc	devpkg-wxWidgets
-wxrc-3.2	devpkg-wxWidgets
+wx-config	amateur-radio
+wxrc	amateur-radio
+wxrc-3.2	amateur-radio
 x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
@@ -7636,7 +7636,7 @@ xdg-open	bspwm
 xdg-screensaver	bspwm
 xdg-settings	bspwm
 xdg-user-dir	games
-xdg-user-dirs-gtk-update	desktop
+xdg-user-dirs-gtk-update	desktop-kde
 xdg-user-dirs-update	games
 xdotool	x11-tools
 xdpyinfo	x11-tools
