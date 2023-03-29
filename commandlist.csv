@@ -6759,7 +6759,7 @@ thin_repair	storage-utils
 thin_restore	storage-utils
 thin_rmap	storage-utils
 thin_trim	storage-utils
-thrift	clr-installer
+thrift	kvm-host-dev
 thumbpdf	texlive
 thunar	xfce4-desktop
 thunar-settings	xfce4-desktop
