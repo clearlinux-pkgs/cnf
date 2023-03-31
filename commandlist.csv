@@ -1203,7 +1203,6 @@ df	os-core
 dfc	sysadmin-basic
 dfu-prefix	dfu-util
 dfu-suffix	dfu-util
-dfu-tool	firmware-update
 dfu-util	dfu-util
 dhcp_lease_time	dhcp-server
 dhcp_release	dhcp-server
@@ -1902,8 +1901,6 @@ fusermount	fuse
 fusermount-glusterfs	storage-cluster
 fusermount3	fuse
 futurize	machine-learning-basic
-fwupdagent	firmware-update
-fwupdate	firmware-update
 fwupdmgr	firmware-update
 fwupdtool	firmware-update
 g++	c-basic
@@ -2322,6 +2319,7 @@ granatier	desktop-kde-games
 grantlee_strings_extractor.py	desktop-kde-apps
 grap2graph	man-pages
 graphml2gv	graphviz
+grdctl	gnome-remote-desktop
 gregorio	texlive
 grep	os-core
 grepdiff	dev-utils
@@ -3005,7 +3003,7 @@ ispellaff2myspell	kde-frameworks5-dev
 isql	R-extras-dev
 isutf8	moreutils
 isympy	python-data-science
-itstool	cryptoprocessor-management-dev
+itstool	editors-dev
 iusql	R-extras-dev
 iv	blender
 ivtv-ctl	v4l-utils
