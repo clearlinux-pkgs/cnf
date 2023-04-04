@@ -855,7 +855,7 @@ clean-forward-declaration.sh	desktop-kde-apps
 clean-includes.sh	desktop-kde-apps
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-desktop
+clinfo	x11-tools
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -7285,9 +7285,9 @@ virtsecretd	kvm-host
 virtstoraged	kvm-host
 virtualenv	python3-basic
 visudo	sudo
-vkcube	go-basic-dev
-vkcube-wayland	go-basic-dev
-vkcubepp	go-basic-dev
+vkcube	x11-tools
+vkcube-wayland	x11-tools
+vkcubepp	x11-tools
 vlc	vlc
 vlc-wrapper	vlc
 vlna	texlive
@@ -7361,7 +7361,7 @@ vtkWrapPython-pv5.9	ParaView
 vtkWrapPythonInit-9.0	kvm-host-dev
 vtkWrapPythonInit-pv5.9	ParaView
 vtysh	quagga
-vulkaninfo	go-basic-dev
+vulkaninfo	x11-tools
 vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
@@ -7724,7 +7724,7 @@ xinit	x11-server
 xinput	x11-tools
 xjc	java-basic
 xkbcli	devpkg-libxkbcommon
-xkbcomp	x11-tools
+xkbcomp	wayland-server
 xkibitz	tcl-basic
 xkill	x11-tools
 xl2tpd	NetworkManager-extras
