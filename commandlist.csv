@@ -39,6 +39,7 @@ SvtAv1EncApp	SVT-AV1
 SvtHevcEncApp	SVT-HEVC
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
+WebKitWebDriver	webkitgtk
 X	x11-server
 XInclude	R-extras-dev
 Xdummy	x11vnc
@@ -1135,7 +1136,7 @@ date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
 dav1d	kde-frameworks5-dev
-daxctl	storage-utils
+daxctl	devpkg-pmdk
 daxio	pmdk
 dazzle-list-counters	devpkg-libdazzle
 dbicadmin	perl-extras
@@ -4538,7 +4539,7 @@ ncgen	R-extras-dev
 ncgen3	R-extras-dev
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
-ndctl	storage-utils
+ndctl	devpkg-pmdk
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -5489,7 +5490,7 @@ pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
 pybabel	Babel
-pybind11-config	go-basic-dev
+pybind11-config	desktop-dev
 pycodestyle	python3-basic
 pydoc3	python3-basic
 pydoc3.11	python3-basic
@@ -5518,8 +5519,8 @@ python3.11	python3-basic
 python3.11-config	python3-basic
 python3.7	python3-basic
 pythontex	texlive
-pythran	go-basic-dev
-pythran-config	go-basic-dev
+pythran	desktop-dev
+pythran-config	desktop-dev
 pyuic5	openshot-qt
 q65code	amateur-radio
 q65sim	amateur-radio
@@ -5537,12 +5538,12 @@ qbs-setup-qt	qt-creator
 qbs-setup-toolchains	qt-creator
 qcatool-qt5	kde-frameworks5-dev
 qcollectiongenerator	qt-basic
-qconvex	go-basic-dev
+qconvex	desktop-dev
 qdbus	qt-basic
 qdbuscpp2xml	devpkg-qtbase
 qdbusviewer	qt-basic
 qdbusxml2cpp	devpkg-qtbase
-qdelaunay	go-basic-dev
+qdelaunay	desktop-dev
 qdistancefieldgenerator	devpkg-qttools
 qdoc	kde-frameworks5-dev
 qemu-edid	kvm-host
@@ -5562,9 +5563,9 @@ qgis_bench	maker-gis
 qgis_process	maker-gis
 qgit	dev-utils-gui
 qgltf	qt-basic
-qhalf	go-basic-dev
+qhalf	desktop-dev
 qhelpgenerator	devpkg-qttools
-qhull	go-basic-dev
+qhull	desktop-dev
 qlalr	devpkg-qtbase
 qmake	devpkg-qtbase
 qmake6	kde-frameworks5-dev
@@ -5616,7 +5617,7 @@ queuelat	dev-utils
 quilt	dev-utils
 qvkgen	devpkg-qtbase
 qvlc	vlc
-qvoronoi	go-basic-dev
+qvoronoi	desktop-dev
 qwebengine_convert_dict	lib-qt5webengine
 r	R-basic
 r-mpost	texlive
@@ -5663,7 +5664,7 @@ rbd-replay	ceph
 rbd-replay-many	ceph
 rbd-replay-prep	ceph
 rbdmap	ceph
-rbox	go-basic-dev
+rbox	desktop-dev
 rbs	ruby-basic
 rcc	devpkg-qtbase
 rclone	rclone
