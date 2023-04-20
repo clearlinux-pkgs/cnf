@@ -7703,10 +7703,6 @@ ypdomainname	net-tools
 yplan	texlive
 yq	yq
 ytasm	yasm
-z1-mixer-test-canary-0	zathura
-z1-mixer-test-canary-1	zathura
-z1-mixer-test-canary-2	zathura
-z1-mixer-test-canary-3	zathura
 z3	go-basic-dev
 zabbix_agentd	zabbix-agent
 zabbix_get	zabbix
