@@ -52,6 +52,10 @@ Xwayland	wayland-server
 a2ping	texlive
 a2x	dev-utils
 a5toa4	texlive
+aa1-mixer-test-canary-0	zathura
+aa1-mixer-test-canary-1	zathura
+aa1-mixer-test-canary-2	zathura
+aa1-mixer-test-canary-3	zathura
 ab	httpd
 abcconvert	blender
 abcdiff	blender
@@ -2678,15 +2682,6 @@ imapfilter	mail-utils
 img2simg	storage-utils
 img2webp	transcoding-support
 imgsize	perl-extras
-imlib2_bumpmap	os-utils-gui-dev
-imlib2_colorspace	os-utils-gui-dev
-imlib2_conv	os-utils-gui-dev
-imlib2_grab	os-utils-gui-dev
-imlib2_load	os-utils-gui-dev
-imlib2_poly	os-utils-gui-dev
-imlib2_show	os-utils-gui-dev
-imlib2_test	os-utils-gui-dev
-imlib2_view	os-utils-gui-dev
 implantisomd5	clr-installer-iso-init
 import	ImageMagick
 import_interpolation	desktop
@@ -5094,7 +5089,6 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	storage-utils-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5335,6 +5329,7 @@ pvscan	storage-cluster
 pvserver	ParaView
 pw-cat	flatpak
 pw-cli	flatpak
+pw-config	flatpak
 pw-dot	flatpak
 pw-dsdplay	flatpak
 pw-dump	flatpak
@@ -5782,7 +5777,6 @@ rust-gdb	rust-basic
 rust-gdbgui	rust-basic
 rust-lldb	rust-basic
 rustc	rust-basic
-rustdoc	rust-basic
 rustfmt	rust-basic
 rview	vim
 rvim	vim
