@@ -73,7 +73,6 @@ abireport	package-builder
 about-eid-mw	eid-mw
 accel-config	accel-config
 accessdb	man-pages
-accountstest	os-clr-on-clr-dev
 accountwizard	desktop-kde-apps
 ace2sam	samtools
 aclients	amateur-radio
@@ -102,8 +101,6 @@ afm2afm	texlive
 afm2pl	texlive
 afm2tfm	texlive
 ag	the_silver_searcher
-ag-backup	os-clr-on-clr-dev
-ag-tool	os-clr-on-clr-dev
 agentxtrap	performance-tools
 agetty	os-core
 aggregate_profile.pl	openmpi
@@ -6063,8 +6060,6 @@ sign-efi-sig-list	os-clr-on-clr
 signal-rr-recording.sh	rr
 signaltest	dev-utils
 signcode	mono
-signond	os-clr-on-clr-dev
-signonpluginprocess	os-clr-on-clr-dev
 signtool	cryptography
 signver	cryptography
 sigtool	clamav
