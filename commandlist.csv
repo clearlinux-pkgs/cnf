@@ -87,7 +87,7 @@ add.modules	modules
 adddebug	desktop-kde-apps
 addftinfo	man-pages
 addgnupghome	gnupg
-addmoddel	desktop-kde
+addmoddel	devpkg-exiv2
 addpart	os-core
 addr2line	binutils
 adhocfilelist	texlive
@@ -337,8 +337,8 @@ aws_zsh_completer.sh	cloud-api
 axel	axel
 axohelp	texlive
 b2sum	os-core
-babeltrace	dev-utils-dev
-babeltrace-log	dev-utils-dev
+babeltrace	kvm-host-dev
+babeltrace-log	kvm-host-dev
 babeltrace2	dev-utils-dev
 babl	devpkg-babl
 backend-test-tools	pypi-onnx
@@ -1105,7 +1105,7 @@ cvsversion	desktop-kde-apps
 cvt	devpkg-libxcvt
 cvtsudoers	sudo
 cweave	texlive
-cwebp	transcoding-support
+cwebp	devpkg-libwebp
 cwutil	cloud-api
 cx18-ctl	v4l-utils
 cxpm	devpkg-libXpm
@@ -1128,7 +1128,7 @@ date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
 dav1d	kde-frameworks5-dev
-daxctl	devpkg-pmdk
+daxctl	storage-utils
 daxio	pmdk
 dazzle-list-counters	devpkg-libdazzle
 dbicadmin	perl-extras
@@ -1420,7 +1420,7 @@ dvitodvi	texlive
 dvitomp	texlive
 dvitype	texlive
 dwdump	dropwatch
-dwebp	transcoding-support
+dwebp	devpkg-libwebp
 dwespeak.sh	amateur-radio
 dwp	binutils
 dynamodb_dump	cloud-api
@@ -1574,12 +1574,12 @@ execltp	ltp
 exfatattrib	storage-utils
 exfatfsck	storage-utils
 exfatlabel	storage-utils
-exifcomment	desktop-kde
-exifdata	desktop-kde
-exifprint	desktop-kde
-exifvalue	desktop-kde
-exiv2	desktop-kde
-exiv2json	desktop-kde
+exifcomment	devpkg-exiv2
+exifdata	devpkg-exiv2
+exifprint	devpkg-exiv2
+exifvalue	devpkg-exiv2
+exiv2	devpkg-exiv2
+exiv2json	devpkg-exiv2
 exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
 expand	os-core
@@ -1981,7 +1981,7 @@ genxs	mono
 geod	devpkg-proj
 geos-config	maker-gis
 geosop	maker-gis
-geotag	desktop-kde
+geotag	devpkg-exiv2
 geotifcp	R-extras-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
@@ -2673,7 +2673,7 @@ illinkanalyzer	mono
 imagetops	devpkg-leptonica
 imapfilter	mail-utils
 img2simg	storage-utils
-img2webp	transcoding-support
+img2webp	devpkg-libwebp
 imgsize	perl-extras
 implantisomd5	clr-installer-iso-init
 import	ImageMagick
@@ -2845,8 +2845,8 @@ iptables-restore-translate	iptables
 iptables-save	iptables
 iptables-translate	iptables
 iptables-xml	iptables
-iptceasy	desktop-kde
-iptcprint	desktop-kde
+iptceasy	devpkg-exiv2
+iptcprint	devpkg-exiv2
 iptraf	network-basic
 iptraf-ng	network-basic
 ipvsadm	ipvsadm
@@ -4034,7 +4034,7 @@ message_aggregator	amateur-radio
 metacity	devpkg-metacity
 metacity-message	devpkg-metacity
 metacity-theme-viewer	devpkg-metacity
-metacopy	desktop-kde
+metacopy	devpkg-exiv2
 metaflac	flac
 mev	sysadmin-basic
 mex	texlive
@@ -4256,7 +4256,7 @@ mptopdf	texlive
 mpv	mpv
 mrd	storage-utils
 mren	storage-utils
-mrwthumb	desktop-kde
+mrwthumb	devpkg-exiv2
 ms_print	valgrind
 mscore	MuseScore
 msgattrib	c-basic
@@ -4417,7 +4417,7 @@ ncgen	R-extras-dev
 ncgen3	R-extras-dev
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
-ndctl	devpkg-pmdk
+ndctl	storage-utils
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -5393,8 +5393,8 @@ pyuic5	openshot-qt
 q65code	amateur-radio
 q65sim	amateur-radio
 qalculate-gtk	qalculate-gtk
-qat_init.sh	dev-utils-dev
-qatmgr	dev-utils-dev
+qat_init.sh	os-utils-gui-dev
+qatmgr	os-utils-gui-dev
 qb-blackbox	os-clr-on-clr-dev
 qbittorrent	qbittorrent
 qbs	qt-creator
@@ -6498,7 +6498,7 @@ tabs	sysadmin-basic
 tabulate	python-extras
 tac	os-core
 taglib-config	devpkg-taglib
-taglist	desktop-kde
+taglist	devpkg-exiv2
 tail	os-core
 tallow	openssh-server
 tangle	texlive
@@ -7240,8 +7240,8 @@ wdctl	os-core
 weather	tcl-basic
 weave	texlive
 weblint	perl-extras
-webpinfo	transcoding-support
-webpmux	transcoding-support
+webpinfo	devpkg-libwebp
+webpmux	devpkg-libwebp
 webpng	devpkg-libgd
 webquiz	texlive
 weechat	weechat
@@ -7580,7 +7580,7 @@ xinit	x11-server
 xinput	x11-tools
 xjc	java-basic
 xkbcli	devpkg-libxkbcommon
-xkbcomp	x11-tools
+xkbcomp	wayland-server
 xkibitz	tcl-basic
 xkill	x11-tools
 xl2tpd	NetworkManager-extras
@@ -7609,10 +7609,10 @@ xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
-xmpdump	desktop-kde
-xmpparse	desktop-kde
-xmpprint	desktop-kde
-xmpsample	desktop-kde
+xmpdump	devpkg-exiv2
+xmpparse	devpkg-exiv2
+xmpprint	devpkg-exiv2
+xmpsample	devpkg-exiv2
 xnec2c	amateur-radio
 xorrecord	xorriso
 xorriso	xorriso
