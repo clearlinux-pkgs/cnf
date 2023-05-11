@@ -166,9 +166,6 @@ anacron	cronie
 analyze	kde-frameworks5-dev
 analyze-build	devpkg-llvm
 analyze-build-16	devpkg-llvm
-androiddeployqt	kde-frameworks5-dev
-androiddeployqt6	kde-frameworks5-dev
-androidtestrunner	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
 ansible	ansible
@@ -3894,7 +3891,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	containers-basic-dev
+mako-render	storage-utils-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -5084,7 +5081,7 @@ plot-bamstats	samtools
 plot-roh.py	samtools
 plot-vcfstats	samtools
 pltotf	texlive
-pluginviewer	desktop-kde-apps
+pluginviewer	devpkg-cyrus-sasl
 plus	calc
 plxload	perl-extras
 plzip	plzip
@@ -5415,7 +5412,6 @@ qhelpgenerator	devpkg-qttools
 qhull	desktop-dev
 qlalr	devpkg-qtbase
 qmake	devpkg-qtbase
-qmake6	kde-frameworks5-dev
 qmi-firmware-update	kde-frameworks5-dev
 qmi-network	kde-frameworks5-dev
 qmicli	kde-frameworks5-dev
@@ -5439,15 +5435,12 @@ qphotorec	testdisk
 qrencode	desktop-kde-apps
 qscxmlc	qt5-dev
 qsstv	amateur-radio
-qt-cmake	kde-frameworks5-dev
-qt-configure-module	kde-frameworks5-dev
 qt5ct	qt5ct
 qtattributionsscanner	devpkg-qttools
 qtcreator	qt-creator
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
-qtpaths6	kde-frameworks5-dev
 qtplugininfo	devpkg-qttools
 qtwaylandscanner	storage-utils-dev
 quassel	quassel
@@ -5795,9 +5788,9 @@ sanstats-11	llvm11
 sanstats-16	devpkg-llvm
 saquery	hpc-utils
 sar	sysstat
-saslauthd	desktop-kde-apps
-sasldblistusers2	desktop-kde-apps
-saslpasswd2	desktop-kde-apps
+saslauthd	devpkg-cyrus-sasl
+sasldblistusers2	devpkg-cyrus-sasl
+saslpasswd2	devpkg-cyrus-sasl
 sassc	sassc
 sattach	cluster-tools
 saxfr	pdns
@@ -6551,7 +6544,7 @@ testdisk	testdisk
 testj1939	automotive-tools
 testparm	samba
 testpattern	hardware-printing
-testsaslauthd	desktop-kde-apps
+testsaslauthd	devpkg-cyrus-sasl
 testsolv	devpkg-libsolv
 testtex	blender
 tex	texlive
