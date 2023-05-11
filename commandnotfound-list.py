@@ -67,6 +67,10 @@ def declare_binary(bundle: str, binary: str, size: int):
     # Extras are hit with a 10% special import duty due to trade war
     if bundle.endswith("-extras"):
         size = size * 1.10
+    if bundle.endswith("-dev")
+        size = size * 2.0
+    if bundle.startswith("devpkg-")
+        size = size * 1.3
 
     if binary not in bin_bundle or binary == bundle:
         bin_bundle[binary] = bundle
