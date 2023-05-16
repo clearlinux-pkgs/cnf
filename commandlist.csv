@@ -155,11 +155,6 @@ amidi	alsa-utils
 amixer	alsa-utils
 ampctl	amateur-radio
 ampctld	amateur-radio
-amqp-consume	kvm-host-dev
-amqp-declare-queue	kvm-host-dev
-amqp-delete-queue	kvm-host-dev
-amqp-get	kvm-host-dev
-amqp-publish	kvm-host-dev
 amstex	texlive
 amuFormat.sh	storage-utils
 anacron	cronie
@@ -216,8 +211,8 @@ arlatex	texlive
 arp	net-tools
 arp-fingerprint	network-security-monitoring
 arp-scan	network-security-monitoring
-arpaname	network-basic
-arping	network-basic
+arpaname	clr-installer
+arping	clr-installer
 arptables	iptables
 arptables-nft	iptables
 arptables-nft-restore	iptables
@@ -678,7 +673,6 @@ cgdelete	devpkg-libcgroup
 cgdisk	bootloader
 cgexec	devpkg-libcgroup
 cgget	devpkg-libcgroup
-cgi-fcgi	kvm-host-dev
 cgps	gpsd
 cgrulesengd	devpkg-libcgroup
 cgset	devpkg-libcgroup
@@ -833,7 +827,7 @@ clipjoin	perl-extras
 clippy-driver	rust-basic
 cllualatex	texlive
 cloc	cloc
-clockdiff	network-basic
+clockdiff	clr-installer
 clr-avx2-move.pl	package-utils
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
@@ -1139,7 +1133,7 @@ dcraw_half	devpkg-LibRaw
 dd	os-core
 ddcmon	maker-basic
 ddd	ddd
-ddns-confgen	network-basic
+ddns-confgen	clr-installer
 de-macro	texlive
 deadline_test	dev-utils
 deallocvt	kbd
@@ -1194,7 +1188,7 @@ diff3	diffutils
 diffimg	desktop-apps
 diffoscope	diffoscope
 diffstat	package-builder
-dig	network-basic
+dig	clr-installer
 digikam	digikam
 digitaglinktree	digikam
 dijkstra	graphviz
@@ -1216,8 +1210,8 @@ distro	python-extras
 django-admin	django
 djpeg	devpkg-libjpeg-turbo
 dkms	kernel-lts2018-dkms
-dkms-new-kernel.sh	kernel-lts2018-dkms
-dkms-remove-old.sh	kernel-lts2018-dkms
+dkms-new-kernel	kernel-lts2018-dkms
+dkms-remove-old	kernel-lts2018-dkms
 dl10k1	alsa-tools
 dlltool	c-basic-mingw
 dllwrap	binutils
@@ -2005,7 +1999,7 @@ ghc-pkg	haskell-basic
 ghc-pkg-9.2.2	haskell-basic
 ghci	haskell-basic
 ghci-9.2.2	haskell-basic
-gi-docgen	sysadmin-basic-dev
+gi-docgen	php-basic-dev
 gidmigrator	desktop-kde-apps
 gids-tool	smartcard
 gie	devpkg-proj
@@ -2241,13 +2235,6 @@ groupmod	os-core
 groups	os-core
 growpart	growpart
 growpartfs	growpart
-grpc_cpp_plugin	kvm-host-dev
-grpc_csharp_plugin	kvm-host-dev
-grpc_node_plugin	kvm-host-dev
-grpc_objective_c_plugin	kvm-host-dev
-grpc_php_plugin	kvm-host-dev
-grpc_python_plugin	kvm-host-dev
-grpc_ruby_plugin	kvm-host-dev
 grpck	os-core
 grpconv	os-core
 grpunconv	os-core
@@ -2433,7 +2420,7 @@ hmaptool	devpkg-llvm
 hmaptool-11	llvm11
 hmaptool-16	devpkg-llvm
 homectl	systemd
-host	network-basic
+host	clr-installer
 hostid	os-core
 hostname	os-core
 hostnamectl	systemd
@@ -3974,7 +3961,7 @@ mdb_stat	machine-learning-basic
 mdbrebase	mono
 mdel	storage-utils
 mdeltree	storage-utils
-mdig	network-basic
+mdig	clr-installer
 mdir	storage-utils
 mdmon	storage-utils
 mdoc	mono
@@ -3996,7 +3983,7 @@ melt-7	kdenlive
 mem_image	devpkg-LibRaw
 memcached	memcached
 memdiskfind	syslinux
-memhog	sysadmin-basic
+memhog	numactl
 memkind-auto-dax-kmem-nodes	os-clr-on-clr
 memkind-hbw-nodes	os-clr-on-clr
 memprof2calltree	kcachegrind
@@ -4041,8 +4028,8 @@ mido-connect	machine-learning-basic
 mido-play	machine-learning-basic
 mido-ports	machine-learning-basic
 mido-serve	machine-learning-basic
-migratepages	sysadmin-basic
-migspeed	sysadmin-basic
+migratepages	numactl
+migspeed	numactl
 minetest	minetest
 minetestserver	minetestserver
 minfo	storage-utils
@@ -4371,8 +4358,8 @@ mysqlslap	mariadb
 mysqltest	mariadb
 mytop	mariadb
 mzip	storage-utils
-named-checkzone	network-basic
-named-compilezone	network-basic
+named-checkzone	clr-installer
+named-compilezone	clr-installer
 namei	os-core
 nameif	net-tools
 nanddump	mtd-utils
@@ -4468,7 +4455,7 @@ nim	nim
 nimble	nim
 nimgrep	nim
 nimsuggest	nim
-ninfod	network-basic
+ninfod	clr-installer
 ninja	dev-utils
 nisdomainname	net-tools
 nl	os-core
@@ -4546,17 +4533,17 @@ npx	nodejs-basic
 nroff	man-pages
 nrpe	sysadmin-remote
 nsec3dig	pdns
-nsec3hash	network-basic
+nsec3hash	clr-installer
 nsenter	os-core
 nsgmls	mail-utils-dev
 nslcd	enterprise-login
-nslookup	network-basic
+nslookup	clr-installer
 nsm	network-time-sensitive
 nspr-config	devpkg-nspr
 nss-config	devpkg-nss
 nstat	iproute2
 nstor_lsmplugin	sysadmin-remote
-nsupdate	network-basic
+nsupdate	clr-installer
 ntfs-3g	storage-utils
 ntfs-3g.probe	storage-utils
 ntfscat	storage-utils
@@ -4574,9 +4561,9 @@ ntlm_auth	samba
 ntopng	ntopng
 ntpdate	sysadmin-hostmgmt
 ntpshmmon	gpsd
-numactl	sysadmin-basic
-numademo	sysadmin-basic
-numastat	sysadmin-basic
+numactl	numactl
+numademo	numactl
+numastat	numactl
 numatop	performance-tools
 numfmt	os-core
 numlockx	x11-tools
@@ -4669,7 +4656,7 @@ ompi-clean	openmpi
 ompi-server	openmpi
 ompi_info	openmpi
 omshell	pxe-server
-onig-config	sysadmin-basic-dev
+onig-config	php-basic-dev
 onnode	samba
 onsgmls	mail-utils-dev
 ontap_lsmplugin	sysadmin-remote
@@ -4699,9 +4686,9 @@ opensm	hpc-utils
 openssl	os-core
 openvpn	network-basic
 openvt	kbd
-opj_compress	sysadmin-basic-dev
-opj_decompress	sysadmin-basic-dev
-opj_dump	sysadmin-basic-dev
+opj_compress	php-basic-dev
+opj_decompress	php-basic-dev
+opj_dump	php-basic-dev
 opl2ofm	texlive
 opt	devpkg-llvm
 opt-11	llvm11
@@ -4824,7 +4811,7 @@ paste	os-core
 pasteurize	machine-learning-basic
 pasuspender	pulseaudio
 patch	patch
-patchelf	os-core-update-dev
+patchelf	editors-dev
 patchperl	perl-extras
 patchview	dev-utils
 patchwork	graphviz
@@ -4844,9 +4831,9 @@ pcf2vpnc	NetworkManager-extras
 pcmanfm	pcmanfm
 pcprofiledump	os-core
 pcre-config	devpkg-pcre
-pcre2-config	devpkg-pcre2
-pcre2grep	devpkg-pcre2
-pcre2test	devpkg-pcre2
+pcre2-config	eid-mw
+pcre2grep	eid-mw
+pcre2test	eid-mw
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
 pcs	pcs
@@ -5009,7 +4996,7 @@ pinentry	gnupg
 pinentry-curses	gnupg
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
-ping	network-basic
+ping	clr-installer
 ping_pong	samba
 pinky	os-core
 pinns	containers-basic
@@ -5061,6 +5048,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
+plasmapkg2	os-clr-on-clr-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -5208,7 +5196,7 @@ protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 protocoltojson	kde-frameworks5
 prove	perl-basic
-proxy	devpkg-libproxy
+proxy	eid-mw
 prtstat	sysadmin-basic
 prune	graphviz
 pruneemptydirs	desktop-kde-apps
@@ -5465,7 +5453,7 @@ randpkt	wireshark
 randstat	cryptography
 ranlib	binutils
 rarp	net-tools
-rarpd	network-basic
+rarpd	clr-installer
 ratbagctl	games
 ratbagd	games
 raw-identify	devpkg-LibRaw
@@ -5493,7 +5481,7 @@ rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
 rdbg	ruby-basic
-rdisc	network-basic
+rdisc	clr-installer
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
 rdma-ndd	hpc-utils
@@ -6178,6 +6166,7 @@ source-highlight-esc.sh	dev-utils
 source-highlight-settings	dev-utils
 sox	sox
 soxi	sox
+sozip	gdal
 sp.A.x	npb
 sp.B.x	npb
 sp.C.x	npb
@@ -6400,6 +6389,7 @@ syncqt.pl	devpkg-qtbase
 synctex	texlive
 syndaemon	os-utils-gui
 synergy	synergy
+synergy-core	synergy
 synergyc	synergy
 synergys	synergy
 syntool	synergy
@@ -6590,7 +6580,6 @@ thin_repair	storage-utils
 thin_restore	storage-utils
 thin_rmap	storage-utils
 thin_trim	storage-utils
-thrift	kvm-host-dev
 thumbpdf	texlive
 thunar	xfce4-desktop
 thunar-settings	xfce4-desktop
@@ -6763,7 +6752,7 @@ trace	linux-tools
 trace-cmd	dev-utils
 trace-summary	network-monitor-node
 tracegen	qt-basic
-tracepath	network-basic
+tracepath	clr-installer
 traceroute	network-basic
 tracker3	desktop-gnomelibs
 transicc	devpkg-lcms2
@@ -7167,12 +7156,6 @@ vsyasm	yasm
 vte-2.91	desktop-dev
 vte-2.91-gtk4	desktop-dev
 vtep-ctl	openvswitch
-vtkParseJava-9.0	kvm-host-dev
-vtkProbeOpenGLVersion-9.0	kvm-host-dev
-vtkWrapHierarchy-9.0	kvm-host-dev
-vtkWrapJava-9.0	kvm-host-dev
-vtkWrapPython-9.0	kvm-host-dev
-vtkWrapPythonInit-9.0	kvm-host-dev
 vtysh	quagga
 vulkaninfo	x11-tools
 vxloader	alsa-tools
