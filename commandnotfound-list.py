@@ -56,7 +56,7 @@ def declare_binary(bundle: str, binary: str, size: int):
     if bundle in blacklist:
         size = size * 100 + 5000000
     if bundle.endswith("-dev") or bundle.startswith("devpkg-"):
-        size = size * 80 + 2000000
+        size = size * 80 + 8000000
 
     if bundle in whitelist:
         size = size / 10

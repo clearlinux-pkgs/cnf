@@ -6762,7 +6762,7 @@ tput	sysadmin-basic
 tqdm	machine-learning-basic
 tr	os-core
 trace	linux-tools
-trace-cmd	devpkg-trace-cmd
+trace-cmd	dev-utils
 trace-summary	network-monitor-node
 tracegen	qt-basic
 tracepath	network-basic
