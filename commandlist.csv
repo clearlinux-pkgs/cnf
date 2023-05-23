@@ -319,6 +319,7 @@ aws_zsh_completer.sh	cloud-api
 axel	axel
 axohelp	texlive
 b2sum	os-core
+b4	pypi-b4
 babeltrace	devpkg-compat-babeltrace-one
 babeltrace-log	devpkg-compat-babeltrace-one
 babeltrace2	devpkg-babeltrace
@@ -4396,6 +4397,7 @@ ncgen3	devpkg-netcdf
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
 ndctl	storage-utils
+ndiff	nmap
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -4513,6 +4515,7 @@ nm-applet	NetworkManager-extras
 nm-connection-editor	NetworkManager-extras
 nm-online	NetworkManager
 nmap	nmap
+nmapfe	nmap
 nmbd	samba
 nmblookup	samba
 nmcli	NetworkManager
@@ -5060,7 +5063,6 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
-plasmapkg2	os-clr-on-clr-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
@@ -6910,6 +6912,8 @@ unicode_start	kbd
 unicode_stop	kbd
 unifdef	dev-utils
 unifdefall	dev-utils
+uninstall_ndiff	nmap
+uninstall_zenmap	nmap
 uniq	os-core
 unison	unison
 unison-fsmonitor	unison
@@ -7567,6 +7571,7 @@ xmpparse	devpkg-exiv2
 xmpprint	devpkg-exiv2
 xmpsample	devpkg-exiv2
 xnec2c	amateur-radio
+xnmap	nmap
 xorrecord	xorriso
 xorriso	xorriso
 xorriso-dd-target	xorriso
@@ -7664,6 +7669,7 @@ zeek-wrapper	network-monitor-node
 zeekctl	network-monitor-node
 zegrep	gzip
 zenity	zenity
+zenmap	nmap
 zerk	gpsd
 zfgrep	gzip
 zforce	gzip
