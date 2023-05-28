@@ -1930,8 +1930,8 @@ geary	geary
 gedi	perl-extras
 gedit	gedit
 geeqie	geeqie
-gegl	devpkg-gegl
-gegl-imgcmp	devpkg-gegl
+gegl	gegl
+gegl-imgcmp	gegl
 gegps	gpsd
 gem	ruby-basic
 gen_binary_files	desktop
