@@ -831,6 +831,7 @@ clipedit	perl-extras
 clipfilter	perl-extras
 clipjoin	perl-extras
 clippy-driver	rust-basic
+cllayerinfo	devpkg-ocl-icd
 cllualatex	texlive
 cloc	cloc
 clockdiff	network-basic
@@ -2531,7 +2532,6 @@ hwmixvolume	alsa-tools
 hwstamp_ctl	network-time-sensitive
 hyperxmp-add-bytecount	texlive
 hypnotoad	perl-extras
-hypothesis	desktop-dev
 hzip	devpkg-hunspell
 i2c-stub-from-dump	maker-basic
 i2cdetect	maker-basic
@@ -5064,6 +5064,7 @@ plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde-apps
 plasma_session	desktop-kde-apps
 plasma_waitforname	desktop-kde-apps
+plasmapkg2	os-clr-on-clr-dev
 plasmashell	desktop-kde-apps
 plasmawindowed	desktop-kde-apps
 platex	texlive
