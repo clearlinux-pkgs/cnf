@@ -1473,6 +1473,7 @@ enchant-2	devpkg-enchant
 enchant-lsmod	devpkg-compat-enchant-soname1
 enchant-lsmod-2	devpkg-enchant
 encode_keychange	performance-tools
+endeavour	Endeavour
 endnote-format	perl-extras
 env	os-core
 env_parallel	parallel
@@ -2128,7 +2129,6 @@ gnome-system-monitor	gnome-system-monitor
 gnome-terminal	desktop
 gnome-text-editor	gnome-text-editor
 gnome-thumbnail-font	gnome-font-viewer
-gnome-todo	gnome-todo
 gnome-tweaks	education
 gnome-weather	gnome-weather
 gnuchess	gnome-chess
