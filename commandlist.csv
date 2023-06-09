@@ -5044,7 +5044,7 @@ pkexec	polkit
 pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
-pkgconf	c-basic
+pkgconf	python3-basic
 pkgdata	sddm
 pkill	procps-ng
 pktogf	texlive
@@ -7391,7 +7391,7 @@ x86_64-generic-linux-gcc-ranlib-9	c-extras-gcc9
 x86_64-generic-linux-gcc-ranlib7	c-extras-gcc7
 x86_64-generic-linux-gcc7	c-extras-gcc7
 x86_64-generic-linux-gfortran	c-basic
-x86_64-generic-linux-gnu-pkg-config	c-basic
+x86_64-generic-linux-gnu-pkg-config	python3-basic
 x86_64-w64-mingw32-addr2line	c-basic-mingw
 x86_64-w64-mingw32-ar	c-basic-mingw
 x86_64-w64-mingw32-as	c-basic-mingw
