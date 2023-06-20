@@ -236,7 +236,7 @@ asciidoc	dev-utils
 asciinema	productivity
 aseqdump	alsa-utils
 aseqnet	alsa-utils
-aserver	desktop-gnomelibs
+aserver	thunderbird
 asn1Coding	devpkg-libtasn1
 asn1Decoding	devpkg-libtasn1
 asn1Parser	devpkg-libtasn1
@@ -5738,6 +5738,7 @@ rust-gdb	rust-basic
 rust-gdbgui	rust-basic
 rust-lldb	rust-basic
 rustc	rust-basic
+rustdoc	rust-basic
 rustfmt	rust-basic
 rview	vim
 rvim	vim
@@ -7186,7 +7187,6 @@ vxloader	alsa-tools
 vzt2vcd	gtkwave
 vztminer	gtkwave
 w	procps-ng
-waagent	os-cloudguest-azure
 waitpid	os-core
 wall	os-core
 wasm-ld	devpkg-llvm
