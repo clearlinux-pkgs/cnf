@@ -1741,6 +1741,10 @@ forkstat	forkstat
 formail	mail-utils
 fortune	fortune-mod
 fossil	fossil
+fprintd-delete	fprintd
+fprintd-enroll	fprintd
+fprintd-list	fprintd
+fprintd-verify	fprintd
 fproduct	calc
 fragmaster	texlive
 free	procps-ng
