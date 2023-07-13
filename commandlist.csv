@@ -5243,6 +5243,9 @@ pwgen	pwgen
 pwhistory_helper	sysadmin-basic
 pwmake	devpkg-libpwquality
 pwmconfig	lm-sensors
+pwqcheck	sddm
+pwqfilter	sddm
+pwqgen	sddm
 pwscore	devpkg-libpwquality
 pwunconv	os-core
 py.test	python-extras
