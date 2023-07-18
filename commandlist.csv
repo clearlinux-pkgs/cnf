@@ -1965,6 +1965,7 @@ getkeycodes	kbd
 getmapdl	texlive
 getopt	os-core
 getpcaps	systemd
+getsubids	os-core
 gettext	c-basic
 gettext.sh	c-basic
 gettextize	c-basic
@@ -2666,6 +2667,9 @@ innochecksum	mariadb
 innoextract	sysadmin-basic
 inotifywait	inotify-tools
 inotifywatch	inotify-tools
+input-leap	input-leap
+input-leapc	input-leap
+input-leaps	input-leap
 insert_kernel_faults.sh	ltp
 insmod	sysadmin-basic
 install	os-core
@@ -6069,6 +6073,9 @@ soap2sam.pl	samtools
 soapsuds	mono
 socat	socat
 soelim	man-pages
+sof-ctl	linux-firmware-extras
+sof-logger	linux-firmware-extras
+sof-probes	linux-firmware-extras
 soffice	libreoffice
 softflowctl	softflowd
 softflowd	softflowd
@@ -6307,6 +6314,7 @@ sync	os-core
 synclient	devpkg-xf86-input-synaptics
 syncqt.pl	devpkg-qtbase
 synctex	texlive
+syncthing	syncthing
 syndaemon	devpkg-xf86-input-synaptics
 synergy	synergy
 synergy-core	synergy
@@ -7165,6 +7173,7 @@ wifi-status	byobu
 winbindd	samba
 windmc	binutils
 windres	c-basic-mingw
+wine	wine
 wine64	wine
 wine64-preloader	wine
 wineboot	wine
