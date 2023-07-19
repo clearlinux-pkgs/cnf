@@ -1790,7 +1790,7 @@ galera_recovery	mariadb
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
-gawk-5.2.1	os-core
+gawk-5.2.2	os-core
 gawkbug	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
