@@ -346,7 +346,6 @@ bbl2bib	texlive
 bbox	texlive
 bc	bc
 bcache-super-show	bcache-tools
-bcc-lua	bcc
 bcftools	samtools
 bcmserver	automotive-tools
 bcomps	graphviz
