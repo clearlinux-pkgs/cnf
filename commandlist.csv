@@ -2769,11 +2769,11 @@ isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
-iscsi-inq	devpkg-libiscsi
-iscsi-ls	devpkg-libiscsi
-iscsi-perf	devpkg-libiscsi
-iscsi-readcapacity16	devpkg-libiscsi
-iscsi-swp	devpkg-libiscsi
+iscsi-inq	sysadmin-remote
+iscsi-ls	sysadmin-remote
+iscsi-perf	sysadmin-remote
+iscsi-readcapacity16	sysadmin-remote
+iscsi-swp	sysadmin-remote
 iscsi_discovery	storage-utils
 iscsi_fw_login	storage-utils
 iscsi_offload	storage-utils
@@ -5212,6 +5212,7 @@ qt5ct	qt5ct
 qtattributionsscanner	devpkg-qttools
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
+qtel	amateur-radio
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
 qtwaylandscanner	devpkg-qtwayland
@@ -7015,6 +7016,7 @@ winbindd	samba
 windmc	binutils
 windres	c-basic-mingw
 wine	wine
+wine-preloader	wine
 wine64	wine
 wine64-preloader	wine
 wineboot	wine
