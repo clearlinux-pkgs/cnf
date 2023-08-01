@@ -3584,11 +3584,7 @@ lu.E.x	npb
 lu.S.x	npb
 lu.W.x	npb
 lua	lua-basic
-lua5.2	lua-basic
-lua5.3	lua-basic
 luac	lua-basic
-luac5.2	lua-basic
-luac5.3	lua-basic
 luacsplain	texlive
 luahbtex	texlive
 luajit	lua-basic
@@ -6946,6 +6942,7 @@ watchgnupg	gnupg
 watchquagga	quagga
 wavpack	devpkg-wavpack
 wayland-scanner	wayland-server
+waypipe	waypipe
 wbinfo	samba
 wc	os-core
 wcap-decode	weston-extras
