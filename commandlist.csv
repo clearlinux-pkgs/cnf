@@ -5682,6 +5682,8 @@ sg_read_long	sysadmin-basic-dev
 sg_readcap	sysadmin-basic-dev
 sg_reassign	sysadmin-basic-dev
 sg_referrals	sysadmin-basic-dev
+sg_rem_rest_elem	sysadmin-basic-dev
+sg_rep_density	sysadmin-basic-dev
 sg_rep_pip	sysadmin-basic-dev
 sg_rep_zones	sysadmin-basic-dev
 sg_requests	sysadmin-basic-dev
@@ -5691,6 +5693,7 @@ sg_rmsn	sysadmin-basic-dev
 sg_rtpg	sysadmin-basic-dev
 sg_safte	sysadmin-basic-dev
 sg_sanitize	sysadmin-basic-dev
+sg_sat_datetime	sysadmin-basic-dev
 sg_sat_identify	sysadmin-basic-dev
 sg_sat_phy_event	sysadmin-basic-dev
 sg_sat_read_gplog	sysadmin-basic-dev
@@ -5711,11 +5714,13 @@ sg_unmap	sysadmin-basic-dev
 sg_verify	sysadmin-basic-dev
 sg_vpd	sysadmin-basic-dev
 sg_wr_mode	sysadmin-basic-dev
+sg_write_attr	sysadmin-basic-dev
 sg_write_long	sysadmin-basic-dev
 sg_write_same	sysadmin-basic-dev
 sg_write_verify	sysadmin-basic-dev
 sg_write_x	sysadmin-basic-dev
 sg_xcopy	sysadmin-basic-dev
+sg_z_act_query	sysadmin-basic-dev
 sg_zone	sysadmin-basic-dev
 sgdisk	bootloader
 sgen	mono
