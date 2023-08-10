@@ -399,7 +399,7 @@ bluemoon	hardware-bluetooth
 bluetooth	TLP
 bluetooth-sendto	desktop
 bluetoothctl	hardware-bluetooth
-bmaptool	bmap-tools
+bmaptool	mkosi
 bmc-config	sysadmin-hostmgmt
 bmc-device	sysadmin-hostmgmt
 bmc-info	sysadmin-hostmgmt
@@ -1193,13 +1193,8 @@ docbook2txt	docbook-utils
 docfdisk	mtd-utils
 docker	cloud-control
 docker-compose	docker-compose
-docker-containerd	cloud-control
-docker-containerd-ctr	cloud-control
-docker-containerd-shim	cloud-control
 docker-init	containers-basic
 docker-proxy	cloud-control
-docker-runc	cloud-control
-docker-set-default-runtime	cloud-control
 dockerd	cloud-control
 docutils	docutils
 dolphin	dolphin
@@ -2235,6 +2230,7 @@ gtk4-launch	devpkg-gtk4
 gtk4-node-editor	devpkg-gtk4
 gtk4-print-editor	devpkg-gtk4
 gtk4-query-settings	devpkg-gtk4
+gtk4-rendernode-tool	devpkg-gtk4
 gtk4-update-icon-cache	devpkg-gtk4
 gtk4-widget-factory	devpkg-gtk4
 gtkdoc-check	devpkg-gtk-doc
@@ -3889,7 +3885,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-8.2.0	octave
+mkoctfile-8.3.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4436,11 +4432,11 @@ ocprint	devpkg-netcdf
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-8.2.0	octave
+octave-8.3.0	octave
 octave-cli	octave
-octave-cli-8.2.0	octave
+octave-cli-8.3.0	octave
 octave-config	octave
-octave-config-8.2.0	octave
+octave-config-8.3.0	octave
 od	os-core
 odvicopy	texlive
 odvitype	texlive
