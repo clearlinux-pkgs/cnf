@@ -6,6 +6,8 @@
 7za	dev-utils
 ATR_analysis	smartcard
 DllPlugInTester	devpkg-cppunit
+FileCheck	llvm
+FileCheck-16	llvm
 Fritzing	maker-electronics
 MQTTVersion	devpkg-paho-mqtt-c
 Magick++-config	ImageMagick
