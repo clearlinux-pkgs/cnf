@@ -1989,6 +1989,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glsl-compile-time	lib-opengl
+glslang	developer-gpu
 glslangValidator	developer-gpu
 glsync	lib-opengl
 gluster	storage-cluster
