@@ -1553,8 +1553,7 @@ fectest	mtd-utils
 feh	feh
 fetch_file	cloud-api
 fetchmail	mail-utils
-ffmpeg	devpkg-not-ffmpeg
-ffplay	devpkg-not-ffmpeg
+ffprobe	devpkg-not-ffmpeg
 fftw-wisdom	devpkg-fftw
 fftw-wisdom-to-conf	devpkg-fftw
 fftwf-wisdom	devpkg-fftw
