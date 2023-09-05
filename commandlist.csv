@@ -2312,6 +2312,7 @@ hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
 hatch-fancy-pypi-readme	python-extras
+hatch-jupyter-builder	python-extras
 hatchling	python-extras
 haveged	haveged
 hb-info	fonts-basic
