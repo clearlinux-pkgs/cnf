@@ -164,6 +164,7 @@ amqp-publish	devpkg-rabbitmq-c
 amstex	texlive
 amuFormat.sh	storage-utils
 anacron	cronie
+analyseplugin	kde-frameworks5-dev
 analyze	devpkg-hunspell
 analyze-build	llvm
 analyze-build-16	llvm
@@ -183,6 +184,8 @@ ansible-test	ansible
 ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
+aomdec	kde-frameworks5-dev
+aomenc	kde-frameworks5-dev
 apachectl	httpd
 aplay	alsa-utils
 aplaymidi	alsa-utils
@@ -190,6 +193,7 @@ append2simg	storage-utils
 appletviewer	java-basic
 applygeo	R-extras-dev
 applygnupgdefaults	gnupg
+applyplugin	kde-frameworks5-dev
 appserver	amateur-radio
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
@@ -436,7 +440,7 @@ broctl	network-monitor-node
 broker-benchmark	network-monitor-node
 broker-cluster-benchmark	network-monitor-node
 brotli	devpkg-brotli
-bscalc	devpkg-libbytesize
+bscalc	blivet-gui
 bsdcat	libarchive
 bsdcpio	libarchive
 bsdiff	mixer
@@ -1078,7 +1082,6 @@ deadline_test	dev-utils
 deallocvt	kbd
 debugedit	package-utils
 debugfs	os-cloudguest-equinix
-debugviewer	openqa
 decode-dimms	maker-basic
 decode-edid	maker-basic
 decode-vaio	maker-basic
@@ -1376,7 +1379,7 @@ efivar	devpkg-efivar
 egk-tool	smartcard
 eglinfo	lib-opengl
 egrep	os-core
-ei-debug-events	desktop-dev
+ei-debug-events	kde-frameworks5-dev
 eid-viewer	eid-mw
 eidenv	smartcard
 eject	os-core
@@ -2792,7 +2795,6 @@ iso-read	asunder
 isohybrid	syslinux
 isosize	os-core
 isotest	hardware-bluetooth
-isotovideo	openqa
 isotpdump	automotive-tools
 isotpperf	automotive-tools
 isotprecv	automotive-tools
@@ -3302,6 +3304,7 @@ list_instances	cloud-api
 listbib	texlive
 listgeo	R-extras-dev
 listings-ext.sh	texlive
+listplugins	kde-frameworks5-dev
 lkbib	man-pages
 ll2utm	amateur-radio
 llc	llvm
@@ -3984,7 +3987,6 @@ motd-update.sh	sysadmin-basic
 mount	os-core
 mount.cifs	storage-utils
 mount.efs	cloud-api
-mount.fuse.sshfs	sshfs
 mount.fuse3	fuse
 mount.glusterfs	storage-cluster
 mount.lowntfs-3g	storage-utils
@@ -3993,7 +3995,6 @@ mount.nfs4	nfs-utils
 mount.ntfs	storage-utils
 mount.ntfs-3g	storage-utils
 mount.smb3	storage-utils
-mount.sshfs	sshfs
 mount.ubifs	mtd-utils
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
@@ -4251,6 +4252,7 @@ ngettext	c-basic
 nginx	nginx
 nginx-mainline	nginx-mainline
 nginx-module	kvm-host-dev
+nhlt-dmic-info	alsa-utils
 nhrpd	quagga
 nice	os-core
 niceload	parallel
@@ -4478,6 +4480,7 @@ opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	os-clr-on-clr-dev
+openmpt123	kde-frameworks5-dev
 openpgp-tool	smartcard
 opensc-asn1	smartcard
 opensc-explorer	smartcard
@@ -5111,6 +5114,7 @@ pwscore	devpkg-libpwquality
 pwunconv	os-core
 py.test	python-extras
 pyami_sendmail	cloud-api
+pyaml	desktop-dev
 pybabel	Babel
 pybind11-config	desktop-dev
 pycodestyle	python3-basic
@@ -5875,7 +5879,6 @@ smpdump	hpc-utils
 smpquery	hpc-utils
 sn	mono
 snap_scheduler.py	storage-cluster
-snd2png	openqa
 sndfile-cmp	transcoding-support
 sndfile-concat	transcoding-support
 sndfile-convert	transcoding-support
@@ -6011,6 +6014,10 @@ sreport	cluster-tools
 srp_daemon	hpc-utils
 srp_daemon.sh	hpc-utils
 srptool	cryptography
+srt-ffplay	kde-frameworks5-dev
+srt-file-transmit	kde-frameworks5-dev
+srt-live-transmit	kde-frameworks5-dev
+srt-tunnel	kde-frameworks5-dev
 srun	cluster-tools
 ss	iproute2
 sscape_ctl	alsa-tools
@@ -6024,7 +6031,6 @@ ssh-keygen	sysadmin-basic
 ssh-keyscan	sysadmin-basic
 sshare	cluster-tools
 sshd	openssh-server
-sshfs	sshfs
 sshpass	ansible
 sshuttle	sshuttle
 ssltap	cryptography
@@ -7100,6 +7106,8 @@ x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
 x11vnc	x11vnc
+x264	kde-frameworks5-dev
+x265	kde-frameworks5-dev
 x86_64	os-core
 x86_64-generic-linux-c++	c-basic
 x86_64-generic-linux-c++-10	c-extras-gcc10
