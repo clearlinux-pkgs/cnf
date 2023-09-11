@@ -164,7 +164,7 @@ amqp-publish	devpkg-rabbitmq-c
 amstex	texlive
 amuFormat.sh	storage-utils
 anacron	cronie
-analyseplugin	kde-frameworks5-dev
+analyseplugin	desktop-dev
 analyze	devpkg-hunspell
 analyze-build	llvm
 analyze-build-16	llvm
@@ -184,8 +184,8 @@ ansible-test	ansible
 ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
-aomdec	kde-frameworks5-dev
-aomenc	kde-frameworks5-dev
+aomdec	desktop-dev
+aomenc	desktop-dev
 apachectl	httpd
 aplay	alsa-utils
 aplaymidi	alsa-utils
@@ -193,7 +193,7 @@ append2simg	storage-utils
 appletviewer	java-basic
 applygeo	R-extras-dev
 applygnupgdefaults	gnupg
-applyplugin	kde-frameworks5-dev
+applyplugin	desktop-dev
 appserver	amateur-radio
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
@@ -800,7 +800,7 @@ clr-network-troubleshooter	clr-network-troubleshooter
 clr-python-avx2	package-utils
 clr-python-avx512	package-utils
 clr-python-timestamp	package-utils
-clr-pyversion-strip	buildreq-spark
+clr-pyversion-strip	python3-basic
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	gdb
@@ -1379,7 +1379,7 @@ efivar	devpkg-efivar
 egk-tool	smartcard
 eglinfo	lib-opengl
 egrep	os-core
-ei-debug-events	kde-frameworks5-dev
+ei-debug-events	desktop-dev
 eid-viewer	eid-mw
 eidenv	smartcard
 eject	os-core
@@ -3304,7 +3304,7 @@ list_instances	cloud-api
 listbib	texlive
 listgeo	R-extras-dev
 listings-ext.sh	texlive
-listplugins	kde-frameworks5-dev
+listplugins	desktop-dev
 lkbib	man-pages
 ll2utm	amateur-radio
 llc	llvm
@@ -3419,8 +3419,6 @@ llvm-objdump	llvm
 llvm-objdump-16	llvm
 llvm-omp-device-info	llvm
 llvm-omp-device-info-16	llvm
-llvm-omp-kernel-replay	llvm
-llvm-omp-kernel-replay-16	llvm
 llvm-opt-report	llvm
 llvm-opt-report-16	llvm
 llvm-otool	llvm
@@ -4480,7 +4478,7 @@ opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	os-clr-on-clr-dev
-openmpt123	kde-frameworks5-dev
+openmpt123	desktop-dev
 openpgp-tool	smartcard
 opensc-asn1	smartcard
 opensc-explorer	smartcard
@@ -6014,10 +6012,10 @@ sreport	cluster-tools
 srp_daemon	hpc-utils
 srp_daemon.sh	hpc-utils
 srptool	cryptography
-srt-ffplay	kde-frameworks5-dev
-srt-file-transmit	kde-frameworks5-dev
-srt-live-transmit	kde-frameworks5-dev
-srt-tunnel	kde-frameworks5-dev
+srt-ffplay	desktop-dev
+srt-file-transmit	desktop-dev
+srt-live-transmit	desktop-dev
+srt-tunnel	desktop-dev
 srun	cluster-tools
 ss	iproute2
 sscape_ctl	alsa-tools
@@ -7106,8 +7104,8 @@ x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
 x11vnc	x11vnc
-x264	kde-frameworks5-dev
-x265	kde-frameworks5-dev
+x264	desktop-dev
+x265	desktop-dev
 x86_64	os-core
 x86_64-generic-linux-c++	c-basic
 x86_64-generic-linux-c++-10	c-extras-gcc10
