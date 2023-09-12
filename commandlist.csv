@@ -2806,7 +2806,7 @@ ispdb	desktop-kde-apps
 ispellaff2myspell	devpkg-hunspell
 isutf8	moreutils
 isympy	python-data-science
-itstool	editors-dev
+itstool	cryptoprocessor-management-dev
 iv	blender
 ivtv-ctl	v4l-utils
 iw	network-basic
@@ -4607,7 +4607,7 @@ paste	os-core
 pasteurize	machine-learning-basic
 pasuspender	pulseaudio
 patch	patch
-patchelf	editors-dev
+patchelf	os-core-update-dev
 patchperl	perl-extras
 patchview	dev-utils
 patchwork	graphviz
