@@ -1532,8 +1532,6 @@ fancontrol	lm-sensors
 faqpods	perl-extras
 fasta-sanitize.pl	samtools
 fatlabel	dosfstools
-fax2ps	devpkg-tiff
-fax2tiff	devpkg-tiff
 fc-cache	fonts-basic
 fc-cat	fonts-basic
 fc-conflist	fonts-basic
@@ -2928,6 +2926,7 @@ kapman	desktop-kde-games
 kapplymousetheme	desktop-kde
 kapptemplate	desktop-kde-apps
 kate	kate
+kate-syntax-highlighter	os-clr-on-clr-dev
 katomic	desktop-kde-games
 kbackup	kbackup
 kbd_mode	kbd
@@ -4575,7 +4574,6 @@ pacrunner	os-core-webproxy
 pactl	pulseaudio
 padsp	pulseaudio
 pahole	dev-utils
-pal2rgb	devpkg-tiff
 palapeli	desktop-kde-games
 pam_namespace_helper	sysadmin-basic
 pam_timestamp_check	sysadmin-basic
@@ -4953,7 +4951,6 @@ ppdmerge	hardware-printing
 ppdpo	hardware-printing
 pphs	ghostscript
 ppltotf	texlive
-ppm2tiff	devpkg-tiff
 pppd	NetworkManager
 pppdump	NetworkManager
 pppoe-discovery	NetworkManager
@@ -5241,7 +5238,6 @@ rarp	net-tools
 ratbagctl	games
 ratbagd	games
 raw-identify	devpkg-LibRaw
-raw2tiff	devpkg-tiff
 raw_ethernet_burst_lat	hpc-utils
 raw_ethernet_bw	hpc-utils
 raw_ethernet_fs_rate	hpc-utils
@@ -6364,17 +6360,9 @@ thunderbird	thunderbird
 tic	sysadmin-basic
 tidy_changelog	perl-extras
 tie	texlive
-tiff2bw	devpkg-tiff
-tiff2pdf	devpkg-tiff
-tiff2ps	devpkg-tiff
-tiff2rgba	devpkg-tiff
-tiffcmp	devpkg-tiff
 tiffcp	devpkg-tiff
-tiffcrop	devpkg-tiff
-tiffdither	devpkg-tiff
 tiffdump	devpkg-tiff
 tiffinfo	devpkg-tiff
-tiffmedian	devpkg-tiff
 tiffset	devpkg-tiff
 tiffsplit	devpkg-tiff
 tificc	devpkg-lcms2
