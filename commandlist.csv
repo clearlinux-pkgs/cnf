@@ -1692,6 +1692,7 @@ fsck.vfat	dosfstools
 fsck.xfs	xfsprogs
 fsearch	fsearch
 fsfreeze	os-core
+fsidd	nfs-utils
 fst2vcd	gtkwave
 fst4sim	amateur-radio
 fstminer	gtkwave
@@ -3416,8 +3417,6 @@ llvm-objcopy	llvm
 llvm-objcopy-16	llvm
 llvm-objdump	llvm
 llvm-objdump-16	llvm
-llvm-omp-device-info	llvm
-llvm-omp-device-info-16	llvm
 llvm-opt-report	llvm
 llvm-opt-report-16	llvm
 llvm-otool	llvm
@@ -3692,8 +3691,8 @@ map	perl-extras
 mapscrn	kbd
 maq2sam-long	samtools
 maq2sam-short	samtools
-marble	digikam
-marble-qt	digikam
+marble	education-tertiary
+marble-qt	education-tertiary
 marcdump	perl-extras
 mariabackup	mariadb
 mariadb	mariadb
