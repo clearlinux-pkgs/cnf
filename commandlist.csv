@@ -1441,7 +1441,6 @@ es2gears_wayland	lib-opengl
 escapesrc	sddm
 escputil	hardware-printing
 escript	rabbitmq-server
-esdcompat	pulseaudio
 espdiff	dev-utils
 etags	editors
 etex	texlive
@@ -2771,11 +2770,11 @@ isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
-iscsi-inq	sysadmin-remote
-iscsi-ls	sysadmin-remote
-iscsi-perf	sysadmin-remote
-iscsi-readcapacity16	sysadmin-remote
-iscsi-swp	sysadmin-remote
+iscsi-inq	devpkg-libiscsi
+iscsi-ls	devpkg-libiscsi
+iscsi-perf	devpkg-libiscsi
+iscsi-readcapacity16	devpkg-libiscsi
+iscsi-swp	devpkg-libiscsi
 iscsi_discovery	storage-utils
 iscsi_fw_login	storage-utils
 iscsi_offload	storage-utils
@@ -4562,13 +4561,11 @@ oxygen-settings5	desktop-kde-apps
 p11-kit	os-core
 p11-trust	os-core
 p11tool	cryptography
-pa-info	pulseaudio
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
 pack200	java-basic
 package-stash-conflicts	perl-basic
 package_crystalsvg	desktop-kde-apps
-pacmd	pulseaudio
 pacrunner	os-core-webproxy
 pactl	pulseaudio
 padsp	pulseaudio
@@ -4602,7 +4599,6 @@ passmass	tcl-basic
 passwd	os-core
 paste	os-core
 pasteurize	machine-learning-basic
-pasuspender	pulseaudio
 patch	patch
 patchelf	os-core-update-dev
 patchperl	perl-extras
@@ -4611,7 +4607,6 @@ patchwork	graphviz
 patgen	texlive
 pathchk	os-core
 pavucontrol	desktop-apps
-pax11publish	pulseaudio
 pbibtex	texlive
 pbr	python-extras
 pbunzip2	os-testsuite-phoronix-desktop
@@ -5050,7 +5045,6 @@ ptksh	perl-extras
 ptp4l	network-time-sensitive
 ptsematest	dev-utils
 ptx	os-core
-pulseaudio	pulseaudio
 purge	squid
 purge-old-kernels	byobu
 purifyeps	texlive
@@ -5194,7 +5188,6 @@ qmlscene	qt-basic
 qmltestrunner	devpkg-qtdeclarative
 qmltime	qt-basic
 qmltyperegistrar	qt-basic
-qpaeq	pulseaudio
 qpdf	devpkg-qpdf
 qphotorec	testdisk
 qrencode	devpkg-qrencode
@@ -6046,7 +6039,6 @@ sssd	enterprise-login
 sst_dump	mariadb
 sstat	cluster-tools
 stacer	stacer
-start-pulseaudio-x11	pulseaudio
 start-statd	nfs-utils
 startplasma-wayland	desktop-kde-apps
 startplasma-x11	desktop-kde-apps
