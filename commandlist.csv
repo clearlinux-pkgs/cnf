@@ -2898,7 +2898,6 @@ jupyter-labextension	jupyter
 jupyter-labhub	jupyter
 jupyter-migrate	jupyter
 jupyter-nbconvert	jupyter
-jupyter-nbgallery	jupyter
 jupyter-notebook	jupyter
 jupyter-qtconsole	jupyter
 jupyter-run	jupyter
