@@ -572,6 +572,7 @@ capnpc	rr
 capnpc-c++	rr
 capnpc-capnp	rr
 capsh	systemd
+capslock	kde-frameworks5-dev
 capstats	network-monitor-node
 captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
@@ -2849,7 +2850,6 @@ jimage	java-basic
 jinfo	java-basic
 jjs	java-basic
 jlink	java-basic
-jlpm	jupyter
 jmacs	joe
 jmap	java-basic
 jmod	java-basic
@@ -2867,6 +2867,8 @@ jq	jq
 jrunscript	java-basic
 js102	devpkg-mozjs102
 js102-config	devpkg-mozjs102
+js115	devpkg-gjs
+js115-config	devpkg-gjs
 js8	amateur-radio
 js8call	amateur-radio
 js91	devpkg-mozjs91
@@ -2879,7 +2881,6 @@ json_pp	perl-basic
 json_reformat	devpkg-yajl
 json_verify	devpkg-yajl
 json_xs	perl-extras
-jsonschema	machine-learning-web-ui
 jstack	java-basic
 jstar	joe
 jstat	java-basic
@@ -2888,21 +2889,6 @@ jt4code	amateur-radio
 jt65code	amateur-radio
 jt9	amateur-radio
 jt9code	amateur-radio
-jupyter	jupyter
-jupyter-console	jupyter
-jupyter-dejavu	jupyter
-jupyter-kernel	jupyter
-jupyter-kernelspec	jupyter
-jupyter-lab	jupyter
-jupyter-labextension	jupyter
-jupyter-labhub	jupyter
-jupyter-migrate	jupyter
-jupyter-nbconvert	jupyter
-jupyter-notebook	jupyter
-jupyter-qtconsole	jupyter
-jupyter-run	jupyter
-jupyter-troubleshoot	jupyter
-jupyter-trust	jupyter
 jw	docbook-utils
 k5srvutil	enterprise-login
 kaccess	desktop-kde
@@ -5789,12 +5775,6 @@ simpleplayer	desktop-apps
 simplescreenrecorder	simplescreenrecorder
 simplesearch	devpkg-xapian-core
 sinfo	cluster-tools
-sip-build	machine-learning-web-ui
-sip-distinfo	machine-learning-web-ui
-sip-install	machine-learning-web-ui
-sip-module	machine-learning-web-ui
-sip-sdist	machine-learning-web-ui
-sip-wheel	machine-learning-web-ui
 sitepods	perl-extras
 size	binutils
 sjisconv	texlive
