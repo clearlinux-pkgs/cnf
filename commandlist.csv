@@ -1516,8 +1516,6 @@ f2fs_io	storage-utils
 f2fscrypt	storage-utils
 f2fslabel	storage-utils
 f2py	pypi-numpy
-f2py3	pypi-numpy
-f2py3.11	pypi-numpy
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
