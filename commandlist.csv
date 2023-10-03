@@ -1119,6 +1119,7 @@ dhcp_release	dhcp-server
 dhcp_release6	dhcp-server
 dhcpd	pxe-server
 dhcrelay	pxe-server
+di-edid-decode	desktop-dev
 diadia	texlive
 diagtool	llvm
 diagtool-16	llvm
@@ -2865,8 +2866,8 @@ jq	jq
 jrunscript	java-basic
 js102	devpkg-mozjs102
 js102-config	devpkg-mozjs102
-js115	devpkg-gjs
-js115-config	devpkg-gjs
+js115	devpkg-mozjs115
+js115-config	devpkg-mozjs115
 js8	amateur-radio
 js8call	amateur-radio
 js91	devpkg-mozjs91
@@ -5892,6 +5893,8 @@ solaar	Solaar-gui
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
 sort	os-core
+sos	cockpit
+sos-collector	cockpit
 sosreport	cockpit
 sotruss	os-core
 soundmodem	amateur-radio
@@ -6235,6 +6238,7 @@ tdbdump	devpkg-tdb
 tdbrestore	devpkg-tdb
 tdbtool	devpkg-tdb
 teckit_compile	texlive
+tecla	desktop-dev
 tee	os-core
 telem-balloon.pl	amateur-radio
 telem-bits.pl	amateur-radio
