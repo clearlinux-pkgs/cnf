@@ -1427,7 +1427,6 @@ epspdf	texlive
 epspdftk	texlive
 epstopdf	texlive
 eptex	texlive
-epylint	python-extras
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
