@@ -1053,8 +1053,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -6615,9 +6615,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	desktop-dev
-umockdev-run	desktop-dev
-umockdev-wrapper	desktop-dev
+umockdev-record	qt-basic-dev
+umockdev-run	qt-basic-dev
+umockdev-wrapper	qt-basic-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -7266,7 +7266,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	os-clr-on-clr
+xml	qt-basic-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7283,7 +7283,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	os-clr-on-clr
+xmlstarlet	qt-basic-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
