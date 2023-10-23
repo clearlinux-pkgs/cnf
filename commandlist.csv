@@ -158,7 +158,7 @@ amqp-publish	devpkg-rabbitmq-c
 amstex	texlive
 amuFormat.sh	storage-utils
 anacron	cronie
-analyseplugin	desktop-dev
+analyseplugin	kde-frameworks5-dev
 analyze	devpkg-hunspell
 analyze-build	llvm
 analyze-build-16	llvm
@@ -178,8 +178,8 @@ ansible-test	ansible
 ansible-vault	ansible
 ant	java-basic
 antRun	java-basic
-aomdec	desktop-dev
-aomenc	desktop-dev
+aomdec	kde-frameworks5-dev
+aomenc	kde-frameworks5-dev
 apachectl	httpd
 aplay	alsa-utils
 aplaymidi	alsa-utils
@@ -187,7 +187,7 @@ append2simg	storage-utils
 appletviewer	java-basic
 applygeo	R-extras-dev
 applygnupgdefaults	gnupg
-applyplugin	desktop-dev
+applyplugin	kde-frameworks5-dev
 appserver	amateur-radio
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
@@ -556,7 +556,7 @@ capnpc	rr
 capnpc-c++	rr
 capnpc-capnp	rr
 capsh	systemd
-capslock	kde-frameworks5-dev
+capslock	containers-basic-dev
 captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
 captype	wireshark
@@ -1032,8 +1032,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	qt-basic-dev
-dbus-broker-launch	qt-basic-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1098,7 +1098,7 @@ dhcp_release	dhcp-server
 dhcp_release6	dhcp-server
 dhcpd	pxe-server
 dhcrelay	pxe-server
-di-edid-decode	desktop-dev
+di-edid-decode	kde-frameworks5-dev
 diadia	texlive
 diagtool	llvm
 diagtool-16	llvm
@@ -1364,7 +1364,7 @@ eglkms	lib-opengl
 egltri_wayland	lib-opengl
 egltri_x11	lib-opengl
 egrep	os-core
-ei-debug-events	desktop-dev
+ei-debug-events	kde-frameworks5-dev
 eid-viewer	eid-mw
 eidenv	smartcard
 eject	os-core
@@ -1620,8 +1620,8 @@ flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
 flrig	amateur-radio
-fltk-config	desktop-dev
-fluid	desktop-dev
+fltk-config	containers-basic-dev
+fluid	containers-basic-dev
 fluidsynth	fluidsynth
 fm_cmd	hpc-utils
 fm_cmdall	hpc-utils
@@ -3247,7 +3247,7 @@ linux64	os-core
 listbib	texlive
 listgeo	R-extras-dev
 listings-ext.sh	texlive
-listplugins	desktop-dev
+listplugins	kde-frameworks5-dev
 lkbib	man-pages
 ll2utm	amateur-radio
 llc	llvm
@@ -3626,6 +3626,7 @@ mako-render	containers-basic-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
+mandoc	os-core-update-dev
 manifest	byobu
 manpath	man-pages
 map	perl-extras
@@ -4256,8 +4257,6 @@ noncvslist	desktop-kde-apps
 nonsvnlist	desktop-kde-apps
 nop	graphviz
 nopaste	perl-basic
-nosetests	python-extras
-nosetests-3	python-extras
 notepad	wine
 notify-send	devpkg-libnotify
 notmuch	notmuch
@@ -4408,7 +4407,7 @@ opencv_model_diagnostics	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	os-clr-on-clr-dev
-openmpt123	desktop-dev
+openmpt123	kde-frameworks5-dev
 openpgp-tool	smartcard
 opensc-asn1	smartcard
 opensc-explorer	smartcard
@@ -5268,6 +5267,10 @@ rigtestlibusb	amateur-radio
 riostream	hpc-utils
 ripd	quagga
 ripngd	quagga
+rist2rist	kde-frameworks5-dev
+ristreceiver	kde-frameworks5-dev
+ristsender	kde-frameworks5-dev
+ristsrppasswd	kde-frameworks5-dev
 rjoe	joe
 rlogin-cwd	tcl-basic
 rlwrap	rlwrap
@@ -5915,10 +5918,10 @@ sreport	cluster-tools
 srp_daemon	hpc-utils
 srp_daemon.sh	hpc-utils
 srptool	cryptography
-srt-ffplay	desktop-dev
-srt-file-transmit	desktop-dev
-srt-live-transmit	desktop-dev
-srt-tunnel	desktop-dev
+srt-ffplay	kde-frameworks5-dev
+srt-file-transmit	kde-frameworks5-dev
+srt-live-transmit	kde-frameworks5-dev
+srt-tunnel	kde-frameworks5-dev
 srun	cluster-tools
 ss	iproute2
 sscape_ctl	alsa-tools
@@ -6546,9 +6549,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	qt-basic-dev
-umockdev-run	qt-basic-dev
-umockdev-wrapper	qt-basic-dev
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -6981,8 +6984,8 @@ x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
 x11vnc	x11vnc
-x264	desktop-dev
-x265	desktop-dev
+x264	kde-frameworks5-dev
+x265	kde-frameworks5-dev
 x86_64	os-core
 x86_64-generic-linux-c++	c-basic
 x86_64-generic-linux-c++-10	c-extras-gcc10
@@ -7186,7 +7189,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	qt-basic-dev
+xml	kde-frameworks5-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7203,7 +7206,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	qt-basic-dev
+xmlstarlet	kde-frameworks5-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
@@ -7291,7 +7294,7 @@ ypdomainname	net-tools
 yplan	texlive
 yq	yq
 ytasm	yasm
-z3	go-basic-dev
+z3	desktop-dev
 zabbix_agentd	zabbix-agent
 zabbix_get	zabbix
 zabbix_js	zabbix
