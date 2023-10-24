@@ -2176,7 +2176,6 @@ gst-stats-1.0	gstreamer
 gst-tester-1.0	gstreamer
 gst-transcoder-1.0	gstreamer
 gst-typefind-1.0	gstreamer
-gsutil	os-cloudguest-gce
 gsx	ghostscript
 gtags	global
 gtags-cscope	global
@@ -2503,6 +2502,7 @@ icerun	icecream
 icon-cache-update.sh	maker-cnc
 iconv	os-core
 iconvconfig	os-core
+iconvert	devpkg-oiio
 icu-config	sddm
 icuexportdata	sddm
 icuinfo	sddm
@@ -2510,6 +2510,7 @@ icupkg	sddm
 id	os-core
 identify	ImageMagick
 idiag-socket-details	libnl
+idiff	devpkg-oiio
 idl2wrs	wireshark
 idle3	python3-tcl
 idle3.12	python3-tcl
@@ -2526,12 +2527,14 @@ ifnames213	c-basic-legacy
 ifne	moreutils
 ifstat	iproute2
 iftop	iftop
+igrep	devpkg-oiio
 igt_comms_decoder	igt-gpu-tools
 igt_results	igt-gpu-tools
 igt_resume	igt-gpu-tools
 igt_runner	igt-gpu-tools
 igt_stats	igt-gpu-tools
 igzip	devpkg-isa-l
+iinfo	devpkg-oiio
 ikdasm	mono
 ikhal	productivity
 ilasm	mono
@@ -2771,6 +2774,7 @@ ispellaff2myspell	devpkg-hunspell
 isutf8	moreutils
 isympy	python-data-science
 itstool	editors-dev
+iv	devpkg-oiio
 ivtv-ctl	v4l-utils
 iw	network-basic
 iwctl	iwd
@@ -3622,6 +3626,7 @@ makeinfo	texinfo
 makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
+maketx	devpkg-oiio
 mako-render	containers-basic-dev
 man	man-pages
 man-recode	man-pages
@@ -4382,6 +4387,7 @@ ogrlineref	gdal
 ogrmerge.py	gdal
 ogrtindex	gdal
 oid2name	postgresql
+oiiotool	devpkg-oiio
 okteta	okteta
 okular	okular
 omfonts	texlive
@@ -6201,6 +6207,7 @@ testparm	samba
 testpattern	hardware-printing
 testsaslauthd	devpkg-cyrus-sasl
 testsolv	devpkg-libsolv
+testtex	devpkg-oiio
 tex	texlive
 tex2aspc	texlive
 tex2lyx	LyX
