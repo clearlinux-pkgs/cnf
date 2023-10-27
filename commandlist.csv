@@ -942,7 +942,6 @@ csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
 cstool	capstone
-csv2cve	cve-bin-tool
 ct_run	rabbitmq-server
 ctags	editors
 ctail	byobu
@@ -981,7 +980,6 @@ curve_keygen	libzmq
 cut	os-core
 cvc-create	smartcard
 cvc-print	smartcard
-cve-bin-tool	cve-bin-tool
 cvlc	vlc
 cvs-clean	desktop-kde-apps
 cvsaddcurrentdir	desktop-kde-apps
