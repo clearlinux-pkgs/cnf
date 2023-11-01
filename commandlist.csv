@@ -65,7 +65,6 @@ add.modules	modules
 adddebug	desktop-kde-apps
 addftinfo	man-pages
 addgnupghome	gnupg
-addmoddel	devpkg-exiv2
 addpart	os-core
 addr2line	binutils
 adhocfilelist	texlive
@@ -1094,8 +1093,6 @@ dfu-util	dfu-util
 dhcp_lease_time	dhcp-server
 dhcp_release	dhcp-server
 dhcp_release6	dhcp-server
-dhcpd	pxe-server
-dhcrelay	pxe-server
 di-edid-decode	kde-frameworks5-dev
 diadia	texlive
 diagtool	llvm
@@ -1460,12 +1457,7 @@ execltp	ltp
 exfatattrib	storage-utils
 exfatfsck	storage-utils
 exfatlabel	storage-utils
-exifcomment	devpkg-exiv2
-exifdata	devpkg-exiv2
-exifprint	devpkg-exiv2
-exifvalue	devpkg-exiv2
 exiv2	devpkg-exiv2
-exiv2json	devpkg-exiv2
 exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
 expand	os-core
@@ -1872,7 +1864,6 @@ genxs	mono
 geod	devpkg-proj
 geos-config	devpkg-geos
 geosop	devpkg-geos
-geotag	devpkg-exiv2
 geotifcp	R-extras-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
@@ -2098,6 +2089,7 @@ gpsprof	gpsd
 gpsrinex	gpsd
 gpssnmp	gpsd
 gpssubframe	gpsd
+gputop	igt-gpu-tools
 gpxlogger	gpsd
 gr2fonttest	devpkg-graphite
 gradio	Gradio
@@ -2587,6 +2579,7 @@ instmodsh	perl-basic
 integritysetup	boot-encrypted
 intel-gen4asm	igt-gpu-tools
 intel-gen4disasm	igt-gpu-tools
+intel-gfx-fw-info	igt-gpu-tools
 intel-speed-select	linux-tools
 intel_audio_dump	igt-gpu-tools
 intel_backlight	igt-gpu-tools
@@ -2712,8 +2705,6 @@ iptables-restore-translate	iptables
 iptables-save	iptables
 iptables-translate	iptables
 iptables-xml	iptables
-iptceasy	devpkg-exiv2
-iptcprint	devpkg-exiv2
 iptraf	network-basic
 iptraf-ng	network-basic
 ipvsadm	ipvsadm
@@ -3754,7 +3745,6 @@ message_aggregator	amateur-radio
 metacity	desktop
 metacity-message	desktop
 metacity-theme-viewer	desktop
-metacopy	devpkg-exiv2
 metaflac	flac
 mev	sysadmin-basic
 mex	texlive
@@ -3969,7 +3959,6 @@ mptopdf	texlive
 mpv	mpv
 mrd	storage-utils
 mren	storage-utils
-mrwthumb	devpkg-exiv2
 ms_print	valgrind
 mscore	MuseScore
 msgattrib	c-basic
@@ -4394,7 +4383,6 @@ omfonts	texlive
 ompi-clean	openmpi
 ompi-server	openmpi
 ompi_info	openmpi
-omshell	pxe-server
 onig-config	devpkg-onig
 onnode	samba
 onsgmls	mail-utils-dev
@@ -4707,6 +4695,7 @@ piconv	perl-basic
 pidgin	pidgin
 pidof	procps-ng
 pidstat	sysstat
+pidwait	procps-ng
 piforever	calc
 pigz	sysadmin-basic
 pimd	quagga
@@ -5022,7 +5011,6 @@ pw-record	audio-pipewire
 pw-reserve	audio-pipewire
 pw-top	audio-pipewire
 pw-v4l2	audio-pipewire
-pwait	procps-ng
 pwck	os-core
 pwconv	os-core
 pwd	os-core
@@ -6137,7 +6125,6 @@ tabs	sysadmin-basic
 tabulate	python-extras
 tac	os-core
 taglib-config	devpkg-taglib
-taglist	devpkg-exiv2
 tail	os-core
 tallow	openssh-server
 tangle	texlive
@@ -7105,6 +7092,7 @@ xdpyinfo	x11-tools
 xdt-autogen	xfce4-desktop
 xdt-csource	xfce4-desktop
 xdvipdfmx	texlive
+xe_reg	igt-gpu-tools
 xeglgears	lib-opengl
 xeglthreads	lib-opengl
 xelatex	texlive
@@ -7218,10 +7206,6 @@ xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
-xmpdump	devpkg-exiv2
-xmpparse	devpkg-exiv2
-xmpprint	devpkg-exiv2
-xmpsample	devpkg-exiv2
 xnec2c	amateur-radio
 xnmap	nmap
 xorrecord	xorriso
