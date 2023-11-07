@@ -4025,6 +4025,7 @@ mtp-tracks	devpkg-libmtp
 mtp-trexist	devpkg-libmtp
 mtr	mtr
 mtr-packet	mtr
+mtrace-reader.py	linux-firmware-extras
 mtxrun	texlive
 mtxrunjit	texlive
 mtype	storage-utils
