@@ -3824,7 +3824,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-8.3.0	octave
+mkoctfile-8.4.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4043,6 +4043,7 @@ mumble-server-user-wrapper	mumble-server
 munch	devpkg-hunspell
 munge	cluster-tools
 munged	cluster-tools
+mungekey	cluster-tools
 musescore	MuseScore
 musixflx	texlive
 musixtex	texlive
@@ -4361,11 +4362,11 @@ ocprint	devpkg-netcdf
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-8.3.0	octave
+octave-8.4.0	octave
 octave-cli	octave
-octave-cli-8.3.0	octave
+octave-cli-8.4.0	octave
 octave-config	octave
-octave-config-8.3.0	octave
+octave-config-8.4.0	octave
 od	os-core
 odvicopy	texlive
 odvitype	texlive
@@ -6626,7 +6627,6 @@ usb_modeswitch	NetworkManager-extras
 usb_modeswitch_dispatcher	NetworkManager-extras
 usbhid-dump	sysadmin-basic
 usbredirect	devpkg-usbredir
-usbredirserver	devpkg-usbredir
 use-devel-assertos	perl-extras
 use-devel-checklib	perl-extras
 useradd	os-core
