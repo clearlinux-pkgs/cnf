@@ -349,7 +349,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1029,8 +1029,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -3624,7 +3624,7 @@ mako-render	containers-basic-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
-mandoc	os-core-update-dev
+mandoc	cryptoprocessor-management-dev
 manifest	byobu
 manpath	man-pages
 map	perl-extras
@@ -4307,6 +4307,7 @@ numlockx	x11-tools
 nunit-console	mono
 nunit-console2	mono
 nunit-console4	mono
+nut-scanner	nut
 nvim	neovim
 nvlc	vlc
 nvme	storage-utils
@@ -5167,6 +5168,7 @@ rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
 rdbg	ruby-basic
+rdfind	games-dev
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
 rdma-ndd	hpc-utils
@@ -6552,9 +6554,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	desktop-dev
-umockdev-run	desktop-dev
-umockdev-wrapper	desktop-dev
+umockdev-record	qt-basic-dev
+umockdev-run	qt-basic-dev
+umockdev-wrapper	qt-basic-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -6619,6 +6621,16 @@ upmendex	texlive
 upmpost	texlive
 upower	devpkg-upower
 uppltotf	texlive
+upsc	nut
+upscmd	nut
+upsd	nut
+upsdrvctl	nut
+upsdrvsvcctl	nut
+upslog	nut
+upsmon	nut
+upsrw	nut
+upssched	nut
+upssched-cmd	nut
 uptex	texlive
 uptftopl	texlive
 uptime	os-core
@@ -7293,7 +7305,7 @@ ypdomainname	net-tools
 yplan	texlive
 yq	yq
 ytasm	yasm
-z3	desktop-dev
+z3	go-basic-dev
 zabbix_agentd	zabbix-agent
 zabbix_get	zabbix
 zabbix_js	zabbix
