@@ -250,6 +250,9 @@ atq	os-cloudguest-azure
 atrm	os-cloudguest-azure
 atrun	os-cloudguest-azure
 attr	devpkg-attr
+aubinator	lib-opengl
+aubinator_error_decode	lib-opengl
+aubinator_viewer	lib-opengl
 audacious	audacious
 audisp-json	audit
 audisp-remote	audit
@@ -941,6 +944,7 @@ csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
 cstool	capstone
+csv2shp	devpkg-shapelib
 ct_run	rabbitmq-server
 ctags	editors
 ctail	byobu
@@ -2438,6 +2442,8 @@ i915-perf-configs	igt-gpu-tools
 i915-perf-control	igt-gpu-tools
 i915-perf-reader	igt-gpu-tools
 i915-perf-recorder	igt-gpu-tools
+i965_asm	lib-opengl
+i965_disasm	lib-opengl
 iasecc-tool	smartcard
 iasl	acpica-unix2
 ib_acme	hpc-utils
@@ -2586,10 +2592,14 @@ intel-speed-select	linux-tools
 intel_audio_dump	igt-gpu-tools
 intel_backlight	igt-gpu-tools
 intel_bios_dumper	igt-gpu-tools
+intel_dev_info	lib-opengl
 intel_display_crc	igt-gpu-tools
 intel_display_poller	igt-gpu-tools
 intel_dp_compliance	igt-gpu-tools
 intel_dump_decode	igt-gpu-tools
+intel_dump_gpu	lib-opengl
+intel_error2aub	lib-opengl
+intel_error2hangdump	lib-opengl
 intel_error_decode	igt-gpu-tools
 intel_firmware_decode	igt-gpu-tools
 intel_forcewaked	igt-gpu-tools
@@ -2602,6 +2612,8 @@ intel_gpu_top	igt-gpu-tools
 intel_gtt	igt-gpu-tools
 intel_guc_logger	igt-gpu-tools
 intel_gvtg_test	igt-gpu-tools
+intel_hang_replay	lib-opengl
+intel_hang_viewer	lib-opengl
 intel_infoframes	igt-gpu-tools
 intel_l3_parity	igt-gpu-tools
 intel_lid	igt-gpu-tools
@@ -2612,6 +2624,7 @@ intel_pm_rpm	igt-gpu-tools
 intel_reg	igt-gpu-tools
 intel_reg_checker	igt-gpu-tools
 intel_residency	igt-gpu-tools
+intel_sanitize_gpu	lib-opengl
 intel_stepping	igt-gpu-tools
 intel_vbt_decode	igt-gpu-tools
 intel_watermark	igt-gpu-tools
@@ -5658,7 +5671,6 @@ sharkd	wireshark
 shasum	perl-basic
 shell-quote	perl-extras
 shmidcat	gtkwave
-show-shared-extents	duperemove
 showconsolefont	kbd
 showfoto	digikam
 showkey	kbd
