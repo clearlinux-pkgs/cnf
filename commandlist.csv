@@ -3934,6 +3934,7 @@ mosquitto_sub	mosquitto
 motd-update.sh	sysadmin-basic
 mount	os-core
 mount.cifs	storage-utils
+mount.ddi	os-core
 mount.efs	cloud-api
 mount.fuse3	fuse
 mount.glusterfs	storage-cluster
@@ -6096,14 +6097,17 @@ sysprof-cli	sysprof
 system-config-printer	desktop
 system-config-printer-applet	desktop
 systemctl	os-core
+systemd-ac-power	os-core
 systemd-analyze	os-core
 systemd-ask-password	os-core
 systemd-cat	os-core
 systemd-cat-native	netdata
 systemd-cgls	os-core
 systemd-cgtop	os-core
+systemd-confext	os-core
 systemd-creds	os-core
 systemd-cryptenroll	os-core
+systemd-cryptsetup	os-core
 systemd-delta	os-core
 systemd-detect-virt	os-core
 systemd-dissect	os-core
@@ -6126,6 +6130,7 @@ systemd-sysusers	os-core
 systemd-tmpfiles	os-core
 systemd-tty-ask-password-agent	os-core
 systemd-umount	os-core
+systemd-vmspawn	os-core
 systemmonitor	desktop-kde-apps
 systemsettings	desktop-kde
 systemsettings5	desktop-kde
@@ -6564,6 +6569,7 @@ udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
 uic	devpkg-qtbase
+ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
@@ -6702,6 +6708,7 @@ valgrind-di-server	valgrind
 valgrind-listener	valgrind
 vapigen	editors-dev
 vapigen-0.56	editors-dev
+varlinkctl	os-core
 vavpp	libva-utils
 vbc	mono
 vcd2fst	gtkwave
