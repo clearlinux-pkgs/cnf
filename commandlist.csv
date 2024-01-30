@@ -8,7 +8,7 @@ ATR_analysis	smartcard
 DllPlugInTester	devpkg-cppunit
 FileCheck	llvm
 FileCheck-17	llvm
-Fritzing	maker-electronics
+Fritzing	education-tertiary
 MQTTVersion	devpkg-paho-mqtt-c
 Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
@@ -34,6 +34,13 @@ Xvfb	perl-graphics
 Xvnc	tigervnc
 Xwayland	wayland-server
 [	os-core
+_cvpcb.kiface	maker-electronics
+_eeschema.kiface	maker-electronics
+_gerbview.kiface	maker-electronics
+_kipython.kiface	maker-electronics
+_pcb_calculator.kiface	maker-electronics
+_pcbnew.kiface	maker-electronics
+_pl_editor.kiface	maker-electronics
 a2ping	texlive
 a2x	dev-utils
 a5toa4	texlive
@@ -377,6 +384,7 @@ bibzbladd	texlive
 bin2hex.py	python-extras
 biosdecode	sysadmin-basic
 bison	bison
+bitmap2component	maker-electronics
 black	python-extras
 blackd	python-extras
 blast2sam.pl	samtools
@@ -1334,6 +1342,7 @@ dwdump	dropwatch
 dwebp	transcoding-support
 dwespeak.sh	amateur-radio
 dwp	binutils
+dxf2idf	maker-electronics
 dyskctl	os-cloudguest-azure
 e2freefrag	os-cloudguest-equinix
 e2fsck	os-core
@@ -1374,6 +1383,7 @@ ed	editors
 edgepaint	graphviz
 editcap	wireshark
 editdiff	dev-utils
+eeschema	maker-electronics
 efi-readvar	os-clr-on-clr
 efi-updatevar	os-clr-on-clr
 efibootdump	sysadmin-basic
@@ -1902,6 +1912,7 @@ geod	devpkg-proj
 geos-config	devpkg-geos
 geosop	devpkg-geos
 geotifcp	R-extras-dev
+gerbview	maker-electronics
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
 get-versions	sysadmin-basic
@@ -2540,6 +2551,9 @@ icuinfo	sddm
 icupkg	sddm
 id	os-core
 identify	ImageMagick
+idf2vrml	maker-electronics
+idfcyl	maker-electronics
+idfrect	maker-electronics
 idiag-socket-details	libnl
 idiff	devpkg-oiio
 idl2wrs	wireshark
@@ -3032,6 +3046,8 @@ khal	productivity
 khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
+kicad	maker-electronics
+kicad-cli	maker-electronics
 kiconfinder5	kde-frameworks5
 kig	education-primary
 kigo	desktop-kde-games
@@ -3655,7 +3671,7 @@ luatex	texlive
 luatools	texlive
 lupdate	devpkg-qttools
 lupdate-pro	qt-basic
-lur-command	games
+lur-command	libratbag
 luseradd	devpkg-libuser
 luserdel	devpkg-libuser
 lusermod	devpkg-libuser
@@ -4307,6 +4323,7 @@ ngettext	c-basic
 nginx	nginx
 nginx-mainline	nginx-mainline
 nginx-module	kvm-host-dev
+ngspice	maker-electronics
 nhlt-dmic-info	alsa-utils
 nhrpd	quagga
 nice	os-core
@@ -4667,6 +4684,8 @@ pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
+pcb_calculator	maker-electronics
+pcbnew	maker-electronics
 pcf2vpnc	NetworkManager-extras
 pcmanfm	pcmanfm
 pcprofiledump	os-core
@@ -4871,6 +4890,7 @@ pktogf	texlive
 pkttyagent	polkit
 pktype	texlive
 pl2pm	perl-basic
+pl_editor	maker-electronics
 plackup	perl-extras
 plasma-apply-colorscheme	desktop-kde-apps
 plasma-apply-cursortheme	desktop-kde-apps
@@ -5275,8 +5295,8 @@ randpkt	wireshark
 randstat	cryptography
 ranlib	binutils
 rarp	net-tools
-ratbagctl	games
-ratbagd	games
+ratbagctl	libratbag
+ratbagd	libratbag
 raw-identify	devpkg-LibRaw
 raw_ethernet_burst_lat	hpc-utils
 raw_ethernet_bw	hpc-utils
@@ -7135,8 +7155,6 @@ wvtag	devpkg-wavpack
 wvunpack	devpkg-wavpack
 wwan	TLP
 wx-config	amateur-radio
-wxrc	amateur-radio
-wxrc-3.2	amateur-radio
 x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
@@ -7448,7 +7466,7 @@ ypdomainname	net-tools
 yplan	texlive
 yq	yq
 ytasm	yasm
-z3	go-basic-dev
+z3	kvm-host-dev
 zabbix_agentd	zabbix-agent
 zabbix_get	zabbix
 zabbix_js	zabbix
