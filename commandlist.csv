@@ -441,10 +441,10 @@ brotli	devpkg-brotli
 bscalc	blivet-gui
 bsdcat	libarchive
 bsdcpio	libarchive
-bsdiff	mixer
+bsdiff	devpkg-bsdiff
 bsdtar	libarchive
-bsdump	mixer
-bspatch	mixer
+bsdump	devpkg-bsdiff
+bspatch	devpkg-bsdiff
 bspc	bspwm
 bspwm	bspwm
 bt.A.x	npb
@@ -951,7 +951,7 @@ create_svnignore	desktop-kde-apps
 create_valgrind_check.awk	ltp
 createdb	postgresql
 createmodule.py	modules
-createrepo_c	mixer
+createrepo_c	package-utils
 createuser	postgresql
 crictl	containers-basic
 crio	containers-basic
@@ -3874,7 +3874,7 @@ memtier	os-clr-on-clr
 memtier_benchmark	os-testsuite-phoronix
 mendex	texlive
 mergecap	wireshark
-mergerepo_c	mixer
+mergerepo_c	package-utils
 mergesolv	devpkg-libsolv
 mersenne	calc
 mesg	os-core
@@ -3998,7 +3998,7 @@ mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
 mod	mono
-modifyrepo_c	mixer
+modifyrepo_c	package-utils
 modinfo	sysadmin-basic
 modpods	perl-extras
 modprobe	sysadmin-basic
@@ -6053,7 +6053,7 @@ sql	parallel
 sql-split	perl-extras
 sqlhist	devpkg-libtracefs
 sqlite3	sqlite
-sqliterepo_c	mixer
+sqliterepo_c	package-utils
 sqlmetal	mono
 sqlsharp	mono
 sqlt	perl-extras
