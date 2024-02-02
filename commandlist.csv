@@ -5668,6 +5668,7 @@ sdiag	cluster-tools
 sdiff	diffutils
 sdig	pdns
 sdl-config	games
+sdl-freerdp	FreeRDP
 sdl2-config	games
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
@@ -5712,6 +5713,8 @@ sfcsample	libva-utils
 sfddiff	fontforge
 sfdisk	os-core
 sfdp	graphviz
+sfreerdp	FreeRDP
+sfreerdp-server	FreeRDP
 sftp	sysadmin-basic
 sg	os-core
 sg_bg_ctl	sysadmin-basic-dev
@@ -6711,7 +6714,6 @@ udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
 uic	devpkg-qtbase
-ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
