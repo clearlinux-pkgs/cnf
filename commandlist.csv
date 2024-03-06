@@ -2931,7 +2931,6 @@ kapman	desktop-kde-games
 kapplymousetheme	desktop-kde
 kapptemplate	desktop-kde-apps
 kate	kate
-kate-syntax-highlighter	os-clr-on-clr-dev
 katomic	desktop-kde-games
 kbackup	kbackup
 kbd_mode	kbd
@@ -3036,7 +3035,6 @@ kfontinst	desktop-kde-apps
 kfontview	desktop-kde-apps
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	os-clr-on-clr-dev
 kgeography	kgeography
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -4071,7 +4069,7 @@ mount.ubifs	mtd-utils
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
-mozcerts-qt6	kde-frameworks5-dev
+mozcerts-qt5	kde-frameworks5-dev
 mozroots	mono
 mp2bug	perl-extras
 mpartition	storage-utils
@@ -5213,7 +5211,7 @@ qat_init.sh	devpkg-qatlib
 qatmgr	devpkg-qatlib
 qb-blackbox	devpkg-libqb
 qbittorrent	qbittorrent
-qcatool-qt6	kde-frameworks5-dev
+qcatool-qt5	kde-frameworks5-dev
 qcollectiongenerator	qt-basic
 qconvex	desktop-dev
 qdbus	qt-basic
