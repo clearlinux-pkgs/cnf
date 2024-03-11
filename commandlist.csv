@@ -363,7 +363,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	kvm-host-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -575,7 +575,7 @@ capnpc	rr
 capnpc-c++	rr
 capnpc-capnp	rr
 capsh	os-core
-capslock	containers-basic-dev
+capslock	kde-frameworks5-dev
 captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
 captype	wireshark
@@ -1072,8 +1072,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	kvm-host-dev
-dbus-broker-launch	kvm-host-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1288,13 +1288,13 @@ dtestx	hpc-utils
 dtxgen	texlive
 du	os-core
 dumbbench	perl-extras
+dump.exfat	storage-utils
 dump.f2fs	storage-utils
 dump_fts	hpc-utils
 dump_lfts.sh	hpc-utils
 dump_mfts.sh	hpc-utils
 dumpcap	wireshark
 dumpe2fs	os-cloudguest-equinix
-dumpexfat	storage-utils
 dumpkeys	kbd
 dumpmscat	samba
 dumpsexp	devpkg-libgcrypt
@@ -1500,8 +1500,7 @@ ex	vim
 example	smartcard
 exceltex	texlive
 execltp	ltp
-exfatattrib	storage-utils
-exfatfsck	storage-utils
+exfat2img	storage-utils
 exfatlabel	storage-utils
 exiv2	desktop-kde
 exo-desktop-item-edit	xfce4-desktop
@@ -2380,8 +2379,10 @@ hostid	os-core
 hostname	os-core
 hostnamectl	os-core
 hotshot2calltree	kcachegrind
+howdy	howdy
 hp-align	hardware-printing
 hp-check	hardware-printing
+hp-check-plugin	hardware-printing
 hp-clean	hardware-printing
 hp-colorcal	hardware-printing
 hp-config_usb_printer	hardware-printing
@@ -3930,7 +3931,6 @@ mkbundle	mono
 mkdir	os-core
 mkdosfs	dosfstools
 mke2fs	os-cloudguest-equinix
-mkexfatfs	storage-utils
 mkfifo	os-core
 mkfontdir	fonts-basic
 mkfontscale	fonts-basic
@@ -5188,10 +5188,12 @@ pygmentize	scm-server
 pykig.py	education-primary
 pylint	python-extras
 pylint-config	python-extras
+pylupdate5	hardware-printing
 pyozw_check	domotica
 pyozw_shell	domotica
 pypi-dep-fix.py	package-utils
 pyproject-build	python-extras
+pyrcc5	hardware-printing
 pyreverse	python-extras
 pytest	python-extras
 python	python3-basic
@@ -5204,6 +5206,7 @@ python3.7	python3-basic
 pythontex	texlive
 pythran	desktop-dev
 pythran-config	desktop-dev
+pyuic5	hardware-printing
 q65code	amateur-radio
 q65sim	amateur-radio
 qalculate-gtk	qalculate-gtk
@@ -6662,6 +6665,7 @@ ttftotype42	texlive
 ttree	perl-extras
 ttx	fonttools
 tty	os-core
+tune.exfat	storage-utils
 tune2fs	os-core
 turbostat	linux-tools
 turnadmin	coturn
@@ -6719,9 +6723,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	kvm-host-dev
-umockdev-run	kvm-host-dev
-umockdev-wrapper	kvm-host-dev
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -6830,6 +6834,7 @@ uuidgen	os-core
 uuidparse	os-core
 uuserver	enterprise-login
 uwsgi	uwsgi
+uxplay	UxPlay
 uxterm	xterm
 uz	storage-utils
 v4l2-compliance	v4l-utils
@@ -7375,7 +7380,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	kde-frameworks5-dev
+xml	desktop-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7392,7 +7397,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kde-frameworks5-dev
+xmlstarlet	desktop-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
