@@ -1136,7 +1136,7 @@ dfu-util	dfu-util
 dhcp_lease_time	dhcp-server
 dhcp_release	dhcp-server
 dhcp_release6	dhcp-server
-di-edid-decode	kde-frameworks5-dev
+di-edid-decode	devpkg-wlroots
 diadia	texlive
 diagtool	llvm
 diagtool-17	llvm
@@ -2251,6 +2251,7 @@ gtk4-encode-symbolic-svg	devpkg-gtk4
 gtk4-icon-browser	devpkg-gtk4
 gtk4-launch	devpkg-gtk4
 gtk4-node-editor	devpkg-gtk4
+gtk4-path-tool	devpkg-gtk4
 gtk4-print-editor	devpkg-gtk4
 gtk4-query-settings	devpkg-gtk4
 gtk4-rendernode-tool	devpkg-gtk4
