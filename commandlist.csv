@@ -570,7 +570,7 @@ capnpc	rr
 capnpc-c++	rr
 capnpc-capnp	rr
 capsh	os-core
-capslock	kde-frameworks5-dev
+capslock	containers-basic-dev
 captest	devpkg-libcap-ng
 captoinfo	sysadmin-basic
 captype	wireshark
@@ -3040,6 +3040,7 @@ kinfocenter	desktop-kde
 kinit	enterprise-login
 kioclient	desktop-kde
 kioclient5	desktop-kde
+kirigami2gallery	desktop-kde
 kissutil	amateur-radio
 kiten	desktop-kde-apps
 kitenkanjibrowser	desktop-kde-apps
@@ -3134,6 +3135,7 @@ ksudoku	desktop-kde-games
 ksvgtopng	desktop-kde
 ksvgtopng5	desktop-kde
 kswitch	enterprise-login
+ksyntaxhighlighter6	os-clr-on-clr-dev
 ksystemlog	ksystemlog
 kteatime	desktop-kde-games
 ktelnetservice6	kde-frameworks5
@@ -4659,7 +4661,7 @@ pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
 pcsc_scan	smartcard
-pcscd	gnupg
+pcscd	devpkg-pcsc-lite
 pct2rgb.py	gdal
 pcxhrloader	alsa-tools
 pcxm	maker-basic
@@ -4812,10 +4814,11 @@ pigz	sysadmin-basic
 pimd	quagga
 pimdataexporter	desktop-kde-apps
 pimdataexporterconsole	desktop-kde-apps
-pinentry	gnupg
-pinentry-curses	gnupg
+pinentry	desktop-gnomelibs
+pinentry-curses	desktop-gnomelibs
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
+pinentry-qt	desktop-gnomelibs
 ping	network-basic
 ping_pong	samba
 pinky	os-core
@@ -4855,6 +4858,7 @@ pktype	texlive
 pl2pm	perl-basic
 pl_editor	kicad
 plackup	perl-extras
+plasma-activities-cli6	desktop-kde
 plasma-apply-colorscheme	desktop-kde
 plasma-apply-cursortheme	desktop-kde
 plasma-apply-desktoptheme	desktop-kde
@@ -4868,6 +4872,7 @@ plasma-interactiveconsole	desktop-kde
 plasma-localegen-helper	desktop-kde
 plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde
+plasma-welcome	desktop-kde
 plasma_session	desktop-kde
 plasma_waitforname	desktop-kde
 plasmashell	desktop-kde
