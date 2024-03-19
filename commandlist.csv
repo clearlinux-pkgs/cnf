@@ -3110,6 +3110,7 @@ krazy-licensecheck	desktop-kde-apps
 krb5-config	enterprise-login
 krb5-send-pr	enterprise-login
 krb5kdc	enterprise-login
+krdc	desktop-kde-apps
 kreadconfig6	kde-frameworks5
 kreversi	desktop-kde-games
 kruler	desktop-kde-games
@@ -6735,7 +6736,7 @@ unzstd	c-basic
 upbibtex	texlive
 update-desktop-database	desktop
 update-helper	os-core-update
-update-mime-database	gdk-pixbuf
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
