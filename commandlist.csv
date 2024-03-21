@@ -1741,6 +1741,7 @@ g++-9	c-extras-gcc9
 g++7	c-extras-gcc7
 g-ir-annotation-tool	gobject-introspection
 g-ir-compiler	gobject-introspection
+g-ir-doc-tool	gobject-introspection
 g-ir-generate	gobject-introspection
 g-ir-inspect	gobject-introspection
 g-ir-scanner	gobject-introspection
@@ -1872,6 +1873,7 @@ gdk-pixbuf-pixdata	gdk-pixbuf
 gdk-pixbuf-query-loaders	gdk-pixbuf
 gdk-pixbuf-thumbnailer	gdk-pixbuf
 gdm	desktop
+gdm-config	desktop
 gdm-screenshot	desktop
 gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
@@ -1947,7 +1949,10 @@ gftodvi	texlive
 gftopk	texlive
 gftype	texlive
 gh	gh
+gi-compile-repository	libglib
+gi-decompile-typelib	libglib
 gi-docgen	devpkg-gi-docgen
+gi-inspect-typelib	libglib
 gidmigrator	desktop-kde-apps
 gids-tool	smartcard
 gie	devpkg-proj
@@ -3245,8 +3250,6 @@ libdeps.py	libdeps
 libevdev-tweak-device	devpkg-libevdev
 libftdi1-config	maker-basic
 libgcrypt-config	devpkg-libgcrypt
-libgtop_daemon2	devpkg-libgtop
-libgtop_server2	devpkg-libgtop
 libinput	devpkg-libinput
 libnetcfg	perl-basic
 libpng-config	devpkg-libpng
@@ -6560,6 +6563,20 @@ tracegen	qt-basic
 tracepath	network-basic
 traceroute	network-basic
 tracker3	desktop-gnomelibs
+tracker3-daemon	tracker-miners
+tracker3-endpoint	desktop-gnomelibs
+tracker3-export	desktop-gnomelibs
+tracker3-extract	tracker-miners
+tracker3-help	desktop-gnomelibs
+tracker3-import	desktop-gnomelibs
+tracker3-index	tracker-miners
+tracker3-info	tracker-miners
+tracker3-reset	tracker-miners
+tracker3-search	tracker-miners
+tracker3-sparql	desktop-gnomelibs
+tracker3-sql	desktop-gnomelibs
+tracker3-status	tracker-miners
+tracker3-tag	tracker-miners
 transicc	devpkg-lcms2
 translit	perl-extras
 traptoemail	performance-tools
