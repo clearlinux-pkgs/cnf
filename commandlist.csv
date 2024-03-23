@@ -85,7 +85,6 @@ ag	the_silver_searcher
 agentxtrap	performance-tools
 agetty	os-core
 aggregate_profile.pl	openmpi
-akonadi-db-migrator	akonadi
 akonadi2xml	akonadi
 akonadi_agent_launcher	akonadi
 akonadi_agent_server	akonadi
@@ -240,7 +239,7 @@ asapcat	akonadi
 asc2log	automotive-tools
 ascii-xfr	minicom
 asciidoc	dev-utils
-asciidoctor	containers-basic-dev
+asciidoctor	go-basic-dev
 asciinema	productivity
 aseqdump	alsa-utils
 aseqnet	alsa-utils
@@ -361,7 +360,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	kvm-host-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bg5+latex	texlive
@@ -1067,8 +1066,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	kvm-host-dev
-dbus-broker-launch	kvm-host-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1651,8 +1650,8 @@ flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
 flrig	amateur-radio
-fltk-config	containers-basic-dev
-fluid	containers-basic-dev
+fltk-config	desktop-dev
+fluid	desktop-dev
 fluidsynth	fluidsynth
 fm_cmd	hpc-utils
 fm_cmdall	hpc-utils
@@ -2015,7 +2014,7 @@ global	global
 globash	global
 glslang	developer-gpu
 glslangValidator	developer-gpu
-glslc	kvm-host-dev
+glslc	desktop-dev
 glsync	lib-opengl
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
@@ -3728,7 +3727,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	devpkg-oiio
-mako-render	containers-basic-dev
+mako-render	storage-utils-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4374,7 +4373,7 @@ nping	nmap
 npm	nodejs-basic
 nproc	os-core
 nproxy	pdns
-npth-config	containers-basic-dev
+npth-config	os-utils-gui-dev
 npx	nodejs-basic
 nroff	man-pages
 nrpe	sysadmin-remote
@@ -6702,9 +6701,9 @@ uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	kvm-host-dev
-umockdev-run	kvm-host-dev
-umockdev-wrapper	kvm-host-dev
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -7359,7 +7358,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	kvm-host-dev
+xml	desktop-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7376,7 +7375,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kvm-host-dev
+xmlstarlet	desktop-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
