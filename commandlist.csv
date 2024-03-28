@@ -1407,7 +1407,7 @@ elinks	network-basic
 elk_asm	lib-opengl
 elk_disasm	lib-opengl
 emacs	emacs
-emacs-29.1	emacs
+emacs-29.3	emacs
 emacs-x11	emacs-x11
 emacsclient	emacs
 emoji-picker	desktop
@@ -4665,7 +4665,7 @@ pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
 pcsc_scan	smartcard
-pcscd	devpkg-pcsc-lite
+pcscd	gnupg
 pct2rgb.py	gdal
 pcxhrloader	alsa-tools
 pcxm	maker-basic
@@ -4818,11 +4818,11 @@ pigz	sysadmin-basic
 pimd	quagga
 pimdataexporter	desktop-kde-apps
 pimdataexporterconsole	desktop-kde-apps
-pinentry	desktop-gnomelibs
-pinentry-curses	desktop-gnomelibs
+pinentry	gnupg
+pinentry-curses	gnupg
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
-pinentry-qt	desktop-gnomelibs
+pinentry-qt	gnupg
 ping	network-basic
 ping_pong	samba
 pinky	os-core
@@ -5188,9 +5188,7 @@ qcatool-qt6	kde-frameworks5-dev
 qcollectiongenerator	qt-basic
 qconvex	desktop-dev
 qdbus	qt-basic
-qdbuscpp2xml	devpkg-qtbase
 qdbusviewer	qt-basic
-qdbusxml2cpp	devpkg-qtbase
 qdelaunay	desktop-dev
 qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
@@ -5211,7 +5209,6 @@ qhalf	desktop-dev
 qhelpgenerator	devpkg-qttools
 qhull	desktop-dev
 qlalr	devpkg-qtbase
-qmake	devpkg-qtbase
 qmi-firmware-update	devpkg-libqmi
 qmi-network	devpkg-libqmi
 qmicli	devpkg-libqmi
