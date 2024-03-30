@@ -1618,7 +1618,6 @@ fixcvsdiff	dev-utils
 fixkdeincludes	desktop-kde-apps
 fixparts	bootloader
 fixproc	performance-tools
-fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
 flake8	python-extras
@@ -3962,7 +3961,6 @@ mmdbresolve	wireshark
 mmount	storage-utils
 mmove	storage-utils
 mmpfb	texlive
-moc	devpkg-qtbase
 mock	package-utils
 mock-parse-buildlog	package-utils
 mockchain	package-utils
@@ -5208,7 +5206,6 @@ qgltf	qt-basic
 qhalf	desktop-dev
 qhelpgenerator	devpkg-qttools
 qhull	desktop-dev
-qlalr	devpkg-qtbase
 qmi-firmware-update	devpkg-libqmi
 qmi-network	devpkg-libqmi
 qmicli	devpkg-libqmi
@@ -5244,7 +5241,6 @@ quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
-qvkgen	devpkg-qtbase
 qvlc	vlc
 qvoronoi	desktop-dev
 r	R-basic
@@ -5276,7 +5272,6 @@ rawtherapee	RawTherapee
 rawtherapee-cli	RawTherapee
 rbox	desktop-dev
 rbs	ruby-basic
-rcc	devpkg-qtbase
 rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
@@ -6191,7 +6186,6 @@ sycl-trace-dpcpp	oneapi-dev
 symilar	python-extras
 sync	os-core
 synclient	devpkg-xf86-input-synaptics
-syncqt.pl	devpkg-qtbase
 synctex	texlive
 syncthing	syncthing
 syndaemon	devpkg-xf86-input-synaptics
@@ -6556,7 +6550,6 @@ tqdm	machine-learning-basic
 tr	os-core
 trace	linux-tools
 trace-cmd	dev-utils
-tracegen	qt-basic
 tracepath	network-basic
 traceroute	network-basic
 tracker3	desktop-gnomelibs
@@ -6695,7 +6688,6 @@ udpong	hpc-utils
 udunits2	R-extras-dev
 uget-gtk	uget
 uget-gtk-1to2	uget
-uic	devpkg-qtbase
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
