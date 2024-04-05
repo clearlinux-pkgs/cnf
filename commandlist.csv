@@ -1420,6 +1420,7 @@ enchant-lsmod-2	devpkg-enchant
 encode_keychange	performance-tools
 endeavour	Endeavour
 endnote-format	perl-extras
+enosys	os-core
 env	os-core
 env_parallel	parallel
 env_parallel.bash	parallel
@@ -1493,6 +1494,7 @@ evtest	x11-tools
 ex	vim
 example	smartcard
 exceltex	texlive
+exch	os-core
 execltp	ltp
 exfat2img	storage-utils
 exfatlabel	storage-utils
@@ -3177,6 +3179,7 @@ lacheck	texlive
 last	os-core
 lastb	os-core
 lastlog	os-core
+lastlog2	os-core
 latencytop	performance-tools
 latex	texlive
 latex-dev	texlive
@@ -3579,6 +3582,7 @@ lsacpi	sysadmin-basic
 lsattr	os-core
 lsblk	os-core
 lscgroup	devpkg-libcgroup
+lsclocks	os-core
 lscpu	os-core
 lsdiff	dev-utils
 lsfd	os-core
@@ -5664,6 +5668,7 @@ setkeycodes	kbd
 setleds	kbd
 setmetamode	kbd
 setpci	sysadmin-basic
+setpgid	os-core
 setpriv	os-core
 setreg	mono
 setserial	sysadmin-basic
