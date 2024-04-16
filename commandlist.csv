@@ -363,6 +363,8 @@ bdftogd	devpkg-libgd
 bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
+bemenu	bemenu
+bemenu-run	bemenu
 bg5+latex	texlive
 bg5+pdflatex	texlive
 bg5conv	texlive
@@ -4418,6 +4420,7 @@ nunit-console	mono
 nunit-console2	mono
 nunit-console4	mono
 nut-scanner	nut
+nutconf	nut
 nvim	neovim
 nvlc	vlc
 nvme	storage-utils
@@ -4658,6 +4661,7 @@ pcasc	maker-basic
 pcb_calculator	kicad
 pcbnew	kicad
 pcf2vpnc	NetworkManager-extras
+pcilmr	sysadmin-basic
 pcmanfm	pcmanfm
 pcprofiledump	os-core
 pcre-config	devpkg-pcre
@@ -5629,7 +5633,7 @@ sctp_status	devpkg-libsctp
 sctp_test	devpkg-libsctp
 scummvm	scummvm
 sddm	sddm
-sddm-greeter	sddm
+sddm-greeter-qt6	sddm
 sddmthemeinstaller	desktop-kde
 sdiag	cluster-tools
 sdiff	diffutils
