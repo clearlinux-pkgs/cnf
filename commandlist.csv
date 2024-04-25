@@ -438,8 +438,6 @@ brctl	network-basic
 breeze-settings6	desktop-kde
 bridge	iproute2
 brotli	devpkg-brotli
-brw_asm	lib-opengl
-brw_disasm	lib-opengl
 bscalc	blivet-gui
 bsdcat	libarchive
 bsdcpio	libarchive
@@ -1404,8 +1402,6 @@ elf-move.py	package-utils
 elf2dmp	kvm-host
 elfedit	binutils
 elinks	network-basic
-elk_asm	lib-opengl
-elk_disasm	lib-opengl
 emacs	emacs
 emacs-29.3	emacs
 emacs-x11	emacs-x11
@@ -2473,6 +2469,8 @@ i915-perf-configs	igt-gpu-tools
 i915-perf-control	igt-gpu-tools
 i915-perf-reader	igt-gpu-tools
 i915-perf-recorder	igt-gpu-tools
+i965_asm	lib-opengl
+i965_disasm	lib-opengl
 iasecc-tool	smartcard
 iasl	acpica-unix2
 ib_acme	hpc-utils
@@ -2628,7 +2626,6 @@ intel-speed-select	linux-tools
 intel_audio_dump	igt-gpu-tools
 intel_backlight	igt-gpu-tools
 intel_bios_dumper	igt-gpu-tools
-intel_clc	lib-opengl
 intel_dev_info	lib-opengl
 intel_display_crc	igt-gpu-tools
 intel_display_poller	igt-gpu-tools
@@ -6712,8 +6709,6 @@ unicode_start	kbd
 unicode_stop	kbd
 unifdef	dev-utils
 unifdefall	dev-utils
-uninstall_ndiff	nmap
-uninstall_zenmap	nmap
 uniq	os-core
 unison	unison
 unison-fsmonitor	unison
