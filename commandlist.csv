@@ -456,6 +456,7 @@ bsdcpio	libarchive
 bsdiff	devpkg-bsdiff
 bsdtar	libarchive
 bsdump	devpkg-bsdiff
+bsdunzip	libarchive
 bspatch	devpkg-bsdiff
 bspc	bspwm
 bspwm	bspwm
@@ -1173,9 +1174,9 @@ display-coords	sysadmin-basic
 distro	python-extras
 django-admin	django
 djpeg	devpkg-libjpeg-turbo
-dkms	kernel-lts2018-dkms
-dkms-new-kernel	kernel-lts2018-dkms
-dkms-remove-old	kernel-lts2018-dkms
+dkms	dkms
+dkms-new-kernel	dkms
+dkms-remove-old	dkms
 dl10k1	alsa-tools
 dlltool	c-basic-mingw
 dllwrap	binutils
@@ -2604,7 +2605,7 @@ initdb	postgresql
 initex	texlive
 initra	kernel-hyperv
 initra-aws	kernel-hyperv
-initra-desktop	kernel-rt
+initra-desktop	init-rdahead
 inkscape	inkscape
 inkview	inkscape
 inl	performance-tools
