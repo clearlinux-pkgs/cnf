@@ -588,9 +588,7 @@ captype	wireshark
 cardos-tool	smartcard
 cargo	rust-basic
 cargo-clippy	rust-basic
-cargo-clippy.old	rust-basic
 cargo-fmt	rust-basic
-cargo-fmt.old	rust-basic
 caspol	mono
 casync	casync
 cat	os-core
@@ -809,7 +807,6 @@ clipedit	perl-extras
 clipfilter	perl-extras
 clipjoin	perl-extras
 clippy-driver	rust-basic
-clippy-driver.old	rust-basic
 cllayerinfo	devpkg-ocl-icd
 cllayerinfo-dpcpp	oneapi-dev
 cllualatex	texlive
@@ -5520,7 +5517,6 @@ rust-lldb	rust-basic
 rustc	rust-basic
 rustdoc	rust-basic
 rustfmt	rust-basic
-rustfmt.old	rust-basic
 rview	vim
 rvim	vim
 rvlc	vlc
