@@ -1511,6 +1511,7 @@ exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
 expand	os-core
 expect	tcl-basic
+experttune	amateur-radio
 expiry	os-core
 export2sam.pl	samtools
 exportfs	nfs-utils
