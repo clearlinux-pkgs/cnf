@@ -92,6 +92,7 @@ ag	the_silver_searcher
 agentxtrap	performance-tools
 agetty	os-core
 aggregate_profile.pl	openmpi
+akonadi-db-migrator	akonadi
 akonadi2xml	akonadi
 akonadi_agent_launcher	akonadi
 akonadi_agent_server	akonadi
@@ -2790,11 +2791,11 @@ isadump	lm-sensors
 isaset	lm-sensors
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
-iscsi-inq	devpkg-libiscsi
-iscsi-ls	devpkg-libiscsi
-iscsi-perf	devpkg-libiscsi
-iscsi-readcapacity16	devpkg-libiscsi
-iscsi-swp	devpkg-libiscsi
+iscsi-inq	sysadmin-remote
+iscsi-ls	sysadmin-remote
+iscsi-perf	sysadmin-remote
+iscsi-readcapacity16	sysadmin-remote
+iscsi-swp	sysadmin-remote
 iscsi_discovery	storage-utils
 iscsi_fw_login	storage-utils
 iscsi_offload	storage-utils
@@ -2990,6 +2991,7 @@ kdeconnect-handler	kdeconnect-kde
 kdeconnect-indicator	kdeconnect-kde
 kdeconnect-settings	kdeconnect-kde
 kdeconnect-sms	kdeconnect-kde
+kdeconnectd	kdeconnect-kde
 kdecp	desktop-kde
 kdecp5	desktop-kde
 kded6	desktop-kde
@@ -3661,7 +3663,7 @@ lvcreate	storage-cluster
 lvdisplay	storage-cluster
 lvextend	storage-cluster
 lvm	storage-cluster
-lvm-cache-stats	blivet-gui
+lvm-cache-stats	sysadmin-remote
 lvm_import_vdo	storage-cluster
 lvmconfig	storage-cluster
 lvmdbusd	storage-cluster
@@ -5032,6 +5034,7 @@ proj	devpkg-proj
 projinfo	devpkg-proj
 projsync	devpkg-proj
 protoc	protobuf
+protoc-26.1.0	protobuf
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 prove	perl-basic
@@ -6856,7 +6859,7 @@ verify-uselistorder-dpcpp	oneapi-dev
 verify_blkparse	performance-tools
 verifytime	os-core-update
 veritysetup	storage-utils
-vfat-resize	blivet-gui
+vfat-resize	sysadmin-remote
 vftovp	texlive
 vgcfgbackup	storage-cluster
 vgcfgrestore	storage-cluster
