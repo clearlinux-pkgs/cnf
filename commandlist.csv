@@ -84,6 +84,7 @@ addpart	os-core
 addr2line	binutils
 adhocfilelist	texlive
 adwaita-1-demo	devpkg-gnome-bluetooth
+aead_demo	devpkg-mbedtls
 affixcompress	devpkg-hunspell
 afm2afm	texlive
 afm2pl	texlive
@@ -373,6 +374,7 @@ bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bemenu	bemenu
 bemenu-run	bemenu
+benchmark	devpkg-mbedtls
 bg5+latex	texlive
 bg5+pdflatex	texlive
 bg5conv	texlive
@@ -631,6 +633,9 @@ cert-sync	mono
 cert-to-efi-hash-list	os-clr-on-clr
 cert-to-efi-sig-list	os-clr-on-clr
 cert2spc	mono
+cert_app	devpkg-mbedtls
+cert_req	devpkg-mbedtls
+cert_write	devpkg-mbedtls
 certbot	letsencrypt-client
 certmgr	mono
 certtool	cryptography
@@ -710,6 +715,7 @@ cifs.upcall	storage-utils
 cifscreds	storage-utils
 cifsdd	samba
 cifsiostat	sysstat
+cipher_aead_demo	devpkg-mbedtls
 ciptool	hardware-bluetooth
 circo	graphviz
 cisco-decrypt	NetworkManager-extras
@@ -965,15 +971,18 @@ crictl	cloud-native-basic
 crio	cloud-native-basic
 crio-status	cloud-native-basic
 critest	cloud-native-basic
+crl_app	devpkg-mbedtls
 crlupdate	mono
 crlutil	cryptography
 croco-0.6-config	devpkg-libcroco
 crond	cronie
 cronnext	cronie
 crontab	cronie
+crypt_and_hash	devpkg-mbedtls
 cryptdir	tcl-basic
+crypto_examples	devpkg-mbedtls
 cryptoflex-tool	smartcard
-cryptsetup	storage-utils
+cryptsetup	boot-encrypted
 cs2cs	devpkg-proj
 csc	mono
 csc-dim	mono
@@ -1061,7 +1070,7 @@ date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
 dav1d	dav1d
-daxctl	devpkg-pmdk
+daxctl	storage-utils
 daxio	pmdk
 dazzle-list-counters	devpkg-libdazzle
 dbfadd	devpkg-shapelib
@@ -1075,8 +1084,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	firefox
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	storage-utils-dev
+dbus-broker-launch	storage-utils-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1135,6 +1144,9 @@ dfc	sysadmin-basic
 dfu-prefix	dfu-util
 dfu-suffix	dfu-util
 dfu-util	dfu-util
+dh_client	devpkg-mbedtls
+dh_genprime	devpkg-mbedtls
+dh_server	devpkg-mbedtls
 dhcp_lease_time	dhcp-server
 dhcp_release	dhcp-server
 dhcp_release6	dhcp-server
@@ -1288,6 +1300,8 @@ dtest	hpc-utils
 dtestcm	hpc-utils
 dtestsrq	hpc-utils
 dtestx	hpc-utils
+dtls_client	devpkg-mbedtls
+dtls_server	devpkg-mbedtls
 dtxgen	texlive
 du	os-core
 dumbbench	perl-extras
@@ -1378,6 +1392,8 @@ ebtables-save	iptables
 ebtables-translate	iptables
 ebtablesd	network-basic
 ebtablesu	network-basic
+ecdh_curve25519	devpkg-mbedtls
+ecdsa	devpkg-mbedtls
 echo	os-core
 echomixer	alsa-tools
 echosim	amateur-radio
@@ -1890,7 +1906,10 @@ gegl-imgcmp	gegl
 gegps	gpsd
 gem	ruby-basic
 gen_binary_files	desktop
+gen_entropy	devpkg-mbedtls
+gen_key	devpkg-mbedtls
 gen_packets	amateur-radio
+gen_random_ctr_drbg	devpkg-mbedtls
 gen_unigram	desktop
 genbrk	sddm
 gencat	os-core
@@ -1902,6 +1921,7 @@ gendef.exe	c-basic-mingw
 gendesc	dev-utils
 gendict	sddm
 gendiff	package-utils
+generic_sum	devpkg-mbedtls
 genfio	fio
 genhash	keepalived
 genhtml	dev-utils
@@ -2234,18 +2254,18 @@ gtags-cscope	global
 gtester	libglib
 gtester-report	libglib
 gtf	perl-graphics
-gtk-builder-tool	education
+gtk-builder-tool	pygobject
 gtk-demo	xfce4-desktop
-gtk-encode-symbolic-svg	education
-gtk-launch	education
+gtk-encode-symbolic-svg	pygobject
+gtk-launch	pygobject
 gtk-query-immodules-2.0	xfce4-desktop
-gtk-query-immodules-3.0	education
-gtk-query-settings	education
-gtk-update-icon-cache	education
-gtk3-demo	education
-gtk3-demo-application	education
-gtk3-icon-browser	education
-gtk3-widget-factory	education
+gtk-query-immodules-3.0	pygobject
+gtk-query-settings	pygobject
+gtk-update-icon-cache	pygobject
+gtk3-demo	pygobject
+gtk3-demo-application	pygobject
+gtk3-icon-browser	pygobject
+gtk3-widget-factory	pygobject
 gtk4-builder-tool	devpkg-gnome-bluetooth
 gtk4-demo	devpkg-gnome-bluetooth
 gtk4-demo-application	devpkg-gnome-bluetooth
@@ -2355,8 +2375,9 @@ hdspconf	alsa-tools
 hdsploader	alsa-tools
 hdspmixer	alsa-tools
 head	os-core
+hello	devpkg-mbedtls
 helm	cloud-native-basic
-help2man	storage-utils-dev
+help2man	go-basic-dev
 hevcencode	libva-utils
 hex2bin.py	python-extras
 hex2dump.py	python-extras
@@ -2371,6 +2392,7 @@ hg	mercurial
 hg-ssh	mercurial
 hltest	sysadmin-basic
 hmac256	devpkg-libgcrypt
+hmac_demo	devpkg-mbedtls
 hmaptool	llvm
 hmaptool-17	llvm
 hmaptool-dpcpp	oneapi-dev
@@ -2536,7 +2558,7 @@ icecc-scheduler	icecream
 icecc-test-env	icecream
 iceccd	icecream
 icerun	icecream
-icon-cache-update.sh	education
+icon-cache-update.sh	pygobject
 iconv	os-core
 iconvconfig	os-core
 iconvert	blender
@@ -2630,7 +2652,7 @@ installfont-tl	texlive
 installkernel	kernel-install
 installvst	mono
 instmodsh	perl-basic
-integritysetup	storage-utils
+integritysetup	boot-encrypted
 intel-gen4asm	igt-gpu-tools
 intel-gen4disasm	igt-gpu-tools
 intel-gfx-fw-info	igt-gpu-tools
@@ -3018,6 +3040,10 @@ keepassxc-proxy	keepassxc
 ketcindy	texlive
 kexec	os-cloudguest-azure
 key.dns_resolver	devpkg-keyutils
+key_app	devpkg-mbedtls
+key_app_writer	devpkg-mbedtls
+key_ladder_demo	devpkg-mbedtls
+key_ladder_demo.sh	devpkg-mbedtls
 keychain	keychain
 keyctl	devpkg-keyutils
 keytool	java-basic
@@ -3531,6 +3557,7 @@ ln	os-core
 lnewusers	devpkg-libuser
 lnstat	iproute2
 lo10k1	alsa-tools
+load_roots	devpkg-mbedtls
 loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
@@ -3814,6 +3841,7 @@ md2html	devpkg-md4c
 md5fa	samtools
 md5sum	os-core
 md5sum-lite	samtools
+md_hmac_demo	devpkg-mbedtls
 mdadm	storage-utils
 mdassembler	mono
 mdb_copy	devpkg-lmdb
@@ -3863,6 +3891,7 @@ metacity	desktop
 metacity-message	desktop
 metacity-theme-viewer	desktop
 metaflac	flac
+metatest	devpkg-mbedtls
 mev	sysadmin-basic
 mex	texlive
 mf	texlive
@@ -3894,6 +3923,7 @@ migspeed	numactl
 minetest	minetest
 minetestserver	minetestserver
 minfo	storage-utils
+mini_client	devpkg-mbedtls
 minicom	minicom
 minimodem	amateur-radio
 mirrorMappings	perl-extras
@@ -4058,6 +4088,7 @@ mpg123	mpg123
 mpg123-id3dump	mpg123
 mpg123-strip	mpg123
 mpiCC	openmpi
+mpi_demo	devpkg-mbedtls
 mpic++	openmpi
 mpicalc	devpkg-libgcrypt
 mpicc	openmpi
@@ -4235,7 +4266,7 @@ ncdump	netcdf-fortran
 ncgen	netcdf-fortran
 ncgen3	netcdf-fortran
 ncursesw6-config	sysadmin-basic
-ndctl	devpkg-pmdk
+ndctl	storage-utils
 ndiff	nmap
 ndisasm	nasm
 ndpiReader	network-security-monitoring
@@ -4747,6 +4778,7 @@ pee	moreutils
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
 peglgears	lib-opengl
+pem2der	devpkg-mbedtls
 pep8	os-clr-on-clr
 perf	linux-tools
 perfquery	hpc-utils
@@ -4854,6 +4886,10 @@ pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
 pk12util	cryptography
 pk2bm	texlive
+pk_decrypt	devpkg-mbedtls
+pk_encrypt	devpkg-mbedtls
+pk_sign	devpkg-mbedtls
+pk_verify	devpkg-mbedtls
 pkaction	polkit
 pkcheck	polkit
 pkcs11-register	smartcard
@@ -5034,7 +5070,7 @@ proj	devpkg-proj
 projinfo	devpkg-proj
 projsync	devpkg-proj
 protoc	protobuf
-protoc-26.1.0	protobuf
+protoc-25.3.0	protobuf
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 prove	perl-basic
@@ -5056,6 +5092,8 @@ ps2pk	texlive
 ps2ps	ghostscript
 ps2ps2	ghostscript
 ps4pdf	texlive
+psa_constant_names	devpkg-mbedtls
+psa_hash	devpkg-mbedtls
 psbook	texlive
 pscap	devpkg-libcap-ng
 psensor	psensor
@@ -5253,6 +5291,8 @@ qtwaylandscanner	devpkg-qtwayland
 quassel	quassel
 quasselclient	quassel
 quasselcore	quasselcore
+query_compile_time_config	devpkg-mbedtls
+query_included_headers	devpkg-mbedtls
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
@@ -5351,6 +5391,7 @@ reply	perl-basic
 repo2solv	devpkg-libsolv
 repomdxml2solv	devpkg-libsolv
 repstopdf	texlive
+req_app	devpkg-mbedtls
 request-key	devpkg-keyutils
 rescan-scsi-bus.sh	sysadmin-basic-dev
 reset	sysadmin-basic
@@ -5456,6 +5497,13 @@ rrdcreate	rrdtool
 rrdinfo	rrdtool
 rrdtool	rrdtool
 rrdupdate	rrdtool
+rsa_decrypt	devpkg-mbedtls
+rsa_encrypt	devpkg-mbedtls
+rsa_genkey	devpkg-mbedtls
+rsa_sign	devpkg-mbedtls
+rsa_sign_pss	devpkg-mbedtls
+rsa_verify	devpkg-mbedtls
+rsa_verify_pss	devpkg-mbedtls
 rst2html	docutils
 rst2html.py	docutils
 rst2html4.py	docutils
@@ -5655,6 +5703,7 @@ secret-tool	devpkg-libsecret
 secutil	mono
 sed	os-core
 seergdb	seer
+selftest	devpkg-mbedtls
 sem	parallel
 sendmail	perl-basic
 sendmail-postfix	postfix
@@ -6073,6 +6122,14 @@ sshare	cluster-tools
 sshd	openssh-server
 sshpass	ansible
 sshuttle	sshuttle
+ssl_client1	devpkg-mbedtls
+ssl_client2	devpkg-mbedtls
+ssl_context_info	devpkg-mbedtls
+ssl_fork_server	devpkg-mbedtls
+ssl_mail_client	devpkg-mbedtls
+ssl_pthread_server	devpkg-mbedtls
+ssl_server	devpkg-mbedtls
+ssl_server2	devpkg-mbedtls
 ssltap	cryptography
 ssm-agent-worker	os-cloudguest-aws
 ssm-cli	os-cloudguest-aws
@@ -6113,6 +6170,7 @@ stow	sysadmin-basic
 strace	strace
 stream	ImageMagick
 streamzip	perl-basic
+strerror	devpkg-mbedtls
 stress-ng	stress-ng
 strfile	fortune-mod
 strigger	cluster-tools
@@ -6699,6 +6757,7 @@ udaddy	hpc-utils
 udevadm	os-core
 udisksctl	sysadmin-remote
 udp_daemon	amateur-radio
+udp_proxy	devpkg-mbedtls
 udpong	hpc-utils
 udunits2	R-extras-dev
 uget-gtk	uget
@@ -6707,9 +6766,9 @@ ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	desktop-dev
-umockdev-run	desktop-dev
-umockdev-wrapper	desktop-dev
+umockdev-record	storage-utils-dev
+umockdev-run	storage-utils-dev
+umockdev-wrapper	storage-utils-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -6858,7 +6917,7 @@ verify-uselistorder-17	llvm
 verify-uselistorder-dpcpp	oneapi-dev
 verify_blkparse	performance-tools
 verifytime	os-core-update
-veritysetup	storage-utils
+veritysetup	boot-encrypted
 vfat-resize	sysadmin-remote
 vftovp	texlive
 vgcfgbackup	storage-cluster
@@ -7474,6 +7533,7 @@ zegrep	gzip
 zenity	zenity
 zenmap	nmap
 zerk	gpsd
+zeroize	devpkg-mbedtls
 zfgrep	gzip
 zforce	gzip
 zgrep	gzip
