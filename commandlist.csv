@@ -2646,7 +2646,7 @@ insmod	sysadmin-basic
 install	os-core
 install-info	texinfo
 install-printerdriver	desktop
-install-vbox-lga	kernel-lts2017
+install-vbox-lga	kernel-ltsprev
 installcheck	devpkg-libsolv
 installfont-tl	texlive
 installkernel	kernel-install
@@ -3970,7 +3970,7 @@ mknod	os-core
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-8.4.0	octave
+mkoctfile-9.2.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -4516,11 +4516,11 @@ ocprint	netcdf-fortran
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-8.4.0	octave
+octave-9.2.0	octave
 octave-cli	octave
-octave-cli-8.4.0	octave
+octave-cli-9.2.0	octave
 octave-config	octave
-octave-config-8.4.0	octave
+octave-config-9.2.0	octave
 od	os-core
 odvicopy	texlive
 odvitype	texlive
