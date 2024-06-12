@@ -1084,8 +1084,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	firefox
-dbus-broker	storage-utils-dev
-dbus-broker-launch	storage-utils-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -3117,7 +3117,6 @@ kolf	desktop-kde-games
 kollision	desktop-kde-games
 kolourpaint	kolourpaint
 komkindex	texlive
-kompare	kompare
 konqueror	konqueror
 konquest	desktop-kde-games
 konsole	konsole
@@ -3174,10 +3173,10 @@ kswitch	enterprise-login
 ksyntaxhighlighter6	os-clr-on-clr-dev
 ksystemlog	ksystemlog
 kteatime	desktop-kde-games
-ktelnetservice6	kompare
+ktelnetservice6	kde-frameworks5
 ktimer	desktop-kde-apps
 ktnef	desktop-kde-apps
-ktrash6	kompare
+ktrash6	kde-frameworks5
 ktuberling	education-preschool
 kturtle	education-tertiary
 ktutil	enterprise-login
@@ -3764,7 +3763,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	storage-utils-dev
+mako-render	desktop-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4468,6 +4467,8 @@ objcopy	binutils
 objdump	binutils
 object-remote-node	perl-extras
 object-remote-slave	perl-extras
+obs	obs-studio
+obs-ffmpeg-mux	obs-studio
 ocaml	ocaml-basic
 ocamlbuild	ocaml-basic
 ocamlbuild.byte	ocaml-basic
@@ -6766,9 +6767,9 @@ ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	storage-utils-dev
-umockdev-run	storage-utils-dev
-umockdev-wrapper	storage-utils-dev
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
