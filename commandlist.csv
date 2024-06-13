@@ -252,6 +252,7 @@ asciidoctor	go-basic-dev
 asciinema	productivity
 aseqdump	alsa-utils
 aseqnet	alsa-utils
+aseqsend	alsa-utils
 aserver	thunderbird
 asn1Coding	devpkg-libtasn1
 asn1Decoding	devpkg-libtasn1
@@ -1201,6 +1202,7 @@ dmenu_run	bspwm
 dmesg	os-core
 dmeventd	storage-cluster
 dmidecode	sysadmin-basic
+dmrconf	amateur-radio
 dmsetup	storage-cluster
 dmstats	storage-cluster
 dmypy	python-extras
@@ -5243,6 +5245,7 @@ qdbus	qt-basic
 qdbusviewer	qt-basic
 qdelaunay	desktop-dev
 qdistancefieldgenerator	devpkg-qttools
+qdmr	amateur-radio
 qemu-edid	kvm-host
 qemu-ga	qemu-guest-additions
 qemu-i386	kvm-host
