@@ -1071,7 +1071,7 @@ date	os-core
 datefudge	perl-basic-dev
 dateparse	perl-extras
 dav1d	dav1d
-daxctl	storage-utils
+daxctl	devpkg-pmdk
 daxio	pmdk
 dazzle-list-counters	devpkg-libdazzle
 dbfadd	devpkg-shapelib
@@ -4267,7 +4267,7 @@ ncdump	netcdf-fortran
 ncgen	netcdf-fortran
 ncgen3	netcdf-fortran
 ncursesw6-config	sysadmin-basic
-ndctl	storage-utils
+ndctl	devpkg-pmdk
 ndiff	nmap
 ndisasm	nasm
 ndpiReader	network-security-monitoring
@@ -7396,7 +7396,10 @@ xfs_repair	xfsprogs
 xfs_rtcp	xfsprogs
 xfs_scrub	xfsprogs
 xfs_spaceman	xfsprogs
+xfsdump	xfsprogs
 xfsettingsd	xfce4-desktop
+xfsinvutil	xfsprogs
+xfsrestore	xfsprogs
 xfwm4	xfce4-desktop
 xfwm4-settings	xfce4-desktop
 xfwm4-tweaks-settings	xfce4-desktop
