@@ -597,6 +597,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catman	man-pages
+cbindgen	desktop-dev
 cc	c-basic
 ccache	ccache
 ccache-swig	machine-learning-basic
@@ -5419,6 +5420,7 @@ rfddump	mtd-utils
 rfdformat	mtd-utils
 rfkill	os-core
 rftp	tcl-basic
+rg	ripgrep
 rgb2pct.py	gdal
 rhythmbox	rhythmbox
 rhythmbox-client	rhythmbox
