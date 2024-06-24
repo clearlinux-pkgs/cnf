@@ -1435,7 +1435,7 @@ elinks	network-basic
 elk_asm	lib-opengl
 elk_disasm	lib-opengl
 emacs	emacs
-emacs-29.3	emacs
+emacs-29.4	emacs
 emacs-x11	emacs-x11
 emacsclient	emacs
 emoji-picker	desktop
