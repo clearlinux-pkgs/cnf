@@ -4877,7 +4877,6 @@ pinky	os-core
 pinns	cloud-native-basic
 pip	python3-basic
 pip3	python3-basic
-pip3.12	python3-basic
 pip_stress	dev-utils
 pipesz	os-core
 pipewire	audio-pipewire
