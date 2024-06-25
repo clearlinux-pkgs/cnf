@@ -2837,6 +2837,8 @@ isnsdd	devpkg-open-isns
 iso-info	asunder
 iso-read	asunder
 isohybrid	syslinux
+isort	python3-basic
+isort-identify-imports	python3-basic
 isosize	os-core
 isotest	hardware-bluetooth
 isotpdump	automotive-tools
