@@ -20,7 +20,6 @@ R	R-basic
 R-script	R-basic
 Rscript	devpkg-R
 Shape_PointInPoly	devpkg-shapelib
-SvtAv1DecApp	SVT-AV1
 SvtAv1EncApp	SVT-AV1
 SvtHevcEncApp	SVT-HEVC
 ThermalMonitor	desktop-apps-extras
@@ -363,7 +362,7 @@ bats	software-testing
 bbl2bib	texlive
 bbox	texlive
 bc	bc
-bcache-super-show	bcache-tools
+bcachefs	storage-utils
 bcc-lua	bcc
 bcftools	samtools
 bcmserver	automotive-tools
@@ -956,6 +955,7 @@ cracklib-check	clr-installer
 cracklib-format	clr-installer
 cracklib-packer	clr-installer
 cracklib-unpacker	clr-installer
+cracklib-update	clr-installer
 crashprobe	devpkg-telemetrics-client
 create-cracklib-dict	clr-installer
 create_cvsignore	desktop-kde-apps
@@ -1718,6 +1718,7 @@ fribidi	devpkg-fribidi
 fsadm	storage-cluster
 fsarchiver	storage-utils
 fsck	os-core
+fsck.bcachefs	storage-utils
 fsck.btrfs	btrfs-progs
 fsck.cramfs	os-core
 fsck.exfat	storage-utils
@@ -1726,6 +1727,7 @@ fsck.ext3	os-core
 fsck.ext4	os-core
 fsck.f2fs	storage-utils
 fsck.fat	dosfstools
+fsck.fuse.bcachefs	storage-utils
 fsck.msdos	dosfstools
 fsck.vfat	dosfstools
 fsck.xfs	xfsprogs
@@ -2746,7 +2748,6 @@ iperf3	iperf
 ipescript	ipe
 ipetoipe	ipe
 ipf-mod.pl	performance-tools
-ipmctl	storage-utils
 ipmi-chassis	sysadmin-hostmgmt
 ipmi-chassis-config	sysadmin-hostmgmt
 ipmi-config	sysadmin-hostmgmt
@@ -3753,7 +3754,6 @@ mail	mutt
 mailq	postfix
 mailstat	mail-utils
 make	make
-make-bcache	bcache-tools
 make-file.sh	ltp
 make4ht	texlive
 makealias	devpkg-hunspell
@@ -3948,6 +3948,7 @@ mkfifo	os-core
 mkfontdir	fonts-basic
 mkfontscale	fonts-basic
 mkfs	os-core
+mkfs.bcachefs	storage-utils
 mkfs.btrfs	btrfs-progs
 mkfs.cramfs	os-core-dev
 mkfs.exfat	storage-utils
@@ -3956,6 +3957,7 @@ mkfs.ext3	os-cloudguest-equinix
 mkfs.ext4	os-cloudguest-equinix
 mkfs.f2fs	storage-utils
 mkfs.fat	dosfstools
+mkfs.fuse.bcachefs	storage-utils
 mkfs.jffs2	mtd-utils
 mkfs.msdos	dosfstools
 mkfs.ntfs	storage-utils
@@ -4066,9 +4068,11 @@ mosquitto_rr	mosquitto
 mosquitto_sub	mosquitto
 motd-update.sh	sysadmin-basic
 mount	os-core
+mount.bcachefs	storage-utils
 mount.cifs	storage-utils
 mount.ddi	os-core
 mount.efs	cloud-api
+mount.fuse.bcachefs	storage-utils
 mount.fuse3	fuse
 mount.glusterfs	storage-cluster
 mount.lowntfs-3g	storage-utils
@@ -6722,6 +6726,7 @@ turnserver	coturn
 turnutils_natdiscovery	coturn
 turnutils_oauth	coturn
 turnutils_peer	coturn
+turnutils_rfc5769check	coturn
 turnutils_stunclient	coturn
 turnutils_uclient	coturn
 twine	python-extras
