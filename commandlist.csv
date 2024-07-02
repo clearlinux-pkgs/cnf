@@ -1122,6 +1122,7 @@ decode-vaio	maker-basic
 decode_aprs	amateur-radio
 decode_tm6000	v4l-utils
 decryptdir	tcl-basic
+decvpp_tool	desktop-dev
 defrag.f2fs	storage-utils
 dehtmldiff	dev-utils
 dejagnu	os-core-dev
@@ -1571,6 +1572,7 @@ false	os-core
 fancontrol	lm-sensors
 faqpods	perl-extras
 fasta-sanitize.pl	samtools
+fastfetch	fastfetch
 fatlabel	dosfstools
 fc-cache	fontconfig
 fc-cat	fontconfig
@@ -1665,6 +1667,7 @@ flash_otp_lock	mtd-utils
 flash_otp_write	mtd-utils
 flash_unlock	mtd-utils
 flashcp	mtd-utils
+flashfetch	fastfetch
 flatpak	flatpak
 flatpak-bisect	flatpak
 flatpak-builder	flatpak
@@ -3242,6 +3245,7 @@ ld.bfd	binutils
 ld.gold	c-basic
 ld.lld	llvm
 ld.lld-17	llvm
+ld.mold	mold
 ld.so	os-core
 ld10k1	alsa-tools
 ld10k1d	alsa-tools
@@ -4024,6 +4028,7 @@ modutil	cryptography
 mogrify	ImageMagick
 mojo	perl-extras
 mokutil	sysadmin-basic
+mold	mold
 mongoose	R-extras-dev
 monitor-sensor	iio-sensor-proxy
 mono	mono
@@ -4686,7 +4691,11 @@ partprobe	parted
 partx	os-core
 pass	pass
 passmass	tcl-basic
+passt	podman
+passt.avx2	podman
 passwd	os-core
+pasta	podman
+pasta.avx2	podman
 paste	os-core
 pasteurize	machine-learning-basic
 patch	patch
@@ -4795,7 +4804,7 @@ perfquery	hpc-utils
 perl	perl-basic
 perl-migrate-modules	perl-extras
 perl-reversion	perl-extras
-perl5.38.2	perl-basic
+perl5.40.0	perl-basic
 perlbrew	perl-extras
 perlbug	perl-basic
 perldoc	perl-basic
@@ -5174,6 +5183,7 @@ pvscan	storage-cluster
 pw-cat	audio-pipewire
 pw-cli	audio-pipewire
 pw-config	audio-pipewire
+pw-container	audio-pipewire
 pw-dot	audio-pipewire
 pw-dsdplay	audio-pipewire
 pw-dump	audio-pipewire
@@ -5288,6 +5298,7 @@ qmltime	qt-basic
 qmltyperegistrar	qt-basic
 qpdf	devpkg-qpdf
 qphotorec	testdisk
+qrap	podman
 qrencode	devpkg-qrencode
 qscxmlc	devpkg-qtscxml
 qsstv	amateur-radio
@@ -5613,6 +5624,10 @@ samba_downgrade_db	samba
 samba_kcc	samba
 samba_spnupdate	samba
 samba_upgradedns	samba
+sample_decode	desktop-dev
+sample_encode	desktop-dev
+sample_multi_transcode	desktop-dev
+sample_vpp	desktop-dev
 samtools	samtools
 samtools.pl	samtools
 sancov	llvm
@@ -5927,7 +5942,6 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
-slirp4netns	podman
 sln	python-extras
 sload.f2fs	storage-utils
 slsh	devpkg-slang
@@ -6288,6 +6302,7 @@ sysprof-agent	sysprof
 sysprof-cli	sysprof
 system-config-printer	desktop
 system-config-printer-applet	desktop
+system_analyzer	desktop-dev
 systemctl	os-core
 systemd-ac-power	os-core
 systemd-analyze	os-core
@@ -7034,6 +7049,7 @@ vp8enc	libva-utils
 vp9enc	libva-utils
 vpddecode	sysadmin-basic
 vpe	texlive
+vpl-inspect	desktop-dev
 vpl2ovp	texlive
 vpl2vpl	texlive
 vpnc	NetworkManager-extras
