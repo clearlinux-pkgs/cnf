@@ -166,11 +166,6 @@ amidi	alsa-utils
 amixer	alsa-utils
 ampctl	amateur-radio
 ampctld	amateur-radio
-amqp-consume	devpkg-rabbitmq-c
-amqp-declare-queue	devpkg-rabbitmq-c
-amqp-delete-queue	devpkg-rabbitmq-c
-amqp-get	devpkg-rabbitmq-c
-amqp-publish	devpkg-rabbitmq-c
 amstex	texlive
 amuFormat.sh	storage-utils
 anacron	cronie
@@ -547,6 +542,7 @@ c-index-test	llvm
 c-index-test-17	llvm
 c-index-test-dpcpp	oneapi-dev
 cabextract	cabextract
+cablog	amateur-radio
 cacertdir_rehash	enterprise-login
 cache_check	storage-utils
 cache_dump	storage-utils
@@ -599,7 +595,6 @@ catman	man-pages
 cbindgen	desktop-dev
 cc	c-basic
 ccache	ccache
-ccache-swig	machine-learning-basic
 cccheck	mono
 ccconfig	perl-extras
 ccmake	c-basic
@@ -958,6 +953,7 @@ cracklib-unpacker	clr-installer
 cracklib-update	clr-installer
 crashprobe	devpkg-telemetrics-client
 create-cracklib-dict	clr-installer
+create-tarballs-metadata.sh	ltp
 create_cvsignore	desktop-kde-apps
 create_dmesg_entries_for_each_test.awk	ltp
 create_kernel_faults_in_loops_and_probability.awk	ltp
@@ -1032,7 +1028,6 @@ cupsreject	hardware-printing
 cupstestppd	hardware-printing
 curl	curl
 curl-config	curl
-curve_keygen	libzmq
 cut	os-core
 cvc-create	smartcard
 cvc-print	smartcard
@@ -1122,7 +1117,7 @@ decode-vaio	maker-basic
 decode_aprs	amateur-radio
 decode_tm6000	v4l-utils
 decryptdir	tcl-basic
-decvpp_tool	desktop-dev
+decvpp_tool	devpkg-oneVPL
 defrag.f2fs	storage-utils
 dehtmldiff	dev-utils
 dejagnu	os-core-dev
@@ -1524,7 +1519,6 @@ ex	vim
 example	smartcard
 exceltex	texlive
 exch	os-core
-execltp	ltp
 exfat2img	storage-utils
 exfatlabel	storage-utils
 exiv2	desktop-kde
@@ -1705,6 +1699,7 @@ forkstat	forkstat
 formail	mail-utils
 fortune	fortune-mod
 fossil	fossil
+foxchk	amateur-radio
 fprintd-delete	fprintd
 fprintd-enroll	fprintd
 fprintd-list	fprintd
@@ -1786,7 +1781,7 @@ galera_recovery	mariadb
 gamma4scanimage	hardware-printing
 gapplication	libglib
 gawk	os-core
-gawk-5.2.2	os-core
+gawk-5.3.0	os-core
 gawkbug	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
@@ -1986,7 +1981,6 @@ gi-inspect-typelib	libglib
 gidmigrator	desktop-kde-apps
 gids-tool	smartcard
 gie	devpkg-proj
-gif2h5	machine-learning-basic
 gif2rgb	R-extras-dev
 gifbuild	R-extras-dev
 gifclrmp	R-extras-dev
@@ -2128,6 +2122,9 @@ gp-display-text	binutils
 gparted	gparted
 gpasswd	os-core
 gpaste-client	gpaste
+gpcl6	ghostscript
+gpcl6c	ghostscript
+gpdlc	ghostscript
 gperf	performance-tools
 gpg	gnupg
 gpg-agent	gnupg
@@ -2325,12 +2322,13 @@ gvpack	graphviz
 gvpr	graphviz
 gxl2dot	graphviz
 gxl2gv	graphviz
+gxps	ghostscript
+gxpsc	ghostscript
 gzexe	gzip
 gzip	sysadmin-basic
 h264encode	libva-utils
 h2ph	perl-basic
 h2xs	perl-basic
-h52gif	machine-learning-basic
 h5c++	machine-learning-basic
 h5cc	machine-learning-basic
 h5clear	machine-learning-basic
@@ -2360,6 +2358,7 @@ haproxy	haproxy
 hardinfo	hardinfo
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
+hash22calc	amateur-radio
 hashstats	duperemove
 hatch-fancy-pypi-readme	python-extras
 hatch-jupyter-builder	python-extras
@@ -2818,11 +2817,14 @@ is.S.x	npb
 is.W.x	npb
 isadump	lm-sensors
 isaset	lm-sensors
+iscsi-discard	sysadmin-remote
 iscsi-gen-initiatorname	storage-utils
 iscsi-iname	storage-utils
 iscsi-inq	sysadmin-remote
 iscsi-ls	sysadmin-remote
+iscsi-md5sum	sysadmin-remote
 iscsi-perf	sysadmin-remote
+iscsi-pr	sysadmin-remote
 iscsi-readcapacity16	sysadmin-remote
 iscsi-swp	sysadmin-remote
 iscsi_discovery	storage-utils
@@ -3285,6 +3287,7 @@ lftpget	lftp
 lgroupadd	devpkg-libuser
 lgroupdel	devpkg-libuser
 lgroupmod	devpkg-libuser
+lib.sh	ltp
 libassuan-config	devpkg-libassuan
 libdeps.py	libdeps
 libevdev-tweak-device	devpkg-libevdev
@@ -3299,6 +3302,7 @@ libreoffice	libreoffice
 librest-demo	devpkg-rest
 libtool	c-basic
 libtoolize	c-basic
+libvirt-dbus	kvm-host
 libvirtd	kvm-host
 libwacom-list-devices	devpkg-libwacom
 libwacom-list-local-devices	devpkg-libwacom
@@ -3935,8 +3939,6 @@ mini_client	devpkg-mbedtls
 minicom	minicom
 minimodem	amateur-radio
 mirrorMappings	perl-extras
-mirror_server	machine-learning-basic
-mirror_server_stop	machine-learning-basic
 mispipe	moreutils
 mixartloader	alsa-tools
 mixer	mixer
@@ -4469,7 +4471,6 @@ nunit-console2	mono
 nunit-console4	mono
 nut-scanner	nut
 nutconf	nut
-nvim	neovim
 nvlc	vlc
 nvme	storage-utils
 nvptx-arch	llvm
@@ -4492,8 +4493,6 @@ ocamlc.byte	ocaml-basic
 ocamlc.opt	ocaml-basic
 ocamlcmt	ocaml-basic
 ocamlcp	ocaml-basic
-ocamlcp.byte	ocaml-basic
-ocamlcp.opt	ocaml-basic
 ocamldebug	ocaml-basic
 ocamldep	ocaml-basic
 ocamldep.byte	ocaml-basic
@@ -4504,11 +4503,7 @@ ocamllex	ocaml-basic
 ocamllex.byte	ocaml-basic
 ocamllex.opt	ocaml-basic
 ocamlmklib	ocaml-basic
-ocamlmklib.byte	ocaml-basic
-ocamlmklib.opt	ocaml-basic
 ocamlmktop	ocaml-basic
-ocamlmktop.byte	ocaml-basic
-ocamlmktop.opt	ocaml-basic
 ocamlobjinfo	ocaml-basic
 ocamlobjinfo.byte	ocaml-basic
 ocamlobjinfo.opt	ocaml-basic
@@ -4516,11 +4511,7 @@ ocamlopt	ocaml-basic
 ocamlopt.byte	ocaml-basic
 ocamlopt.opt	ocaml-basic
 ocamloptp	ocaml-basic
-ocamloptp.byte	ocaml-basic
-ocamloptp.opt	ocaml-basic
 ocamlprof	ocaml-basic
-ocamlprof.byte	ocaml-basic
-ocamlprof.opt	ocaml-basic
 ocamlrun	ocaml-basic
 ocamlrund	ocaml-basic
 ocamlruni	ocaml-basic
@@ -5229,6 +5220,7 @@ pygmentize	scm-server
 pylint	python-extras
 pylint-config	python-extras
 pylupdate5	hardware-printing
+pylupdate6	PyQt6
 pyozw_check	domotica
 pyozw_shell	domotica
 pypi-dep-fix.py	package-utils
@@ -5247,6 +5239,7 @@ pythontex	texlive
 pythran	desktop-dev
 pythran-config	desktop-dev
 pyuic5	hardware-printing
+pyuic6	PyQt6
 q65code	amateur-radio
 q65sim	amateur-radio
 qalculate-gtk	qalculate-gtk
@@ -5527,19 +5520,15 @@ rsa_sign_pss	devpkg-mbedtls
 rsa_verify	devpkg-mbedtls
 rsa_verify_pss	devpkg-mbedtls
 rst2html	docutils
-rst2html.py	docutils
-rst2html4.py	docutils
-rst2html5.py	docutils
-rst2latex.py	docutils
+rst2html4	docutils
+rst2html5	docutils
+rst2latex	docutils
 rst2man	docutils
-rst2man.py	docutils
-rst2odt.py	docutils
-rst2odt_prepstyles.py	docutils
-rst2pseudoxml.py	docutils
-rst2s5.py	docutils
-rst2xetex.py	docutils
-rst2xml.py	docutils
-rstpep2html.py	docutils
+rst2odt	docutils
+rst2pseudoxml	docutils
+rst2s5	docutils
+rst2xetex	docutils
+rst2xml	docutils
 rstream	hpc-utils
 rsvg-convert	transcoding-support
 rsync	rsync
@@ -5617,6 +5606,7 @@ salt-syndic	salt
 sam2vcf.pl	samtools
 samba	samba
 samba-gpupdate	samba
+samba-log-parser	samba
 samba-regedit	samba
 samba-tool	samba
 samba_dnsupdate	samba
@@ -5624,10 +5614,10 @@ samba_downgrade_db	samba
 samba_kcc	samba
 samba_spnupdate	samba
 samba_upgradedns	samba
-sample_decode	desktop-dev
-sample_encode	desktop-dev
-sample_multi_transcode	desktop-dev
-sample_vpp	desktop-dev
+sample_decode	devpkg-oneVPL
+sample_encode	devpkg-oneVPL
+sample_multi_transcode	devpkg-oneVPL
+sample_vpp	devpkg-oneVPL
 samtools	samtools
 samtools.pl	samtools
 sancov	llvm
@@ -5768,7 +5758,9 @@ sfdisk	os-core
 sfdp	graphviz
 sfreerdp	FreeRDP
 sfreerdp-server	FreeRDP
+sfrx	amateur-radio
 sftp	sysadmin-basic
+sftx	amateur-radio
 sg	os-core
 sg_bg_ctl	sysadmin-basic-dev
 sg_compare_and_write	sysadmin-basic-dev
@@ -6211,7 +6203,6 @@ stunnel	cloud-api
 sty2dtx	texlive
 su	os-core
 su-exec	su-exec
-subunit-diff	devpkg-subunit
 sudo	sudo
 sudo_logsrvd	sudo
 sudo_sendlog	sudo
@@ -6291,6 +6282,7 @@ synergy	synergy
 synergy-core	synergy
 synergyc	synergy
 synergys	synergy
+syntax_suggest	ruby-basic
 syntool	synergy
 syscse	dev-utils
 sysctl	procps-ng
@@ -6302,7 +6294,7 @@ sysprof-agent	sysprof
 sysprof-cli	sysprof
 system-config-printer	desktop
 system-config-printer-applet	desktop
-system_analyzer	desktop-dev
+system_analyzer	devpkg-oneVPL
 systemctl	os-core
 systemd-ac-power	os-core
 systemd-analyze	os-core
@@ -6357,6 +6349,7 @@ tabmerge	perl-extras
 tabs	sysadmin-basic
 tabulate	python-extras
 tac	os-core
+tag-release.sh	ltp
 taglib-config	devpkg-taglib
 tail	os-core
 tallow	openssh-server
@@ -7049,7 +7042,7 @@ vp8enc	libva-utils
 vp9enc	libva-utils
 vpddecode	sysadmin-basic
 vpe	texlive
-vpl-inspect	desktop-dev
+vpl-inspect	devpkg-oneVPL
 vpl2ovp	texlive
 vpl2vpl	texlive
 vpnc	NetworkManager-extras
@@ -7106,7 +7099,8 @@ weston	weston-extras
 weston-calibrator	weston-extras
 weston-clickdot	weston-extras
 weston-cliptest	weston-extras
-weston-confine	weston-extras
+weston-constraints	weston-extras
+weston-content_protection	weston-extras
 weston-debug	weston-extras
 weston-dnd	weston-extras
 weston-editor	weston-extras
@@ -7114,15 +7108,13 @@ weston-eventdemo	weston-extras
 weston-flower	weston-extras
 weston-fullscreen	weston-extras
 weston-image	weston-extras
-weston-info	weston-extras
-weston-launch	weston-extras
 weston-multi-resource	weston-extras
 weston-presentation-shm	weston-extras
 weston-resizor	weston-extras
 weston-scaler	weston-extras
 weston-simple-damage	weston-extras
-weston-simple-dmabuf-drm	weston-extras
 weston-simple-dmabuf-egl	weston-extras
+weston-simple-dmabuf-feedback	weston-extras
 weston-simple-dmabuf-v4l	weston-extras
 weston-simple-egl	weston-extras
 weston-simple-shm	weston-extras
@@ -7130,6 +7122,7 @@ weston-simple-touch	weston-extras
 weston-smoke	weston-extras
 weston-stacking	weston-extras
 weston-subsurfaces	weston-extras
+weston-tablet	weston-extras
 weston-terminal	weston-extras
 weston-touch-calibrator	weston-extras
 weston-transformed	weston-extras
@@ -7222,6 +7215,7 @@ wslusc	wslu
 wslvar	wslu
 wslview	wslu
 wsprd	amateur-radio
+wspsearch	samba
 wsrep_sst_backup	mariadb
 wsrep_sst_common	mariadb
 wsrep_sst_mariabackup	mariadb
@@ -7233,6 +7227,8 @@ wvtag	devpkg-wavpack
 wvunpack	devpkg-wavpack
 wwan	TLP
 wx-config	amateur-radio
+wxrc	amateur-radio
+wxrc-3.2	amateur-radio
 x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
