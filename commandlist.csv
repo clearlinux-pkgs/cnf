@@ -3302,7 +3302,7 @@ libreoffice	libreoffice
 librest-demo	devpkg-rest
 libtool	c-basic
 libtoolize	c-basic
-libvirt-dbus	kvm-host
+libvirt-dbus	cockpit
 libvirtd	kvm-host
 libwacom-list-devices	devpkg-libwacom
 libwacom-list-local-devices	devpkg-libwacom
@@ -4471,6 +4471,7 @@ nunit-console2	mono
 nunit-console4	mono
 nut-scanner	nut
 nutconf	nut
+nvim	neovim
 nvlc	vlc
 nvme	storage-utils
 nvptx-arch	llvm
