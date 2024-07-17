@@ -680,7 +680,7 @@ checkisomd5	clr-installer-iso-init
 checklistings	texlive
 checkmk	c-basic
 checksctp	devpkg-libsctp
-cheese	cheese
+cheese	devpkg-cheese
 chfn	os-core
 chgpasswd	os-core
 chgrp	os-core
@@ -5979,6 +5979,7 @@ smpdump	hpc-utils
 smpquery	hpc-utils
 sn	mono
 snap_scheduler.py	storage-cluster
+snapshot	snapshot
 sndfile-cmp	transcoding-support
 sndfile-concat	transcoding-support
 sndfile-convert	transcoding-support
