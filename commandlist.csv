@@ -1104,6 +1104,7 @@ dcraw_emu	devpkg-LibRaw
 dcraw_half	devpkg-LibRaw
 dd	os-core
 ddcmon	maker-basic
+ddcutil	ddcutil
 ddd	ddd
 ddns-confgen	network-basic
 de-macro	texlive
@@ -1579,6 +1580,7 @@ fc-scan	fontconfig
 fc-validate	fontconfig
 fcal	amateur-radio
 fcgistarter	httpd
+fd	fd
 fdisk	os-core
 fdp	graphviz
 fdtdump	dtc
