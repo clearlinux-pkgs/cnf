@@ -91,7 +91,6 @@ afm2tfm	texlive
 ag	the_silver_searcher
 agentxtrap	performance-tools
 agetty	os-core
-aggregate_profile.pl	openmpi
 akonadi-db-migrator	akonadi
 akonadi2xml	akonadi
 akonadi_agent_launcher	akonadi
@@ -4544,8 +4543,6 @@ oid2name	postgresql
 oiiotool	blender
 okular	okular
 omfonts	texlive
-ompi-clean	openmpi
-ompi-server	openmpi
 ompi_info	openmpi
 onig-config	devpkg-onig
 onnode	samba
@@ -4591,14 +4588,9 @@ orbd	java-basic
 orc-bugreport	transcoding-support
 orca	desktop
 orcc	transcoding-support
-orte-clean	openmpi
-orte-info	openmpi
-orte-server	openmpi
-ortecc	openmpi
-orted	openmpi
-orterun	openmpi
 osage	graphviz
 osgmlnorm	mail-utils-dev
+oshrun	openmpi
 osinfo-db-export	gnome-boxes
 osinfo-db-import	gnome-boxes
 osinfo-db-path	gnome-boxes
@@ -4661,6 +4653,7 @@ pactl	pulseaudio
 padsp	pulseaudio
 pahole	dev-utils
 palapeli	desktop-kde-games
+palloc	openmpi
 pam_namespace_helper	sysadmin-basic
 pam_timestamp_check	sysadmin-basic
 pamon	pulseaudio
@@ -4699,6 +4692,7 @@ patchview	dev-utils
 patchwork	graphviz
 patgen	texlive
 pathchk	os-core
+pattrs	openmpi
 pavucontrol	desktop-apps
 pbibtex	texlive
 pbr	python-extras
@@ -4710,6 +4704,7 @@ pcap-config	devpkg-libpcap
 pcasc	maker-basic
 pcb_calculator	kicad
 pcbnew	kicad
+pcc	openmpi
 pcf2vpnc	NetworkManager-extras
 pcilmr	sysadmin-basic
 pcmanfm	pcmanfm
@@ -4723,6 +4718,7 @@ pcretest	devpkg-pcre
 pcsc_scan	smartcard
 pcscd	gnupg
 pct2rgb.py	gdal
+pctrl	openmpi
 pcxhrloader	alsa-tools
 pcxm	maker-basic
 pcym	maker-basic
@@ -4813,7 +4809,7 @@ perror	mariadb
 pesigcheck	os-clr-on-clr
 pesign	os-clr-on-clr
 pesign-client	os-clr-on-clr
-pevent	cluster-tools
+pevent	openmpi
 peverify	mono
 pf2afm	ghostscript
 pfarrei	texlive
@@ -4946,7 +4942,7 @@ platex-dev	texlive
 play	sox
 pldd	os-core
 plipconfig	net-tools
-plookup	cluster-tools
+plookup	openmpi
 plot-ampliconstats	samtools
 plot-bamstats	samtools
 plot-roh.py	samtools
@@ -4970,7 +4966,8 @@ pmexp	perl-extras
 pmfunc	perl-extras
 pminclude	perl-extras
 pminst	perl-extras
-pmix_info	cluster-tools
+pmix_info	openmpi
+pmixcc	openmpi
 pmload	perl-extras
 pmls	perl-extras
 pmpath	perl-extras
@@ -5058,8 +5055,9 @@ pppstats	NetworkManager
 pprof	devpkg-gperftools
 pprof-symbolize	devpkg-gperftools
 pprof2calltree	kcachegrind
-pps	cluster-tools
+pps	openmpi
 ppscheck	gpsd
+pquery	openmpi
 pr	os-core
 pre-grohtml	man-pages
 precat	aspell
@@ -5076,7 +5074,6 @@ printf	os-core
 prlimit	os-core
 procan	socat
 procmail	mail-utils
-profile2mat.pl	openmpi
 profiles	samba
 proj	devpkg-proj
 projinfo	devpkg-proj
@@ -5087,7 +5084,12 @@ protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
 prove	perl-basic
 proxy	desktop-gnomelibs
+prte	openmpi
+prte_info	openmpi
+prted	openmpi
+prterun	openmpi
 prtstat	sysadmin-basic
+prun	openmpi
 prune	graphviz
 pruneemptydirs	desktop-kde-apps
 ps	procps-ng
@@ -5144,6 +5146,7 @@ pstree.x11	sysadmin-basic
 ptar	perl-basic
 ptardiff	perl-basic
 ptargrep	perl-basic
+pterm	openmpi
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
