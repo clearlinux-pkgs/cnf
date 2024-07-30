@@ -1216,6 +1216,7 @@ dnspcap2protobuf	pdns
 dnsreplay	pdns
 dnsscan	pdns
 dnsscope	pdns
+dnssec-ksr	network-basic
 dnstcpbench	pdns
 dnswasher	pdns
 doc_loadbios	mtd-utils
@@ -4207,7 +4208,6 @@ munch	devpkg-hunspell
 munge	cluster-tools
 munged	cluster-tools
 mungekey	cluster-tools
-musescore	MuseScore
 musixflx	texlive
 musixtex	texlive
 musl-gcc	musl
@@ -4995,6 +4995,7 @@ po4a-updatepo	po4a
 pod2html	perl-basic
 pod2latex	perl-extras
 pod2man	perl-basic
+pod2markdown	perl-extras
 pod2texi	texinfo
 pod2text	perl-basic
 pod2usage	perl-basic
