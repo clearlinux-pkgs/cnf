@@ -1918,7 +1918,6 @@ gdtopng	devpkg-libgd
 geany	geany
 geary	geary
 gedi	perl-extras
-gedit	gedit
 geeqie	geeqie
 gegl	gegl
 gegl-imgcmp	gegl
@@ -5297,6 +5296,8 @@ qgltf	qt-basic
 qhalf	desktop-dev
 qhelpgenerator	devpkg-qttools
 qhull	desktop-dev
+qmapshack	qmapshack
+qmaptool	qmapshack
 qmi-firmware-update	devpkg-libqmi
 qmi-network	devpkg-libqmi
 qmicli	devpkg-libqmi
@@ -5314,6 +5315,8 @@ qmlscene	qt-basic
 qmltestrunner	devpkg-qtdeclarative
 qmltime	qt-basic
 qmltyperegistrar	qt-basic
+qmt_map2jnx	qmapshack
+qmt_rgb2pct	qmapshack
 qpdf	devpkg-qpdf
 qphotorec	testdisk
 qrap	podman
@@ -5400,12 +5403,12 @@ recountdiff	dev-utils
 recv_image	mtd-utils
 red	editors
 rediff	dev-utils
-redis-benchmark	redis-native
-redis-check-aof	redis-native
-redis-check-rdb	redis-native
-redis-cli	redis-native
-redis-sentinel	redis-native
-redis-server	redis-native
+redis-benchmark	valkey
+redis-check-aof	valkey
+redis-check-rdb	valkey
+redis-cli	valkey
+redis-sentinel	valkey
+redis-server	valkey
 redsocks	network-basic
 refer	man-pages
 regdiff	samba
@@ -6947,6 +6950,12 @@ valadoc-0.56	devpkg-vala
 valgrind	valgrind
 valgrind-di-server	valgrind
 valgrind-listener	valgrind
+valkey-benchmark	valkey
+valkey-check-aof	valkey
+valkey-check-rdb	valkey
+valkey-cli	valkey
+valkey-sentinel	valkey
+valkey-server	valkey
 vapigen	devpkg-vala
 vapigen-0.56	devpkg-vala
 varlinkctl	os-core
