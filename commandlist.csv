@@ -2493,7 +2493,6 @@ hub	git
 hugo	hugo
 hunspell	devpkg-hunspell
 hunzip	devpkg-hunspell
-hv_fcopy_daemon	os-cloudguest-azure
 hv_kvp_daemon	os-cloudguest-azure
 hv_vss_daemon	os-cloudguest-azure
 hwclock	os-core
