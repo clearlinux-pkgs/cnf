@@ -3821,6 +3821,10 @@ man	man-pages
 man-recode	man-pages
 mandb	man-pages
 mandoc	cryptoprocessor-management-dev
+mangoapp	MangoHud
+mangohud	MangoHud
+mangohudctl	MangoHud
+mangoplot	MangoHud
 manifest	byobu
 manpath	man-pages
 map	perl-extras
@@ -4379,6 +4383,7 @@ nfsconf	nfs-utils
 nfsdcld	nfs-utils
 nfsdcltrack	nfs-utils
 nfsidmap	nfs-utils
+nfsref	nfs-utils
 nfsstat	nfs-utils
 nft	firewalld
 nftl_format	mtd-utils
@@ -4974,6 +4979,7 @@ plasma-interactiveconsole	desktop-kde
 plasma-localegen-helper	desktop-kde
 plasma-open-settings	desktop-kde
 plasma-shutdown	desktop-kde
+plasma-systemmonitor	desktop-kde
 plasma-welcome	desktop-kde
 plasma_session	desktop-kde
 plasma_waitforname	desktop-kde
