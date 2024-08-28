@@ -125,7 +125,6 @@ akonadi_openxchange_resource	desktop-kde-apps
 akonadi_pop3_resource	desktop-kde-apps
 akonadi_rds	akonadi
 akonadi_sendlater_agent	desktop-kde-apps
-akonadi_tomboynotes_resource	desktop-kde-apps
 akonadi_unifiedmailbox_agent	desktop-kde-apps
 akonadi_vcard_resource	desktop-kde-apps
 akonadi_vcarddir_resource	desktop-kde-apps
@@ -905,6 +904,7 @@ convertsegfilestopdf	devpkg-tesseract
 convertsegfilestops	devpkg-tesseract
 converttopdf	devpkg-tesseract
 converttops	devpkg-tesseract
+cookbook	devpkg-cfitsio
 copydatabase	devpkg-xapian-core
 copylink	perl-extras
 copyq	CopyQ
@@ -1521,6 +1521,7 @@ exceltex	texlive
 exch	os-core
 exfat2img	storage-utils
 exfatlabel	storage-utils
+exiftool	perl-extras
 exiv2	desktop-kde
 exo-desktop-item-edit	xfce4-desktop
 exo-open	xfce4-desktop
@@ -1640,6 +1641,8 @@ firewalld	firewalld
 fish	shells
 fish_indent	shells
 fish_key_reader	shells
+fitscopy	devpkg-cfitsio
+fitsverify	devpkg-cfitsio
 fix-include.sh	desktop-kde-apps
 fix-qdf	devpkg-qpdf
 fixcvsdiff	dev-utils
@@ -1701,6 +1704,7 @@ formail	mail-utils
 fortune	fortune-mod
 fossil	fossil
 foxchk	amateur-radio
+fpack	devpkg-cfitsio
 fprintd-delete	fprintd
 fprintd-enroll	fprintd
 fprintd-list	fprintd
@@ -1754,6 +1758,7 @@ ftl_format	mtd-utils
 ftp-rfc	tcl-basic
 fullcircle	dev-utils
 function_grep.pl	wine
+funpack	devpkg-cfitsio
 funzip	unzip
 fuse2fs	os-core
 fuser	sysadmin-basic
@@ -1901,7 +1906,7 @@ gdbm_load	perl-basic-dev
 gdbmtool	perl-basic-dev
 gdbserver	gdb
 gdbus	libglib
-gdbus-codegen	libglib
+gdbus-codegen	devpkg-pygobject
 gdcmpgif	devpkg-libgd
 gdiffmk	man-pages
 gdisk	bootloader
@@ -2040,9 +2045,9 @@ glances	performance-tools
 glfsheal	storage-cluster
 glib-compile-resources	libglib
 glib-compile-schemas	libglib
-glib-genmarshal	libglib
+glib-genmarshal	devpkg-pygobject
 glib-gettextize	libglib
-glib-mkenums	libglib
+glib-mkenums	devpkg-pygobject
 glinfo	lib-opengl
 glmark2	glmark2
 glmark2-drm	glmark2
@@ -2272,7 +2277,7 @@ gsx	ghostscript
 gtags	global
 gtags-cscope	global
 gtester	libglib
-gtester-report	libglib
+gtester-report	devpkg-pygobject
 gtf	perl-graphics
 gtk-builder-tool	pygobject
 gtk-demo	xfce4-desktop
@@ -2624,6 +2629,7 @@ ilasm	mono
 illinkanalyzer	mono
 imagetops	devpkg-tesseract
 imapfilter	mail-utils
+imcopy	devpkg-cfitsio
 img2simg	storage-utils
 img2webp	transcoding-support
 imgsize	perl-extras
@@ -6032,6 +6038,7 @@ smbstatus	samba
 smbtar	samba
 smbtorture	samba
 smbtree	samba
+smem	devpkg-cfitsio
 smemstat	smemstat
 sminfo	hpc-utils
 smispy_lsmplugin	sysadmin-remote
@@ -6122,6 +6129,7 @@ spam	mail-utils-dev
 spcat	mail-utils-dev
 speaker-test	alsa-utils
 spectacle	spectacle
+speed	devpkg-cfitsio
 speexdec	transcoding-support
 speexenc	transcoding-support
 spent	mail-utils-dev
