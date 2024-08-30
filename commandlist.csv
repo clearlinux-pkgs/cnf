@@ -677,7 +677,6 @@ checkisomd5	clr-installer-iso-init
 checklistings	texlive
 checkmk	c-basic
 checksctp	devpkg-libsctp
-cheese	devpkg-cheese
 chfn	os-core
 chgpasswd	os-core
 chgrp	os-core
@@ -7136,6 +7135,7 @@ vppsharpness	libva-utils
 vptovf	texlive
 vpxdec	transcoding-support
 vpxenc	transcoding-support
+vspipe	kde-frameworks5-dev
 vsyasm	yasm
 vte-2.91	devpkg-vte
 vte-2.91-gtk4	devpkg-vte
@@ -7240,6 +7240,7 @@ winedump	wine
 winefile	wine
 wineg++	wine
 winegcc	wine
+winegui	winegui
 winemaker	wine
 winemine	wine
 winepath	wine
@@ -7403,6 +7404,8 @@ xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xauth	x11-tools
 xb-tool	devpkg-xmlb
+xboxdrv	xboxdrv
+xboxdrvctl	xboxdrv
 xbuild	mono
 xclip	x11-tools
 xclip-copyfile	x11-tools
