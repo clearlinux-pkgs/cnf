@@ -2,8 +2,8 @@
 2to3-3.12	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
-7z	dev-utils
-7za	dev-utils
+7z	winegui
+7za	winegui
 ATR_analysis	smartcard
 DllPlugInTester	devpkg-cppunit
 FileCheck	llvm
@@ -361,7 +361,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	desktop-dev
+bdftopcf	kvm-host-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bemenu	bemenu
@@ -384,7 +384,7 @@ bibtexu	texlive
 biburl2doi	texlive
 bibzbladd	texlive
 bin2hex.py	python-extras
-bindgen	desktop-dev
+bindgen	kvm-host-dev
 biosdecode	sysadmin-basic
 bison	bison
 bitmap2component	kicad
@@ -591,7 +591,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catman	man-pages
-cbindgen	desktop-dev
+cbindgen	kvm-host-dev
 cc	c-basic
 ccache	ccache
 cccheck	mono
@@ -1080,8 +1080,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	firefox
-dbus-broker	desktop-dev
-dbus-broker-launch	desktop-dev
+dbus-broker	kvm-host-dev
+dbus-broker-launch	kvm-host-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -1683,8 +1683,8 @@ flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
 flrig	amateur-radio
-fltk-config	desktop-dev
-fluid	desktop-dev
+fltk-config	kvm-host-dev
+fluid	kvm-host-dev
 fluidsynth	fluidsynth
 fm_cmd	hpc-utils
 fm_cmdall	hpc-utils
@@ -2061,7 +2061,7 @@ global	global
 globash	global
 glslang	developer-gpu
 glslangValidator	developer-gpu
-glslc	desktop-dev
+glslc	kvm-host-dev
 glsync	lib-opengl
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
@@ -2725,6 +2725,7 @@ intel_reg_checker	igt-gpu-tools
 intel_residency	igt-gpu-tools
 intel_sanitize_gpu	lib-opengl
 intel_stepping	igt-gpu-tools
+intel_tiling_detect	igt-gpu-tools
 intel_vbt_decode	igt-gpu-tools
 intel_watermark	igt-gpu-tools
 intercept-build	llvm
@@ -3825,7 +3826,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	desktop-dev
+mako-render	kvm-host-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -4520,6 +4521,7 @@ numastat	numactl
 numatop	performance-tools
 numfmt	os-core
 numlockx	x11-tools
+numpy-config	pypi-numpy
 nunit-console	mono
 nunit-console2	mono
 nunit-console4	mono
@@ -5331,6 +5333,7 @@ qemu-pr-helper	kvm-host
 qemu-storage-daemon	kvm-host
 qemu-system-i386	kvm-host
 qemu-system-x86_64	kvm-host
+qemu-vmsr-helper	kvm-host
 qemu-x86_64	kvm-host
 qgit	dev-utils-gui
 qgltf	qt-basic
@@ -6869,9 +6872,9 @@ ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	desktop-dev
-umockdev-run	desktop-dev
-umockdev-wrapper	desktop-dev
+umockdev-record	kvm-host-dev
+umockdev-run	kvm-host-dev
+umockdev-wrapper	kvm-host-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
@@ -7441,7 +7444,10 @@ xdpyinfo	x11-tools
 xdt-autogen	xfce4-desktop
 xdt-csource	xfce4-desktop
 xdvipdfmx	texlive
-xe_reg	igt-gpu-tools
+xe-perf-configs	igt-gpu-tools
+xe-perf-control	igt-gpu-tools
+xe-perf-reader	igt-gpu-tools
+xe-perf-recorder	igt-gpu-tools
 xeglgears	lib-opengl
 xeglthreads	lib-opengl
 xelatex	texlive
@@ -7536,7 +7542,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	desktop-dev
+xml	kvm-host-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7553,7 +7559,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	desktop-dev
+xmlstarlet	kvm-host-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
