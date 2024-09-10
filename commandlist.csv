@@ -2298,6 +2298,7 @@ gtk4-demo	devpkg-gnome-bluetooth
 gtk4-demo-application	devpkg-gnome-bluetooth
 gtk4-encode-symbolic-svg	devpkg-gnome-bluetooth
 gtk4-icon-browser	devpkg-gnome-bluetooth
+gtk4-image-tool	devpkg-gnome-bluetooth
 gtk4-launch	devpkg-gnome-bluetooth
 gtk4-node-editor	devpkg-gnome-bluetooth
 gtk4-path-tool	devpkg-gnome-bluetooth
