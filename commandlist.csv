@@ -829,8 +829,8 @@ clr-python-timestamp	package-utils
 clr-pyversion-strip	python3-basic
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	gdb
-clr_debug_fuse	gdb
+clr_debug_daemon	binutils
+clr_debug_fuse	binutils
 clr_power	os-core-plus
 clrtrust	os-core
 cluster	graphviz
@@ -2379,6 +2379,7 @@ halt	os-core
 handy-1-demo	devpkg-libhandy
 haproxy	haproxy
 hardinfo	hardinfo
+hardinfo2	hardinfo2
 hardlink	os-core
 hash-to-efi-sig-list	os-clr-on-clr
 hash22calc	amateur-radio
@@ -2592,7 +2593,7 @@ icon-cache-update.sh	pygobject
 iconv	os-core
 iconvconfig	os-core
 iconvert	blender
-icu-config	sddm
+icu-config	devpkg-icu4c
 icuexportdata	sddm
 icuinfo	sddm
 icupkg	sddm
@@ -3952,6 +3953,7 @@ mergecap	wireshark
 mergerepo_c	package-utils
 mergesolv	devpkg-libsolv
 mersenne	calc
+mesa-overlay-control.py	lib-opengl
 mesg	os-core
 meson	dev-utils
 message_aggregator	amateur-radio
@@ -6923,7 +6925,7 @@ unzstd	c-basic
 upbibtex	texlive
 update-desktop-database	desktop
 update-helper	os-core-update
-update-mime-database	qt-core
+update-mime-database	gdk-pixbuf
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
