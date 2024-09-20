@@ -6466,7 +6466,7 @@ tchtest	devpkg-tokyocabinet
 tclsh	tcl-basic
 tclsh8.6	tcl-basic
 tcpdump	network-basic
-tcpdump.4.99.4	network-basic
+tcpdump.4.99.5	network-basic
 tctmgr	devpkg-tokyocabinet
 tctmttest	devpkg-tokyocabinet
 tcttest	devpkg-tokyocabinet
