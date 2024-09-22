@@ -1414,12 +1414,12 @@ efisiglist	os-clr-on-clr
 efitool-mkusb	os-clr-on-clr
 efivar	devpkg-efivar
 egk-tool	smartcard
-eglgears_wayland	lib-opengl
-eglgears_x11	lib-opengl
-eglinfo	lib-opengl
-eglkms	lib-opengl
-egltri_wayland	lib-opengl
-egltri_x11	lib-opengl
+eglgears_wayland	mesa-demos
+eglgears_x11	mesa-demos
+eglinfo	mesa-demos
+eglkms	mesa-demos
+egltri_wayland	mesa-demos
+egltri_x11	mesa-demos
 egrep	os-core
 ei-debug-events	kde-frameworks5-dev
 eid-viewer	eid-mw
@@ -1481,7 +1481,7 @@ erl	rabbitmq-server
 erl_call	rabbitmq-server
 erlc	rabbitmq-server
 errno	moreutils
-es2gears_wayland	lib-opengl
+es2gears_wayland	mesa-demos
 escapesrc	sddm
 escputil	hardware-printing
 escript	rabbitmq-server
@@ -1571,6 +1571,8 @@ faqpods	perl-extras
 fasta-sanitize.pl	samtools
 fastfetch	fastfetch
 fatlabel	dosfstools
+fax2ps	devpkg-tiff
+fax2tiff	devpkg-tiff
 fc-cache	fontconfig
 fc-cat	fontconfig
 fc-conflist	fontconfig
@@ -1918,7 +1920,6 @@ gdk-pixbuf-query-loaders	gdk-pixbuf
 gdk-pixbuf-thumbnailer	gdk-pixbuf
 gdm	desktop
 gdm-config	desktop
-gdm-screenshot	desktop
 gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
@@ -2050,7 +2051,7 @@ glib-compile-schemas	libglib
 glib-genmarshal	devpkg-pygobject
 glib-gettextize	libglib
 glib-mkenums	devpkg-pygobject
-glinfo	lib-opengl
+glinfo	mesa-demos
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -2062,7 +2063,7 @@ globash	global
 glslang	developer-gpu
 glslangValidator	developer-gpu
 glslc	kvm-host-dev
-glsync	lib-opengl
+glsync	mesa-demos
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -2073,7 +2074,7 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxinfo	lib-opengl
+glxinfo	mesa-demos
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2112,7 +2113,6 @@ gnome-session-inhibit	os-testsuite-graphics
 gnome-session-quit	os-testsuite-graphics
 gnome-session-remmina	Remmina
 gnome-shell	desktop
-gnome-shell-extension-prefs	desktop
 gnome-shell-extension-tool	desktop
 gnome-shell-test-tool	desktop
 gnome-software	desktop
@@ -2278,7 +2278,7 @@ gst-typefind-1.0	gstreamer
 gsx	ghostscript
 gtags	global
 gtags-cscope	global
-gtester	libglib
+gtester	devpkg-pygobject
 gtester-report	devpkg-pygobject
 gtf	perl-graphics
 gtk-builder-tool	pygobject
@@ -3677,7 +3677,7 @@ lsmtd	mtd-utils
 lsns	os-core
 lsof	lsof
 lspci	sysadmin-basic
-lsscsi	storage-utils
+lsscsi	hardinfo2
 lssubsys	devpkg-libcgroup
 lstopo-no-graphics	hwloc
 lsusb	sysadmin-basic
@@ -4713,6 +4713,7 @@ pacrunner	os-core-webproxy
 pactl	pulseaudio
 padsp	pulseaudio
 pahole	dev-utils
+pal2rgb	devpkg-tiff
 palapeli	desktop-kde-games
 palloc	openmpi
 pam_namespace_helper	sysadmin-basic
@@ -4777,7 +4778,7 @@ pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
 pcsc_scan	smartcard
-pcscd	gnupg
+pcscd	devpkg-pcsc-lite
 pct2rgb	gdal
 pct2rgb.py	gdal
 pctrl	openmpi
@@ -4848,7 +4849,7 @@ pedump	mono
 pee	moreutils
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-peglgears	lib-opengl
+peglgears	mesa-demos
 pem2der	devpkg-mbedtls
 pep8	os-clr-on-clr
 perf	linux-tools
@@ -4933,11 +4934,11 @@ pigz	sysadmin-basic
 pimd	quagga
 pimdataexporter	desktop-kde-apps
 pimdataexporterconsole	desktop-kde-apps
-pinentry	gnupg
-pinentry-curses	gnupg
+pinentry	desktop-gnomelibs
+pinentry-curses	desktop-gnomelibs
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
-pinentry-qt	gnupg
+pinentry-qt	desktop-gnomelibs
 ping	network-basic
 ping_pong	samba
 pinky	os-core
@@ -5112,6 +5113,7 @@ ppdmerge	hardware-printing
 ppdpo	hardware-printing
 pphs	ghostscript
 ppltotf	texlive
+ppm2tiff	devpkg-tiff
 pppd	NetworkManager
 pppdump	NetworkManager
 pppoe-discovery	NetworkManager
@@ -5271,9 +5273,9 @@ pwgen	pwgen
 pwhistory_helper	sysadmin-basic
 pwmake	devpkg-libpwquality
 pwmconfig	lm-sensors
-pwqcheck	sddm
-pwqfilter	sddm
-pwqgen	sddm
+pwqcheck	devpkg-Linux-PAM
+pwqfilter	devpkg-Linux-PAM
+pwqgen	devpkg-Linux-PAM
 pwscore	devpkg-libpwquality
 pwunconv	os-core
 py.test	python-extras
@@ -5409,6 +5411,7 @@ rarp	net-tools
 ratbagctl	libratbag
 ratbagd	libratbag
 raw-identify	devpkg-LibRaw
+raw2tiff	devpkg-tiff
 raw_ethernet_burst_lat	hpc-utils
 raw_ethernet_bw	hpc-utils
 raw_ethernet_fs_rate	hpc-utils
@@ -6574,9 +6577,17 @@ thunderbird	thunderbird
 tic	sysadmin-basic
 tidy_changelog	perl-extras
 tie	texlive
+tiff2bw	devpkg-tiff
+tiff2pdf	devpkg-tiff
+tiff2ps	devpkg-tiff
+tiff2rgba	devpkg-tiff
+tiffcmp	devpkg-tiff
 tiffcp	devpkg-tiff
+tiffcrop	devpkg-tiff
+tiffdither	devpkg-tiff
 tiffdump	devpkg-tiff
 tiffinfo	devpkg-tiff
+tiffmedian	devpkg-tiff
 tiffset	devpkg-tiff
 tiffsplit	devpkg-tiff
 tificc	devpkg-lcms2
@@ -7106,7 +7117,7 @@ virtualenv	python3-basic
 visudo	sudo
 vkcube	x11-tools
 vkcubepp	x11-tools
-vkgears	lib-opengl
+vkgears	mesa-demos
 vlc	vlc
 vlc-wrapper	vlc
 vlna	texlive
@@ -7451,8 +7462,8 @@ xe-perf-configs	igt-gpu-tools
 xe-perf-control	igt-gpu-tools
 xe-perf-reader	igt-gpu-tools
 xe-perf-recorder	igt-gpu-tools
-xeglgears	lib-opengl
-xeglthreads	lib-opengl
+xeglgears	mesa-demos
+xeglthreads	mesa-demos
 xelatex	texlive
 xelatex-dev	texlive
 xemacs	emacs-x11
