@@ -2,8 +2,8 @@
 2to3-3.12	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
-7z	winegui
-7za	winegui
+7z	p7zip
+7za	p7zip
 ATR_analysis	smartcard
 DllPlugInTester	devpkg-cppunit
 FileCheck	llvm
@@ -361,7 +361,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	kvm-host-dev
+bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bemenu	bemenu
@@ -1685,8 +1685,8 @@ flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
 flrig	amateur-radio
-fltk-config	kvm-host-dev
-fluid	kvm-host-dev
+fltk-config	kde-frameworks5-dev
+fluid	kde-frameworks5-dev
 fluidsynth	fluidsynth
 fm_cmd	hpc-utils
 fm_cmdall	hpc-utils
@@ -2062,7 +2062,7 @@ global	global
 globash	global
 glslang	developer-gpu
 glslangValidator	developer-gpu
-glslc	kvm-host-dev
+glslc	kde-frameworks5-dev
 glsync	mesa-demos
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
@@ -3206,6 +3206,7 @@ ksquares	desktop-kde-games
 ksshaskpass	desktop-kde
 kstart	desktop-kde
 kstart5	desktop-kde
+kstatsviewer	desktop-kde
 ksu	enterprise-login
 ksudoku	desktop-kde-games
 ksvgtopng	desktop-kde
@@ -3213,6 +3214,7 @@ ksvgtopng5	desktop-kde
 kswitch	enterprise-login
 ksyntaxhighlighter6	os-clr-on-clr-dev
 ksystemlog	ksystemlog
+ksystemstats	desktop-kde
 kteatime	desktop-kde-games
 ktelnetservice6	kde-frameworks5
 ktimer	desktop-kde-apps
@@ -7556,7 +7558,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	kvm-host-dev
+xml	kde-frameworks5-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7573,7 +7575,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kvm-host-dev
+xmlstarlet	kde-frameworks5-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
