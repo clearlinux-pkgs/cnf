@@ -361,7 +361,7 @@ bcmserver	automotive-tools
 bcomps	graphviz
 bdf2gdfont.pl	perl-extras
 bdftogd	devpkg-libgd
-bdftopcf	qt-basic-dev
+bdftopcf	desktop-dev
 bdftruncate	devpkg-font-util
 beid-update-nssdb	eid-mw
 bemenu	bemenu
@@ -1688,8 +1688,8 @@ flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
 flrig	amateur-radio
-fltk-config	kde-frameworks5-dev
-fluid	kde-frameworks5-dev
+fltk-config	desktop-dev
+fluid	desktop-dev
 fluidsynth	fluidsynth
 fm_cmd	hpc-utils
 fm_cmdall	hpc-utils
@@ -4382,6 +4382,8 @@ newgidmap	os-core
 newgrp	os-core
 newuidmap	os-core
 newusers	os-core
+nextcloud	nextcloud-desktop
+nextcloudcmd	nextcloud-desktop
 nf-config	netcdf-fortran
 nf-ct-add	libnl
 nf-ct-events	libnl
@@ -4936,11 +4938,11 @@ pigz	sysadmin-basic
 pimd	quagga
 pimdataexporter	desktop-kde-apps
 pimdataexporterconsole	desktop-kde-apps
-pinentry	desktop-gnomelibs
-pinentry-curses	desktop-gnomelibs
+pinentry	gnupg
+pinentry-curses	gnupg
 pinentry-fltk	desktop-gnomelibs
 pinentry-gnome3	desktop-gnomelibs
-pinentry-qt	desktop-gnomelibs
+pinentry-qt	gnupg
 ping	network-basic
 ping_pong	samba
 pinky	os-core
@@ -7546,7 +7548,7 @@ xl2tpd	NetworkManager-extras
 xl2tpd-control	NetworkManager-extras
 xlog	amateur-radio
 xminicom	minicom
-xml	kde-frameworks5-dev
+xml	desktop-dev
 xml2-config	libxml2
 xml2pmx	texlive
 xml2pot	desktop-kde-games
@@ -7563,7 +7565,7 @@ xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
-xmlstarlet	kde-frameworks5-dev
+xmlstarlet	desktop-dev
 xmltex	texlive
 xmlto	perl-basic-dev
 xmlwf	devpkg-expat
