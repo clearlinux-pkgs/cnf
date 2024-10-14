@@ -413,7 +413,7 @@ bluemoon	hardware-bluetooth
 bluetooth	TLP
 bluetooth-sendto	desktop
 bluetoothctl	hardware-bluetooth
-bmaptool	mkosi
+bmaptool	bmap-tools
 bmc-config	sysadmin-hostmgmt
 bmc-device	sysadmin-hostmgmt
 bmc-info	sysadmin-hostmgmt
