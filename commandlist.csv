@@ -413,7 +413,7 @@ bluemoon	hardware-bluetooth
 bluetooth	TLP
 bluetooth-sendto	desktop
 bluetoothctl	hardware-bluetooth
-bmaptool	bmap-tools
+bmaptool	mkosi
 bmc-config	sysadmin-hostmgmt
 bmc-device	sysadmin-hostmgmt
 bmc-info	sysadmin-hostmgmt
@@ -648,7 +648,6 @@ cg_annotate	valgrind
 cg_diff	valgrind
 cg_merge	valgrind
 cgclassify	devpkg-libcgroup
-cgclear	devpkg-libcgroup
 cgconfigparser	devpkg-libcgroup
 cgcreate	devpkg-libcgroup
 cgdb	dev-utils
@@ -660,6 +659,8 @@ cgps	gpsd
 cgrulesengd	devpkg-libcgroup
 cgset	devpkg-libcgroup
 cgsnapshot	devpkg-libcgroup
+cgxget	devpkg-libcgroup
+cgxset	devpkg-libcgroup
 chacl	acl
 chage	os-core
 chat	NetworkManager
@@ -3324,6 +3325,7 @@ lgroupdel	devpkg-libuser
 lgroupmod	devpkg-libuser
 lib.sh	ltp
 libassuan-config	devpkg-libassuan
+libcgroup_systemd_idle_thread	devpkg-libcgroup
 libdeps.py	libdeps
 libevdev-tweak-device	devpkg-libevdev
 libftdi1-config	maker-basic
