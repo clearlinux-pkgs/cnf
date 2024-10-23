@@ -1055,6 +1055,7 @@ cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
 cygdb	pypi-cython
+cyme	cyme
 cython	pypi-cython
 cythonize	pypi-cython
 dapltest	hpc-utils
@@ -1711,7 +1712,6 @@ forkstat	forkstat
 formail	mail-utils
 fortune	fortune-mod
 fossil	fossil
-foxchk	amateur-radio
 fpack	devpkg-cfitsio
 fprintd-delete	fprintd
 fprintd-enroll	fprintd
@@ -4653,7 +4653,6 @@ optipng	os-utils-gui-dev
 optscript	editors
 orbd	java-basic
 orc-bugreport	transcoding-support
-orca	desktop
 orcc	transcoding-support
 osage	graphviz
 osgmlnorm	mail-utils-dev
@@ -5851,9 +5850,7 @@ sfdisk	os-core
 sfdp	graphviz
 sfreerdp	FreeRDP
 sfreerdp-server	FreeRDP
-sfrx	amateur-radio
 sftp	sysadmin-basic
-sftx	amateur-radio
 sg	os-core
 sg_bg_ctl	sg3_utils
 sg_compare_and_write	sg3_utils
@@ -7519,6 +7516,7 @@ xfs_mdrestore	xfsprogs
 xfs_metadump	xfsprogs
 xfs_mkfile	xfsprogs
 xfs_ncheck	xfsprogs
+xfs_property	xfsprogs
 xfs_quota	xfsprogs
 xfs_repair	xfsprogs
 xfs_rtcp	xfsprogs
