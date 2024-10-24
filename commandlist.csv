@@ -384,7 +384,7 @@ bibtexu	texlive
 biburl2doi	texlive
 bibzbladd	texlive
 bin2hex.py	python-extras
-bindgen	kvm-host-dev
+bindgen	desktop-dev
 biosdecode	sysadmin-basic
 bison	bison
 bitmap2component	kicad
@@ -591,7 +591,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catman	man-pages
-cbindgen	kvm-host-dev
+cbindgen	desktop-dev
 cc	c-basic
 ccache	ccache
 cccheck	mono
@@ -1085,8 +1085,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	firefox
-dbus-broker	kvm-host-dev
-dbus-broker-launch	kvm-host-dev
+dbus-broker	desktop-dev
+dbus-broker-launch	desktop-dev
 dbus-cleanup-sockets	sysadmin-basic
 dbus-daemon	sysadmin-basic
 dbus-launch	sysadmin-basic
@@ -3833,7 +3833,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	kvm-host-dev
+mako-render	desktop-dev
 man	man-pages
 man-recode	man-pages
 mandb	man-pages
@@ -6877,9 +6877,9 @@ ukify	os-core
 ul	os-core
 ulqda	texlive
 umax_pp	hardware-printing
-umockdev-record	kvm-host-dev
-umockdev-run	kvm-host-dev
-umockdev-wrapper	kvm-host-dev
+umockdev-record	desktop-dev
+umockdev-run	desktop-dev
+umockdev-wrapper	desktop-dev
 umount	os-core
 umount.nfs	nfs-utils
 umount.nfs4	nfs-utils
