@@ -1,4 +1,3 @@
-2to3	python3-basic
 2to3-3.12	python3-basic
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -928,7 +927,7 @@ corosync-notifyd	devpkg-corosync
 corosync-quorumtool	devpkg-corosync
 cover	perl-extras
 coverage	python-extras
-coverage-3.12	python-extras
+coverage-3.13	python-extras
 coverage3	python-extras
 cp	os-core
 cpack	c-basic
@@ -1784,7 +1783,6 @@ g++-9	c-extras-gcc9
 g++7	c-extras-gcc7
 g-ir-annotation-tool	gobject-introspection
 g-ir-compiler	gobject-introspection
-g-ir-doc-tool	gobject-introspection
 g-ir-generate	gobject-introspection
 g-ir-inspect	gobject-introspection
 g-ir-scanner	gobject-introspection
@@ -2510,6 +2508,7 @@ hv_fcopy_uio_daemon	os-cloudguest-azure
 hv_kvp_daemon	os-cloudguest-azure
 hv_vss_daemon	os-cloudguest-azure
 hwclock	os-core
+hwinfo2_fetch_sysdata	hardinfo2
 hwlatdetect	dev-utils
 hwloc-annotate	hwloc
 hwloc-bind	hwloc
@@ -2610,7 +2609,7 @@ idiag-socket-details	libnl
 idiff	blender
 idl2wrs	wireshark
 idle3	python3-tcl
-idle3.12	python3-tcl
+idle3.13	python3-tcl
 idlj	java-basic
 idn	devpkg-libidn
 idn2	devpkg-libidn2
@@ -5291,6 +5290,7 @@ pyclip	waydroid
 pycodestyle	python3-basic
 pydoc3	python3-basic
 pydoc3.12	python3-basic
+pydoc3.13	python3-basic
 pyftmerge	fonttools
 pyftsubset	fonttools
 pygmentex	texlive
@@ -5312,6 +5312,8 @@ python3	python3-basic
 python3-config	python3-basic
 python3.12	python3-basic
 python3.12-config	python3-basic
+python3.13	python3-basic
+python3.13-config	python3-basic
 python3.7	python3-basic
 pythontex	texlive
 pythran	desktop-dev
