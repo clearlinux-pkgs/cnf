@@ -1,4 +1,4 @@
-2to3-3.12	python3-basic
+2to3-3.12	python-extras
 4channels	devpkg-LibRaw
 4dsphere	calc
 7z	p7zip
@@ -412,7 +412,7 @@ bluemoon	hardware-bluetooth
 bluetooth	TLP
 bluetooth-sendto	desktop
 bluetoothctl	hardware-bluetooth
-bmaptool	mkosi
+bmaptool	bmap-tools
 bmc-config	sysadmin-hostmgmt
 bmc-device	sysadmin-hostmgmt
 bmc-info	sysadmin-hostmgmt
@@ -2156,6 +2156,7 @@ gpg-card	gnupg
 gpg-connect-agent	gnupg
 gpg-error	devpkg-libgpg-error
 gpg-error-config	devpkg-libgpg-error
+gpg-mail-tube	gnupg
 gpg-wks-client	gnupg
 gpg-wks-server	gnupg
 gpg2	gnupg
@@ -5289,7 +5290,7 @@ pybind11-config	desktop-dev
 pyclip	waydroid
 pycodestyle	python3-basic
 pydoc3	python3-basic
-pydoc3.12	python3-basic
+pydoc3.12	python-extras
 pydoc3.13	python3-basic
 pyftmerge	fonttools
 pyftsubset	fonttools
@@ -5310,8 +5311,8 @@ python	python3-basic
 python2.7	python2-basic
 python3	python3-basic
 python3-config	python3-basic
-python3.12	python3-basic
-python3.12-config	python3-basic
+python3.12	python-extras
+python3.12-config	python-extras
 python3.13	python3-basic
 python3.13-config	python3-basic
 python3.7	python3-basic
@@ -6631,6 +6632,7 @@ toe	sysadmin-basic
 tomlq	yq
 top	htop
 top2	procps-ng
+torchfrtrace	pytorch
 torchrun	pytorch
 totem	totem
 totem-video-thumbnailer	totem
