@@ -1,4 +1,4 @@
-2to3-3.12	python-extras
+2to3-3.12	bcc
 4channels	devpkg-LibRaw
 4dsphere	calc
 7z	p7zip
@@ -5290,7 +5290,7 @@ pybind11-config	desktop-dev
 pyclip	waydroid
 pycodestyle	python3-basic
 pydoc3	python3-basic
-pydoc3.12	python-extras
+pydoc3.12	bcc
 pydoc3.13	python3-basic
 pyftmerge	fonttools
 pyftsubset	fonttools
@@ -5311,8 +5311,8 @@ python	python3-basic
 python2.7	python2-basic
 python3	python3-basic
 python3-config	python3-basic
-python3.12	python-extras
-python3.12-config	python-extras
+python3.12	bcc
+python3.12-config	bcc
 python3.13	python3-basic
 python3.13-config	python3-basic
 python3.7	python3-basic
