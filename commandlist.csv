@@ -174,7 +174,6 @@ annotate	devpkg-libgd
 ansible	ansible
 ansible-community	ansible
 ansible-config	ansible
-ansible-connection	ansible
 ansible-console	ansible
 ansible-doc	ansible
 ansible-galaxy	ansible
@@ -481,10 +480,8 @@ bugpoint-19	llvm
 bugpoint-dpcpp	oneapi-dev
 build-progress.sh	desktop-kde-apps
 bundle	ruby-basic
-bundle.lock	ruby-basic
 bundledoc	texlive
 bundler	ruby-basic
-bundler.lock	ruby-basic
 bunzip2	sysadmin-basic
 busctl	os-core
 bwrap	lutris
@@ -888,8 +885,6 @@ connect-proxy	network-basic
 conntrack	network-basic
 conntrackd	network-basic
 containerd	cloud-control
-containerd-shim	cloud-control
-containerd-shim-runc-v1	cloud-control
 containerd-shim-runc-v2	cloud-control
 containerd-stress	cloud-control
 context	texlive
@@ -1478,7 +1473,6 @@ era_dump	storage-utils
 era_invalidate	storage-utils
 era_restore	storage-utils
 erb	ruby-basic
-erb.lock	ruby-basic
 erl	rabbitmq-server
 erl_call	rabbitmq-server
 erlc	rabbitmq-server
@@ -2835,7 +2829,6 @@ ipython3	python-data-science
 ir-ctl	v4l-utils
 ir-keytable	v4l-utils
 irb	ruby-basic
-irb.lock	ruby-basic
 irqbalance	hardware-uefi
 irqbalance-ui	hardware-uefi
 irqtop	os-core
@@ -5404,9 +5397,7 @@ rabbitmq-plugins	rabbitmq-server
 rabbitmq-server	rabbitmq-server
 rabbitmqctl	rabbitmq-server
 racc	ruby-basic
-racc.lock	ruby-basic
 rake	ruby-basic
-rake.lock	ruby-basic
 randpkt	wireshark
 randstat	cryptography
 ranlib	binutils
@@ -5425,12 +5416,10 @@ rawtherapee	RawTherapee
 rawtherapee-cli	RawTherapee
 rbox	desktop-dev
 rbs	ruby-basic
-rbs.lock	ruby-basic
 rclone	rclone
 rcopy	hpc-utils
 rctest	hardware-bluetooth
 rdbg	ruby-basic
-rdbg.lock	ruby-basic
 rdfind	desktop-dev
 rdjpgcom	devpkg-libjpeg-turbo
 rdma	iproute2
@@ -5441,7 +5430,6 @@ rdma_xclient	hpc-utils
 rdma_xserver	hpc-utils
 rdmsr	performance-tools
 rdoc	ruby-basic
-rdoc.lock	ruby-basic
 rds-ctl	v4l-utils
 re2c	php-basic-dev
 re2go	php-basic-dev
@@ -5524,7 +5512,6 @@ rgb2pct.py	gdal
 rhythmbox	rhythmbox
 rhythmbox-client	rhythmbox
 ri	ruby-basic
-ri.lock	ruby-basic
 rigctl	amateur-radio
 rigctl-wsjtx	amateur-radio
 rigctlcom	amateur-radio
@@ -6374,7 +6361,6 @@ synergy-core	synergy
 synergyc	synergy
 synergys	synergy
 syntax_suggest	ruby-basic
-syntax_suggest.lock	ruby-basic
 syntool	synergy
 syscse	dev-utils
 sysctl	procps-ng
@@ -6831,7 +6817,6 @@ twinwave	gtkwave
 twopi	graphviz
 typeoutfileinfo	texlive
 typeprof	ruby-basic
-typeprof.lock	ruby-basic
 typer	rabbitmq-server
 tz2alt	network-time-sensitive
 tzselect	os-core
@@ -7617,6 +7602,10 @@ xwd	x11-tools
 xwdrun	os-testsuite-graphics
 xwininfo	x11-tools
 xxd	vim
+xxh128sum	os-clr-on-clr-dev
+xxh32sum	os-clr-on-clr-dev
+xxh64sum	os-clr-on-clr-dev
+xxhsum	os-clr-on-clr-dev
 xz	xz
 xzcat	xz
 xzcmp	xz
