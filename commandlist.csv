@@ -189,6 +189,7 @@ aomenc	kde-frameworks5-dev
 apachectl	httpd
 aplay	alsa-utils
 aplaymidi	alsa-utils
+aplaymidi2	alsa-utils
 append-file-dpcpp	oneapi-dev
 append2simg	storage-utils
 appletviewer	java-basic
@@ -209,6 +210,7 @@ arandr	arandr
 arcconf_lsmplugin	sysadmin-remote
 arecord	alsa-utils
 arecordmidi	alsa-utils
+arecordmidi2	alsa-utils
 argon2	devpkg-argon2
 aria2c	aria2
 aria_chk	mariadb
@@ -3707,6 +3709,8 @@ luajithbtex	texlive
 luajittex	texlive
 lualatex	texlive
 lualatex-dev	texlive
+luanti	luanti
+luantiserver	luanti
 luaotfload-tool	texlive
 luarocks	lua-basic
 luarocks-admin	lua-basic
@@ -3984,8 +3988,8 @@ mido-ports	machine-learning-basic
 mido-serve	machine-learning-basic
 migratepages	numactl
 migspeed	numactl
-minetest	minetest
-minetestserver	minetestserver
+minetest	luanti
+minetestserver	luantiserver
 minfo	storage-utils
 mini_client	devpkg-mbedtls
 minicom	minicom
