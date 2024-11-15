@@ -3710,7 +3710,7 @@ luajittex	texlive
 lualatex	texlive
 lualatex-dev	texlive
 luanti	luanti
-luantiserver	luanti
+luantiserver	luantiserver
 luaotfload-tool	texlive
 luarocks	lua-basic
 luarocks-admin	lua-basic
