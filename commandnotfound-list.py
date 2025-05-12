@@ -119,7 +119,7 @@ def download_manifest(pack, version):
 
 def grab_latest_release():
     release = download("https://download.clearlinux.org/update/version/formatstaging/latest")
-    return release.strip()
+    return release.strip().split('\n')[0]
 
 
 def main():
