@@ -5922,7 +5922,7 @@ scorbot-er-3	linuxcnc
 scp	sysadmin-basic
 scp-dbus-service	desktop
 screen	sysadmin-basic
-screen-4.9.1	sysadmin-basic
+screen-5.0.0	sysadmin-basic
 script	sysadmin-basic
 scriptlive	sysadmin-basic
 scriptor	smartcard
@@ -7301,6 +7301,7 @@ vma_stats	hpc-utils
 vmad	hpc-utils
 vmcore-dmesg	os-cloudguest-azure
 vmhgfs-fuse	os-cloudguest-vmware
+vmlinux_docify	scx
 vmstat	procps-ng
 vmtoolsd	os-cloudguest-vmware
 vmware-checkvm	os-cloudguest-vmware
