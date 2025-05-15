@@ -64,6 +64,9 @@ def declare_binary(bundle: str, binary: str, size: int):
     # This weeks special: 10% discount on basic bundles
     if bundle.endswith("-basic"):
         size = size * 0.90
+    # prefer full pundles over -bin
+    if bundle.endswith("-bin"):
+        size = size * 2.0
     # Extras are hit with a 10% special import duty due to trade war
     if bundle.endswith("-extras"):
         size = size * 1.10
