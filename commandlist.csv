@@ -5296,6 +5296,7 @@ pamon	pulseaudio
 pamphletangler	texlive
 pamu2fcfg	smartcard
 pandoc	pandoc
+pandoc-lua	pandoc
 pandoc-server	pandoc
 panelui	linuxcnc
 pango-list	pango-bin
@@ -8268,7 +8269,7 @@ xxhsum	os-clr-on-clr-dev
 xyzab-tdr-gui	linuxcnc
 xyzac-trt-gui	linuxcnc
 xyzbc-trt-gui	linuxcnc
-xz	xz
+xz	xz-bin
 xzcat	xz-bin
 xzcmp	xz-bin
 xzdec	xz-bin
