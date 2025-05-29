@@ -1772,7 +1772,6 @@ docbook2texi	docbook-utils
 docbook2txt	docbook-utils
 docfdisk	mtd-utils
 docker	cloud-control
-docker-compose	docker-compose
 docker-init	containers-basic
 docker-proxy	cloud-control
 dockerd	cloud-control
