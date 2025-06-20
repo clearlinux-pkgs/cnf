@@ -3461,6 +3461,7 @@ hdajackretask	alsa-tools-bin
 hdajacksensetest	alsa-tools-bin
 hdf2adf	CGNS-bin
 hdparm	hdparm-bin
+hdrcalibrator	kscreen-bin
 hdspconf	alsa-tools-bin
 hdsploader	alsa-tools-bin
 hdspmixer	alsa-tools-bin
@@ -4421,7 +4422,6 @@ kcutilmgr	kyotocabinet-bin
 kcutiltest	kyotocabinet-bin
 kdb5_ldap_util	krb5-bin
 kdb5_util	krb5-bin
-kde-add-printer	print-manager-bin
 kde-geo-uri-handler	kguiaddons-bin
 kde-inhibit	kde-cli-tools-bin
 kde-open	kde-cli-tools-bin
@@ -7130,7 +7130,6 @@ plasma-apply-lookandfeel	plasma-workspace-bin
 plasma-apply-wallpaperimage	plasma-workspace-bin
 plasma-browser-integration-host	plasma-browser-integration-bin
 plasma-discover	plasma-discover-bin
-plasma-discover-update	plasma-discover-bin
 plasma-emojier	plasma-desktop-bin
 plasma-interactiveconsole	plasma-workspace-bin
 plasma-localegen-helper	plasma-workspace-bin
