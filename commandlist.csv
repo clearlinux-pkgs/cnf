@@ -1821,7 +1821,6 @@ darktable-cmstest	darktable-bin
 darktable-generate-cache	darktable-bin
 darktable-rs-identify	darktable-bin
 dask	pypi-dask-bin
-datasets-cli	pypi-datasets-bin
 date	os-core
 datefudge	datefudge-bin
 dateparse	perl-DateTime-Format-Natural-bin
@@ -9300,7 +9299,6 @@ treescan	perl-IO-AIO-bin
 trietool	libdatrie-bin
 trietool-0.2	libdatrie-bin
 trimesh	pypi-trimesh-bin
-trl	pypi-trl-bin
 troff	groff-bin
 trove-classifiers	pypi-trove_classifiers-bin
 true	os-core
