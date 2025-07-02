@@ -9027,6 +9027,7 @@ test-quantize-stats	llama.cpp-bin
 test-regex-partial	llama.cpp-bin
 test-rope	llama.cpp-bin
 test-sampling	llama.cpp-bin
+test-thread-safety	llama.cpp-bin
 test-tokenizer-0	llama.cpp-bin
 test-tokenizer-1-bpe	llama.cpp-bin
 test-tokenizer-1-spm	llama.cpp-bin
