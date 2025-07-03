@@ -6712,6 +6712,7 @@ opensc-explorer	OpenSC-bin
 opensc-notify	OpenSC-bin
 opensc-tool	OpenSC-bin
 opensm	opensm-bin
+openssl	openssl-basic
 openvpn	openvpn-bin
 openvt	kbd-bin
 opj_compress	openjpeg-bin
@@ -7971,8 +7972,8 @@ rst2xetex	pypi-docutils-bin
 rst2xml	pypi-docutils-bin
 rstream	rdma-core-bin
 rsvg-convert	librsvg-bin
-rsync	rsync-basic
-rsync-ssl	rsync-basic
+rsync	rsync-bin
+rsync-ssl	rsync-bin
 rsyslogd	rsyslog-bin
 rt-migrate-test	rt-tests-bin
 rtacct	iproute2-basic
