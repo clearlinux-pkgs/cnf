@@ -8192,6 +8192,7 @@ scx_flash	scx-bin
 scx_flatcg	scx-bin
 scx_lavd	scx-bin
 scx_layered	scx-bin
+scx_lib_selftests	scx-bin
 scx_loader	scx-bin
 scx_nest	scx-bin
 scx_p2dq	scx-bin
